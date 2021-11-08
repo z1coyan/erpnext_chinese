@@ -9031,6 +9031,7 @@ Electric,电动
 Electronics,电子
 E-Invoicing Information Missing,电子发票信息丢失
 Electronic Invoice Register,电子发票登记
+E-commerce,电子商务
 E-commerce GSTIN,电子商务GSTIN
 Electronic Equipments,电子设备
 Email ID,电子邮件
@@ -9234,7 +9235,7 @@ Shortage Qty,短缺数量
 Short keyboard patterns are easy to guess,短键盘模式容易被猜中
 Sand,砂
 Research,研究
-Research & Development,研究与发展
+Research & Development,研究与开发
 Researcher,研究员
 Post Graduate,研究生
 Seminar,研讨会
@@ -14747,3 +14748,31 @@ Base Cost Per Unit,基础单位成本
 Apply Tax Withholding Amount,添加代扣税金额
 Partly Paid,部分付款
 Partly Paid and Discounted,已贴现部分付款
+Website Item Name,网站商品名称
+Website display name,网站上显示名称
+Display Images,展示图片
+Image Alternative Text,图片占位文字
+Stock Information,库存信息
+Show Stock availability based on this warehouse.,基于该仓库展示可用库存
+On Backorder,当缺货时
+Indicate that Item is available on backorder and not usually pre-stocked,表明该商品可缺货，通常不预存
+Display Information,展示信息
+Short Website Description,网站简短介绍
+Short Description for List View,列表展示的简短介绍
+Display Additional Information,展示额外信息
+Add Section with Tabs,增加Tabs构成的Section
+Recommended Items,推荐商品
+Recommended/Similar Items,推荐/相似商品
+Offers,报价
+Offers to Display,展示的报价
+Offer Title,报价标题
+Offer Title,报价子标题
+Search and SEO,搜索和SEO
+Ranking,排名
+Items with higher ranking will be shown higher,高Ranking的商品排序在前
+Advanced Display Content,高级显示内容
+
+
+
+
+
