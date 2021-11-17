@@ -5517,7 +5517,7 @@ Billing currency must be equal to either default company's currency or party acc
 Billing Rate,开票单价
 Billing Address Name,开票地址名称
 Billing Hours,开票工时
-Bill Date,开票日期
+Bill Date,发票日期
 Billing Amount,开票金额
 Inviced Amount,开票金额
 Billing Details,开票信息
@@ -7133,7 +7133,7 @@ Time Tracking,时间跟踪
 Timespan,时间跨度
 Time Interval,时间间隔
 Time(in mins),时间（分钟）
-Age (Days),时间（天）
+Age (Days),账龄天数
 Time Slots,时隙
 Timeslots,时隙
 "Time slot skiped, the slot {0} to {1} overlap exisiting slot {2} to {3}",时隙滑动，时隙{0}到{1}与现有时隙{2}重叠到{3}
@@ -10866,7 +10866,7 @@ Time logs are required for job card {0},请填写加工单{0}工时记录
 Please fill in all the details to generate Assessment Result.,请填写所有详细信息以生成评估结果。
 Clearance Date not mentioned,请填写清帐日期
 Manufacturing Quantity is mandatory,请填写生产数量
-Please duplicate this to make changes,请复制此做出改变
+Please duplicate this to make changes,请复制后修改
 Please Duplicate this Website Theme to customize.,请复制此网址主题定制。
 Please save before attaching.,请安装前保存。
 Please define grade for Threshold 0%,请定义等级阈值0％
@@ -11539,7 +11539,7 @@ Cash Flow from Operations,运营现金流
 Runtime,运行
 Run Tests,运行测试
 Run Script Test,运行脚本测试
-Shipping Bill Date,运费开票日期
+Shipping Bill Date,运费发票日期
  Shipping Bill Number,运费清单号码
 Freight and Forwarding Account,运费科目
 Shipping rule not applicable for country {0},运费规则不适用于国家/地区{0}
@@ -12007,7 +12007,7 @@ Purchase Receipt Item,采购入库明细表
 Purchase Receipt Trends,采购入库趋势
 Return Against Purchase Receipt,采购入库退回
 Purchase Receipt Amount,采购入库金额
-Buying Amount,采购数量
+Buying Amount,采购金额
 Purchase Date,采购日期
 Settings for Buying Module,采购模块的设置
 Cost of Purchased Items,采购物料成本
@@ -14747,3 +14747,7 @@ Base Cost Per Unit,基础单位成本
 Apply Tax Withholding Amount,添加代扣税金额
 Partly Paid,部分付款
 Partly Paid and Discounted,已贴现部分付款
+Client Code,客户端javasript脚本,
+Query / Script,SQL查询 / Python脚本,
+"Row {0}: Expense Head changed to {1} as no Purchase Receipt is created against Item {2}.",第{0}行：因物料 {2} 未关联采购入库单，费用科目变更为了 {1}
+Total Amount Due,总未付金额
