@@ -14751,3 +14751,7 @@ Client Code,客户端javasript脚本,
 Query / Script,SQL查询 / Python脚本,
 "Row {0}: Expense Head changed to {1} as no Purchase Receipt is created against Item {2}.",第{0}行：因物料 {2} 未关联采购入库单，费用科目变更为了 {1}
 Total Amount Due,总未付金额
+Update Counter,更新流水号当前值
+New Counter,新值
+Warning: Updating counter may lead to document name conflicts if not done properly,警告：若更新不当会导致新单据与现有单据重复，不能保存
+Update Counter Value for Prefix: {0},为前缀 {0} 更新流水号当前值
