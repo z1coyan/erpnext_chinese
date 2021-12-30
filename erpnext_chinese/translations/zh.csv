@@ -157,7 +157,7 @@ BOM and Manufacturing Quantity are required,BOM和生产量是必需的
 BOM Explosion Item,BOM底层物料
 BOM Operation,BOM工序
 BOM Variance Report,BOM差异报表
-BOM Stock Report,BOM库存报表
+BOM Stock Report,BOM库存齐套报表
 BOM Stock Calculated,BOM库存计算
 BOM Scrap Item,BOM废料
 BOM Search,BOM搜索
@@ -1212,7 +1212,7 @@ Party Tax Withholding Config,业务伙伴代扣税配置
 Default settings for accounting transactions.,业务会计的默认设置。
 Business Development Manager,业务发展经理
 Sales Person,业务员
-Sales Person-wise Transaction Summary,业务员交易汇总表
+Sales Person-wise Transaction Summary,业务员业绩统计表
 Sales Person Commission Summary,业务员佣金汇总表
 Sales Person Name,业务员姓名
 Sales Person Targets,业务员销售目标
@@ -2042,7 +2042,8 @@ Supplier Scorecard Scoring Criteria,供应商记分卡评分标准
 Supplier Detail,供应商信息
 Supplier Delivery Note,供应商送货单
 Supplier Part No,供应商部件号
-Supplier Part Number,供应商零件编号
+Supplier Part Number,供应商产品编号
+Customer Part Number,客户产品编号
 Place Of Supply (State/UT),供应地点（州/ UT）
 Nature Of Supplies,供应的性质
 Supplied Items,委外调拨物料
@@ -3515,7 +3516,7 @@ Availability Timeslot,可用时间段
 Available,可用数量
 Available Selling,可用销售
 Enough Parts to Build,可生产套数
-BOM UoM,需求数量单位
+BOM UoM,BOM单位
 Role Allowed to edit frozen stock,可编辑冻结库存的角色
 Editable Grid,可编辑表格
 Translatable,可翻译
@@ -5637,11 +5638,11 @@ Sales Orders to Bill,待开票销售订单
 Ordered Items To Be Billed,待开票销售订单明细
 Pending Approval,待批准
 Qty to Receive,待收数量
-To Receive,待收货
-To Receive and Bill,待收货与开票
-Subcontracted Item To Be Received,待收货委外物料
-Purchase Orders to Receive,待收货采购订单
-Purchase Order Items To Be Received,待收货采购订单物料
+To Receive,待入库
+To Receive and Bill,待入库与开票
+Subcontracted Item To Be Received,待入库委外物料
+Purchase Orders to Receive,待入库采购订单
+Purchase Order Items To Be Received,待入库采购订单物料
 Outstanding Cheques and Deposits to clear,待清帐支票及存款
 Item to be manufactured or repacked,待生产或者包装物料
 Quantity to Make,待生产数量
@@ -6937,7 +6938,7 @@ No Remarks,无备注
 No Items with Bill of Materials to Manufacture,无定义了物料清单的待生产物料
 No time sheets,无工时表
 No Items with Bill of Materials.,无已维护物料清单的物料。
-No items to be received are overdue,无已逾期待收货物料
+No items to be received are overdue,无已逾期待入库物料
 No Quote,无报价
 Material Requests for which Supplier Quotations are not created,无报价物料需求
 Unsecured Loans,无担保借款
@@ -8999,7 +9000,7 @@ Read by Recipient,由收件人阅读
 Read by Recipient On,由收件人阅读
 Automatically Add Taxes and Charges from Item Tax Template,由明细行的税费模板自动添加税费
 Pick/Drop by Guardian,由监护人接送
-Completed By,完成人
+Completed By,完成日期
 Total Declared Amount,申报总金额
 Claim Date,申报日期
 Claim Amount,申报金额
@@ -12276,7 +12277,7 @@ Sales Invoice Advance,销售发票预付款
 Sales Register,销售台帐
 GST Sales Register,销售台账（GST)
 Sales Partner,销售合作伙伴
-Sales Partner Transaction Summary,销售合作伙伴交易汇总
+Sales Partner Transaction Summary,销售合作伙伴业绩统计
 Sales Partners Commission,销售合作伙伴佣金
 Sales Partner Commission Summary,销售合作伙伴佣金汇总
 Sales Partner and Commission,销售合作伙伴及佣金
@@ -12946,10 +12947,10 @@ Exploded Items,底层物料
 Forecasting,预测
 Downtime Entry,停机记录
 Production Planning Report,生产计划报表
-Work Order Summary,工单统计
+Work Order Summary,工单进度追踪表
 Quality Inspection Summary,质量检验统计
 Downtime Analysis,停机分析
-Job Card Summary,加工单统计
+Job Card Summary,工序进度追踪表
 BOM Operations Time,工艺时间
 Choose Dashboard,选择数据面板
 Workstation / Machine,工站/机台
@@ -13428,7 +13429,7 @@ If checked, hides and disables Rounded Total field in Salary Slips,如勾选，�
 <pre><code>Amount: 1000</code></pre></li>
 </ol>"
 Exempted from Income Tax,免征所得税
-BOM Qty,物料清单数量
+BOM Qty,BOM数量
 Time Required (In Mins),需求时间(分)
 Scheduled Time,计划时间
 Unverified,未核实
@@ -14050,7 +14051,6 @@ Minimum,最小值
 Maximum,最大值
 Create Card,创建数字卡
 Card Label,数字卡标题
-Sales Order Analysis,销售订单分析
 Group by Sales Order,按销售订单分组
 Delivery Note Required for Sales Invoice Creation,新销售发票必须关联销售出库
 Sales Order Required for Sales Invoice & Delivery Note Creation,新销售发票和销售出库必须关联销售订单
@@ -14088,7 +14088,7 @@ to,至
 {} Open,{} 待处理
 {} To Bill,{} 待开发票
 {} Vacant,{} 空缺
-{}  To Receive,{} 待收货
+{}  To Receive,{} 待入库
 {} Published,{} 已发布
 {}  Available,{} 可用
 {} Available,{} 可用
@@ -14755,3 +14755,13 @@ Update Counter,更新流水号当前值
 New Counter,新值
 Warning: Updating counter may lead to document name conflicts if not done properly,警告：若更新不当会导致新单据与现有单据重复，不能保存
 Update Counter Value for Prefix: {0},为前缀 {0} 更新流水号当前值
+Copy error to clipboard, 将出错日志复制到剪贴板
+Create a Sales Item,新建一个销售物料
+You do not have permissions to {} items in a {}.,您无权{} {}。,
+Module Profile Name,模块集合名称
+Supplier Quotation Comparison,供应商比价,
+Include Expired,包括已过期,
+Configure Columns,列设置
+Column Width,列宽
+Reset to default,恢复默认设置
+Book Cost Center Wise Profit/Loss,损益按成本中心记账
