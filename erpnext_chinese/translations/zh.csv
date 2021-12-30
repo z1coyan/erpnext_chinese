@@ -3783,7 +3783,7 @@ Brand Image,品牌形象
 Tag Line,品牌理念
 Brand Defaults,品牌默认值
 Item Details,物料详细信息
-Action if Quality inspection is not submitted,品质检验报告未提交时采取的控制措施
+Action if Quality inspection is not submitted,质量检验报告未提交时采取的控制措施
 Haryana,哈里亚纳邦
 Response,响应
 Response and Resolution Time,响应和解决时间
@@ -12948,7 +12948,7 @@ Forecasting,预测
 Downtime Entry,停机记录
 Production Planning Report,生产计划报表
 Work Order Summary,工单进度追踪表
-Quality Inspection Summary,质量检验统计
+Quality Inspection Summary,质量检验进度追踪表
 Downtime Analysis,停机分析
 Job Card Summary,工序进度追踪表
 BOM Operations Time,工艺时间
