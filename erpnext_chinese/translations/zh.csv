@@ -2369,7 +2369,7 @@ Company Address Name,公司地址名称
 Company field is required,公司字段是必填项
 Company is manadatory for company account,公司是公司账户的管理者
 Company Logo,公司标志
-Company registration numbers for your reference. Tax numbers etc.,公司注册号码，供大家参考。税号等
+Company registration numbers for your reference. Tax numbers etc.,其它参考信息，如公司注册号、税号等
 Company Info,公司简介
 Company Introduction,公司简介
 Company Abbreviation,公司简称
@@ -2929,7 +2929,7 @@ Mapping,制图
 To make Customer based incentive schemes.,制定基于客户的激励计划。
 Pharmaceuticals,制药
 Manufacturer,制造商
-Manufacturer Part Number,制造商零件编号
+Manufacturer Part Number,制造商产品编号
 Time Sheet for manufacturing.,制造工时表。
 Refresh,刷新
 Refreshing,刷新
@@ -2961,9 +2961,9 @@ Office Rent,办公室租金
 Office Maintenance Expenses,办公维护费用
 Office Equipments,办公设备
 plus,加
-Margin,毛利
-Margin Rate or Amount,毛利率或金额
-Margin Type,毛利类型
+Margin,上浮
+Margin Rate or Amount,上浮率或金额
+Margin Type,上浮类型
 Join,加入
 Add Employees to Manage Them,加入的员工来管理它们
 Add to Cart,加入购物车
@@ -3108,8 +3108,8 @@ Rate,税费率,Purchase Taxes and Charges
 Rate ,单价
 Rate(CNY),单价(人民币)
 Rate (CNY),单价(人民币)
-Rate With Margin,单价(含毛利)
-Rate With Margin (Company Currency),单价(含毛利，本币)
+Rate With Margin,单价(含上浮)
+Rate With Margin (Company Currency),单价(含上浮，本币)
 Apply Discount on Rate,单价上的折扣
 Rate and Amount,单价及小计
 Rate (Company Currency),单价（本币）
@@ -4127,12 +4127,12 @@ On Previous Row Total,基于前一行的总计
 On Previous Row Amount,基于前一行的金额
 Email By Document Field,收件人(单据字段)
 Setup Notifications based on various criteria.,基于各种标准的设置通知。
-Discount (%) on Price List Rate with Margin,基于含毛利标价的折扣（％）
+Discount (%) on Price List Rate with Margin,基于含上浮标价的折扣（％）
 This is based on transactions against this Customer. See timeline below for details,基于客户的过往交易。详情请参阅表单下方日志记录
 Salary Slip Based on Timesheet,基于工时表
 Backflush raw materials from work-in-progress warehouse,从在制品仓耗用(倒扣账)原材料
 Variable Based On Taxable Salary,基于应纳税工资的变量
-Bank Statement balance as per General Ledger,基于总帐的银行对发票余额
+Bank Statement balance as per General Ledger,总帐银行余额
 Qty of raw materials will be decided based on the qty of the Finished Goods Item,基于成品数量计算原材料数量
 Filter based on Cost Center is only applicable if Budget Against is selected as Cost Center,基于成本中心过滤仅适用于维护了预算成本中心的情况
 Salary breakup based on Earning and Deduction.,基于收入和扣除的工资信息。
@@ -4154,7 +4154,7 @@ This is based on transactions against this Sales Person. See timeline below for 
 This is based on the attendance of this Employee,基于该员工的考勤
 This is based on the attendance of this Student,基于该学生的考勤
 This is based on logs against this Vehicle. See timeline below for details,基于车辆加油/保养记录。详情请参阅表单下方日志记录
-Set Qty in Transactions based on Serial No Input,基于输入的序列号自动填写数量
+Set Qty in Transactions Based on Serial No Input,根据输入的序列号个数自动填写数量
 Return Against Purchase Invoice,基于采购发票退货
 Quantity  that must be bought or sold per UOM,以指定包装单位采购或销售，即订单数量须是包装数量的倍数，价格才生效
 Total Applicable Charges in Purchase Receipt Items table must be same as Total Taxes and Charges,基于采购入库信息计算的总税费必须与采购单（单头）的总税费一致
@@ -4828,7 +4828,7 @@ Mapped Items,对照关系
 Settings for website homepage,对网站的主页设置
 For {0} at level {1} in {2} in row {3},对行{3}，{2}中级别{1}的{0}
 Conversation Tones,对话音
-Statement of Account,对发票
+Statement of Account,对账单
 "For Links, enter the DocType as range.
 For Select, enter list of Options, each on a new line.",对链接类型字段，此处填写链接的单据类型;对于下拉选单字段，填写下拉选单值清单，用回车键分行
 Against Voucher,对销凭证
@@ -6298,7 +6298,7 @@ Tax Amount After Discount Amount,折后税额
 Apply Discount On,折扣
 Discount,折扣
 Discounts,折扣
-Discount and Margin,折扣与毛利
+Discount and Margin,折扣与上浮
 Discount must be less than 100,折扣必须小于100
 Discount Percentage,折扣百分比
 Discount Percentage can be applied either against a Price List or for all Price List.,折扣百分比可以应用于一个或所有的价格表。
@@ -8867,7 +8867,7 @@ Work Order,生产工单
 "Did not found transfered item {0} in Work Order {1}, the item not added in Stock Entry",生产工单{1}中未找到已移转物料{0}，未在物料移动凭证中添加该物料
 Work Order has been {0},生产工单已{0}
 Orders released for production.,生产工单已释放可开始生产。
-Work Order Stock Report,生产工单原材料库存齐套报表
+Work Order Stock Report,工单原材料库存齐套报表
 Work Order not created,生产工单未创建
 Quantity to Produce can not be less than Zero,生产数量不能小于零
 Manufacturing Date,生产日期
@@ -10448,7 +10448,7 @@ Criteria Formula,计算公式
 Calculate Based On,计算基于
 Calculate Total Score,计算总分
 Calculate Depreciation,计算折旧
-Calculated Bank Statement balance,计算的银行对发票余额
+Calculated Bank Statement balance,银行对账单余额
 Calculate Estimated Arrival Times,计算预计到达时间
 Billing Interval,计费间隔
 Billing Interval Count,计费间隔计数
@@ -12176,12 +12176,12 @@ Bank Reconciliation,银行对帐
 Bank Reconciliation Detail,银行对帐信息
 Bank Reconciliation Statement,银行对帐单
 Bank Statement,银行对帐单
-Bank Statement Transaction Payment Item,银行对发票交易收付款凭证
-Bank Statement Transaction Entry,银行对发票交易凭证
-Bank Statement Transaction Invoice Item,银行对发票交易发票项目
-Bank Statement Transaction Settings Item,银行对发票交易设置项
-Bank Statement Settings,银行对发票设置
-Bank Statement Settings Item,银行对发票设置项
+Bank Statement Transaction Payment Item,银行对账单交易收付款凭证
+Bank Statement Transaction Entry,银行对账单交易凭证
+Bank Statement Transaction Invoice Item,银行对账单交易发票项目
+Bank Statement Transaction Settings Item,银行对账单交易设置项
+Bank Statement Settings,银行对账单设置
+Bank Statement Settings Item,银行对账单设置项
 Bank Account No,银行帐号
 Bank Account,银行户头
 Bank account {0} already exists and could not be created again,银行帐户{0}已存在，无法再次创建
@@ -13372,7 +13372,7 @@ Update Time,更新时间
 Unit Of Measure,单位
 Haircut %,Haircut %
 Loan To Value Ratio,放贷风险比率
-Against Loan,借款
+Against Loan,关联借款
 Disbursed Amount,放款金额
 Disbursement Details,放款详情
 Amount Paid,已付款金额
@@ -14309,7 +14309,7 @@ Via Landed Cost Voucher,关联到岸成本凭证
 Allow Zero Rate,允许0成本价
 Repost Item Valuation,物料成本价重过账
 Quality Inspection Parameter,品管检验参数
-Bank Statement Import,银行对发票导入
+Bank Statement Import,银行对账单导入
 Default In-Transit Warehouse,默认在途仓
 Default Payment Discount Account,默认付款折扣科目
 Role Allowed to Over Bill,可超额开发票的角色
@@ -14516,7 +14516,7 @@ Loan Write Off,借款注销
 User Default,用户默认值
 Setting Key,默认链接字段
 Setting Value,默认值
-BOM Level,物料清单层数
+BOM Level,BOM层级
 Supplier Item Group,供应商物料组
 Employee Grievance,员工意见
 Grievance Details,意见详情
@@ -14744,7 +14744,6 @@ Go to Notification Settings List,转到通知设置列表
 Sequence Id,序号,
 Cost Per Unit,单位成本
 Base Cost Per Unit,基础单位成本
-Apply Tax Withholding Amount,添加代扣税金额
 Partly Paid,部分付款
 Partly Paid and Discounted,已贴现部分付款
 Client Code,客户端javasript脚本,
@@ -14765,3 +14764,15 @@ Configure Columns,列设置
 Column Width,列宽
 Reset to default,恢复默认设置
 Book Cost Center Wise Profit/Loss,损益按成本中心记账
+Cost of Poor Quality Report,制程不良成本报表
+Auto Write Off Amount,自动销账金额
+Loan Write Off will be automatically created on loan closure request if pending amount is below this limit,贷款关闭时如果剩余金额低于自动销账金额则自动注销
+Disbursement References,放款参考信息
+Upload Bank Statement,上传银行对账单
+Closing Balance as per Bank Statement,银行对账单余额
+Closing Balance as per ERP,ERP系统余额
+22210102 - 销项税额 @ 13.0 Rate,税率
+22210102 - 销项税额 @ 13.0 Amount,税额
+22210101 - 进项税额 @ 13.0 Rate,税率
+22210101 - 进项税额 @ 13.0 Amount,税额
+Automatically Fetch Payment Terms from Order,自动从订单获取付款条款
