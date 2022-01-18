@@ -1220,8 +1220,8 @@ Type of Business,业务类型
 Lost,未成交
 Lost Reason,未成交原因
 Lost Reasons,未成交原因
-Opportunity Lost Reason,未成交原因
-Quotation Lost Reason,未成交原因
+Opportunity Lost Reason,商机未成交原因
+Quotation Lost Reason,报价未成交原因
 Lost Reason Detail,未成交原因说明
 Discard,丢弃
 Both Warehouse must belong to same Company,两个仓库必须属于同一公司
@@ -2723,8 +2723,8 @@ Create a new {0},新建 {0}
 Create a new record,新建一笔记录
 created,创建于
 {0} variants created.,新建了{0}个多规格物料。
-{0} bank transaction(s) created and {1} errors,创建了{0}个银行交易和{1}个错误
-{0} bank transaction(s) created,创建了{0}银行交易
+{0} bank transaction(s) created and {1} errors,新建了{0}笔银行交易流水，其中{1}笔有错误
+{0} bank transaction(s) created,新建了{0}银行交易流水
 The following serial numbers were created:{0},创建了以下序列号:
 The following serial numbers were created: <br>{0},创建了以下序列号： <br> {0}
 Created On,创建于
@@ -5070,7 +5070,7 @@ Ordered,已下单
 % Ordered,已下单%
 Ordered Quantity,已下单数量
 A new document {0} has been shared by with you {1}.,已与您{1}分享了一个新单据{0}。
-Lost Quotation,报价未成交
+Lost Quotation,未成交报价
 {0} vacancies and {1} budget for {2} already planned for subsidiary companies of {3}. \				You can only plan for upto {4} vacancies and and budget {5} as per staffing plan {6} for parent company {3}.,已为{3}的子公司计划{2}的{0}空缺和{1}预算。 \根据母公司{3}的员工计划{6}，您只能计划最多{4}个职位空缺和预算{5}。
 Stock Entries already created for Work Order ,已为工单创建的物料移动
 A new account has been created for you at {0},已为您创建新帐户{0}
@@ -5107,7 +5107,7 @@ Allocated Leaves,已分配休假天数
 Allocated Amount,已分配金额
 Invoice Created,已创建发票
 Job card {0} created,已创建加工单{0}
-All bank transactions have been created,已创建所有银行交易
+All bank transactions have been created,已创建所有银行交易流水
 Payment request {0} created,已创建收款申请{0}
 Work Orders Created: {0},已创建生产工单：{0}
 Sales Invoice {0} created,已创建销售发票{0}
@@ -6124,8 +6124,8 @@ All Assessment Groups,所有评估组
 All Images attached to Website Slideshow should be public,所有连接到网站幻灯片的图片应该是公开的
 All Departments,所有部门
 All Sales Partner Contact,所有销售合作伙伴
-The selected payment entry should be linked with a creditor bank transaction,所选收付款凭证应与债权人银行交易相关联
-The selected payment entry should be linked with a debtor bank transaction,所选收付款凭证应关联客户的银行交易
+The selected payment entry should be linked with a creditor bank transaction,所选收付款凭证应关联取款银行交易流水
+The selected payment entry should be linked with a debtor bank transaction,所选收付款凭证应关联存款银行交易流水
 The selected item cannot have Batch,所选物料不能启用批号管理
 There isn't any item variant for the selected item,所选物料无相关多规格物料
 The selected BOMs are not for the same item,所选物料清单不能用于同一个物料
@@ -7385,7 +7385,7 @@ Update Translations,更新翻译
 Update Auto Repeat Reference,更新自动重复参考
 Update records,更新记录
 An error occurred during the update process,更新过程中发生错误
-Update Bank Transaction Dates,更新银行交易日期
+Update Bank Transaction Dates,更新银行交易流水日期
 Update Bank Clearance Dates,更新银行清帐日期
 Update Billed Amount in Sales Order,更新销售订单已开票金额
 Updating estimated arrival times.,更新预计到达时间。
@@ -7764,8 +7764,7 @@ Permissions can be managed via Setup &gt; Role Permissions Manager,权限可以�
 Authorization Field,权限控制字段
 Authorization Object,权限控制对象
 Permissions get applied on Users based on what Roles they are assigned.,权限检查基于已分派给用户的角色。
-Perm Level,权限等级
-Perm Level,权限等级
+Perm Level,权限级别
 Permission Level,权限级别
 Permission Levels,权限级别
 Permission Rules,权限规则
@@ -8114,7 +8113,7 @@ This form does not have any input,此表单无输入字段
 Maximum Attachment Limit for this record reached.,已超出最大附件数量限制。
 This request has not yet been approved by the user.,此请求尚未得到用户的批准。
 Days for which Holidays are blocked for this department.,此部门的禁止休假日
-This bank transaction is already fully reconciled,此银行交易已完全已对帐
+This bank transaction is already fully reconciled,此银行交易流水已完全已核销
 This bank account is already synchronized,此银行帐户已同步
 Public token is missing for this bank,此银行缺少公共令牌
 This link has already been activated for verification.,此链接已激活以进行验证。
@@ -12159,13 +12158,13 @@ pencil,铅笔
 Bank,银行
 Bank / Cash Account,银行/现金账户
 Banking,银行业
-Bank Transaction,银行交易
-Reference No and Reference Date is mandatory for Bank transaction,银行交易中参考编号和参考日期必填
-Bank Transaction Payments,银行交易付款
-Bank Transaction Entries,银行交易分录
-Field in Bank Transaction,银行交易字段
-Bank Transaction Mapping,银行交易映射关系
-Reconcile payments and bank transactions,银行付款对帐
+Bank Transaction,银行交易流水
+Reference No and Reference Date is mandatory for Bank transaction,银行交易流水中参考编号和参考日期必填
+Bank Transaction Payments,银行交易流水付款
+Bank Transaction Entries,银行交易流水分录
+Field in Bank Transaction,银行交易流水字段
+Bank Transaction Mapping,银行交易流水映射关系
+Reconcile payments and bank transactions,核销银行交易流水与收付款凭证
 Bank Deatils,银行信息
 Bank Credit Balance,银行信贷余额
 Bank Entry,银行凭证
@@ -14391,7 +14390,7 @@ Invalid value {0} for {1} against account {2},对于科目{2} {1}值{0}无效
 Invoice Portion (%),发票占比(%)
 Discount Settings,折扣设置
 Is Debit Note,是借项通知单
-No Matching Bank Transactions Found,无银行交易数据
+No Matching Bank Transactions Found,无待核销银行交易流水数据
 Account Opening Balance,账户期初余额
 Bank Reconciliation Tool,银行对账工具
 Account Name,账户名称,Bank Account
@@ -14776,3 +14775,15 @@ Closing Balance as per ERP,ERP系统余额
 22210101 - 进项税额 @ 13.0 Rate,税率
 22210101 - 进项税额 @ 13.0 Amount,税额
 Automatically Fetch Payment Terms from Order,自动从订单获取付款条款
+Deposit,存款
+Withdrawal,取款
+Reconcile the Bank Transaction,核销银行交易流水
+No Matching Vouchers Found,无匹配凭证
+Show Only Exact Amount,仅显示金额匹配的凭证
+Select Vouchers to Match,选择待匹配凭证
+Transaction Details,交易详情
+Match Against Voucher,匹配凭证
+Create Voucher,新建凭证
+Update Bank Transaction,更新银行交易流水
+Grant Commission,付佣金
+Update Existing Price List Rate,更新物料价格基础数据
