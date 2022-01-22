@@ -350,12 +350,12 @@ HTML for header section. Optional,HTML的标题区。可选
 HTML Editor,HTML编辑器
 HTML Editor,HTML编辑器
 HTML Header & Robots,HTML页眉和机器人
-Hub,Hub
-Hub Warehouse,Hub仓库
-Hub Publishing Details,Hub发布细节
-Hub Users,Hub用户
+Hub,集市(Hub)网站
+Hub Warehouse,集市(Hub)网站仓库
+Hub Publishing Details,集市(Hub)网站发布详情
+Hub Users,集市(Hub)网站用户
 Hub Node,Hub节点
-Hub Tracked Item,Hub跟踪物料
+Hub Tracked Item,集市(Hub)网站跟踪物料
 IBAN,IBAN
 IBAN is not valid,IBAN无效
 ID,ID
@@ -1193,7 +1193,7 @@ Don't Override Status,不要覆盖状态
 N/A,不适用
 Not Applicable,不适用
 Tree view not available for {0},不适用于树视图{0}
-Synced With Hub,与Hub同步
+Synced With Hub,与集市(Hub)网站同步
 Login with LDAP,与LDAP登录
 Linked with {0},与{0}关联
 Relation with Guardian1,与监护人1的关系
@@ -1248,8 +1248,8 @@ Medium,中
 Central Tax,中央税
 Madhya Pradesh,中央邦
 Center,中心
-Hub User,中心用户
-Hub Category,中心类别
+Hub User,集市(Hub)网站用户
+Hub Category,集市(Hub)网站类别
 Middle Income,中等收入
 Moderate Sensitivity,中等敏感度
 Intermediate,中级
@@ -3310,7 +3310,7 @@ Publish on website,发布在网站上
 Published in Website,发布在网站上
 Publish Date,发布日期
 Published On,发布日期
-Publish Item to hub.erpnext.com,发布物料到网站hub.erpnext.com
+Publish Item to hub.erpnext.com,发布物料到集市(Hub)网站hub.erpnext.com
 Publish Items on Website,发布物料到网站上
 Posted By,发布者
 Post Description Key,发布说明密钥
@@ -3959,7 +3959,7 @@ Number of columns for a field in a List View or a Grid (Total Columns should be 
 Number of columns for a field in a List View or a Grid (Total Columns should be less than 11),在单据列表或子表单列表中所占列数（合计列数应小于11）
 Add custom field Auto Repeat in the doctype {0},在单据类型{0}中添加自定义字段自动重复
 Search in a document type,在单据类型中搜索
-Publish in Hub,在发布中心
+Publish in Hub,发布到集市(Hub)网站
 Import Delivery Notes from Shopify on Shipment,在发货时从Shopify导入出货单
 Please enter message before sending,在发送前，请填写留言
 Work Order {0} must be cancelled before cancelling this Sales Order,在取消此销售订单之前，必须先取消工单{0}
@@ -4113,7 +4113,7 @@ Reconciliation JSON,基于JSON格式对账
 "Filtered by ""{0}""",基于“{0}”过滤
 Stats based on last month's performance (from {0} to {1}),基于上个月表现的统计数据（从{0}到{1}）
 Stats based on last week's performance (from {0} to {1}),基于上周表现的统计数据（从{0}到{1}）
-"Publish ""In Stock"" or ""Not in Stock"" on Hub based on stock available in this warehouse.",基于仓库中的库存，在Hub上发布“库存”或“库存”。
+"Publish ""In Stock"" or ""Not in Stock"" on Hub based on stock available in this warehouse.",基于仓库中的库存，在集市(Hub)网站上发布“库存”或“库存”。
 Reorder level based on Warehouse,基于仓库的重订货点
 Depends on Payment Days,基于付款天数
 Based On Payment Terms,基于付款条款
@@ -7219,7 +7219,7 @@ Is Single,是单笔记录？
 Include in gross,是毛利相关科目
 Is Existing Asset,是现成固定资产
 Include Item In Manufacturing,是生产调拨物料
-Is Item from Hub,是电商平台物料
+Is Item from Hub,是集市(Hub)网站物料
 Is First Startup,是第一次启动
 Is Group,是组
 Is Carry Forward,是结转？
@@ -12472,10 +12472,10 @@ Integration ID,集成ID
 Integrations can use this field to set email delivery status,集成可以使用此字段来设置邮件发送状态
 Integration Request,集成请求
 Integration Request Service,集成请求服务
-Hub Seller Name,电商平台卖家名称
-Hub Sync ID,电商平台同步ID
-Hub Password,电商平台密码
-Hub Category to Publish,电商平台类别发布
+Hub Seller Name,集市(Hub)网站卖家名称
+Hub Sync ID,集市(Hub)网站同步ID
+Hub Password,集市(Hub)网站密码
+Hub Category to Publish,集市(Hub)网站类别发布
 Zero,零
 Retail,零售
 Retail,零售
@@ -13940,7 +13940,7 @@ Earliest Age,最早库龄
 Latest Age,最新库龄,
 Title Case,首字母大写,
 This cannot be undone,不可撤销,
-hub,电商平台,
+hub,集市(Hub)网站,
 Dismiss,跳过
 Onboarding Step,初始化步骤
 Module Onboarding,模块初始化
@@ -14648,8 +14648,8 @@ Primary Role,首选角色
 Secondary Role,次要角色
 Primary Party,首选业务伙伴代码
 Secondary Party,次要业务伙伴代码
-Make Material Request for Warehouse,物料需求仓
-"To make material requests, 'Make Material Request for Warehouse' field is mandatory",
+Make Material Request for Warehouse,仓库
+"To make material requests, 'Make Material Request for Warehouse' field is mandatory",计算原材料需求前请先输入仓库字段
 Plan to Request Qty,计划数量
 Qty As Per BOM,物料清单折算数量
 From Delivery Date,交货日自
@@ -14787,3 +14787,15 @@ Create Voucher,新建凭证
 Update Bank Transaction,更新银行交易流水
 Grant Commission,付佣金
 Update Existing Price List Rate,更新物料价格基础数据
+Hide Descendants,隐藏下层节点
+"Hide descendant records of <b>For Value</b>.",隐藏下层节点<b>值</b>
+IQC,来料检验
+IPQC,制程检验
+OQC,出货检验
+From Payment Date,开始付款日期
+To Payment Date,截止付款日期
+Invoice Limit,发票限额
+Payment Limit,付款限额
+Minimum Payment Amount,最小付款金额
+Maximum Payment Amount,最大付款金额
+This filter will be applied to Journal Entry.,过滤条件仅限手工凭证
