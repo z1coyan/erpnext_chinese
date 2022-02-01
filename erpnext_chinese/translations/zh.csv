@@ -769,9 +769,9 @@ No records present in {0},{0}中没有记录
 {0} Dashboard,{0}数据面板
 {0} on Leave on {1},{0}休假日期{1}
 {0} to stop receiving emails of this type,{0}停止接收此类邮件
-Assignment closed by {0},{0}关闭了待办任务
+Assignment closed by {0},{0}关闭了待办
 {0} un-shared this document with {1},{0}关闭了此单据对{1}的分享
-{0} self assigned this task: {1},{0}分派了待办任务给自己：{1}
+{0} self assigned this task: {1},{0}分派了待办给自己：{1}
 {0} minutes ago,{0}分钟前
 {0} minutes ago,{0}分钟前
 {0} List,{0}列表
@@ -1642,7 +1642,6 @@ Paid amount + Write Off Amount can not be greater than Grand Total,付款金额+
 Paid Amount cannot be greater than total negative outstanding amount {0},付款金额不能大于总未付金额{0}
 Paid Amount (Company Currency),付款金额（本币）
 Paid Loan,付费借款
-ToDo,代办事项
 Deduct Tax For Unsubmitted Tax Exemption Proof,代扣未提交免税证明的税款
 Deduct Tax For Unclaimed Employee Benefits,代扣未领取员工福利应纳税款
 Apply Tax Withholding Amount,代扣税款
@@ -2625,19 +2624,18 @@ Assignment Completed,分派已完成
 Assignment Days,分派日
 Assign Condition,分派条件
 Assignment closed by {0},分派由{0}关闭
-Allocated To,分派给
-Assign To,分派给
-Assigned To,分派给
-Assigned To/Owner,分派给/制单人
-Assign to Name,分派给姓名
-Assign to the one who has the least assignments,分派给当前分派最少的用户
-Assign to the one who has the least assignments,分派给当前被分派(任务)最少的人
-Documents assigned to you and by you.,分派给您和您创建的单据。
-Assign to me,分派给我
-Assigned To Me,分派给我
-Assign To Users,分派给用户
-Assigned By,分派者
-Assigned By Full Name,分派者姓名
+Allocated To,执行人
+Assign To,执行人
+Assigned To,创建代办
+Assigned To/Owner,执行人/发起人
+Assign to Name,执行人姓名
+Assign to the one who has the least assignments,指派给待办最少的用户
+Documents assigned to you and by you.,你自己发起和执行的单据。
+Assign to me,自己认领
+Assigned To Me,自己认领
+Assign To Users,指派给用户
+Assigned By,发起人
+Assigned By Full Name,发起人姓名
 Assignment Rule,分派规则
 Assignment Rules,分派规则
 Assignment Rule User,分派规则用户
@@ -4594,8 +4592,8 @@ Produced,完工数量
 Produced Qty,完工数量
 Completed Work Orders,完工生产工单
 Complete,完成
-Complete By,完成
-Completed By,完成
+Complete By,执行人
+Completed By,执行人
 Done,完成
 Finish,完成
 Is Completed,完成了
@@ -5609,10 +5607,10 @@ Doctype to Assign Tags,待分派标签的单据类型
 Opening Invoices,待创建发票
 Opening Invoices Summary,待创建发票汇总
 Activities,活动
-Open To Do,待办事项
+Open To Do,未关闭待办
 Pending Activities,待办事项
-To Do,待办事项
-ToDo,待办事项
+To Do,待办
+ToDo,待办
 Subcontracted Raw Materials To Be Transferred,待调拨委外原材料
 Pending,待处理
 Pending,待处理
@@ -8452,7 +8450,7 @@ Add A Few Products You Buy Or Sell,添加几个需采购或销售的物料
 Add Group,添加分组
 Add Column,添加列
 Add a column,添加列
-Add to To Do,添加到待办事项
+Add to To Do,添加到待办
 Add to Desktop,添加到桌面
 Added to details,添加到细节
 Add to table,添加到表格
@@ -8999,7 +8997,6 @@ Read by Recipient,由收件人阅读
 Read by Recipient On,由收件人阅读
 Automatically Add Taxes and Charges from Item Tax Template,由明细行的税费模板自动添加税费
 Pick/Drop by Guardian,由监护人接送
-Completed By,完成日期
 Total Declared Amount,申报总金额
 Claim Date,申报日期
 Claim Amount,申报金额
@@ -13243,7 +13240,7 @@ No Events Today,今天无事件
 Review Chart Of Accounts,检查科目表
 Lets Create a Tax Template for Sales,创建销售税费模板
 Create a Product,创建一个产品
-Add to ToDo,新增待办事项
+Add to ToDo,新增待办
 Assigning...,分派中...
 No changes in document,未做任何修改
 Document renamed from {0} to {1},已将编号(名称){0} 变更为 {1}
@@ -14140,7 +14137,6 @@ Auto Fetch,自动获取
 Subcontracting,委外
 Order Status,订单状态
 Scripting,脚本
-Build,
 Models,模型
 Elements,元素
 No Results found,无数据
@@ -14799,3 +14795,6 @@ Payment Limit,付款限额
 Minimum Payment Amount,最小付款金额
 Maximum Payment Amount,最大付款金额
 This filter will be applied to Journal Entry.,过滤条件仅限手工凭证
+Document Link,单据关联,
+Document Links,单据关联,
+Document Actions,单据操作,
