@@ -9,7 +9,7 @@ All Territory, 所有区域
 Proposal Qualification, 投标审查
 Pick List, 拣货单
 Search for anything, 搜索任何内容
-Is Transporter, 是物流公司？
+Is Transporter, 是物流公司
 Attach a web link, 添加一个网址
 Make {0} Variant, 生成{0}个多规格物料
 Make Auto Attendance, 生成自动考勤记录
@@ -160,8 +160,8 @@ BOM Variance Report,BOM差异报表
 BOM Stock Report,BOM库存齐套报表
 BOM Stock Calculated,BOM库存计算
 BOM Scrap Item,BOM废料
-BOM Search,BOM搜索
-BOM Update Tool,BOM更新工具
+BOM Search,物料清单反查
+BOM Update Tool,物料清单批量更新工具
 BOM Browser,BOM浏览器
 BOM Item,BOM物料
 BOM Rate,BOM税率
@@ -2041,8 +2041,8 @@ Supplier Scorecard Scoring Criteria,供应商记分卡评分标准
 Supplier Detail,供应商信息
 Supplier Delivery Note,供应商送货单
 Supplier Part No,供应商部件号
-Supplier Part Number,供应商产品编号
-Customer Part Number,客户产品编号
+Supplier Part Number,供应商物料编号
+Customer Part Number,客户物料编号
 Place Of Supply (State/UT),供应地点（州/ UT）
 Nature Of Supplies,供应的性质
 Supplied Items,委外调拨物料
@@ -7229,9 +7229,9 @@ Is Finance Cost,是财务成本
 In Filter,是自定义过滤字段
 Is Return (Debit Note),退货(扣款)
 Is Return (Credit Note),退货(退款)
-Is Purchase Item,允许采购？
+Is Purchase Item,允许采购
 Is Milestone,是里程碑
-Is Sales Item,允许销售？
+Is Sales Item,允许销售
 Is Attachments Folder,是附件文件夹
 Is Additional Component,是额外薪资？
 Is the Default Account,是默认帐户
@@ -12048,7 +12048,7 @@ Odometer,里程表读数
 Odometer Reading,里程表读数
 Resend,重发
 Reset,重启
-Rename Tool,重命名工具
+Rename Tool,批量修改名称(编号)工具
 Rename Log,重命名日志
 Repeat On,重复
 Subscription Section,重复
@@ -13218,7 +13218,7 @@ Only If Creator,仅限创建者
 Inbox User,邮件收件箱用户
 Loan Manager,借款经理
 Row {0}: Quality Inspection rejected but no rejected qty for item {1},第{0}行：质量检验结论为拒收，物料{1}没有维护拒收数量
-Default Company Bank Account,默认公司银行帐户
+Default Company Bank Account,默认公司银行账户
 Show Seconds,显示秒
 Show Days,显示天
 Parent Field (Tree),父字段(树)
@@ -14798,3 +14798,6 @@ This filter will be applied to Journal Entry.,过滤条件仅限手工凭证
 Document Link,单据关联,
 Document Links,单据关联,
 Document Actions,单据操作,
+Amount Eligible for Commission,佣金基数
+Quotation Number,报价单号
+Date format could not be determined from the values in this column. Defaulting to yyyy-mm-dd.,无法确认此字段日期格式，将自动转成标准的年-月-日格式
