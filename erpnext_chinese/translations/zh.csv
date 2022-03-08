@@ -1082,7 +1082,7 @@ Download template,下载模板文件
 Download Link,下载链接
 Insert Below,下面插入
 Skip Material Transfer,不从工单触发工单调拨
-Disable CWIP Accounting,不使用在途资本科目(采购入库）
+Disable CWIP Accounting,不使用在建工程科目(采购入库）
 Not Allowed,不允许
 Not permitted for {0},不允许{0}
 Not allowed for {0} = {1},不允许{0} = {1}
@@ -1815,10 +1815,10 @@ Accounting Period,会计期间
 Accounting Period overlaps with {0},会计期间与{0}重叠
 Tree of financial accounts.,会计科目树。
 Accounts Manager,会计经理
-Accounting Dimension,会计维度
-Accounting Dimensions,会计维度
-ACCOUNTING DIMENSIONS,会计维度
-Accounting Dimensions ,会计维度
+Accounting Dimension,辅助核算
+Accounting Dimensions,辅助核算
+ACCOUNTING DIMENSIONS,辅助核算
+Accounting Dimensions ,辅助核算
 Accounting journal entries.,会计记账凭证。
 Accounts Settings,会计设置
 Conference,会议
@@ -2412,22 +2412,22 @@ Invalid Company for Inter Company Invoice.,关联公司发票：公司不正确�
 Inter Company Order Reference,关联公司订单参考号
 Inter Company Account,关联公司间交易科目
 Inter Warehouse Transfer Settings,关联公司间内部调拨设置
-Reference Document,关联单据
+Reference Document,源单据
 Related,关联单据
-Reference Owner,关联单据制单人
-Reference Name,关联单据号
-Reference name,关联单据号
-Linked Doctype,关联单据类型
-Ref Type,关联单据类型
-Reference DocType,关联单据类型
-Reference Type,关联单据类型
-Reference DocName,关联单据编号
+Reference Owner,源单据制单人
+Reference Name,源单据
+Reference name,源单据
+Linked Doctype,源单据类型
+Ref Type,源单据类型
+Reference DocType,源单据类型
+Reference Type,源单据类型
+Reference DocName,源单据
 Ref Report DocType,关联报表DocType
 Link a new bank account,关联新的银行户头
-Against Blanket Order,关联框架订单
-Against Stock Entry,关联物料移动单
+Against Blanket Order,框架订单
+Against Stock Entry,源物料移动单
 From Lead,关联线索
-Reference Purchase Receipt,关联采购入库 
+Reference Purchase Receipt,采购入库单 
 Key Reports,关键报表
 KRA,关键结果领域(绩效指标)
 Key Performance Area,关键绩效领域
@@ -2840,7 +2840,7 @@ Create Tax Template,创建税费模板
 Create Lead,创建线索
 Create Leads,创建线索
 Make Lead,创建线索
-Creating Dimensions...,创建维度......
+Creating Dimensions...,创建辅助核算......
 Create Maintenance Visit,创建维护巡修
 Make Maintenance Visit,创建维护巡修
 Making website,创建网站
@@ -2893,7 +2893,7 @@ Remove Tag,删除标签
 Delete Company Transactions,删除正式上线前的测试数据
 It is risky to delete this file: {0}. Please contact your System Manager.,删除此文件有风险：{0}。请联系您的系统管理员。
 Delete this record to allow sending to this email address,删除此记录允许发送此邮件地址
-Deleted DocType,关联单据类型
+Deleted DocType,源单据类型
 Deleted Document,已删除单据
 remove-sign,删除符号
 Delete comment?,删除评论？
@@ -2952,7 +2952,7 @@ Remaining Benefits (Yearly),剩余福利（每年）
 Share Balance,剩余股份
 Byproducts,副产品
 DUPLICATE FOR SUPPLIER,副本(供应商联)
-DUPLICATE FOR TRANSPORTER,副本(货运公司联)
+DUPLICATE FOR TRANSPORTER,副本(物流公司联)
 Force,力
 Office,办公室
 Office Rent,办公室租金
@@ -3241,20 +3241,20 @@ References,参考
 Ref SQ,参考SQ
 Ref Code,参考代码
 Reference Due Date,参考到期日
-Reference Doc,关联单据
-Against Document No,关联单据号
-Ref DocType,关联单据类型
-Reference Document Type,关联单据类型
-Reference Doctype,关联单据类型
-Reference Doctype must be one of {0},关联单据类型必须是一个{0}
-Reference Name,关联单据编号
+Reference Doc,源单据
+Against Document No,源单据
+Ref DocType,源单据类型
+Reference Document Type,源单据类型
+Reference Doctype,源单据类型
+Reference Doctype must be one of {0},源单据类型必须是一个{0}
+Reference Name,源单据
 Reference Inv,参考发票
 Reference Number,参考号码
 Ref Name,参考名称
 Reference Party,参考往来单位
 Reference Report,参考报表
-Reference Document Name,参考文件名称
-Reference document has been cancelled,参考文件已被取消
+Reference Document Name,源单据
+Reference document has been cancelled,源单据已被取消
 Reference Party Doctype,参考方Doctype
 Invalid Reference,参考无效
 Send days before or after the reference date,参考日几天前或后发送
@@ -4046,9 +4046,9 @@ Goods In Transit,在途物料
 Stock Received But Not Billed,暂估库存(已收货，未开票)
 "Ordered Qty: Quantity ordered for purchase, but not received.",在途订单数量：已下采购订单尚未收货的数量。
 Asset Received But Not Billed,暂估资产（已收货，未开票）
-Capital Work in Progress,在途资本
-CWIP Account,在途资本科目
-Capital Work In Progress Account,在途资本科目
+Capital Work in Progress,在建工程
+CWIP Account,在建工程科目
+Capital Work In Progress Account,在建工程科目
 Show Title in Link and Table MultiSelect Field,在链接和多选字段显示标题字段值
 Hide Customer's Tax Id from Sales Transactions,在销售交易单据上隐藏客户纳税登记号
 Create Lab Test(s) on Sales Invoice Submit,在销售发票上创建化验提交
@@ -4226,7 +4226,7 @@ Copied From,复制自
 Relapsed,复发
 Relapses,复发
 Compound,复合
-Role Profile,复合角色
+Role Profile,岗位
 Sub-contracting,委外
 Subcontract,委外
 Raw Materials Supplied Cost,委外原材料成本
@@ -6272,8 +6272,8 @@ Change Amount,找零
 Base Change Amount (Company Currency),找零金额（本币）
 Admit,承认
 Admitted Datetime,承认日期时间
-Transporter Info,承运商信息
-Transporter Name,承运商名称
+Transporter Info,物流配送信息
+Transporter Name,物流公司名
 Technology,技术
 Technician Name,技术员姓名
 Skill,技能
@@ -6701,7 +6701,7 @@ Incoming Payment,收款
 Payment Request,付款申请
 Incoming Payment Request,收款申请
 Payment Request for {0},收款申请{0}
-To create a Payment Request reference document is required,收款申请中关联单据信息必填
+To create a Payment Request reference document is required,收款申请中源单据信息必填
 Payment Request already exists {0},收款申请已经存在{0}
 Payment Request Type,收款申请类型
 Account Paid To,借方科目
@@ -8785,7 +8785,7 @@ Material Request Type,物料需求类型
 Material Request Planning,物料需求计划
 Item Default,物料默认值
 Item Defaults,物料默认值
-Transporter Details,物流信息
+Transporter Details,物流详情
 Telangana,特兰伽纳
 Special,特别
 Extra Large,特大号
@@ -9475,7 +9475,7 @@ Course is mandatory in row {0},第{0}行中的课程信息必填
 Row #{0}: Rejected Warehouse is mandatory against rejected Item {1},第{0}行物料{1}被拒收，其拒收仓库字段必填
 Row #{0}: Operation {1} is not completed for {2} qty of finished goods in Work Order {3}. Please update operation status via Job Card {4}.,第{0}行生产工单{3}成品数量{2}工序{1}未完成。请在加工单{4}上更新工序状态。
 Row {0}# Paid Amount cannot be greater than requested advance amount,第{0}行的付款金额不能大于预付申请金额
-"Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice or Journal Entry",第{0}行的关联单据类型必须是销售订单或销售发票或手工凭证
+"Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice or Journal Entry",第{0}行的源单据类型必须是销售订单或销售发票或手工凭证
 The Payment Term at row {0} is possibly a duplicate.,第{0}行的支付条款可能是重复的。
 Row {0}: Qty is mandatory,第{0}行的数量字段必填
 "To include tax in row {0} in Item rate, taxes in rows {1} must also be included",第{0}行的物料单价要含税，第{1}行的税也必须包括在内
@@ -9754,8 +9754,8 @@ Maintenance Manager Name,维保经理姓名
 Repair,维修
 Repair Status,维修状态
 Maintenance Team,维修队
-Dimension Name,维度名称
-Dimension Defaults,维度默认值
+Dimension Name,辅助核算名称
+Dimension Defaults,辅助核算默认值
 Maintenance Task,维护任务
 Maintenance Tasks,维护任务
 Maintenance,维护保养
@@ -10254,8 +10254,8 @@ Row #{0}: Timings conflicts with row {1},行＃{0}：与排时序冲突{1}
 Row #{0}: Journal Entry {1} does not have account {2} or already matched against another voucher,行＃{0}：手工凭证{1}没有科目{2}或已被另一凭证核销
 Row # {0}: Rate cannot be greater than the rate used in {1} {2},行＃{0}：单价不能大于{1} {2}中使用的单价
 Row #{0}: Rate must be same as {1}: {2} ({3} / {4}),行＃{0}：单价必须与{1}：{2}（{3} / {4}）相同
-Row #{0}: Reference Document Type must be one of Expense Claim or Journal Entry,行＃{0}：关联单据类型必须是费用报销或手工凭证之一
-"Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry",行＃{0}：关联单据类型必须是采购订单、采购发票或手工凭证
+Row #{0}: Reference Document Type must be one of Expense Claim or Journal Entry,行＃{0}：源单据类型必须是费用报销或手工凭证之一
+"Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry",行＃{0}：源单据类型必须是采购订单、采购发票或手工凭证
 Row #{0}: Status must be {1} for Invoice Discounting {2},行＃{0}：发票贴现的状态必须为{1} {2}
 Row #{0}: Cannot set Rate if amount is greater than billed amount for Item {1}.,行＃{0}：如果金额大于物料{1}已开票金额，则无法设置单价。
 Row #{0}: Payment document is required to complete the transaction,行＃{0}：完成交易需要付款文件
@@ -10329,7 +10329,7 @@ West Bengal,西孟加拉邦
 "To allow over receipt / delivery, update ""Over Receipt/Delivery Allowance"" in Stock Settings or the Item.",要允许超量收货/出货，请在库存设置或物料基础资料中更新“出入库超量控制”。
 "To allow over-billing or over-ordering, update ""Allowance"" in Stock Settings or the Item.",要允许超额开票或收发货，请在库存设置或物料基础资料中更新“出入库超量控制(%)”。
 Sales Orders to Deliver,待出货销售订单
-To create a Payment Request reference document is required,要创建付款请求关联单据是必需的
+To create a Payment Request reference document is required,要创建付款请求源单据是必需的
 Email Address whose Google Contacts are to be synced.,要同步其Google通讯录的电子邮件地址。
 Check this if you want to show in website,要在网站上展示，请勾选此项。
 To Pin Code,要密码
@@ -11193,10 +11193,10 @@ Currency exchange rate master.,货币汇率基础资料
 A symbol for this currency. For e.g. $,货币符号。例如$
 Currency Precision,货币精度
 Credit (CNY),货方(人民币)
-Transporter,货运公司
-Transport Receipt Date,货运公司收货日期
-Transport Receipt No,货运公司物流单号
-Freight and Forwarding Charges,货运及转运费用
+Transporter,物流公司
+Transport Receipt Date,物流公司收货日期
+Transport Receipt No,物流单号
+Freight and Forwarding Charges,运费
 Quality,质量
 Quality Meeting,质量会议
 Quality Meeting Table,质量会议桌
@@ -11542,10 +11542,10 @@ Freight and Forwarding Account,运费科目
 Shipping rule not applicable for country {0},运费规则不适用于国家/地区{0}
 Shipping rule only applicable for Selling,运费规则仅适用于销售
 Shipping rule only applicable for Buying,运费规则只适用于采购
-Transporter ID,运输商ID
+Transporter ID,物流商ID
 Transport Mode,运输方式
-Transporter Doc No,运输者文件号
-Transporter Date,运输者日期
+Transporter Doc No,物流单号
+Transporter Date,物流日期
 Recent years are easy to guess.,近年来，很容易被猜到。
 Back to Desk,返回主页（桌面）
 Back to Login,返回登录界面
@@ -12221,8 +12221,8 @@ Link Expired,链接已过期
 Link to Bootstrap CSS,链接来引导CSS
 Link Title,关联单据标题
 Link existing Quality Procedure.,链接现有的质量程序。
-Link DocType,关联单据类型
-Linked Doctypes,关联单据类型
+Link DocType,源单据类型
+Linked Doctypes,源单据类型
 Linked Plant Analysis,链接的工厂分析
 Link To,链接至
 Link Options,链接选项
@@ -12501,7 +12501,7 @@ Request Type,需求类型
 At least one mode of payment is required for POS invoice.,需要为POS发票定义至少付款模式
 Lodging Required,需要住宿
 Require Full Funding,需要全额资助
-Reference DocType and Reference Name are required,需要关联单据类型和单据编号
+Reference DocType and Reference Name are required,请输入源单据类型和源单据
 Require Trusted Certificate,需要可信证书
 Time series based on is required to create a dashboard chart,创建统计图表需定义时间跨度字段
 Require Lab Test Approval,需要实验室测试批准
@@ -12841,7 +12841,7 @@ Default Account,默认科目
 Default Tax Template,默认税费模板
 Default Taxes and Charges,默认税费
 "The fallback series is ""SO-WOO-"".",默认系统流水号是“SO-WOO-”。
-Default Dimension,默认维度值
+Default Dimension,默认辅助核算
 Default Salary Structure,默认薪资结构
 Default Letter Head,默认表头
 Default Shipping Account,默认装运帐户
@@ -13064,11 +13064,11 @@ Account is not set for the dashboard chart {0},尚未为统计图表{0}设置科
 Account is mandatory to get payment entries,请输入科目以获取收付款凭证
 Account {0} does not belong to company {1},公司{1}科目表中未定义科目{0}
 Account {0} does not exists in the dashboard chart {1},统计图表{1}中未包含科目{0}
-Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal Entry,<b>{0}</b>是在途资本科目，不能通过手工凭证更新
+Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal Entry,<b>{0}</b>是在建工程科目，不能通过手工凭证更新
 Account: {0} is not permitted under Payment Entry,收付款凭证中不能使用科目{0} 
-Accounting Dimension <b>{0}</b> is required for 'Balance Sheet' account {1}.,请为资产科目{1}输入会计维度<b>{0}</b>
-Accounting Dimension <b>{0}</b> is required for 'Profit and Loss' account {1}.,请为损益科目{1}输入会计维度<b>{0}</b>
-Accounting Dimension Detail,会计维度信息
+Accounting Dimension <b>{0}</b> is required for 'Balance Sheet' account {1}.,请为资产科目{1}输入辅助核算<b>{0}</b>
+Accounting Dimension <b>{0}</b> is required for 'Profit and Loss' account {1}.,请为损益科目{1}输入辅助核算<b>{0}</b>
+Accounting Dimension Detail,辅助核算信息
 Accounts Payable Ageing,应付账龄
 Accounts Receivable Ageing,应收账龄
 No results found for {0} in Global Search,很抱歉，没有找到与{0}相关的结果
@@ -13304,7 +13304,7 @@ Heatmap,热力图
 Delivered Quantity,已出货数量
 Converted By,转化人
 Lead Address,线索地址
-Link Document Type,关联单据类型
+Link Document Type,源单据类型
 Permission Manager,角色权限管理
 User Profile,用户档案
 User Settings,用户设置
@@ -13892,7 +13892,7 @@ Desk Shortcut,桌面快速访问
 Depreciated Amount,折旧额
 Difference Value,差异金额
 Difficulty Level,难度等级
-Dimension Filter,维度过滤
+Dimension Filter,辅助核算过滤
 Disable Signup for your site,你的站点禁止注册
 Create New Contact,创建新联系人
 Create New Lead,创建新线索
@@ -14339,7 +14339,7 @@ Advertisement,广告
 Prospecting,有意向,
 Quailification,资格核实
 Perception Analysis,意向分析
-Consider Accounting Dimensions,显示会计维度,
+Consider Accounting Dimensions,显示辅助核算,
 Webhook Trigger,网络挂接触发条件
 Row {0}: Both Debit and Credit values cannot be zero,第{0}行：借方与贷方不能同时为0
 Recalculate Incoming/Outgoing Rate,重新计算入/出库成本价
@@ -14372,14 +14372,14 @@ Basic Info,基本信息
 "The following values do not exist for {}: {}",以下单据{}值不存在: {}
 Add to Transit,添加至在途,
 Operation Time,工序时间,
-Accounting Dimension Filter,会计维度过滤
+Accounting Dimension Filter,辅助核算过滤
 Accounts,科目,Accounting Dimension Filter
-Allow Or Restrict Dimension,允许或限制维度
+Allow Or Restrict Dimension,允许或限制辅助核算
 Restrict,限制
 Applicable On Account,科目
-Applicable Dimension,维度值
+Applicable Dimension,辅助核算值
 Is Mandatory,必填
-Note: On checking Is Mandatory the accounting dimension will become mandatory against that specific account for all accounting transactions,备注：如在科目清单中勾选必填，过账到该科目的所有业务都强制必填维度
+Note: On checking Is Mandatory the accounting dimension will become mandatory against that specific account for all accounting transactions,备注：如在科目清单中勾选必填，过账到该科目的所有业务都强制输入辅助核算
 {0} is mandatory for account {1},对于科目 {1} {0} 必填
 Invalid value {0} for {1} against account {2},对于科目{2} {1}值{0}无效
 "Total Payment Amount in Payment Schedule must be equal to Grand / Rounded Total",付款计划汇总金额与总计(圆整后)金额不符
@@ -14394,8 +14394,8 @@ Account Type,账户类型,Bank Account
 Account Subtype,账户子类型
 Dependant SLE Voucher Detail No,关联凭证明细编号
 Show Net Values in Party Account,显示往来单位净值
-Shipment,运输
-Pickup from,提货点
+Shipment,运单
+Pickup from,提货开始日间
 Delivery to,交货目的地
 Pickup Contact Person,提货联络人
 Parcels,包裹
@@ -14406,8 +14406,10 @@ Shipment details,运输详情
 Shipment Information,运输信息
 Pickup Date,提货日期
 Pickup to,提货截止时间
-Shipment Type,运输方式
+Shipment Type,运输类型
 Pickup Type,提货类型
+Pickup,提货
+Self delivery,自运
 Incoterm,贸易条款
 Description of Content,内容说明
 Service Provider,服务商
@@ -14518,7 +14520,7 @@ Grievance Details,意见详情
 Grievance Against Party,意见对象
 Grievance Against,意见对象
 Grievance Type,意见类型
-Associated Document Type,关联单据类型
+Associated Document Type,源单据类型
 Associated Document,关联单据
 Investigation Details,调查详情
 Cause of Grievance,意见原因
@@ -14638,7 +14640,7 @@ Calculate Product Bundle Price based on Child Items' Rates,基于套件包含的
 Publish in Website,发布到网站
 Job Card Scrap Item,加工单报废物料
 Website Item,网站物料
-Allowed Dimension,允许维度
+Allowed Dimension,可使用的辅助核算
 Party Link,业务伙伴关联
 Primary Role,首选角色
 Secondary Role,次要角色
@@ -14736,7 +14738,8 @@ Production Plan Summary,生产计划汇总报表
 Work Order Tree,生产工单树
 "If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",如勾选，用户每次登录时都弹框通知。否则只弹框通知一次。,
 Go to Notification Settings List,转到通知设置列表
-Sequence Id,序号,
+Sequence Id,工序序号,
+Sequence ID,工序序号,
 Cost Per Unit,单位成本
 Base Cost Per Unit,基础单位成本
 Partly Paid,部分付款
@@ -14801,3 +14804,15 @@ Document Actions,单据操作,
 Amount Eligible for Commission,佣金基数
 Quotation Number,报价单号
 Date format could not be determined from the values in this column. Defaulting to yyyy-mm-dd.,无法确认此字段日期格式，将自动转成标准的年-月-日格式
+Pallets,托盘
+Value of Goods,货值
+Goods,货物
+Add Template,新建模板
+Length (cm),长(公分)
+Width (cm),宽(公分)
+Height (cm),高(公分)
+Weight (kg),重量(公斤)
+Vihicle Maker,车辆品牌
+It can take upto few hours for accurate stock values to be visible after merging items.,合并后的物料库存数量更新可能需几个小时
+Pick Batch No,选批号
+Selected Qty,已选数量
