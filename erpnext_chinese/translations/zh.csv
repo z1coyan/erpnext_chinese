@@ -4468,7 +4468,7 @@ Field '{0}' cannot be set as Unique as it has non-unique values,字段“{0}”�
 Value To Be Set,字段值
 "Field ""value"" is mandatory. Please specify value to be updated",字段值必填。请指定值进行更新
 Fetch If Empty,字段内容为空时才获取
-Read Only Depends On,字段只读先决条件
+Read Only Depends On,是否只读先决条件
 Fieldname,字段名
 Fieldname {0} cannot have special characters like {1},字段名{0}不能有特殊字符，如{1}
 Fieldname {0} conflicting with meta object,字段名{0}与元对象冲突
@@ -4479,7 +4479,7 @@ Field Name,字段名称
 Invalid field name {0},字段名称{0}无效
 Fieldname is limited to 64 characters ({0}),字段名被限制为64个字符（{0}）
 Fields will be copied over only at time of creation.,字段将仅在创建时复制。
-Mandatory Depends On,字段必填先决条件
+Mandatory Depends On,是否必填先决条件
 Field Maps,字段映射
 Value Mapping,字段映射
 Field Type,字段类型
@@ -6182,7 +6182,7 @@ PRINT SECTION,打印设置
 Print settings updated in respective print format,打印设置在相应的打印格式更新
 Print Language,打印语言
 Show Payment Schedule in Print,打印输出显示付款计划
-Print Hide,打印隐藏
+Print Hide,不打印
 Open Awesomebar,打开Awesomebar
 Open BOM {0},打开BOM {0}
 Open {0},打开{0}
@@ -7294,7 +7294,7 @@ Show tags,显示标签
 Show Title,显示标题
 Show Items,显示物料
 Show exploded view,显示物料清单底层物料
-Display Depends On,显示的内容取决于
+Display Depends On,是否显示先决条件
 Show Cumulative Amount,显示累计金额
 Show Contact Us Button,显示联系我们按钮
 Show Section Headings,显示节标题
@@ -14816,3 +14816,5 @@ Vihicle Maker,车辆品牌
 It can take upto few hours for accurate stock values to be visible after merging items.,合并后的物料库存数量更新可能需几个小时
 Pick Batch No,选批号
 Selected Qty,已选数量
+Enable Provisional Accounting For Non Stock Items,启用非库存物料临时科目
+Default Provisional Account,默认临时科目
