@@ -1013,7 +1013,7 @@ Upload File,上传文件
 Cannot match column {0} with any field,上传文件中的字段{0}无法匹配目标单据字段
 Make file(s) private or public?,上传文件仅文件上传者或所有帐号可查看？
 Error in uploading files,上传文件时出错
-"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",上传新纪录时，如果有系统流水号字段，那么“系统流水号”必须填写。
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",上传新纪录时，如果有单据编号模板字段，那么“单据编号模板”必须填写。
 Upload Attendance,上传考勤记录
 "Upload a bank statement, link or reconcile a bank account",上传银行对帐单，关联或核销银行帐户
 Upload Attachment,上传附件
@@ -1273,8 +1273,8 @@ Created {0} scorecards for {1} between: {2} - {3},为{1} 在 {2} 至 {3} 时间�
 for the,为了
 Select an image of approx width 150px with a transparent background for best results.,为了最佳效果，请选择一个宽度约150像素，背景透明的图片。
 "To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",为了用好ERPNext，我们建议您花一些时间来观看这些帮助视频。
-Set numbering series for transactions.,为交易设置系统流水号。
-Set prefix for numbering series on your transactions,为交易设置系统流水号的前缀
+Set numbering series for transactions.,设置单据编号模板前缀。
+Set prefix for numbering series on your transactions,设置单据编号模板前缀
 Track separate Income and Expense for product verticals or divisions.,为产品线或事业部单独跟踪收入和费用。
 Apply User Permission for following DocTypes,为以下DocType应用用户权限
 Progress % for a task cannot be more than 100.,为任务进度百分比不能超过100个。
@@ -1972,9 +1972,9 @@ For example if you cancel and amend INV004 it will become a new document INV004-
 e.g Adjustments for:,例如调整：
 Example:,例如：
 e.g.:,例如：
-"Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions, then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item, leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings.",例如：ABCD.##### 如果系统流水号已设置且交易中未输入批号，则将根据此系统流水号创建自动批号。如果您希望手工输入此物料的批号，请将此栏位留空。注意：此设置将优先于库存设置中的系统流水号前缀。
+"Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions, then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item, leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings.",例如：ABCD.##### 如果已设置批号模板且单据中未手工输入批号，则将根据此批号模板创建批号。如果您希望手工输入此物料的批号，请将此栏位留空。注意：此设置将优先于库存设置中的批号模板前缀。
 "Example: ABCD.#####
-If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.",例如：ABCD.##### 如果设置了系统流水号而未在交易中输入序列号，系统会基于流水号自动生成序列号。如果序列号都是手工输入，请将此栏位留空。
+If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.",例如：ABCD.##### 如果设置了序列号模板且未在单据中输入序列号，系统会基于序列号模板自动生成序列号。如果序列号都是手工输入，请将此栏位留空。
 eg: frappe.myshopify.com,例如：frappe.myshopify.com
 Eg. smsgateway.com/api/send_sms.cgi,例如：smsgateway.com/API/send_sms.cgi
 Example: Basic Mathematics,例如：基础数学
@@ -2510,22 +2510,22 @@ Hold Type,冻结类型
 Freeze Stocks Older Than [Days],冻结超出此天数的库存
 Net ITC Available(A) - (B),净ITC可用（A） - （B）
 Net Profit,净利
-Net Rate,净单价
-Net Rate (Company Currency),净单价（本币）
-Net Total (Company Currency),净合计(本币)
+Net Rate,未税单价
+Net Rate (Company Currency),未税单价（本币）
+Net Total (Company Currency),未税金额(本币)
 Net Hour Rate,净工费率
 Net Pay cannot be less than 0,净工资不能低于0
 net pay info,净工资信息
 Net Salary Amount,净工资金额
-Net Total,净总价
+Net Total,未税金额
 Net Profit/Loss,净损益
 Net Pay,净支付金额
 Net pay cannot be negative,净支付金额不能为负数
 Net Pay cannnot be negative,净薪酬不能为负
 Net Weight,净重
 Net Weight UOM,净重单位
-Net Amount (Company Currency),净金额（本币）
-Net Amount,净额
+Net Amount (Company Currency),未税金额（本币）
+Net Amount,未税金额
 Preparing Report,准备报表
 Grant Leaves,准许休假
 minus,减号
@@ -3348,7 +3348,7 @@ Invoice Patient Registration,发票患者登记
 Invoice Date,发票日期
 Month(s) after the end of the invoice month,发票月底 + 授信月数
 Invoice Type,发票类型
-Invoice Series Prefix,发票系统流水号前缀
+Invoice Series Prefix,发票编号模板前缀
 Invoice Ref,发票编号
 Invoice Posting Date,发票记帐日期
 Invoiced Amount,发票金额
@@ -3498,7 +3498,7 @@ Billable,可开票
 Billable Hours,可开票工时
 Invoice can't be made for zero billing hour,可开票时间为0，无法开具发票
 Collapsible,可折叠
-Collapsible Depends On,可折叠取决于
+Collapsible Depends On,可折叠先决条件
 Encashable days,可折现天数
 Available {0},可用{0}
 Stock Available,可用库存
@@ -3638,7 +3638,7 @@ Enable Template,启用模板
 Enable Perpetual Inventory,启用永续盘存功能（每次物料移动实时生成会计凭证）
 Enable Gradients,启用渐变
 Enable Social Login,启用社交登录
-Use Naming Series,启用系统流水号
+Use Naming Series,启用单据编号模板
 Enable Chat,启用聊天功能
 Enable Auto Attendance,启用自动出勤
 Enable Auto Reply,启用自动回复
@@ -3853,7 +3853,7 @@ Fixed rate,固定价格
 Fixed Asset,固定资产
 Fixed Assets,固定资产
 Net Change in Fixed Asset,固定资产净变动
-Series for Asset Depreciation Entry (Journal Entry),固定资产折旧凭证系统流水号（手工凭证）
+Series for Asset Depreciation Entry (Journal Entry),固定资产折旧凭证编号模板（手工凭证）
 Fixed Asset Depreciation Settings,固定资产折旧设置
 Fixed Asset Item must be a non-stock item.,固定资产物料必须是一个非库存物料。
 Fixed Asset Account,固定资产科目
@@ -4119,7 +4119,7 @@ Based on price list,基于价格表
 Coupon Code Based,基于优惠码
 This is based on transactions against this Supplier. See timeline below for details,基于供应商的过往交易。详情请参阅表单下方日志记录
 Automatically Set Serial Nos based on FIFO,基于先进先出自动带出序列号
-On Net Total,基于净总计
+On Net Total,基于未税金额
 Columns based on,基于列
 On Previous Row Total,基于前一行的总计
 On Previous Row Amount,基于前一行的金额
@@ -4268,8 +4268,8 @@ Variant Field,多规格物料字段
 Item Variants updated,多规格物料已更新
 Item Template,多规格物料模板
 Default Unit of Measure for Variant '{0}' must be same as in Template '{1}',多规格物料的默认单位“{0}”必须与模板物料默认单位一致“{1}”
-Item Variant Details,多规格物料详细信息
-Variant Details Report,多规格物料详细信息报表
+Item Variant Details,多规格物料清单
+Variant Details Report,多规格物料清单报表
 Working Hours Threshold for Absent,多长时间未到视同缺勤
 Large,大
 Great/Quickly,大/快速
@@ -5352,7 +5352,7 @@ Serial Nos and Batches,序列号和批号
 Number of serial nos and quantity must be the same,序列号和数量必须相同
 Serial No is mandatory for Item {0},序列号是物料{0}的必须项
 Serial No Status,序列号状态
-Serial Number Series,序列号系统流水号
+Serial Number Series,序列号模板
 Sr,序号
 Sr. No,序号
 Serial no item cannot be a fraction,序号不能是一个分数
@@ -5400,7 +5400,7 @@ Accounts Payable Summary,应付账款汇总表
 Payable Account,应付科目
 Payroll Payable,应付职工薪资
 Payables,应付账款
-Net Change in Accounts Payable,应付账款净额变化
+Net Change in Accounts Payable,应付账款净变动
 Payable Amount,应付金额
 Is Payable,应付？
 Receivable / Payable Account,应收/应付账款
@@ -5413,7 +5413,7 @@ Accounts Receivable Unpaid Account,应收账款未付科目
 Invoice Discounting,应收账款融资(发票贴现)
 Receivable,应收账款
 Receivable Account,应收账款
-Net Change in Accounts Receivable,应收账款净额变化
+Net Change in Accounts Receivable,应收账款净变动
 Accounts Receivable Summary,应收账款汇总
 Accounts Receivable Discounted Account,应收账款贴现科目
 App,应用
@@ -6241,7 +6241,7 @@ Batch Inventory,批号库存
 Batch ID is mandatory,批号是必需的
 Batch Identification,批号标识
 BATCH IDENTIFICATION,批号生成方式
-Batch Number Series,批号系统流水号
+Batch Number Series,批号模板
 Batch Entries,批号记录
 Batch Description,批号说明
 Criticism,批评
@@ -6333,7 +6333,7 @@ Quot/Lead %,报价/线索％
 Quotation {0} not of type {1},报价{0} 不属于{1}类型
 Quotation {0} is cancelled,报价{0}已被取消
 Quotation Message,报价信息
-Quotation Series,报价单系统流水号
+Quotation Series,报价单编号模板
 Quotation To,报价对象
 Quot Count,报价数量
 Quotation Item,报价明细
@@ -6550,8 +6550,8 @@ Quality Inspection required for Item {0} to submit,提交前请完成物料{0}�
 Submitted row for {0},提交单据{0}
 Feedback Submitted,提交反馈
 After Submit,提交后
-Before Save (Submitted Document),提交后修改保存前
-After Save (Submitted Document),提交后修改保存后
+Before Save (Submitted Document),保存前(已提交)
+After Save (Submitted Document),保存后(已提交)
 "Once submitted, submittable documents cannot be changed. They can only be Cancelled and Amended.",一旦提交后无法再修改。只能先取消再点修订按钮，生成新版本后修改。
 Salary Slips Submitted,提交工资单
 Submit Salary Slip,提交工资单
@@ -7341,7 +7341,7 @@ Logout from all devices while changing Password,更改密码时从所有设备�
 Change Label (via Custom Translation),更改标签（自定义转换）
 Change Template Code,更改模板代码
 Change Item Code,更改物料编号
-Change the starting / current sequence number of an existing series.,更改现有系统流水号的起始/当前流水号。
+Change the starting / current sequence number of an existing series.,更改现有单据编号模板起始/当前流水号。
 Change Abbreviation,更改简称
 Change Release Date,更改解除冻结日期
 Change In Item,更改项目
@@ -7377,8 +7377,8 @@ Update Existing Records,更新现有记录
 Update Email Group,更新电子邮件组
 Update Account Number / Name,更新科目代码/名称
 Update Account Name / Number,更新科目名称/代码
-Update Series,更新系统流水号
-Update Series Number,更新系统流水号
+Update Series,更新单据编号模板
+Update Series Number,更新单据编号模板
 Update Translations,更新翻译
 Update Auto Repeat Reference,更新自动重复参考
 Update records,更新记录
@@ -7392,7 +7392,7 @@ Manipur,曼尼普尔邦
 Served,曾任
 Alternate Item,替代物料
 Item Alternative,替代物料
-Alternative item must not be same as item code,替代物料不能与物料编号相同
+Alternative item must not be same as item code,替代物料不能与原物料编号相同
 Alternative Item Name,替代物料名称
 Alternative Item Code,替代物料编号
 "Replace a particular BOM in all other BOMs where it is used. It will replace the old BOM link, update cost and regenerate ""BOM Explosion Item"" table as per new BOM.It also updates latest price in all the BOMs.",替换使用所有其他BOM的特定BOM。它将替换旧的BOM链接，更新成本，并按照新的BOM重新生成“物料清单底层物料”表。它还更新了所有BOM中的最新价格。
@@ -8073,7 +8073,7 @@ Correct,正确
 Is Correct,正确答案
 This {0} conflicts with {1} for {2} {3},此{0}冲突{1}在{2} {3}
 "This is the default UOM used for items and Sales orders. The fallback UOM is ""Nos"".","此为物料和销售订单的默认计量单位。如果不设置则系统默认计量单位是""""个""""。"
-Series List for this Transaction,此交易的系统流水号清单
+Series List for this Transaction,本单据类型单据编号模板清单
 Warehouse can not be deleted as stock ledger entry exists for this warehouse.,此仓库已有物料凭证，无法删除。
 Price Not UOM Dependent,此价格适用所有单位
 % of materials delivered against this Delivery Note,此出货单% 的物料已出货。
@@ -9597,18 +9597,18 @@ System will notify to increase or decrease quantity or amount,系统会通知增
 System and Website Users,系统和网站用户
 "Loyalty Points will be calculated from the spent done (via the Sales Invoice), based on collection factor mentioned.",系统将根据消费金额(销售发票)，乘以兑换系数为客户自动积分。
 System will notify to increase or decrease quantity or amount ,系统将通知增加或减少数量或金额
-Naming Series,系统流水号
-Series,系统流水号
-Series {0} already used in {1},系统流水号{0}已经被{1}使用
-"Special Characters except ""-"", ""#"", ""."", ""/"", ""{"" and ""}"" not allowed in naming series",系统流水号中不允许使用除“ - ”，“＃”，“。”，“/”，“{”和“}”之外的特殊字符
-"Special Characters except ""-"", ""#"", ""."" and ""/"" not allowed in naming series","系统流水号中不能输入特殊符号，""-""，""#""，"".""和""/""除外"
-Naming Series Prefix,系统流水号前缀
-Series Updated Successfully,系统流水号已成功更新
-Series Updated,系统流水号已更新
-Invalid naming series (. missing),系统流水号无效(不存在)
-Naming Series mandatory,系统流水号是必填字段
-Series is mandatory,系统流水号是必填字段
-Naming Series (for Student Applicant),系统流水号（面向学生申请人）
+Naming Series,单据编号模板
+Series,单据编号模板
+Series {0} already used in {1},单据编号模板{0}已经被{1}使用
+"Special Characters except ""-"", ""#"", ""."", ""/"", ""{"" and ""}"" not allowed in naming series",单据编号模板中不允许使用除“ - ”，“＃”，“。”，“/”，“{”和“}”之外的特殊字符
+"Special Characters except ""-"", ""#"", ""."" and ""/"" not allowed in naming series","单据编号模板中不能输入特殊符号，""-""，""#""，"".""和""/""除外"
+Naming Series Prefix,单据编号模板前缀
+Series Updated Successfully,单据编号模板已成功更新
+Series Updated,单据编号模板已更新
+Invalid naming series (. missing),单据编号模板无效(需有小数点.)
+Naming Series mandatory,单据编号模板是必填字段
+Series is mandatory,单据编号模板是必填字段
+Naming Series (for Student Applicant),单据编号模板（学生申请人）
 System User,系统用户
 "System User (login) ID. If set, it will become default for all HR forms.",系统用户的（登录）ID，将作为人力资源表单的默认ID。
 Execution Time:,系统用时：
@@ -10049,7 +10049,7 @@ Email Digest:,自动电子邮件(统计信息)：
 Manage Appointment Invoice Automatically,自动管理预约发票
 "Naming Options:
 <ol><li><b>field:[fieldname]</b> - By Field</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li>
-<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>",自动编号方式： <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于系统流水号（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 自定义带前缀以点(.)分隔的流水号;如PRE.##### </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或系统流水号，花括号外可以使用任何固定字符。 </li></ol>
+<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>",自动编号方式： <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据编号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据编号模板，花括号外可以使用任何固定字符。 </li></ol>
 Automatically Fetch Payment Terms,自动获取付款条款
 Automatically triggers the feedback request based on conditions.,自动触发基于条件的反馈请求。
 Auto Repeat,自动重复
@@ -10340,7 +10340,7 @@ Required On,要求日期
 Guidelines to install ldap dependancies and python,要求安装LDAP依赖关系和python
 "To add dynamic subject, use jinja tags like<div><pre><code>{{ doc.name }} Delivered</code></pre></div>",要添加动态主题，用Jinja标签，如<div><pre> <code>{{ doc.name }} Delivered</code> </pre> </div>
 "To add dynamic subject, use jinja tags like<div><pre><code>New {{ doc.doctype }} #{{ doc.name }}</code></pre></div>",要添加动态主题，请使用jinja标签<div><pre> <code>New {{ doc.doctype }} #{{ doc.name }}</code> </pre> </div>
-Check this if you want to force the user to select a series before saving. There will be no default if you check this.,要用户手动选择系统流水号的话请勾选。勾选此项后将不会选择默认系统流水号。
+Check this if you want to force the user to select a series before saving. There will be no default if you check this.,要用户手动选择单据编号模板的话请勾选。勾选此项后将不会选择默认单据编号模板。
 "To renew, {0}.",要续订，{0}。
 "To get the updated report, click on {0}.",要获取已更新报表，请单击{0}。
 "To not apply Pricing Rule in a particular transaction, all applicable Pricing Rules should be disabled.",要让一个特定的交易不使用动态定价规则，所有适用的动态定价规则应被打上禁用标志。
@@ -10574,7 +10574,7 @@ Setup Auto Email,设置电子邮件自动发送
 Setting Account Type helps in selecting this Account in transactions.,设置科目类型有助于在交易中选择该科目。
 Setting up Taxes,设置税码及税费规则
 Failed to setup taxes,设置税码失败
-Setup Series,设置系统流水号
+Setup Series,设置单据编号模板
 Set Details,设置细节
 Setup Gateway accounts.,设置网关科目。
 Set New Release Date,设置解除冻结日期
@@ -10826,7 +10826,7 @@ Please set default customer group and territory in Selling Settings,请在“销
 Please set default customer in Restaurant Settings,请在“餐厅设置”中设置默认客户
 Please enter Sales Orders in the above table,请在上表中输入销售订单
 Please enter Material Requests in the above table,请在上面表格输入物料需求
-Please setup Employee Naming System in Human Resource &gt; HR Settings,请在人力资源&gt;人力资源设置中设置员工编号系统流水号
+Please setup Employee Naming System in Human Resource &gt; HR Settings,请在人力资源&gt;人力资源设置中设置员工编号单据编号模板
 Please set default template for Leave Approval Notification in HR Settings.,请在人力资源设置中为离职审批通知设置默认模板。
 Please set default template for Leave Status Notification in HR Settings.,请在人力资源设置中设置离职状态通知的默认模板。
 Please set account in Warehouse {0},请在仓库{0}中设置科目
@@ -10931,7 +10931,7 @@ Please set the Customer Address,请设置客户地址
 Please set Number of Depreciations Booked,请设置折旧数预订
 Please setup Students under Student Groups,请设置班级的学生
 Please set Email Address,请设置电子邮件地址
-Please set the series to be used.,请设置要使用的系统流水号。
+Please set the series to be used.,请设置要使用的单据编号模板。
 Please set filters,请设置过滤条件
 Please set an active menu for Restaurant {0},请设置餐馆{0}的有效菜单
 Please setup default Email Account from Setup > Email > Email Account,请设置默认邮箱，路径：设置->邮件->邮箱
@@ -11052,8 +11052,8 @@ Please select Incharge Person's name,请选择负责人姓名
 Please select Apply Discount On,请选择适用的折扣
 "Please setup SMS before setting it as an authentication method, via SMS Settings",请通过SMS设置将其设置为身份验证方式之前设置短信
 Please Install the ldap3 library via pip to use ldap functionality.,请通过pip安装ldap3库以使用ldap功能。
-Please setup numbering series for Attendance via Setup &gt; Numbering Series,请通过设置&gt;系统流水号设置考勤系统流水号
-Please set Naming Series for {0} via Setup &gt; Settings &gt; Naming Series,请通过设置&gt;设置&gt;系统流水号{0}设置系统流水号
+Please setup numbering series for Attendance via Setup &gt; Numbering Series,请通过设置&gt;单据编号模板设置考勤编号模板
+Please set Naming Series for {0} via Setup &gt; Settings &gt; Naming Series,请通过设置&gt;设置&gt;单据编号模板{0}设置单据编号模板
 Please wait 3 days before resending the reminder.,请重新发送提醒之前请等待3天。
 Please enter Warehouse for which Material Request will be raised,请重新拉。
 Please set associated account in Tax Withholding Category {0} against Company {1},请针对公司{1}设置代扣税款类别{0}记帐科目
@@ -11140,7 +11140,7 @@ Liabilities,负债
 Negative Quantity is not allowed,不能是负数
 Person Responsible,负责人
 Responsible Individual,负责任的个人
-Contribution to Net Total,贡献净总计
+Contribution to Net Total,对未税金额的贡献
 Contributed Translation Doctype Name,贡献翻译单据类型名称
 Contribution Amount,贡献金额
 Contribution %,贡献％
@@ -11340,7 +11340,7 @@ Asset Movement record {0} created,资产移动记录{0}创建
 Asset Category,资产类别
 Asset Category Name,资产类别名称
 Asset Category Account,资产类别的科目
-Asset Naming Series,资产系统流水号
+Asset Naming Series,资产编号模板
 Asset Repair,资产维修
 Asset Maintenance,资产维护
 Asset Maintenance Task,资产维护任务
@@ -12252,7 +12252,7 @@ Delivery Note {0} is not submitted,销售出库{0}未提交
 DN Detail,销售出库信息
 Delivery Note No,销售出库号
 Delivery Note Message,销售出库消息
-Delivery Note Series,销售出库系统流水号
+Delivery Note Series,销售出库编号模板
 Delivery Note Item,销售出库项
 Delivery Note Trends,销售出库趋势
 Sales Browser,销售列表
@@ -12265,7 +12265,7 @@ Sales Invoice Message,销售发票信息
 Sales Invoice Timesheet,销售发票工时表
 Sales Invoices Summary,销售发票汇总
 Sales Invoice Item,销售发票物料
-Sales Invoice Series,销售发票系统流水号
+Sales Invoice Series,销售发票编号模板
 Sales Invoice No,销售发票编号
 Sales Invoice Trends,销售发票趋势
 Against Sales Invoice Item,销售发票项
@@ -12329,7 +12329,7 @@ SO Qty,销售订单数量
 Sales Order Date,销售订单日期
 Against Sales Order Item,销售订单明细
 Sales Order Item,销售订单明细
-Sales Order Series,销售订单系统流水号
+Sales Order Series,销售订单单据编号模板
 Sales Order Trends,销售订单趋势
 Sales Settings,销售设置
 Selling Settings,销售设置
@@ -12796,7 +12796,7 @@ Default Territory,默认区域
 Default Medical Code Standard,默认医疗代码标准
 Default Unit of Measure,默认单位
 Default Source Warehouse,默认发料仓
-Default Invoice Naming Series,默认发票系统流水号
+Default Invoice Naming Series,默认发票单据编号模板
 Default Sending and Inbox,默认发送和收件账号
 Default Sending,默认发送账号
 Default Employee Advance Account,默认员工预付款科目
@@ -12840,7 +12840,7 @@ Default Payment Request Message,默认收款申请消息
 Default Account,默认科目
 Default Tax Template,默认税费模板
 Default Taxes and Charges,默认税费
-"The fallback series is ""SO-WOO-"".",默认系统流水号是“SO-WOO-”。
+"The fallback series is ""SO-WOO-"".",默认单据编号模板是“SO-WOO-”。
 Default Dimension,默认辅助核算
 Default Salary Structure,默认薪资结构
 Default Letter Head,默认表头
@@ -13593,7 +13593,7 @@ Row {0}: user has not applied the rule {1} on the item {2},第{0}行: 用户未�
 Row {0}: {1} is required in the expenses table to book an expense claim.,第{0}行:费用表中的{1} 必填
 Row {0}:Sibling Date of Birth cannot be greater than today.,第{0}行:Sibling Date of Birth cannot be greater than today.,第{0}行:兄弟姐妹的出生日期不能晚于今天
 Row {1}: Quantity ({0}) cannot be a fraction. To allow this, disable '{2}' in UOM {3}.,第{1}行:数量 ({0}不可以是小数， 要允许小数，请在计量单位{3}基础资料中取消勾选'{2}'
-Row {}: Asset Naming Series is mandatory for the auto creation for item {},第{}行: 为物料 {} 勾选通过采购自动创建资产基础资料后，资产系统流水号必填
+Row {}: Asset Naming Series is mandatory for the auto creation for item {},第{}行: 为物料 {} 勾选通过采购自动创建资产基础资料后，资产编号模板必填
 Search Items ...,搜索....
 Search Results for,搜索结果
 Search Source Text,搜索关键字
@@ -14430,7 +14430,7 @@ Convert Item Description to Clean HTML in Transactions,将交易中的物料描�
 Role Allowed to Over Deliver/Receive,允许超额交货/收货的角色
 Users with this role are allowed to over deliver/receive against orders above the allowance percentage,此角色的用户可超订单数量容差出入库
 Serialised and Batch Setting,序列号和批号设置
-Have Default Naming Series for Batch ID?,默认由系统流水号自动生成批号？
+Have Default Naming Series for Batch ID?,默认由单据编号模板自动生成批号？
 Website Filters,网站过滤器
 Deleting UOM,删除计量单位
 Deleting UOM Conversion Factor,删除单位换算系数
@@ -14486,8 +14486,8 @@ Mid Center,正中
 {0} {1}: Account {2} is a Group Account and group accounts cannot be used in transactions,{0} {1}:  {2} 是组类型科目，不能用于业务交易中
 Considered In Paid Amount,含在付款金额中
 "If checked, the tax amount will be considered as already included in the Paid Amount in Payment Entry",如勾选，收付款凭证中付款金额就含税
-Minimum Net Rate,最低净单价
-Maximum Net Rate,最高净单价
+Minimum Net Rate,最低未税单价
+Maximum Net Rate,最高未税单价
 Bank Account Name,银行户头
 Bank Account Type,银行户头类型
 Bank Account Subtype,银行户头子类型
@@ -14818,3 +14818,4 @@ Pick Batch No,选批号
 Selected Qty,已选数量
 Enable Provisional Accounting For Non Stock Items,启用非库存物料临时科目
 Default Provisional Account,默认临时科目
+Open Sales Orders,未结销售订单
