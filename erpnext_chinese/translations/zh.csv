@@ -1056,7 +1056,7 @@ Next State,下一状态
 Afternoon,下午
 Place Order,下单
 Number of Order,下单次数
-Select,下拉选单
+Select,单选
 Next Schedule Date,下次执行日期
 Next Depreciation Date,下次折旧日期
 Next Contact By,下次联系人
@@ -1504,7 +1504,7 @@ Import Chart Of Accounts from CSV / Excel files,从CSV / Excel文件导入科目
 Get your globally recognized avatar from Gravatar.com,从Gravatar.com网站获取您的个人图标，
 Import Chart of Accounts from a csv file,从csv文件导入科目表
 Salary Slip submitted for period from {0} to {1},从{0}到{1}
-Accrual Journal Entry for salaries from {0} to {1},从{0}到{1}的薪资预提手工凭证
+Accrual Journal Entry for salaries from {0} to {1},从{0}到{1}的薪资预提日记账凭证
 From {0} to {1},从{0}至 {1}
 No template found at path: {0},从{0}路径中找不到模板
 Payment of {0} from {1} to {2},从{1}到{2}的{0}付款
@@ -1797,14 +1797,14 @@ Accounts,会计
 Accounts User,会计
 Accounting Masters,会计基础资料
 Accounting Details,会计信息
-Journal Entry,手工凭证
-Against Journal Entry {0} does not have any unmatched {1} entry,手工凭证{0}没有不符合的{1}分录
-Journal Entries {0} are un-linked,手工凭证{0}没有关联
-Journal Entry {0} does not have account {1} or already matched against other voucher,手工凭证{0}没有科目{1}或已经匹配其他凭证
-"Valuation rate not found for the Item {0}, which is required to do accounting entries for {1} {2}. If the item is transacting as a zero valuation rate item in the {1}, please mention that in the {1} Item table. Otherwise, please create an incoming stock transaction for the item or mention valuation rate in the Item record, and then try submiting/cancelling this entry",手工凭证{1}{2}需要物料{0}的成本价信息，请先在物料基础资料中维护成本价，或在本单据的物料行上勾选允许成本价为0，或者先对该物料做一笔有金额的收货由系统自动生成成本价.
-"Accounting entry frozen up to this date, nobody can do / modify entry except role specified below.",手工凭证冻结截止至此日期，除了以下角色外，其它用户被禁止录入/修改。
-Accounting entries have already been made in currency {0} for company {1}. Please select a receivable or payable account with currency {0}.,手工凭证已取得货币{0}为公司{1}。请选择一个应收或应付账户币别{0}。
-Journal Entry Account,手工凭证科目
+Journal Entry,日记账凭证
+Against Journal Entry {0} does not have any unmatched {1} entry,日记账凭证{0}没有不符合的{1}分录
+Journal Entries {0} are un-linked,日记账凭证{0}没有关联
+Journal Entry {0} does not have account {1} or already matched against other voucher,日记账凭证{0}没有科目{1}或已经匹配其他凭证
+"Valuation rate not found for the Item {0}, which is required to do accounting entries for {1} {2}. If the item is transacting as a zero valuation rate item in the {1}, please mention that in the {1} Item table. Otherwise, please create an incoming stock transaction for the item or mention valuation rate in the Item record, and then try submiting/cancelling this entry",日记账凭证{1}{2}需要物料{0}的成本价信息，请先在物料基础资料中维护成本价，或在本单据的物料行上勾选允许成本价为0，或者先对该物料做一笔有金额的收货由系统自动生成成本价.
+"Accounting entry frozen up to this date, nobody can do / modify entry except role specified below.",日记账凭证冻结截止至此日期，除了以下角色外，其它用户被禁止录入/修改。
+Accounting entries have already been made in currency {0} for company {1}. Please select a receivable or payable account with currency {0}.,日记账凭证已取得货币{0}为公司{1}。请选择一个应收或应付账户币别{0}。
+Journal Entry Account,日记账凭证科目
 Accounting Entries,会计分录
 Accounting Entry for {0}: {1} can only be made in currency: {2},会计分录为{0}：{1}只能在货币做：{2}
 Accounting Ledger,会计凭证
@@ -2403,9 +2403,9 @@ Document Follow,关注单据
 Duties and Taxes,关税与税项
 Relation,关系
 Linked With,关联
-Inter Company Journal Entry Reference,关联公司业务手工凭证参考
+Inter Company Journal Entry Reference,关联公司业务日记账凭证参考
 No {0} found for Inter Company Transactions.,关联公司交易没有找到{0}。
-Inter Company Journal Entry,关联公司手工凭证
+Inter Company Journal Entry,关联公司日记账凭证
 Inter Company Invoice Reference,关联公司发票参考
 Invalid {0} for Inter Company Invoice.,关联公司发票无效{0}。
 Invalid Company for Inter Company Invoice.,关联公司发票：公司不正确。
@@ -2493,7 +2493,7 @@ Agriculture User,农业用户
 Agriculture Manager,农业经理
 Agriculture (beta),农业（测试版）
 Reverse,冲销
-Reverse Journal Entry,冲销手工凭证
+Reverse Journal Entry,冲销日记账凭证
 Reverse Charge,冲销费用
 Period based On,决定期间的日期
 Resolutions,决议
@@ -2733,16 +2733,16 @@ Create Payment Entry,创建收付款凭证
 Creating Payment Entries......,创建收付款凭证......
 Make Payment Entry,创建收付款凭证
 Document type is required to create a dashboard chart,创建数据面板图表需要单据类型
-Create Journal Entry,创建手工凭证
-Make Journal Entry,创建手工凭证
+Create Journal Entry,创建日记账凭证
+Make Journal Entry,创建日记账凭证
 Create Supplier Quotation,创建供应商报价
 Make Supplier Quotation,创建供应商报价
 Setting up company,创建公司
 Setting up company and taxes,创建公司和税项规则
 Failed to setup company,创建公司失败
 Creating Company and Importing Chart of Accounts,创建公司并导入会计科目表
-Make Inter Company Journal Entry,创建公司间业务手工凭证
-Create Inter Company Journal Entry,创建关联公司交易手工凭证
+Make Inter Company Journal Entry,创建公司间业务日记账凭证
+Create Inter Company Journal Entry,创建关联公司交易日记账凭证
 Before Insert,创建前
 Create Lab Test,创建化验
 Create New Record,创建单据
@@ -2805,7 +2805,7 @@ Create a New Format,创建新格式
 Create New,新建
 Make a new {0},新建 {0}
 New {0} pricing rules are created,创建新{0}动态规则
-Create New Payment/Journal Entry,创建新的付款/手工凭证
+Create New Payment/Journal Entry,创建新的付款/日记账凭证
 Create New Employee Id,创建新的员工号
 Start new Format,创建新的打印格式
 Make New Contact,创建新联系人
@@ -3333,7 +3333,7 @@ Billing,发票
 Invoice,发票
 Invoices,发票
 Linked Invoices,发票
-Invoice/Journal Entry Details,发票/手工凭证详细信息
+Invoice/Journal Entry Details,发票/日记账凭证详细信息
 Invoice {0} no longer exists,发票{0}不再存在
 Invoice Details,发票信息
 Opening Invoice Creation Tool,发票创建工具
@@ -3853,7 +3853,7 @@ Fixed rate,固定价格
 Fixed Asset,固定资产
 Fixed Assets,固定资产
 Net Change in Fixed Asset,固定资产净变动
-Series for Asset Depreciation Entry (Journal Entry),固定资产折旧凭证编号模板（手工凭证）
+Series for Asset Depreciation Entry (Journal Entry),固定资产折旧凭证编号模板（日记账凭证）
 Fixed Asset Depreciation Settings,固定资产折旧设置
 Fixed Asset Item must be a non-stock item.,固定资产物料必须是一个非库存物料。
 Fixed Asset Account,固定资产科目
@@ -4367,7 +4367,7 @@ If more than one package of the same type (for print),如果同类包裹超过�
 "If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",如果启用，用户每次登录时都会收到通知。如果没有启用，用户只会收到一次通知。
 "If enabled, the document is marked as seen, the first time a user opens it",如果启用，用户第一次打开单据，系统就会记录单据被查看过
 "If enabled, document views are tracked, this can happen multiple times",如果启用，系统会记录单据被查看过多少次
-"If enabled, the system will post accounting entries for inventory automatically.",如果启用，系统将自动为库存创建手工凭证。
+"If enabled, the system will post accounting entries for inventory automatically.",如果启用，系统将自动为库存创建日记账凭证。
 Lead must be set if Opportunity is made from Lead,如果商机的来源是“线索”的话，必须指定线索
 "If image is selected, color will be ignored.",如果图像被选择时，颜色将被忽略。
 "To filter based on Party, select Party Type first",如果基于往来单位过滤，请先选择往来单位类型
@@ -4828,7 +4828,7 @@ For {0} at level {1} in {2} in row {3},对行{3}，{2}中级别{1}的{0}
 Conversation Tones,对话音
 Statement of Account,对账单
 "For Links, enter the DocType as range.
-For Select, enter list of Options, each on a new line.",对链接类型字段，此处填写链接的单据类型;对于下拉选单字段，填写下拉选单值清单，用回车键分行
+For Select, enter list of Options, each on a new line.",对链接类型字段，此处填写链接的单据类型;对于单选字段，填写单选值清单，用回车键分行
 Against Voucher,对销凭证
 Against Journal Entry {0} is already adjusted against some other voucher,对销凭证{0}已经被其他凭证调整
 Against Voucher Type,对销凭证类型
@@ -5709,7 +5709,7 @@ Snapshot View,快照视图
 fast-forward,快进
 fast-backward,快退
 Quick Entry,快速录入
-Quick Journal Entry,快速简化手工凭证
+Quick Journal Entry,快速简化日记账凭证
 Ignore,忽略
 Ignore XSS Filter,忽略XSS过滤条件
 Ignore holidays,忽略假期
@@ -5831,7 +5831,7 @@ Total Liability,总负债
 Total contribution percentage should be equal to 100,总贡献百分比应等于100
 Total Contribution Amount: {0},总贡献金额：{0}
 GL Entry,总账分录
-Total Credit/ Debit Amount should be same as linked Journal Entry,总贷方/借方金额应与关联的手工凭证相同
+Total Credit/ Debit Amount should be same as linked Journal Entry,总贷方/借方金额应与关联的日记账凭证相同
 Total Credit,总贷方金额
 Total Loan Repayment,总借款还款
 Total Expense Claim (via Expense Claim),总费用报销（费用报销）
@@ -5886,7 +5886,7 @@ You are not allowed to print this report,您未被授权打印此报表
 You can't set 'Options' for field {0},您不能为字段{0}设置“选项”
 You cannot delete Project Type 'External',您不能删除“外部”类型项目
 You cannot delete Fiscal Year {0}. Fiscal Year {0} is set as default in Global Settings,您不能删除财年{0}。财年{0}被设置为默认的全局设置
-You can not enter current voucher in 'Against Journal Entry' column,您不能在“对手工凭证”列中选择此凭证。
+You can not enter current voucher in 'Against Journal Entry' column,您不能在“对日记账凭证”列中选择此凭证。
 You cannot edit root node.,您不能编辑根节点。
 You can also copy-paste this ,您也可以复制粘贴它
 You can also copy-paste this link in your browser,您也可以复制粘贴此链接到您的浏览器地址栏中
@@ -6346,7 +6346,7 @@ Check In,报到
 Application Fee,报名费
 Scrap Warehouse,报废品仓
 Scrap %,报废率％
-Journal Entry for Scrap,报废记帐手工凭证
+Journal Entry for Scrap,报废记帐日记账凭证
 Scrap Asset,报废资产
 Cost of Scrapped Asset,报废资产成本
 Newspaper Publishers,报纸出版商
@@ -6424,7 +6424,7 @@ Job Offer Terms,招聘条款
 Hiring Settings,招聘设置
 Visit,拜访
 ID (name) of the entity whose property is to be set,拟被设定属性的记录ID(名称)
-Users with this role are allowed to set frozen accounts and create / modify accounting entries against frozen accounts,拥有此角色的用户可以设置冻结科目，创建/修改冻结科目的手工凭证
+Users with this role are allowed to set frozen accounts and create / modify accounting entries against frozen accounts,拥有此角色的用户可以设置冻结科目，创建/修改冻结科目的日记账凭证
 Users with role {0}:,被分派了角色{0}的用户：
 Duration in Days,持续时间天数
 Retention Bonus,持续服务奖
@@ -7323,7 +7323,7 @@ More Details,更多信息
 More Info,更多信息
 More Information,更多信息
 More articles on {0},更多的文章{0}
-"Further accounts can be made under Groups, but entries can be made against non-Groups",更多的科目可以归属到一个组类的科目下，但手工凭证中只能使用非组类的科目
+"Further accounts can be made under Groups, but entries can be made against non-Groups",更多的科目可以归属到一个组类的科目下，但日记账凭证中只能使用非组类的科目
 More details,更多详情
 "For more information, click here.",更多详情，请点这儿
 Better Prospects,更好的前景
@@ -8237,7 +8237,7 @@ Tax Account not specified for Shopify Tax {0},没有为Shopify Tax {0}指定税�
 Did not find {0} for {0} ({1}),没有为{0} 找到{0}( {1} )
 No correct answer is set for {0},没有为{0}设置正确答案
 Optional Holiday List not set for leave period {0},没有为休假期间{0}设置选休假假期表
-No repayments selected for Journal Entry,没有为手工凭证选择还款
+No repayments selected for Journal Entry,没有为日记账凭证选择还款
 Workflow Action is not created for optional states,没有为可选状态创建工作流操作
 No Salary Structure assigned for Employee {0} on given date {1},没有为员工{0}在日期{1}分配薪资结构
 No Delivery Note selected for Customer {},没有为客户{}选择销售出库
@@ -8246,7 +8246,7 @@ BOM is not specified for subcontracting item {0} at row {1},没有为第{1}行�
 Default warehouse is required for selected item,没有为选中的物料定义默认仓库
 Options not set for link field {0},没有为链接字段设置选项{0}
 No of People,没有人
-No accounting entries for the following warehouses,没有以下仓库的手工凭证
+No accounting entries for the following warehouses,没有以下仓库的日记账凭证
 No values,没有价值
 No tasks,没有任务
 Invoices with no Place Of Supply,没有供应地的发票
@@ -8260,7 +8260,7 @@ No of emails remaining to be synced,没有剩余的电子邮件进行同步
 No salary slip found to submit for the above selected criteria OR salary slip already submitted,没有发现提交上述选定标准或已提交工资单的工资单
 Nothing to change,没有变更
 There is no data to be exported,没有可导出的数据
-No repayments available for Journal Entry,没有可用于手工凭证的还款
+No repayments available for Journal Entry,没有可用于日记账凭证的还款
 No Printer is Available.,没有可用打印机。
 No records found in the Invoice table,没有在发票表中找到记录
 No records found in the Payment table,没有在支付表中找到记录
@@ -8912,7 +8912,7 @@ for generating the recurring,用于生成重复记录
 QR Code for Login Verification,用于登录验证的QR码
 for automatic creating of the recurring document to continue.,用于自动创建重复单据以继续。
 Bundle items at time of sale.,用于销售的套件。
-Update bank payment dates with journals.,用手工凭证更新银行付款时间
+Update bank payment dates with journals.,用日记账凭证更新银行付款时间
 "Use a few words, avoid common phrases.",用几个字，避免常用短语。
 For User,用户
 User,用户
@@ -9366,7 +9366,7 @@ Chart Tree,科目表树
 Chart Of Accounts Template,科目表模板
 Accounts Frozen Upto,科目被冻结截止日
 Settings for Accounts,科目设置
-Heads (or groups) against which Accounting Entries are made and balances are maintained.,科目（组），用于手工凭证记帐以及计算其余额
+Heads (or groups) against which Accounting Entries are made and balances are maintained.,科目（组），用于日记账凭证记帐以及计算其余额
 In seconds,秒
 Secretary,秘书
 Secret,秘密
@@ -9475,7 +9475,7 @@ Course is mandatory in row {0},第{0}行中的课程信息必填
 Row #{0}: Rejected Warehouse is mandatory against rejected Item {1},第{0}行物料{1}被拒收，其拒收仓库字段必填
 Row #{0}: Operation {1} is not completed for {2} qty of finished goods in Work Order {3}. Please update operation status via Job Card {4}.,第{0}行生产工单{3}成品数量{2}工序{1}未完成。请在加工单{4}上更新工序状态。
 Row {0}# Paid Amount cannot be greater than requested advance amount,第{0}行的付款金额不能大于预付申请金额
-"Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice or Journal Entry",第{0}行的源单据类型必须是销售订单或销售发票或手工凭证
+"Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice or Journal Entry",第{0}行的源单据类型必须是销售订单或销售发票或日记账凭证
 The Payment Term at row {0} is possibly a duplicate.,第{0}行的支付条款可能是重复的。
 Row {0}: Qty is mandatory,第{0}行的数量字段必填
 "To include tax in row {0} in Item rate, taxes in rows {1} must also be included",第{0}行的物料单价要含税，第{1}行的税也必须包括在内
@@ -10251,11 +10251,11 @@ Row #{0}:,行＃{0}：
 Row #{0}: {1} can not be negative for item {2},行＃{0}：{1}不能为负值对项{2}
 Row #{0}: Not allowed to change Supplier as Purchase Order already exists,行＃{0}：不能更改供应商的采购订单已经存在
 Row #{0}: Timings conflicts with row {1},行＃{0}：与排时序冲突{1}
-Row #{0}: Journal Entry {1} does not have account {2} or already matched against another voucher,行＃{0}：手工凭证{1}没有科目{2}或已被另一凭证核销
+Row #{0}: Journal Entry {1} does not have account {2} or already matched against another voucher,行＃{0}：日记账凭证{1}没有科目{2}或已被另一凭证核销
 Row # {0}: Rate cannot be greater than the rate used in {1} {2},行＃{0}：单价不能大于{1} {2}中使用的单价
 Row #{0}: Rate must be same as {1}: {2} ({3} / {4}),行＃{0}：单价必须与{1}：{2}（{3} / {4}）相同
-Row #{0}: Reference Document Type must be one of Expense Claim or Journal Entry,行＃{0}：源单据类型必须是费用报销或手工凭证之一
-"Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry",行＃{0}：源单据类型必须是采购订单、采购发票或手工凭证
+Row #{0}: Reference Document Type must be one of Expense Claim or Journal Entry,行＃{0}：源单据类型必须是费用报销或日记账凭证之一
+"Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry",行＃{0}：源单据类型必须是采购订单、采购发票或日记账凭证
 Row #{0}: Status must be {1} for Invoice Discounting {2},行＃{0}：发票贴现的状态必须为{1} {2}
 Row #{0}: Cannot set Rate if amount is greater than billed amount for Item {1}.,行＃{0}：如果金额大于物料{1}已开票金额，则无法设置单价。
 Row #{0}: Payment document is required to complete the transaction,行＃{0}：完成交易需要付款文件
@@ -11574,7 +11574,7 @@ This could be because of some invalid Email Addresses in the,这可能是因为�
 This email was sent to {0},这封电子邮件被发送到{0}
 This will log out {0} from all other devices,这将从所有其他设备注销{0}
 This will permanently remove your data.,这将彻底删除您的数据。
-This will submit Salary Slips and create accrual Journal Entry. Do you want to proceed?,将提交工资单，并创建预提手工凭证。你想继续吗？
+This will submit Salary Slips and create accrual Journal Entry. Do you want to proceed?,将提交工资单，并创建预提日记账凭证。你想继续吗？
 This will be day 1 of the crop cycle,这将是作物周期的第一天
 This will restrict user access to other employee records,这将限制用户访问其他员工记录
 This is a top-100 common password.,这是一个前100名的常用密码。
@@ -11857,7 +11857,7 @@ Notified by Email,通过电子邮件通知
 Notify Customers via Email,通过电子邮件通知客户
 Seen By Table,查看人列表
 Track Leads by Lead Source.,通过线索来源进行追踪。
-Asset scrapped via Journal Entry {0},通过资产手工凭证报废{0}
+Asset scrapped via Journal Entry {0},通过资产日记账凭证报废{0}
 Send regular summary reports via Email.,通过邮件发送常规统计报表。
 Overdue and Discounted,已贴现逾期
 Purchase Orders Items Overdue,逾期采购订单
@@ -12723,7 +12723,7 @@ Restaurant Table,餐桌
 Meal Preference,餐食偏好
 Pie,饼图
 Save the document first.,首先保存单据。
-Cancel the journal entry {0} first,首先取消手工凭证{0}
+Cancel the journal entry {0} first,首先取消日记账凭证{0}
 Higher priority rule will be applied first,首先应用更高优先级的规则
 First set the name and save the record.,首先设置名称并保存记录。
 Select a Brand Image first.,首先选择一个品牌形象。
@@ -12872,7 +12872,7 @@ Default Cost of Goods Sold Account,默认销货成本科目
 (Ctrl + G),（按Ctrl + G）
 (Ca+Mg)/K,（钙+镁）/ K
 ) for {0},）为{0}
-Default Bank / Cash account will be automatically updated in Salary Journal Entry when this mode is selected.,，选择此模式可以在工资手工凭证自动带出默认银行/现金科目。
+Default Bank / Cash account will be automatically updated in Salary Journal Entry when this mode is selected.,，选择此模式可以在工资日记账凭证自动带出默认银行/现金科目。
 {} Dashboard,{} 数据面板
 New Chart,统计图表
 New Shortcut,新建 快速访问
@@ -12915,7 +12915,7 @@ Will run scheduled jobs only once a day for inactive sites. Default 4 days if se
 Allow Guests to Upload Files,允许访客上传文件
 "When enabled this will allow guests to upload files to your application, You can enable this if you wish to collect files from user without having them to log in, for example in job applications web form.",允许访问不登录系统的情况下上传文件，通常用于收集申请表之类的资料
 Logout All Sessions on Password Reset,密码重置时自动登出所有当前连接
-Automatically Process Deferred Accounting Entry,自动生成递延手工凭证
+Automatically Process Deferred Accounting Entry,自动生成递延日记账凭证
 Purchase Order Required for Purchase Invoice & Receipt Creation,采购入库与采购发票必须关联采购订单
 Purchase Receipt Required for Purchase Invoice Creation,采购发票必须关联采购入库
 Disable Capacity Planning,不启用产能规划
@@ -12932,7 +12932,7 @@ Mark all as Read,全部标为已读
 View Full Log,查看全部日志
 Today's Events,今日事件
 Open Documents,未结案单据
-Journal Entry Template,手工凭证模板
+Journal Entry Template,日记账凭证模板
 Start Timer,开始计时
 Stop Timer,停止计时
 Resume Timer,恢复计时
@@ -13064,7 +13064,7 @@ Account is not set for the dashboard chart {0},尚未为统计图表{0}设置科
 Account is mandatory to get payment entries,请输入科目以获取收付款凭证
 Account {0} does not belong to company {1},公司{1}科目表中未定义科目{0}
 Account {0} does not exists in the dashboard chart {1},统计图表{1}中未包含科目{0}
-Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal Entry,<b>{0}</b>是在建工程科目，不能通过手工凭证更新
+Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal Entry,<b>{0}</b>是在建工程科目，不能通过日记账凭证更新
 Account: {0} is not permitted under Payment Entry,收付款凭证中不能使用科目{0} 
 Accounting Dimension <b>{0}</b> is required for 'Balance Sheet' account {1}.,请为资产科目{1}输入辅助核算<b>{0}</b>
 Accounting Dimension <b>{0}</b> is required for 'Profit and Loss' account {1}.,请为损益科目{1}输入辅助核算<b>{0}</b>
@@ -13836,7 +13836,7 @@ Stats,统计信息
 Stats Time Interval,频率
 Filters Section,过滤条件
 Values Out Of Sync,库存与会计总账金额不一致
-Please create adjustment Journal Entry for amount {0},请创建金额为{0}的调账手工凭证
+Please create adjustment Journal Entry for amount {0},请创建金额为{0}的调账日记账凭证
 Please enter the company name to confirm,请输入公司名确认
 Stock Entry has been already created against this Pick List,该拣货单的物料移动单已生成
 Stock Ledger ID,物料凭证号
@@ -13924,7 +13924,7 @@ From and To Dates are required.,开始与结束日期必填
 Get Outstanding Documents,选未关闭单据
 Get Payments from,选付款
 Item {0} is not active,物料已禁用
-Journal Entry Template Account,手工凭证模板科目
+Journal Entry Template Account,日记账凭证模板科目
 Journal Entry Type,日记帐分录类型
 "If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in supplier master.,此设置可防止未创建采购订单的情况下创建采购入库或采购发票，可在供应商基础资料中覆盖此设置
 "If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in supplier master.,此设置可防止未创建采购入库的情况下创建采购发票，可在供应商基础资料中覆盖此设置
@@ -14073,7 +14073,7 @@ Salary Payments Based On Payment Mode,基于付款方式付薪
 Salary Payments via ECS,基于电子清算服务付薪
 Days,天
 Months,月
-Book Deferred Entries Via Journal Entry,用手工凭证处理递延
+Book Deferred Entries Via Journal Entry,用日记账凭证处理递延
 "If this is unchecked direct GL Entries will be created to book Deferred Revenue/Expense",如不勾选，递延收入或费用会直接记入总账
 Book Deferred Entries Based On,递延记账依据
 Deferred Accounting Settings,递延记账设置
@@ -14261,7 +14261,7 @@ Is Finished Item,是成品
 Is Scrap Item ,是废品
 Balance Serial No,剩余序列号,
 Stock Value ({0}) and Account Balance ({1}) are out of sync for account {2} and it's linked warehouses as on {3}.,截止{3}仓库相关科目{2}对应的库存模块金额和会计账上的存货余额不一致
-Please create an adjustment Journal Entry for amount {0} on {1},请创建一笔记账日{1}金额为{0}的手工凭证
+Please create an adjustment Journal Entry for amount {0} on {1},请创建一笔记账日{1}金额为{0}的日记账凭证
 Row {}: Expense Head changed to {},第{}行：费用科目已变更为 {}
 "because account {} is not linked to warehouse {} ",因为科目未关联到仓库{}
 or it is not the default inventory account,或者不是默认库存科目
@@ -14456,8 +14456,8 @@ Onboard,初始化步骤
 Sets the current page as default for all users,设为所有用户默认工作区
 Transactions Settings,业务交易设置
 Tax Settings,税设置
-Create Ledger Entries for Change Amount,为找零生成手工凭证
-"If enabled, ledger entries will be posted for change amount in POS transactions",如勾选，则为POS交易中的找零自动生成手工凭证
+Create Ledger Entries for Change Amount,为找零生成日记账凭证
+"If enabled, ledger entries will be posted for change amount in POS transactions",如勾选，则为POS交易中的找零自动生成日记账凭证
 "Role Allowed to Over Bill ",允许超出超额容差创建发票的角色
 Period Closing Settings,期末结账设置
 Update Settings,更新设置
@@ -14572,7 +14572,8 @@ let's create a opening stock entry,创建期初库存
 Create a Material Transfer Entry,创建物料调拨
 let's create your first warehouse,创建仓库
 Take a walk through Stock Settings,检查库存设置
-Is Corrective Operation,返工工序
+Is Corrective Operation,是返工工序
+Corrective Operation,返工工序
 Sub Operations,子工序
 Sub Operation,子工序
 Total Operation Time,总工序时间
@@ -14797,7 +14798,7 @@ Invoice Limit,发票限额
 Payment Limit,付款限额
 Minimum Payment Amount,最小付款金额
 Maximum Payment Amount,最大付款金额
-This filter will be applied to Journal Entry.,过滤条件仅限手工凭证
+This filter will be applied to Journal Entry.,过滤条件仅限日记账凭证
 Document Link,单据关联,
 Document Links,单据关联,
 Document Actions,单据操作,
@@ -14819,3 +14820,5 @@ Selected Qty,已选数量
 Enable Provisional Accounting For Non Stock Items,启用非库存物料临时科目
 Default Provisional Account,默认临时科目
 Open Sales Orders,未结销售订单
+"Once the Work Order is Closed. It can't be resumed.",不能恢复已关闭工单
+Not allowed via controller permission check,自定义代码权限检查has_permission不通过
