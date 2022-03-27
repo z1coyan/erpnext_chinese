@@ -14841,3 +14841,6 @@ Guest Display Settings,访客显示设置
 Redirect on Action,操作后跳转
 Add-ons,附加功能
 Show Price in Quotation,在报价单中显示价格
+Send To All Assignees,发送给所有待办执行人,
+Receiver By Document Field,收件人(单据字段),
+Receiver By Role,收件人(用户角色),
