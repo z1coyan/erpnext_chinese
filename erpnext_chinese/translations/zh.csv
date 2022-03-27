@@ -2894,7 +2894,7 @@ Delete Company Transactions,删除正式上线前的测试数据
 It is risky to delete this file: {0}. Please contact your System Manager.,删除此文件有风险：{0}。请联系您的系统管理员。
 Delete this record to allow sending to this email address,删除此记录允许发送此邮件地址
 Deleted DocType,源单据类型
-Deleted Document,已删除单据
+Deleted Document,已删除单据(垃圾桶)
 remove-sign,删除符号
 Delete comment?,删除评论？
 Remove Filter,删除过滤条件
@@ -2979,8 +2979,8 @@ Loading import file...,加载上传文件...
 Load All Criteria,加载所有标准
 Loading Report,加载报表
 Loading Payment System,加载支付系统
-Action Name,动作名称
-Action Type,动作类型
+Action Name,操作名称
+Action Type,操作类型
 Property Depends On,动态必填与只读属性
 Dynamic Report Filters,动态报表过滤条件
 Dynamic Link,动态链接
@@ -10902,7 +10902,7 @@ Please click on 'Generate Schedule',请点击“生成表”
 Please click on 'Generate Schedule' to fetch Serial No added for Item {0},请点击“生成表”来获取序列号增加了对项目{0}
 Please click on the following link to set your new password,请点击以下链接来设置新密码
 Please click on 'Generate Schedule' to get schedule,请点击计划任务标签下的“生成排期表”按钮生成计划排期
-Please make sure you really want to delete all the transactions for this company. Your master data will remain as it is. This action cannot be undone.,请确保你真的要删除这家公司的所有交易。基础资料将保持原样。这个动作不能撤销。
+Please make sure you really want to delete all the transactions for this company. Your master data will remain as it is. This action cannot be undone.,不可撤销操作，确认要删除公司所有业务资料? 基础资料将被保留
 Please make sure the Reference Communication Docs are not circularly linked.,请确保参考通信单据未被递归引用。
 Please ensure that your profile has an email address,请确保您的个人资料有一个电子邮件地址，
 Please make sure that there are no empty columns in the file.,请确保没有空列在文件中。
@@ -11987,7 +11987,7 @@ Purchase Price List,采购价格表
 Purchase Details,采购信息
 Purchase Receipt Items,采购入库物料
 Purchase Invoice,采购发票
-Purchase Invoice Advance,采购发票
+Purchase Invoice Advance,采购发票预付款
 Purchase Invoice {0} is already submitted,采购发票{0}已经提交了
 Purchase Invoice Item,采购发票物料
 Purchase Invoice Trends,采购发票趋势
@@ -13224,8 +13224,8 @@ Show Days,显示天
 Parent Field (Tree),父字段(树)
 DocType Links,单据链接
 DocType Link,单据链接
-DocType Actions,单据动作
-DocType Action,单据动作
+DocType Actions,单据操作
+DocType Action,单据操作
 Please select Item from Table,请从表中选择物料
 Please set a Supplier against the Items to be considered in the Purchase Order.,请为要创建采购订单的物料设置供应商
 Search Priorities,搜索优先级
@@ -14281,7 +14281,7 @@ Employee Self Service,员工自助服务
 Discount Date,折扣日
 Discounted Amount,折扣金额
 Unrealized Profit / Loss Account,未实现损益科目
-Return Against,被退货源单
+Return Against,源单
 Company Tax ID,公司纳税登记号
 Index,索引
 Base Amount,基准金额
@@ -14499,6 +14499,7 @@ Transaction Deletion Record,业务交易删除记录
 Incorrect Balance Qty After Transaction,库存与会计总账差异
 Get Sub Assembly Items,计算子装配件需求
 Sub Assembly Items,子装配件
+Assembly Items,装配件
 Bom No,物料清单编号
 Manufacturing Type,生产类型
 Material Requirement Planning,物料需求计划
@@ -14822,3 +14823,21 @@ Default Provisional Account,默认临时科目
 Open Sales Orders,未结销售订单
 "Once the Work Order is Closed. It can't be resumed.",不能恢复已关闭工单
 Not allowed via controller permission check,自定义代码权限检查has_permission不通过
+Action / Route,操作 / 网址路径,
+Is Rate Adjustment Entry (Debit Note),是调价单
+Issue a debit note with 0 qty against an existing Sales Invoice,基于已有销售发票开一张0数量发票
+E Commerce Settings,电商设置
+Filters and Categories,过滤和类别
+Enable Field Filters (Categories),启用字段过滤
+"The field filters will also work as categories in the <b>Shop by Category</b> page.",字段过滤在<b>产品类别购物页面</b>也适用
+Enable Variant Selection,启用多规格筛选
+"Follow these steps to create a landing page for your store",请遵照此文档说明创建购物首页
+Enable Wishlist,启用心愿清单
+Enable Reviews and Ratings,启用评论与评分
+Enable Recommendations,启用推荐
+Item Search Settings,物料搜索设置
+Show Categories in Search Autocomplete,搜索框自动推荐信息中含产品类别
+Guest Display Settings,访客显示设置
+Redirect on Action,操作后跳转
+Add-ons,附加功能
+Show Price in Quotation,在报价单中显示价格

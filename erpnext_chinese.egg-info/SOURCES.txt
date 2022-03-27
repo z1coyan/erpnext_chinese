@@ -3,6 +3,7 @@ README.md
 license.txt
 requirements.txt
 setup.py
+stop.py
 erpnext_chinese/__init__.py
 erpnext_chinese/hooks.py
 erpnext_chinese/modules.txt
