@@ -5249,7 +5249,7 @@ Selected Option,已选项
 Updated via 'Time Log'",通过“工时记录”更新的工时(分)
 Overdue,已逾期
 Google Contacts has been configured.,已配置Google通讯录。
-Ordered Qty,采购订单数量
+Ordered Qty,已下单数量
 Seen,已阅
 Hidden,已隐藏
 Booked,已预订
@@ -8197,6 +8197,7 @@ Gross Profit,毛利
 Gross and Net Profit Report,毛利润和净利润报告
 Gross Margin %,毛利率％
 Gross Profit %,毛利率％
+Gross Profit Percent,毛利率
 Furry,毛茸茸
 Gross Weight,毛重
 Gross Weight UOM,毛重单位
@@ -14844,3 +14845,4 @@ Show Price in Quotation,在报价单中显示价格
 Send To All Assignees,发送给所有待办执行人,
 Receiver By Document Field,收件人(单据字段),
 Receiver By Role,收件人(用户角色),
+"Cannot overbill for Item {0} in row {1} more than {2}. To allow over-billing, please set allowance in Accounts Settings",第{1}行物料{0}发票金额不能超过{2}。要允许超订单金额开票，请在“会计设置”中设置 发票超金额控制(%),
