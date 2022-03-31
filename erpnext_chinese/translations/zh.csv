@@ -163,10 +163,10 @@ BOM Scrap Item,BOM废料
 BOM Search,物料清单反查
 BOM Update Tool,物料清单批量更新工具
 BOM Browser,BOM浏览器
-BOM Item,BOM物料
+BOM Item,BOM明细
 BOM Rate,BOM税率
-BOM Website Operation,BOM网站运营
-BOM Website Item,BOM网站项目
+BOM Website Operation,展示在网站上的BOM工序
+BOM Website Item,展示在网站上的BOM物料
 BOM recursion: {0} cannot be parent or child of {1},BOM递归：{0}不能是{1}的父级或子级
 BR,BR
 BankAccount.validate_iban() failed for valid IBAN {},BankAccount.validate_iban（）因有效IBAN {}失败
@@ -752,7 +752,7 @@ Insufficient Permission for {0},{0} 权限不足
 {0} is not in Optional Holiday List,{0}不在选休假假期表中
 {0} does not exist in row {1},{0}不存在于第{1}行中
 {0} does not belong to Company {1},{0}不属于公司{1}
-{0} is not a stock Item,{0}不是一个库存物料
+{0} is not a stock Item,{0}不是库存物料
 {0} is not a raw printing format.,{0}不是原生打印命令格式。
 {0} not a valid State,{0}不是有效状态
 {0} is not a valid Workflow State. Please update your Workflow and try again.,{0}不是有效的工作流状态。请更新您的工作流，然后重试。
@@ -1426,7 +1426,7 @@ Mode of Transportation,交通方式
 Mode of Travel,交通方式
 Product,产品
 Product {0},产品{0}
-Item {0} ignored since it is not a stock item,产品{0}不属于库存产品，因此被忽略
+Item {0} ignored since it is not a stock item,{0}不是库存产品，已被忽略
 Buyer of Goods and Services.,产品和服务采购者。
 Products,产品
 Product Discount Slabs,产品折扣率表
@@ -3337,7 +3337,7 @@ Invoice/Journal Entry Details,发票/日记账凭证详细信息
 Invoice {0} no longer exists,发票{0}不再存在
 Invoice Details,发票信息
 Opening Invoice Creation Tool,发票创建工具
-Opening Invoice Creation Tool Item,发票创建工具项
+Opening Invoice Creation Tool Item,发票创建工具明细
 Invoice Copy,发票副本
 Invoice Portion,发票占比
 Invoice No,发票号码
@@ -3528,7 +3528,6 @@ Optional. This setting will be used to filter in various transactions.,可选。
 Optional,可选的
 Optional: The alert will be sent if this expression is true,可选：在这个表达式为真时发送通知
 Optional: Always send to these ids. Each Email Address on a new row,可选：总是发送给这些ID。每一行一个电子邮件地址
-Is Configurable,可配置
 "A Product or a Service that is bought, sold or kept in stock.",可采购，销售或作为存货的产品或服务。
 Predictable substitutions like '@' instead of 'a' don't help very much.,可预见的替换像&#39;@&#39;而不是&#39;一&#39;不要太大帮助。
 Right,右
@@ -4168,8 +4167,8 @@ Base,底薪
 Basic Component,基本组件
 Base URL,基本网址
 Basic Amount,基准金额
-Base Amount (Company Currency),发票金额（本币）
-Basic Amount (Company Currency),发票金额（本币）
+Base Amount (Company Currency),金额（本币）
+Basic Amount (Company Currency),金额（本币）
 Base DocType,基础单据类型
 Utility Expenses,基础设施费用
 Cess,塞斯
@@ -4231,7 +4230,7 @@ Sub-contracting,委外
 Subcontract,委外
 Raw Materials Supplied Cost,委外原材料成本
 Send to Subcontractor,委外调拨
-Subcontracted Item,委外物料
+Subcontracted Item,委外明细
 Backflush Raw Materials of Subcontract Based On,委外订单原材料扣帐
 Purchase Receipt Item Supplied,委外订单外发物料
 Supplier Warehouse mandatory for sub-contracted Purchase Receipt,委外采购入库必须指定供应商仓库
@@ -5015,7 +5014,7 @@ For Job Card,加工单
 Job Card,加工单
 Job Card Time Log,加工单工时记录
 "Start date and end date is overlapping with the job card <a href=""#Form/Job Card/{0}"">{1}</a>","加工单的开始和结束日期<a href=""#Form/Job Card/{0}"">{1}</a>重叠"
-Job Card Item,加工单物料
+Job Card Item,加工单明细
 Job Card Operation,加工单工序
 Job Card For Operations,加工单（工序管理）
 Engineer,工程师
@@ -5379,7 +5378,7 @@ Stock Reports,库存报表
 Qty as per Stock UOM,数量(库存单位)
 Stock Qty,库存数量
 Stock Reconciliation,库存调账
-Stock Reconciliation Item,库存调账物料
+Stock Reconciliation Item,库存调账明细
 Stock Levels,库存水平
 Stock Summary,库存汇总
 Accounting Entry for Stock,库存会计分录
@@ -5616,7 +5615,7 @@ Pending,待处理
 Pending,待处理
 Open,待处理
 open,待处理
-Opening Invoice Item,待处理发票项
+Opening Invoice Item,待处理发票明细
 Workflow Action,待处理工作流
 Pending Quotations,待处理报价
 Open Quotations,待处理报价单
@@ -6013,7 +6012,7 @@ Finished Good,成品
 Finished Goods,成品
 Qty of Finished Goods Item,成品数量
 Finished product quantity {0} and For Quantity {1} cannot be different,成品数量 {0} 应与待生产数量 {1} 相同
-BOM No. for a Finished Good Item,成品物料的物料清单编号
+BOM No. for a Finished Good Item,成品物料清单编号
 "Normal resting blood pressure in an adult is approximately 120 mmHg systolic, and 80 mmHg diastolic, abbreviated ""120/80 mmHg""",成年人的正常静息血压约为收缩期120mmHg，舒张压80mmHg，简称为“120 / 80mmHg”
 Adults' pulse rate is anywhere between 50 and 80 beats per minute.,成年人的脉率在每分钟50到80次之间。
 Cost,成本
@@ -6125,7 +6124,7 @@ All Sales Partner Contact,所有销售合作伙伴
 The selected payment entry should be linked with a creditor bank transaction,所选收付款凭证应关联取款银行交易流水
 The selected payment entry should be linked with a debtor bank transaction,所选收付款凭证应关联存款银行交易流水
 The selected item cannot have Batch,所选物料不能启用批号管理
-There isn't any item variant for the selected item,所选物料无相关多规格物料
+There isn't any item variant for the selected item,所选物料无多规格物料
 The selected BOMs are not for the same item,所选物料清单不能用于同一个物料
 Expiry date is mandatory for selected item,所选物料的有效期限必填
 Required Quantity,需求数量
@@ -7344,7 +7343,7 @@ Change Item Code,更改物料编号
 Change the starting / current sequence number of an existing series.,更改现有单据编号模板起始/当前流水号。
 Change Abbreviation,更改简称
 Change Release Date,更改解除冻结日期
-Change In Item,更改项目
+Change In Item,物料变更
 Update,更新
 Updating,更新
 Renew / Upgrade,更新/升级
@@ -8244,11 +8243,11 @@ No Salary Structure assigned for Employee {0} on given date {1},没有为员工{
 No Delivery Note selected for Customer {},没有为客户{}选择销售出库
 Row {0}: Bill of Materials not found for the Item {1},没有为第{0}行的物料{1}定义物料清单
 BOM is not specified for subcontracting item {0} at row {1},没有为第{1}行的委外物料{0}指定物料清单
-Default warehouse is required for selected item,没有为选中的物料定义默认仓库
-Options not set for link field {0},没有为链接字段设置选项{0}
-No of People,没有人
+Default warehouse is required for selected item,选中的物料未定义默认仓库
+Options not set for link field {0},链接字段未设置选项{0}
+No of People,人数
 No accounting entries for the following warehouses,没有以下仓库的日记账凭证
-No values,没有价值
+No values,无金额
 No tasks,没有任务
 Invoices with no Place Of Supply,没有供应地的发票
 Did not save,没有保存
@@ -8609,7 +8608,7 @@ Parent Label,父标签
 Parent Account,父科目
 Parent Procedure,父程序
 Parent Table,父表
-Parent Item {0} must not be a Stock Item,父项{0}不能是库存产品
+Parent Item {0} must not be a Stock Item,父项{0}不能勾选了允许库存的物料
 Parent Customer Group,父（上级）客户组
 Parent Item Group,父（上级）物料组
 Version,版本
@@ -8642,7 +8641,7 @@ Already record exists for the item {0},物料{0}已存在
 Item {0} has reached its end of life on {1},物料{0}已经到达寿命终止日期{1}
 Item {0} has already been returned,物料{0}已被退回
 Batch number is mandatory for Item {0},物料{0}必须指定批号
-Item {0} must be a non-stock item,物料{0}必须是一个非库存物料
+Item {0} must be a non-stock item,物料{0}必须是非允许库存物料
 Item {0} must be a Sub-contracted Item,物料{0}必须是委外物料
 Item {0} must be a stock Item,物料{0}必须允许库存
 Item {0} must be a Fixed Asset Item,物料{0}必须被定义为允许资产
@@ -10926,7 +10925,8 @@ Please Set Supplier Group in Buying Settings.,请设置供应商组采购设置�
 Please set 'Asset Depreciation Cost Center' in Company {0},请设置在公司的资产折旧成本中心“{0}
 Please set filters value in Report Filter table.,请设置在报表过滤表过滤条件值。
 Please set Depreciation related Accounts in Asset Category {0} or Company {1},请设置在资产类别{0}或公司折旧相关科目{1}
-Please set default {0} in Company {1},请设置在默认情况下公司{0} {1}
+Please set default {0} in Company {1},请在公司{1}主数据中设置默认科目{0} 
+"Please set Fixed Asset Account in {} against {}.", 请在{}主数据中为公司{}设置固定资产科目
 Please set the Email ID for the Student to send the Payment Request,请设置学生的电子邮件ID以发送收款申请
 Please set the Customer Address,请设置客户地址
 Please set Number of Depreciations Booked,请设置折旧数预订
@@ -11336,8 +11336,8 @@ Asset Depreciation Cost Center,资产折旧成本中心
 Asset Status,资产状态
 Current Asset Value,资产现值
 Asset Account,资产科目
-Asset Movement,资产移动
-Asset Movement record {0} created,资产移动记录{0}创建
+Asset Movement,资产变动
+Asset Movement record {0} created,资产变动{0}已创建
 Asset Category,资产类别
 Asset Category Name,资产类别名称
 Asset Category Account,资产类别的科目
@@ -11701,7 +11701,7 @@ Applicable Charges,分摊费用
 Check this to enable a scheduled Daily synchronization routine via scheduler,选中此选项可通过调度程序启用计划的每日同步例程
 Holiday List for Optional Leave,选休假假期表
 Select items to save the invoice,选取物料以保存发票
-Selected Price List should have buying and selling fields checked.,选定价格表应该有买入和卖出的字段。
+Selected Price List should have buying and selling fields checked.,价格表基础数据中应勾选采购和销售。
 choose an,选择
 Select POS Profile,选择POS配置文件
 "Select target = ""_blank"" to open in a new page.","选择taget=""_blank""在新页面中打开。"
@@ -11764,7 +11764,7 @@ Select Target Warehouse,选择收料仓
 Select Quantity,选择数量
 Select File Format,选择文件格式
 Select File Type,选择文件类型
-Select Alternate Item,选择替代物料
+Select Alternate Item,选替代物料
 Select Maximum Of 1,选择最多1个
 Select Terms and Conditions,选择条款和条件
 Select Field,选择字段
@@ -11935,11 +11935,6 @@ Configure Theme,配置主题
 Configure your google calendar integration,配置你的谷歌日历集成
 Configure Chart,配置图表
 Configure Charts,配置图表
-Configuration DocType,配置模板
-"Configure Item Fields like UOM, Item Group, Description and No of Hours.",配置物料字段，如UOM，物料组，描述和时长(小时)数。
-Configuration Result,配置结果
-Configuration Result Item,配置结果明细
-Configuration DocName,配置编号
 Delivery Trip,配送单
 Fulfillment User,配送员
 Delivery Stop,配送点
@@ -11990,7 +11985,7 @@ Purchase Receipt Items,采购入库物料
 Purchase Invoice,采购发票
 Purchase Invoice Advance,采购发票预付款
 Purchase Invoice {0} is already submitted,采购发票{0}已经提交了
-Purchase Invoice Item,采购发票物料
+Purchase Invoice Item,采购发票明细
 Purchase Invoice Trends,采购发票趋势
 Purchase Register,采购台帐
 GST Purchase Register,采购台账（GST)
@@ -12001,7 +11996,7 @@ Purchase Receipt,采购入库
 Purchase Receipt {0} is not submitted,采购入库{0}未提交
 Purchase Receipt Message,采购入库信息
 Purchase Receipt No,采购入库号码
-Purchase Receipt Item,采购入库明细表
+Purchase Receipt Item,采购入库明细
 Purchase Receipt Trends,采购入库趋势
 Return Against Purchase Receipt,采购入库退回
 Purchase Receipt Amount,采购入库金额
@@ -12033,7 +12028,7 @@ Purchase Order Amount(Company Currency),采购订单金额（本币）
 Buying Settings,采购设置
 Landed Cost Voucher,到岸成本凭证
 Landed Cost Help,到岸成本帮助
-Landed Cost Item,到岸成本物料
+Landed Cost Item,到岸成本明细
 Landed Cost Taxes and Charges,到岸成本税费
 Landed Cost Purchase Receipt,到岸成本采购入库
 Landed Cost Voucher Amount,到岸成本金额
@@ -12173,10 +12168,10 @@ Bank Reconciliation,银行对帐
 Bank Reconciliation Detail,银行对帐信息
 Bank Reconciliation Statement,银行对帐单
 Bank Statement,银行对帐单
-Bank Statement Transaction Payment Item,银行对账单交易收付款凭证
+Bank Statement Transaction Payment Item,银行对账单收付明细
 Bank Statement Transaction Entry,银行对账单交易凭证
-Bank Statement Transaction Invoice Item,银行对账单交易发票项目
-Bank Statement Transaction Settings Item,银行对账单交易设置项
+Bank Statement Transaction Invoice Item,银行对账单发票明细
+Bank Statement Transaction Settings Item,银行对账单设置项
 Bank Statement Settings,银行对账单设置
 Bank Statement Settings Item,银行对账单设置项
 Bank Account No,银行帐号
@@ -12254,7 +12249,7 @@ DN Detail,销售出库信息
 Delivery Note No,销售出库号
 Delivery Note Message,销售出库消息
 Delivery Note Series,销售出库编号模板
-Delivery Note Item,销售出库项
+Delivery Note Item,销售出库明细
 Delivery Note Trends,销售出库趋势
 Sales Browser,销售列表
 Against Sales Invoice,销售发票
@@ -12265,11 +12260,11 @@ Sales Invoice Payment,销售发票付款
 Sales Invoice Message,销售发票信息
 Sales Invoice Timesheet,销售发票工时表
 Sales Invoices Summary,销售发票汇总
-Sales Invoice Item,销售发票物料
+Sales Invoice Item,销售发票明细
 Sales Invoice Series,销售发票编号模板
 Sales Invoice No,销售发票编号
 Sales Invoice Trends,销售发票趋势
-Against Sales Invoice Item,销售发票项
+Against Sales Invoice Item,源销售发票明细
 Sales Invoice Advance,销售发票预付款
 Sales Register,销售台帐
 GST Sales Register,销售台账（GST)
@@ -14004,8 +13999,8 @@ Introduction to Buying,采购功能介绍
 Introduction to Assets,固定资产功能介绍
 Create an Asset,新增一个固定资产
 Create an Asset Category,新增一个固定资产类型
-Purchase an Asset Item,采购一个固定资产物料
-Create a Fixed Asset Item,新增一个固定资产物料
+Purchase an Asset Item,采购固定资产
+Create a Fixed Asset Item,新增固定资产物料
 Enable Website Tracking,激活网站追踪
 Create Blogger,新增博主
 Let's Set Up the Stock Module.,开始设置库存模块
@@ -14617,7 +14612,7 @@ Returned Qty in Stock UOM,退货数量(库存单位)
 Qty to Be Consumed,待耗用数量
 Available Qty For Consumption,可耗用数量
 Qty of Finished Goods Item should be greater than 0.,成品数量须大于0
-Pick List Item,拣货单物料,
+Pick List Item,拣货单明细,
 Discount Account,折扣科目
 Default Discount Account,默认折扣科目
 Additional Discount Account,额外折扣科目
@@ -14641,7 +14636,7 @@ Item Price Settings,物料价格设置
 Transaction Settings,业务交易设置
 Calculate Product Bundle Price based on Child Items' Rates,基于套件包含的物料价格计算套件价格
 Publish in Website,发布到网站
-Job Card Scrap Item,加工单报废物料
+Job Card Scrap Item,加工单损耗明细
 Website Item,网站物料
 Allowed Dimension,可使用的辅助核算
 Party Link,业务伙伴关联
@@ -14756,7 +14751,7 @@ New Counter,新值
 Warning: Updating counter may lead to document name conflicts if not done properly,警告：若更新不当会导致新单据与现有单据重复，不能保存
 Update Counter Value for Prefix: {0},为前缀 {0} 更新流水号当前值
 Copy error to clipboard, 将出错日志复制到剪贴板
-Create a Sales Item,新建一个销售物料
+Create a Sales Item,创建销售物料
 You do not have permissions to {} items in a {}.,您无权{} {}。,
 Module Profile Name,模块集合名称
 Supplier Quotation Comparison,供应商比价,
@@ -14846,3 +14841,5 @@ Send To All Assignees,发送给所有待办执行人,
 Receiver By Document Field,收件人(单据字段),
 Receiver By Role,收件人(用户角色),
 "Cannot overbill for Item {0} in row {1} more than {2}. To allow over-billing, please set allowance in Accounts Settings",第{1}行物料{0}发票金额不能超过{2}。要允许超订单金额开票，请在“会计设置”中设置 发票超金额控制(%),
+You cannot change the rate if BOM is mentioned against any Item.,有物料清单的物料其价格不可手工设置
+Inter Company Purchase Invoice,关联公司采购发票
