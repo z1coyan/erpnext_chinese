@@ -4220,7 +4220,7 @@ Duplicate,复制
 Duplicate entry,复制
 Duplicate,复制
 Copied to clipboard.,复制到剪贴板。
-To make recurring documents,复制文件
+To make recurring documents,自动重复单据
 Copied From,复制自
 Relapsed,复发
 Relapses,复发
@@ -5927,8 +5927,8 @@ The page you are looking for is missing. This could be because it is moved or th
 You are not authorized to set Frozen value,您没有权限设定冻结值
 You don't have access to Report: {0},您没有权限访问报表：{0}
 You don't have permission to access this file,您没有权限访问该文件
-You don't have the permissions to access this document,您没有访问此文件的权限
-You do not have enough permissions to complete the action,您没有足够权限执行此项任务
+You don't have the permissions to access this document,您未被授权访问此单据
+You do not have enough permissions to complete the action,您未被授权完成此操作
 You do not have enough permissions to access this resource. Please contact your manager to get access.,您没有足够的权限来访问该资源。请联系您的经理，以获得访问权。
 You do not have enough review points,您没有足够的评审点数
 You are now following this document. You will receive daily updates via email. You can change this in User Settings.,您现在正在关注此单据。您将通过电子邮件收到每日更新。您可以在“用户设置”中进行更改。
@@ -6153,7 +6153,7 @@ Printing failed,打印失败
 Print Width,打印宽度
 Print Report Card,打印报告单
 No. of print,打印数量
-Print Documents,打印文件
+Print Documents,打印单据
 Print Server,打印服务器
 Printer,打印机
 Printer Name,打印机名称
@@ -6539,7 +6539,7 @@ Submit,提交
 Submitting,提交
 Submit/Reconcile Payments,提交/核销付款
 Permanently Submit {0}?,提交{0} ？
-Submit {0} documents?,提交{0}文件？
+Submit {0} documents?,提交 {0} 个单据？
 Report an Issue,提交一个问题
 Before Submit,提交前
 Before Validate,校验前
@@ -6563,7 +6563,7 @@ Submit Proof,提交证明
 Submit Review,提交评论
 Submit this document to confirm,点提交按钮进行确认
 Submit this to create the Employee record,提交这个来创建员工记录
-submitted this document,提交这份文件
+submitted this document,提交此单据
 Submit an Issue,提交问题
 Providing,提供
 Provide Email Address registered in company,提供公司注册邮箱地址
@@ -6809,15 +6809,15 @@ Folder {0} does not exist,文件夹{0}不存在
 Folder {0} is not empty,文件夹{0}非空
 Folder name should not include '/' (slash),文件夹名称不应包含“/”（斜杠）
 Folder is mandatory,文件夹是必需的
-Document Restored,文件恢复
-Document can't saved.,文件无法保存。
+Document Restored,单据恢复
+Document can't saved.,单据无法保存。
 File not attached,文件未添加
 No file attached,文件未添加
 File URL,文件的URL
 File Manager,文件管理器
 File Type,文件类型
 text in document type,文件类型的文本
-Document ID,文件编号
+Document ID,单据编号
 web link,文件网址
 File to Rename,文件重命名
 text-width,文字宽度
@@ -6900,7 +6900,7 @@ Cost of New Purchase,新的采购成本
 New Kanban Board,新看板
 New Account Name,新科目名称
 Name of new Account. Note: Please don't create accounts for Customers and Suppliers,新科目的名称。注：请不要创建科目的客户和供应商
-new type of document,新类型的文件
+new type of document,单据新类型
 New Newsletter,新群发邮件
 New Chat,新聊天
 New Contact,新联系人
@@ -7458,8 +7458,8 @@ Min Taxable Income,最小应税收入
 Min Qty,最小数量
 Minimum Qty ,最小数量
 Min Qty can not be greater than Max Qty,最小数量不能大于最大数量
-Min Doc Count,最小文件计数
-Minimum Seating,最小的座位
+Min Doc Count,最小单据计数
+Minimum Seating,最少座位
 Smallest circulating fraction unit (coin). For e.g. 1 cent for USD and it should be entered as 0.01,最小货币(分数)单位（硬币）。如最小货币是分，这里就输入0.01
 Smallest Currency Fraction Value,最小货币分数值
 1 Currency = [?] Fraction For e.g. 1 USD = 100 Cent,1 货币单位 = [?] 小数 例如. 1 元 = 100 分
@@ -7844,7 +7844,7 @@ See All Articles,查看所有文章
 See all open tickets,查看所有未完成客服工单
 See all past reports.,查看所有过去的报表。
 View Log,查看日志
-Check which Documents are readable by a User,查看某个用户可读的文件
+Check which Documents are readable by a User,用户可读单据
 View Ledger,查看总账
 View Website,查看网站
 View Form,查看表格
@@ -9734,7 +9734,7 @@ Carry Forward,结转
 Add unused leaves from previous allocations,结转之前结余休假
 Bypass restricted IP Address check If Two Factor Auth Enabled,绕过受限制的IP地址检查如果双因素验证启用
 gave {0} points,给了{0}分
-To Employee,给员工
+To Employee,员工(接收人)
 Send Me A Copy of Outgoing Emails,给我自己发电子邮件的副本
 Send Me A Copy,给我自己抄送一份
 To User,给用户
@@ -10231,8 +10231,8 @@ Industry,行业
 DOMAINS,行业
 Industry Type,行业类型
 Domain Settings,行业设置
-Action Doctype,行动Doctype
-Action Document,行动文件
+Action Doctype,操作单据类型
+Action Document,操作
 Row No,行号
 Row #,行号
 Row Number,行号
@@ -10258,7 +10258,7 @@ Row #{0}: Reference Document Type must be one of Expense Claim or Journal Entry,
 "Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry",行＃{0}：源单据类型必须是采购订单、采购发票或日记账凭证
 Row #{0}: Status must be {1} for Invoice Discounting {2},行＃{0}：发票贴现的状态必须为{1} {2}
 Row #{0}: Cannot set Rate if amount is greater than billed amount for Item {1}.,行＃{0}：如果金额大于物料{1}已开票金额，则无法设置单价。
-Row #{0}: Payment document is required to complete the transaction,行＃{0}：完成交易需要付款文件
+Row #{0}: Payment document is required to complete the transaction,行＃{0}：完成交易需要付款单据
 Row #{0}: Allocated Amount cannot be greater than outstanding amount.,行＃{0}：已分配金额不能大于未付金额。
 Row #{0}: Item added,行＃{0}：已添加
 Row # {0}: Serial No {1} does not match with {2} {3},行＃{0}：序列号{1}不相匹配{2} {3}
@@ -10683,7 +10683,7 @@ The document has been assigned to {0},该单据已分派给{0}
 Additional information regarding the customer.,该客户的其他信息。
 "The application has been updated to a new version, please refresh this page",该应用程序已被更新到新版本，请刷新本页面
 Models (building blocks) of the Application,该应用程序的模型（组成部分）
-This document has been reverted,该文件已被还原
+This document has been reverted,单据已被还原
 The Term End Date cannot be later than the Year End Date of the Academic Year to which the term is linked (Academic Year {}). Please correct the dates and try again.,该期限结束日期不能晚于学年年终日期到这个词联系在一起（学年{}）。请更正日期，然后再试一次。
 The Term End Date cannot be earlier than the Term Start Date. Please correct the dates and try again.,该期限结束日期不能超过期限开始日期。请更正日期，然后再试一次。
 Default BOM ({0}) must be active for this item or its template,该物料或其模板物料的默认物料清单状态必须是生效
@@ -10753,7 +10753,7 @@ Please pull items from Delivery Note,请从销售出库获选物料
 Please login as another user to register on Marketplace,请以另一个用户身份登录以在Marketplace上注册
 Please supply the specified items at the best possible rates,请以最优惠的价格供应所需物料
 Please set recurring after saving,请保存后设置自动重复参数
-Please save the document before assignment,请保存转让前的文件
+Please save the document before assignment,分派代办前请先保存单据
 Please save first,请先保存
 Please save the patient first,请先保存患者
 Please save the report first,请先保存报表
@@ -10785,7 +10785,7 @@ Please select the document type first,请先选择单据类型
 Please select Employee Record first.,请先选择员工记录
 Please select Entity Type first,请先选择实体类型
 Please select Party Type first,请先选择往来单位
-Please select document type first.,请先选择文件类型。
+Please select document type first.,请先选择单据类型。
 Please select Category first,请先选择类型。
 Please select Posting Date first,请先选择记帐日期
 Please select Charge Type first,请先选择费用类型
@@ -11570,7 +11570,7 @@ The Term Start Date cannot be earlier than the Year Start Date of the Academic Y
 These values will be automatically updated in transactions and also will be useful to restrict permissions for this user on transactions containing these values.,这些值将在交易中自动更新，也将是有益的权限限制在含有这些值交易这个用户。
 All these items have already been invoiced,这些物料都已开具发票
 Project will be accessible on the website to these users,这些用户可在网站上查看该项目
-This document is currently queued for execution. Please try again,这份文件目前正在排队等待执行。请再试一次
+This document is currently queued for execution. Please try again,单据当前正在排队等待执行。请再试一次
 This could be because of some invalid Email Addresses in the,这可能是因为一些无效的电子邮件地址
 This email was sent to {0},这封电子邮件被发送到{0}
 This will log out {0} from all other devices,这将从所有其他设备注销{0}
@@ -12050,8 +12050,8 @@ Repeat On,重复
 Subscription Section,重复
 repeat,重复
 "Repeats like ""abcabcabc"" are only slightly harder to guess than ""abc""",重复像“ABCABCABC”只稍硬比“ABC”猜测
-Recurring document creation failure,重复出现单据创建失败
-Recurring Documents Failed,重复出现的文件失败
+Recurring document creation failure,自动重复单据创建失败
+Recurring Documents Failed,自动重复单据创建失败
 Repeat Till,重复截止日期
 Repeat this Event,重复此事件
 Duplicate name {0} {1},重复的名称{0} {1}
@@ -14647,7 +14647,7 @@ Secondary Party,次要业务伙伴代码
 Make Material Request for Warehouse,仓库
 "To make material requests, 'Make Material Request for Warehouse' field is mandatory",计算原材料需求前请先输入仓库字段
 Plan to Request Qty,计划数量
-Qty As Per BOM,物料清单折算数量
+Qty As Per BOM,物料清单需求数量
 From Delivery Date,交货日自
 To Delivery Date,交货日止
 Set Operating Cost Based On BOM Quantity,基于物料清单数量设置工序成本
