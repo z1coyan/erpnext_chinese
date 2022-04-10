@@ -5968,7 +5968,7 @@ Are you sure you want to make debit note?,您确定要创建扣款单吗？
 Are you sure you want to make credit note?,您确定要创建退款单吗？
 Are you sure you want to delete the attachment?,您确定要删除附件？
 Are you sure you want to relink this communication to {0}?,您确定要重新链接该通信{0}？
-Do you want to submit the material request,您要提交物料需求吗？
+Do you want to submit the material request,创建的物料需求直接提交? 选否只保存(草稿状态)
 You have entered duplicate items. Please rectify and try again.,您输入了重复的物料。请纠正然后重试。
 You selected Draft or Cancelled documents,您选择了草稿或已取消的单据
 Transport Receipt No and Date are mandatory for your chosen Mode of Transport,您选择的运输方式必须提供运输收据号和日期
@@ -14843,3 +14843,7 @@ Receiver By Role,收件人(用户角色),
 "Cannot overbill for Item {0} in row {1} more than {2}. To allow over-billing, please set allowance in Accounts Settings",第{1}行物料{0}发票金额不能超过{2}。要允许超订单金额开票，请在“会计设置”中设置 发票超金额控制(%),
 You cannot change the rate if BOM is mentioned against any Item.,有物料清单的物料其价格不可手工设置
 Inter Company Purchase Invoice,关联公司采购发票
+Unreconciled Entries,未核销单据
+"If you need to reconcile particular transactions against each other, then please select accordingly. If not, all the transactions will be allocated in FIFO order.",可以手工勾选匹配，否则按时间先后自动匹配
+Allocated Entries,已匹配单据
+'This is a Template BOM and will be used to make the work order for {0} of the item {1}',此模板物料清单可被基于模板物料的多规格物料直接引(使)用
