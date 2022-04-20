@@ -428,7 +428,7 @@ Markdown Editor,Markdown编辑
 Meetup Embed HTML,Meetup嵌入HTML
 Memebership Type Details,Memebership类型详细信息
 Memebership Details,Memebership细节
-Min Amt can not be greater than Max Amt,Min Amt不能大于Max Amt
+Min Amt can not be greater than Max Amt,最小金额不能大于最大金额
 MyISAM,MyISAM数据
 NPO-MEM-.YYYY.-,NPO-MEM-.YYYY.-
 No,No
@@ -949,7 +949,6 @@ Default for 'Check' type of field must be either '0' or '1',“勾选”字段�
 """Customer Provided Item"" cannot have Valuation Rate",“受托加工材料”不允许有成本价
 'From Date' must be after 'To Date',“开始日期”必须早于'终止日期'
 'From Date' is required,“开始日期”是必需的
-'Opening',“打开”
 'Based On' and 'Group By' can not be same,“根据”和“分组依据”不能相同
 Cash or Bank Account is mandatory for making payment entry,“现金”或“银行账户”是付款分录的必须项
 'To Date' is required,“结束日期”必需设置
@@ -1993,10 +1992,10 @@ Supplier Reference,供应商介绍
 Supplier Warehouse,供应商仓库
 Supplier Details,供应商信息
 Supplier Score,供应商分数
-Supplier Invoice No exists in Purchase Invoice {0},供应商发票不存在采购发票{0}
+Supplier Invoice No exists in Purchase Invoice {0},供应商发票号已被采购发票{0}引用
 Supplier Invoice Details,供应商发票信息
 Supplier Invoice Date,供应商发票日期
-Supplier Invoice Date cannot be greater than Posting Date,供应商发票的日期不能超过过帐日期更大
+Supplier Invoice Date cannot be greater than Posting Date,供应商发票日期不能晚于过帐日期
 Supplier Invoice No,供应商发票编号
 Supplier Variables,供应商变量
 Supplier Ledger Summary,供应商台帐汇总
@@ -2315,7 +2314,7 @@ Incoming Rate,入库成本价
 Joining Date,入校日期
 Joining Details,入职信息
 Date of Joining,入职日期
-Date of Joining must be greater than Date of Birth,入职日期必须大于出生日期
+Date of Joining must be greater than Date of Birth,入职日期必须晚于出生日期
 Started,入门
 From Full Name,全名
 Full Name,全名
@@ -2566,7 +2565,7 @@ Publications,出版物
 Appearance,出现
 Birth Date,出生日期
 Date of Birth,出生日期
-Date of Birth cannot be greater than today.,出生日期不能大于今天。
+Date of Birth cannot be greater than today.,出生日期不能晚于今天。
 Rented From Date,出租开始日期
 House rented dates should be atleast 15 days apart,出租房屋的日期应至少相隔15天
 Taxi,出租车
@@ -2613,7 +2612,7 @@ Branch Code,分支机构代码
 Branch,分支机构（分公司）
 Branch (optional),分支（可选）
 Fraction,分数
-Score cannot be greater than Maximum Score,分数不能超过最高得分更大
+Score cannot be greater than Maximum Score,分数不能超过最高得分
 Analyst,分析员
 Column Break,分栏符
 Assign,分派
@@ -2661,7 +2660,7 @@ Leave Allocations,分配可休假配额
 Allocated amount can not be negative,分配数量不能为负
 Allocated amount cannot be negative,分配数量不能为负数
 Total weightage assigned should be 100%. It is {0},分配的总权重应为100 ％ 。当前值{0}
-Allocated amount cannot be greater than unadjusted amount,分配的金额不能大于未调整的金额
+Allocated amount cannot be greater than unadjusted amount,已分配金额不能大于未调整金额
 Assigning Structures...,分配结构......
 Assign to Employees,分配给员工
 Assign Salary Structure,分配薪资结构
@@ -2909,7 +2908,7 @@ By {0},到{0}
  to your browser,到你的浏览器
 To Party Name,到往来单位
 To Date cannot be before From Date,到日期不能早于日期
-To Date must be greater than From Date,到日期必须大于从日期
+To Date must be greater than From Date,到日期必须晚于从日期
 Due / Reference Date cannot be after {0},到期/参照日期不能迟于{0}
 Days Until Due,到期天数
 Due Date,到期日
@@ -3091,7 +3090,7 @@ Chapter information.,协会信息。
 Chapter Members,协会成员
 Chapter Head,协会负责人
 Associate,协理
-Start Date of Agreement can't be greater than or equal to End Date.,协议的开始日期不得大于或等于结束日期。
+Start Date of Agreement can't be greater than or equal to End Date.,协议开始日期不得晚于或等于结束日期。
 Agreement Details,协议细节
 End Date of Agreement can't be less than today.,协议结束日期不能早于今天。
 Single Transaction Threshold,单一交易阈值
@@ -3548,7 +3547,7 @@ Contract Terms and Conditions,合同条款和条件
 Contract Template,合同模板
 Contract Template Fulfilment Terms,合同模板履行条款
 Contract End Date,合同结束日期
-Contract End Date must be greater than Date of Joining,合同结束日期必须大于加入的日期
+Contract End Date must be greater than Date of Joining,合同结束日期必须晚于入职日期
 Merge,合并
 Combined invoice portion must equal 100%,合并发票部分必须等于100％
 "Merging is only possible if following properties are same in both records. Is Group, Root Type, Company",仅在两个科目字段(是组、一级科目类型、公司)内容相同时才可合并
@@ -4272,7 +4271,7 @@ Variant Details Report,多规格物料清单报表
 Working Hours Threshold for Absent,多长时间未到视同缺勤
 Large,大
 Great/Quickly,大/快速
-Messages greater than 160 characters will be split into multiple messages,大于160个字符的消息将被分割为多条消息
+Messages greater than 160 characters will be split into multiple messages,超过160字符的消息将被分割为多条消息
 Greater Than Amount,大于金额
 Constipated,大便干燥
 UPPER CASE,大写字母
@@ -4605,7 +4604,7 @@ Complete Registration,完成注册
 Completion Status,完成状态
 Percent Complete,完成百分比
 % Complete Method,完成百分比法
-Total completed qty must be greater than zero,完成的总数量必须大于零
+Total completed qty must be greater than zero,已完成总数量必须大于零
 Go to this URL after completing the form (only for Guest users),完成表单后转到此网址（仅限访客用户）
 Define various loan types,定义不同的借款类型
 Defines actions on states and the next step and allowed roles.,定义切换到工作流状态的操作，下一个状态和被允许的角色。
@@ -4800,7 +4799,7 @@ More than one selection for {0} not \			allowed,对{0}的多个选择不是\允�
 New Comment on {0}: {1},对{0}的新评论：{1}
 "Sorry, you're not authorized.",对不起，你未被授权。
 "For {0}, only debit accounts can be linked against another credit entry",对于{0}，借方分录只能选择借方科目
-Start Time can't be greater than or equal to End Time \					for {0}.,对于{0}，开始时间不能大于或等于结束时间\。
+Start Time can't be greater than or equal to End Time \					for {0}.,对于{0}，开始时间不能晚于或等于结束时间\。
 "For row {0} in {1}. To include {2} in Item rate, rows {3} must also be included",对于{1}的第{0}行。要在物料单价中包括{2}，也必须包括第{3}行
 "For 'Product Bundle' items, Warehouse, Serial No and Batch No will be considered from the 'Packing List' table. If Warehouse and Batch No are same for all packing items for any 'Product Bundle' item, those values can be entered in the main Item table, values will be copied to 'Packing List' table.",对于“套件”物料，仓库，序列号和批号信息维护在“装箱单”中。如果仓库和批号是“套件”中所含物料共用的，可以在订单物料清单表中输入这些值，系统会自动将其复制到“装箱单”。
 {0} is required for 'Profit and Loss' account {1}.,对于“损益”类科目{1}{0}必填。
@@ -5481,14 +5480,14 @@ Work From Date,开始日期
 From Date {0} cannot be before employee's joining Date {1},开始日期{0}不能早于员工入职日{1}
 From Date {0} cannot be after employee's relieving Date {1},开始日期{0}不能晚于员工离职日{1}
 From date can not be less than employee's joining date,开始日期不得早于员工的加入日期
- From Date can not be greater than To Date,开始日期不能大于结束日期
-From Date cannot be greater than To Date,开始日期不能大于结束日期
+ From Date can not be greater than To Date,开始日期不能晚于结束日期
+From Date cannot be greater than To Date,开始日期不能晚于结束日期
 "Start and end dates not in a valid Payroll Period, cannot calculate {0}.",开始日期和结束日期不在有效的工资核算期间内，无法计算{0}。
 From Date and To Date lie in different Fiscal Year,开始日期和结束日期位不能跨财年
-Start day is greater than end day in task '{0}',开始日期大于任务“{0}”的结束日期
+Start day is greater than end day in task '{0}',开始日期晚于任务“{0}”的结束日期
 From Date Field,开始日期字段
 Start Date Field,开始日期字段
-Date of Commencement should be greater than Date of Incorporation,开始日期应大于公司注册日期
+Date of Commencement should be greater than Date of Incorporation,开始日期应晚于公司注册日期
 From Date should be within the Fiscal Year. Assuming From Date = {0},开始日期应该在财年之内。财年开始日是{0}
 Start date should be less than end date for task {0},开始日期应该小于任务{0}的结束日期
 Valid from date must be less than valid upto date,开始日期必须早于截止日期
@@ -5498,7 +5497,7 @@ From Time,开始时间
 Start Time,开始时间
 Started Time,开始时间
 Starts on,开始时间
-From Time cannot be greater than To Time.,开始时间不能早于结束时间。
+From Time cannot be greater than To Time.,开始时间不能晚于结束时间。
 From Time Should Be Less Than To Time,开始时间应该早于结束时间
 Start Job,开始计时
 From Fiscal Year,开始财年
@@ -6062,7 +6061,7 @@ To Invoice Date,截止发票日期
 End Year cannot be before Start Year,截止年不能早于开始年
 End Day,截止日
 To Date,截止日期
-To date can not greater than employee's relieving date,截止日期不能晚于员工的离职日期
+To date can not greater than employee's relieving date,截止日期不能晚于员工离职日期
 To Date Field,截止日期字段
 To Range,截止范围
 To Fiscal Year,截止财年
@@ -8174,7 +8173,7 @@ Monthly House Rent,每月房租
 Accumulated Monthly,每月累计
 Monthly Attendance Sheet,每月考勤表
 Monthly Repayment Amount,每月还款额
-Monthly Repayment Amount cannot be greater than Loan Amount,每月还款额不能超过借款金额较大
+Monthly Repayment Amount cannot be greater than Loan Amount,每月还款额不能超过借款金额
 Total Monthly Sales,每月销售总额
 Monthly Sales Target,每月销售目标
 Monthly Sales Target (,每月销售目标（
@@ -9490,7 +9489,7 @@ Row {0}: An Reorder entry already exists for this warehouse {1},第{0}行：仓�
 Row {0}: Activity Type is mandatory.,第{0}行：作业类型信息必填。
 Row {0}: Debit entry can not be linked with a {1},第{0}行：借方不能与{1}关联
 Row {0}: Invalid reference {1},第{0}行：无效参考{1}
-Row {0}: Hours value must be greater than zero.,第{0}行：时长(小时)必须大于零。
+Row {0}: Hours value must be greater than zero.,第{0}行：时长(小时)须大于零。
 Row {0}: From time must be less than to time,第{0}行：时间开始必须早于结束时间
 Row {0}: Quality Inspection rejected for item {1},第{0}行：物料 {1} 被质检拒收
 Row {0}: Please set the correct code on Mode of Payment {1},第{0}行：请在付款方式{1}上设置正确的代码
@@ -9620,7 +9619,7 @@ Vegetarian,素食
 Request for Quotations,询价
 Request for Information,索取资料
 Index,索引
-Response Time for {0} at index {1} can't be greater than Resolution Time.,索引{1}处的{0}的响应时间不能大于“解决时间”。
+Response Time for {0} at index {1} can't be greater than Resolution Time.,第{1}行的{0}响应时间不能晚于解决时间。
 Index,索引字段
 Indexing broken,索引损坏
 Compact Item Print,紧凑型物料打印(除单价与金额外其它字段在物料描述字段打印)
@@ -9708,7 +9707,7 @@ To date cannot be before from date,结束日期不能早于开始日期
 End Date cannot be before Start Date.,结束日期不能早于开始日期。
 To date can not be equal or less than from date,结束日期不能等于或早于开始日期
 End Date Field,结束日期字段
-End date must be greater than start date,结束日期必须大于开始日期
+End date must be greater than start date,结束日期必须晚于开始日期
 End Time,结束时间
 Ends on,结束时间
 To Datetime,结束时间
@@ -10195,7 +10194,7 @@ Quantity in row {0} ({1}) must be same as manufactured quantity {2},行{0}中的
 Item or Warehouse for row {0} does not match Material Request,行{0}中的物料或仓库与物料需求不符
 Conversion factor for default Unit of Measure must be 1 in row {0},行{0}中默认单位的转换系数必须是1
 Max width for type Currency is 100px in row {0},行{0}中，货币类型的最大宽度是100像素
-Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2},行{0}＃分配的金额{1}不能大于无人认领的金额{2}
+Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2},行{0}＃分配金额{1}不能大于可申报金额{2}
 Row {0}: Currency of the BOM #{1} should be equal to the selected currency {2},行{0}：BOM＃的货币{1}应等于所选货币{2}
 Row {0}: {1} {2} does not match with {3},行{0}：{1} {2}不相匹配{3}
 Item Row {0}: {1} {2} does not exist in above '{1}' table,行{0}：{1} {2}在上面的“{1}”表格中不存在
@@ -11160,7 +11159,7 @@ Cannot change Fiscal Year Start Date and Fiscal Year End Date once the Fiscal Ye
 Closing Fiscal Year,财年关帐
 Number of Days in Fiscal Year,财年天数
 Fiscal Year Start Date and Fiscal Year End Date are already set in Fiscal Year {0},财年开始日期和结束日期已经在财年{0}中设置
-Fiscal Year Start Date should not be greater than Fiscal Year End Date,财年开始日期应不大于结束日期
+Fiscal Year Start Date should not be greater than Fiscal Year End Date,财年开始日期应不晚于结束日期
 Fiscal Year Start Date should be one year earlier than Fiscal Year End Date,财年开始日期应比财年结束日期提前一年
 Fiscal Year End Date should be one year after Fiscal Year Start Date,财年结束日期应为财年开始日期后一年
 Fiscal Year: {0} does not exists,财年：{0}不存在
@@ -11558,7 +11557,7 @@ Repayment Start Date cannot be before Disbursement Date.,还款开始日期不�
 Repayment Method,还款方式
 Repayment Period in Months,还款期数(月)
 Repayment Schedule,还款计划
-Repayment amount {} should be greater than monthly interest amount {},还款金额{}应大于每月的利息金额{}
+Repayment amount {} should be greater than monthly interest amount {},还款金额{}应大于每月利息金额{}
 Repayment Amount must be greater than ,还款金额必须大于
 No Customers yet!,还没有客户！
 No comments yet. Start a new discussion.,还没有评论。开始一个新的讨论。
@@ -14847,3 +14846,6 @@ Unreconciled Entries,未核销单据
 "If you need to reconcile particular transactions against each other, then please select accordingly. If not, all the transactions will be allocated in FIFO order.",可以手工勾选匹配，否则按时间先后自动匹配
 Allocated Entries,已匹配单据
 'This is a Template BOM and will be used to make the work order for {0} of the item {1}',此模板物料清单可被基于模板物料的多规格物料直接引(使)用
+Cancel All Documents,取消所有单据,
+Cancelling documents,取消单据,
+% Picked,已拣货%
