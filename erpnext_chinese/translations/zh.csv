@@ -7428,7 +7428,7 @@ Max: {0},最大值：{0}
 Maximum Permissible Value,最大允许值
 Encashment Threshold Days,最大允许折现天数
 Max Strength,最大允许数量
-Overproduction Percentage For Work Order,最大允许超订单量收货百分比
+Overproduction Percentage For Work Order,工单超量入库百分比
 Maximum Invoice Amount,最大发票金额
 Maximum Age,最大年龄
 Minumum Age(DOB),最大年龄
@@ -11381,7 +11381,7 @@ Action if Accumulated Monthly Budget Exceeded on Actual,超累计月度预算时
 Action if Accumulated Monthly Budget Exceeded on MR,超累计月度预算时针对物料需求的控制措施
 Allow over delivery or receipt upto this percent,出入库超量控制%
 Over Delivery/Receipt Allowance (%),出入库超量控制(%)
-Overproduction Percentage For Sales Order,超销售订单需求量生产百分比
+Overproduction Percentage For Sales Order,允许工单数量超销售订单百分比
 Over Billing Allowance (%),发票超金额控制(%)
 Run,跑
 Distance,距离
@@ -14849,3 +14849,9 @@ Allocated Entries,已匹配单据
 Cancel All Documents,取消所有单据,
 Cancelling documents,取消单据,
 % Picked,已拣货%
+Partially ordered,已部分下单,
+Qty To Produce,待生产数量
+Selected Qty,已选数量
+End Transit,在途入库
+First Day of the Week,一周开始日
+Overproduction for Sales and Work Order,超销售和工单数量控制,
