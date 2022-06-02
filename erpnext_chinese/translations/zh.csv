@@ -1398,7 +1398,7 @@ Amazon will synch data updated after this date,亚马逊将同步在此日期之
 Number of Interaction,交互次数
 Transaction,交易
 Transactions,交易
-Transaction ID,交易ID
+Transaction ID,银行交易参考信息
 Match Transaction to Invoices,交易与发票匹配
 "Looks like something went wrong during the transaction. Since we haven't confirmed the payment, Paypal will automatically refund you this amount. If it doesn't, please send us an email and mention the Correlation ID: {0}.",交易中似乎发生错误。由于我方尚未确认付款，贝宝（paypal)会自动给您全额退款。如果没有退款，请给我们发邮件并注明相关ID：{0}。
 Transaction reference no {0} dated {1},交易参考编号 {0} 日期 {1}
@@ -1536,7 +1536,7 @@ Select from existing attachments,从现有的附件选择
 Get Details From Declaration,从申报获取明细
 Lead to Quotation,从线索到报价
 New Message from Website Contact Page,从网站的联系页面新消息
-Unsubscribed from Newsletter,从群发邮件退订
+Unsubscribed from Newsletter,退订简讯
 From Range has to be less than To Range,从范围必须小于要范围
 Start entering data from here : ,从这里开始输入数据：
 Get Items From Purchase Receipts,从采购入库选物料
@@ -2757,9 +2757,9 @@ Make Employee,创建员工
 Setting up Employees,创建员工
 Create Employee Records,创建员工档案
 "Create Employee records to manage leaves, expense claims and payroll",创建员工档案管理休假，报销和工资
-Create and Send Newsletters,创建和发送群发邮件
+Create and Send Newsletters,创建和发送简讯
 "Create and manage daily, weekly and monthly email digests.",创建和管理每日，每周和每月的电子邮件摘要。
-Create and manage newsletter,创建和管理群发邮件
+Create and manage newsletter,创建和管理简讯
 Create Chart,创建图表
 Create Multiple,创建多个
 Create Variant,创建多规格物料
@@ -3355,7 +3355,7 @@ Total Invoiced Amount,发票金额
 Invoiced Amount (Exclusive Tax),发票金额（不含税）
 Sent To,发给
 Material to Supplier,委外原材料
-"Newsletters to contacts, leads.",发给联系人和线索的群发邮件
+"Newsletters to contacts, leads.",发给联系人和线索的简讯
 Deduct Full Tax on Selected Payroll Date,发薪日扣税
 Issued,已发料
 Leave a Comment,发表评论
@@ -4368,7 +4368,7 @@ If more than one package of the same type (for print),如果同类包裹超过�
 "If enabled, the system will post accounting entries for inventory automatically.",如果启用，系统将自动为库存创建日记账凭证。
 Lead must be set if Opportunity is made from Lead,如果商机的来源是“线索”的话，必须指定线索
 "If image is selected, color will be ignored.",如果图像被选择时，颜色将被忽略。
-"To filter based on Party, select Party Type first",如果基于往来单位过滤，请先选择往来单位类型
+"To filter based on Party, select Party Type first",如果基于往来单位过滤，请先选择往来类型
 "If two or more Pricing Rules are found based on the above conditions, Priority is applied. Priority is a number between 0 to 20 while default value is zero (blank). Higher number means it will take precedence if there are multiple Pricing Rules with same conditions.",如果存在多个动态定价规则，则会用优先级来区分。优先级是介于0到20的数字，默认值是零（或留空）。数字越大，优先级越高。
 Check this if the Student is residing at the Institute's Hostel.,如果学生住校，请勾选。
 Create missing customer or supplier.,如果客户或供应商不存在，则创建对应基础资料
@@ -5163,8 +5163,8 @@ Score Earned,已得分数
 Leaves Allocated Successfully for {0},已成功为{0}分配假期
 Structures have been assigned successfully,已成功分配薪资结构
 {0} has been submitted successfully,已成功提交{0}
-Packed Item,已打包物料
-Packed Items,已打包物料
+Packed Item,套件明细
+Packed Items,套件明细
 In print,已打印
 Actions performed,已执行的操作
 Admitted,已批准
@@ -5582,14 +5582,14 @@ Motion Picture & Video,影视业
 Delete {0} items permanently?,彻底删除{0}条记录？
 Party,往来单位
 PARTY INFORMATION,往来单位
-Party Balance,往来单位余额
+Party Balance,往来余额
 Party Details,往来单位信息
 Party Information,往来单位信息
 Party Name,往来单位名称
 Party User,往来单位用户
 Party Account,往来单位科目
 Party Account Currency,往来单位科目币别
-Party Type,往来单位类型
+Party Type,往来类型
 Party GSTIN,往来单位纳税登记号
 Trial Balance for Party,往来单位试算平衡表
 Party Bank Account,往来单位银行户头
@@ -5735,7 +5735,7 @@ Total Achieved,总体上实现
 Total Commission,总佣金
 Total Message(s),总信息（s ）
 Total Debit must be equal to Total Credit. The difference is {0},总借方必须等于总贷方金额，差异{0}。
-Total Debit,总借方金额
+Total Debit,借方合计
 Total Holidays,总假期
 Total Net Weight,总净重
 Total Present,总出勤
@@ -5832,7 +5832,7 @@ Total contribution percentage should be equal to 100,总贡献百分比应等于
 Total Contribution Amount: {0},总贡献金额：{0}
 GL Entry,总账分录
 Total Credit/ Debit Amount should be same as linked Journal Entry,总贷方/借方金额应与关联的日记账凭证相同
-Total Credit,总贷方金额
+Total Credit,贷方合计
 Total Loan Repayment,总借款还款
 Total Expense Claim (via Expense Claim),总费用报销（费用报销）
 Total Expense Claim (via Expense Claims),总费用报销（费用报销）
@@ -5923,7 +5923,7 @@ You are not authorized to approve leaves on Block Dates,您无权批准禁止休
 You are not allowed to enroll for this course,您无权注册此课程
 You can't set 'Translatable' for field {0},您无法为字段{0}设置“可翻译”
 You cannot restart a Subscription that is not cancelled.,您无法重新启动未取消的订阅。
-You are not permitted to view the newsletter.,您未被授权查看群发邮件。
+You are not permitted to view the newsletter.,您未被授权查看简讯。
 The resource you are looking for is not available,您正在查找的资源不可用
 The page you are looking for is missing. This could be because it is moved or there is a typo in the link.,您正在访问的网页不存在。可能是网页被移到别处了或您输入的网址不正确。
 You are not authorized to set Frozen value,您没有权限设定冻结值
@@ -6648,8 +6648,8 @@ Total Payment Amount in Payment Schedule must be equal to Grand / Rounded Total,
 Support Search Source,支持搜索源
 Is Tree,支持树形结构
 Cheque,支票
-Cheque/Reference Date,支票/参考日期
-Cheque/Reference No,支票/参考编号
+Cheque/Reference Date,业务日期
+Cheque/Reference No,业务编号
 Cheques and Deposits incorrectly cleared,支票及存款非正常清账
 Cheque Number,支票号码
 Cheque Size,支票大小
@@ -6903,7 +6903,7 @@ New Kanban Board,新看板
 New Account Name,新科目名称
 Name of new Account. Note: Please don't create accounts for Customers and Suppliers,新科目的名称。注：请不要创建科目的客户和供应商
 new type of document,单据新类型
-New Newsletter,新群发邮件
+New Newsletter,新简讯
 New Chat,新聊天
 New Contact,新联系人
 New Custom Print Format,新自定义打印格式
@@ -9897,11 +9897,11 @@ CNY,人民币
 us-east-1,美国 - 东 -  1
 us-west-1,美西1
 us-west-2,美西2
-Newsletter,群发邮件
-Newsletters,群发邮件
-Newsletter has already been sent,群发邮件已发出
-Newsletter Email Group,群发邮件电子邮件组
-Newsletter Manager,群发邮件经理
+Newsletter,简讯
+Newsletters,简讯
+Newsletter has already been sent,简讯已发出
+Newsletter Email Group,简讯电子邮件组
+Newsletter Manager,简讯经理
 Translation,翻译
 Translations,翻译
 Translator,翻译
@@ -10218,7 +10218,7 @@ Row {0}: From Time and To Time is mandatory.,行{0}：开始时间和结束时�
 Row {0}: Party / Account does not match with {1} / {2} in {3} {4},行{0}：往来单位/科目{1} / {2}与{3} {4}不匹配
 Row {0}: Depreciation Start Date is required,行{0}：折旧开始日期是必需的
 "Row {0}: To set {1} periodicity, difference between from and to date \						must be greater than or equal to {2}",行{0}：设置{1}的周期性，从和到日期\之间差必须大于或等于{2}
-Row {0}: Party Type and Party is required for Receivable / Payable account {1},行{0}：请为应收/应付科目输入{1}往来单位类型和往来单位
+Row {0}: Party Type and Party is required for Receivable / Payable account {1},行{0}：请为应收/应付科目输入{1}往来类型和往来单位
 Row {0}: Enter location for the asset item {1},行{0}：请为第{0}行的资产，即物料号{1}输入地点信息
 Row {0}: Conversion Factor is mandatory,行{0}：转换系数必填
 Row {0}: Payment against Sales/Purchase Order should always be marked as advance,行{0}：针对销售/采购订单收付款均须标记为预收/付
@@ -10780,7 +10780,7 @@ Please select {0} first,请先选择{0}
 Select a group node first.,请先选择一个组节点。
 Please select the Company first,请先选择公司
 Select company name first.,请先选择公司
-Please select Company and Party Type first,请先选择公司和往来单位类型
+Please select Company and Party Type first,请先选择公司和往来类型
 Please select prefix first,请先选择前缀
 Please select Document Type first,请先选择单据类型
 Please select the document type first,请先选择单据类型
@@ -10954,7 +10954,7 @@ Please enter Base URL,请输入基本网址
 Please enter the password,请输入密码
 Please enter Difference Account,请输入差异账户
 Party is mandatory,请输入往来单位
-Party Type is mandatory,请输入往来单位类型
+Party Type is mandatory,请输入往来类型
 Please enter both your email and message so that we \				can get back to you. Thanks!,请输入您的两者电子邮件和信息，使我们\能尽快给您回复。谢谢！
 Please Enter Your Password to Continue,请输入您的密码以继续
 Please enter Expense Account,请输入您的费用科目
@@ -11253,7 +11253,7 @@ Credit Balance,剩余信用额度
 Credit Amount,贷方总额
 Credit Account,贷方科目
 Credit To account must be a Balance Sheet account,贷方科目必须是资产负债表科目
-Credit in Company Currency,贷方金额(公司本币）
+Credit in Company Currency,贷方(本币）
 Credit ({0}),贷方（{0}）
 Loan,借款
 Loans,借款
@@ -11827,7 +11827,7 @@ Notify Supplier,通知供应商
 Notify Other,通知其他
 Send Notification to,通知发送到
 Notify Employee,通知员工
-Notifications and bulk mails will be sent from this outgoing server.,通知和群发邮件将从此服务器发送。
+Notifications and bulk mails will be sent from this outgoing server.,通知和简讯将从此服务器发送。
 Expire Notification On,通知截止日
 Notification Control,通知控制
 Notification Recipient,通知收件人
@@ -12154,7 +12154,7 @@ Bank,银行
 Bank / Cash Account,银行/现金账户
 Banking,银行业
 Bank Transaction,银行交易流水
-Reference No and Reference Date is mandatory for Bank transaction,银行交易流水中参考编号和参考日期必填
+Reference No and Reference Date is mandatory for Bank transaction,使用了银行科目，请输入银行交易业务编号和业务日期
 Bank Transaction Payments,银行交易流水付款
 Bank Transaction Entries,银行交易流水分录
 Field in Bank Transaction,银行交易流水字段
@@ -14331,7 +14331,7 @@ Customer's Vendor,客户的供应商
 Exibition,展览
 Existing Customer,存量客户
 Cold Calling,
-Mass Mailing,群发邮件
+Mass Mailing,简讯
 Supplier Reference,供应商介绍
 Advertisement,广告
 Prospecting,有意向,
@@ -14860,3 +14860,8 @@ First Day of the Week,一周开始日
 Overproduction for Sales and Work Order,超销售和工单数量控制,
 Quality Inspection(s),质量检验
 Select Items for Quality Inspection,选择待检验物料
+Sales Order Packed Item,销售订单套件明细
+Debit in Account Currency,借方(科目币别)
+Credit in Account Currency,贷方(科目币别)
+Picked Qty (in Stock UOM),拣货数量(库存单位)
+"{0} {1} has accounting entries in currency {2} for company {3}. Please select a receivable or payable account with currency {2}.",为{0} {1}指定了非公司{3}本币{2}的科目。请选择币种为{2}的应收/付科目。,
