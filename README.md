@@ -21,6 +21,7 @@ ERPNext中文汉化
 进入 bench 工作台目录；
 
 1.新安装
+
 1.1、获取对应版本APP
 
 bench get-app https://gitee.com/yuzelin/erpnext_chinese.git
@@ -29,7 +30,8 @@ bench get-app https://gitee.com/yuzelin/erpnext_chinese.git
 
 bench install-app erpnext_chinese
 
-升级（之前安装过未拆分前版本的请谨慎更新）
+2.升级（之前安装过未拆分前版本的请谨慎更新）
+
 2.1、bench update 命令
 
 bench update --apps erpnext_chinese --pull --reset
@@ -39,12 +41,15 @@ bench update --apps erpnext_chinese --pull --reset
 bench build --app erpnext_chinese --force
 
 2.3 通过本应用中的插件机制向打印格式单据类型中新增两个字段(同步，新安装时不需要这一步，也可运行标准的bench migrate 命令，会对所有app作升级后同步数据库表处理)
+
 bench console
+
 In [6]: from frappe.utils.fixtures import sync_fixtures
 
 In [7]: sync_fixtures('erpnext_chinese')
 
-卸载
+3.卸载
+
 3.1 从站点卸载 
 
 bench uninstall-app erpnext_chinese
