@@ -2044,7 +2044,7 @@ Supplier Part Number,供应商物料编号
 Customer Part Number,客户物料编号
 Place Of Supply (State/UT),供应地点（州/ UT）
 Nature Of Supplies,供应的性质
-Supplied Items,委外调拨物料
+Supplied Items,委外发料物料
 Supply Type,供应类型
 Supplies made to UIN holders,供应给UIN持有人的供应品
 Contributed,供稿
@@ -2283,7 +2283,7 @@ Allow Negative Balance,允许负余额
 Allow Negative Stock,允许负库存
 Percentage you are allowed to receive or deliver more against the quantity ordered. For example: If you have ordered 100 units. and your Allowance is 10% then you are allowed to receive 110 units.,允许超出订单数量出入库百分比。例如：订单数量100。允许超收/发10％，那么最多可收/发数量是110。
 Percentage you are allowed to bill more against the amount ordered. For example: If the order value is $100 for an item and tolerance is set as 10% then you are allowed to bill for $110.,允许超过订单金额的%开出发票，比如订单100元，容差10%，最大开票金额就是110元
-Allow Transfer for Manufacture,启用生产调拨
+Allow Transfer for Manufacture,启用工单发料
 Allow Consecutive Login Attempts ,允许连续登录尝试
 Enable purchase of items via the website,允许通过网站启用采购物料
 Allow Overlap,允许重叠
@@ -2327,6 +2327,7 @@ Global Settings,全局设置
 Global Defaults,全局默认值
 Full Page,全屏显示
 Edit in full page,全屏编辑
+Edit Full Form,全屏编辑
 Annual,全年
 Is Globally Pinned,全网站置顶
 Full-time,全职
@@ -3217,7 +3218,7 @@ Raw Material Cost(Company Currency),原材料成本（本币）
 Raw Material Item Code,原材料物料编号
 Quantity of item obtained after manufacturing / repacking from given quantities of raw materials,加工/打包原材料后得到的成品物料数量
 Original Item,原物料
-Backflush Raw Materials Based On,物料耗用(倒扣账)方式
+Backflush Raw Materials Based On,工单(原材料)耗用(倒扣账)方式
 Primary Color,原色
 Go to ,去
 Go to Suppliers,去供应商
@@ -3949,7 +3950,7 @@ Work In Progress,在制品
 WIP Warehouse,在制品仓
 Work-in-Progress Warehouse,在制品仓
 Available Qty at WIP Warehouse,在制品仓可用数量
-Material Transferred for Manufacturing,生产调拨数量
+Material Transferred for Manufacturing,工单发料数量
 Work Orders in Progress,在制生产工单
 Number of columns for a field in a List View or a Grid (Total Columns should be less than 11),在单据列表或子表单列表中所占列数（合计列数应小于11）
 Number of columns for a field in a List View or a Grid (Total Columns should be less than 11),在单据列表或子表单列表中所占列数（合计列数应小于11）
@@ -4002,7 +4003,7 @@ View report in your browser,在浏览器中查看报表
 Login and view in Browser,在浏览器中登录和查看
 View it in your browser,在浏览器查看
 View this in your browser,在浏览器查看
-Item {0} has no Serial No. Only serilialized items can have delivery based on Serial No,在物料基础资料中物料{0}被定义为无序列号，启用序列号管理的物料才可勾选“绑定生产入库序列号出库”，而在物料基础资料中没勾选“启用序列号管理”
+Item {0} has no Serial No. Only serilialized items can have delivery based on Serial No,在物料基础资料中物料{0}被定义为无序列号，启用序列号管理的物料才可勾选“绑定工单入库序列号出库”，而在物料基础资料中没勾选“启用序列号管理”
 Rename Attribute Value in Item Attribute.,在物料属性中重命名属性值。
 Apply Rule On Item Group,在物料组上应用规则
 Duplicate item group found in the item group table,在物料组中有重复物料组
@@ -4228,7 +4229,7 @@ Role Profile,岗位
 Sub-contracting,委外
 Subcontract,委外
 Raw Materials Supplied Cost,委外原材料成本
-Send to Subcontractor,委外调拨
+Send to Subcontractor,委外发料
 Subcontracted Item,委外明细
 Backflush Raw Materials of Subcontract Based On,委外订单原材料扣帐
 Purchase Receipt Item Supplied,委外订单外发物料
@@ -4317,7 +4318,7 @@ Female,女
 Ms,女士
 Good/Steady,好/稳定
 "e.g. ""Primary School"" or ""University""",如“小学”或“大学”
-Check if material transfer entry is not required,如不需从工单触发生产调拨，请勾选
+Check if material transfer entry is not required,如不需从工单触发工单发料，请勾选
 Mention if non-standard payable account,如使用非标准应付科目，请在这里指定
  Tax Exemption Declaration will be considered for income tax calculation.,如勾选，个税计算时将扣除申报的免税金额
 "If enabled, then system will create the material even if the raw materials are available",如勾选，则即使有可用原材料，系统也会生成物料需求(需求)
@@ -4634,7 +4635,7 @@ Implementation Partner,实施服务商
 Actual,实际
 Shift Actual Start,实际上班时间
 Shift Actual End,实际下班时间
-Actual Delivery Date,实际出库日期
+Actual Delivery Date,实际交货日期
 Actual Operation Time,实际工序时间
 Actual qty in stock,实际库存数量
 Actual Start Date,实际开始日期
@@ -4806,7 +4807,7 @@ Start Time can't be greater than or equal to End Time \					for {0}.,对于{0}�
 {0} is required for 'Balance Sheet' account {1}.,对于“资产负债表”类科目{0}{1}必填。
 "For Course based Student Group, the Course will be validated for every Student from the enrolled Courses in Program Enrollment.",对于基于课程的班级，课程将从入学课程中的每个学生确认。
 "In the case of multi-tier program, Customers will be auto assigned to the concerned tier as per their spent",对于多等级积分方案，系统会根据客户消费金额自动匹配相应积分等级
-"For job card {0}, you can only make the 'Material Transfer for Manufacture' type stock entry",对于加工单{0}，您只能选择“生产调拨”类型物料移动
+"For job card {0}, you can only make the 'Material Transfer for Manufacture' type stock entry",对于加工单{0}，您只能选择“工单发料”类型物料移动
 For Quantity must be less than quantity {0},对于数量必须小于数量{0}
 Another Budget record '{0}' already exists against {1} '{2}' and account '{3}' for fiscal year {4},对于财年{4}，{1}&#39;{2}&#39;和科目“{3}”已存在另一个预算记录“{0}”
 "For currency {0}, the minimum transaction amount should be {1}",对于货币{0}，最小交易金额应为{1}
@@ -4978,8 +4979,8 @@ Workflow State not set,工作流状态未设置
 Workflow Transition,工作流状态转换
 Shift Request,工作班次申请
 Tools,工具
-Material Transfer for Manufacture,生产调拨
-Material Transferred for Manufacture,已生产调拨物料
+Material Transfer for Manufacture,工单发料
+Material Transferred for Manufacture,已工单发料物料
 Work Order Operation,工单工序
 Qty To Manufacture,工单数量
 Work Order Qty,工单数量
@@ -7217,7 +7218,7 @@ In Standard Filter,是标准过滤字段
 Is Single,是单笔记录？
 Include in gross,是毛利相关科目
 Is Existing Asset,是现成固定资产
-Include Item In Manufacturing,是生产调拨物料
+Include Item In Manufacturing,是工单发料物料
 Is Item from Hub,是集市(Hub)网站物料
 Is First Startup,是第一次启动
 Is Group,是组
@@ -8738,7 +8739,7 @@ Transfer Material,物料移动
 Stock Entry {0} is not submitted,物料移动{0}不提交
 Stock Entry {0} created,物料移动{0}已创建
 Stock Ledger Entry,物料移动凭证
-Stock Entry Child,物料移动子表
+Stock Entry Child,物料移动明细
 Stock Entry Detail,物料凭证明细
 Stock Ledger,物料凭证
 Stock Entry (Outward GIT),物料移动（在途发出）
@@ -8855,13 +8856,13 @@ Tally Migration,Tally迁移
 Gantt,甘特图
 Gantt Chart,甘特图
 For Production,生产
-Manufacture,生产入库
+Manufacture,工单入库
 Manufacturing,生产
 Produce,生产
 Production,生产
-Finished Item {0} must be entered for Manufacture type entry,生产制造类物料移动，请输入生产入库物料{0}
+Finished Item {0} must be entered for Manufacture type entry,生产制造类物料移动，请输入入库成品物料{0}
 Manufacturers,生产厂商
-Material Consumption for Manufacture,生产耗用
+Material Consumption for Manufacture,工单耗用
 Work Order,生产工单
 "Did not found transfered item {0} in Work Order {1}, the item not added in Stock Entry",生产工单{1}中未找到已移转物料{0}，未在物料移动凭证中添加该物料
 Work Order has been {0},生产工单已{0}
@@ -9689,7 +9690,7 @@ Grant Application,经费申请
 Grant information.,经费申请信息。
 Grant Application Details ,经费申请细节
 Reseller,经销商
-Ensure Delivery Based on Produced Serial No,绑定生产入库序列号出货
+Ensure Delivery Based on Produced Serial No,绑定工单入库序列号出货
 Balance Qty,结余数量
 Balance Value,结余金额
 Balance (Dr - Cr),结余（Dr  -  Cr）
@@ -11457,12 +11458,12 @@ Conversion Factor,转换系数
 retweet,转推
 Transfer,调拨
 Transfered,已调拨
-Material Transferred for Subcontract,已委外调拨物料
+Material Transferred for Subcontract,已发委外原材料
 Qty to Transfer,调拨数量
 Transfer Qty,调拨数量
 Transferred Quantity,调拨数量
-Transfer Material Against,生产调拨方式
-Transfer Material Against Job Card,依据加工单生产调拨
+Transfer Material Against,工单发料方式
+Transfer Material Against Job Card,依据加工单工单发料
 Transfer Type,转移类型
 Transfer Asset,转移资产
 Waitlisted,轮候
@@ -12751,7 +12752,7 @@ Incorrect Verification code,验证码不正确
 Verification code has been sent to your registered email address.,验证码已发送到您注册的电子邮件地址。
 Validate Attendance,验证考勤
 Verification Link,验证链接
-Inspected By,验货人
+Inspected By,检验人
 High,高
 Highlight,高亮
 Upper Income,高收入
@@ -14515,8 +14516,9 @@ Setting Value,默认值
 BOM Level,BOM层级
 Supplier Item Group,供应商物料组
 Employee Grievance,员工意见
+Employee Responsible,员工负责人
 Grievance Details,意见详情
-Grievance Against Party,意见对象
+Grievance Against Party,意见对象类型
 Grievance Against,意见对象
 Grievance Type,意见类型
 Associated Document Type,源单据类型
@@ -14694,8 +14696,8 @@ Use HTML,使用HTML
 Always use this email address as sender address,使用此邮箱作为发件人邮箱
 Always use this name as sender name,使用此用户名作为发件人
 Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?,启用自动回复将会对所有同步过来的邮件生效，确认继续？
-Allow Continuous Material Consumption,允许连续物料消耗
-Allow material consumptions without immediately manufacturing finished goods against a Work Order,允许工单成品入库前消耗原材料
+Allow Continuous Material Consumption,启用工单耗用
+Allow material consumptions without immediately manufacturing finished goods against a Work Order,允许单独记录多次工单耗用后再进行工单入库
 Allow Excess Material Transfer,允许超量物料调拨
 Allow transferring raw materials even after the Required Quantity is fulfilled,允许超工单需求数量调拨原材料
 Show Remarks,显示备注信息
@@ -14865,3 +14867,9 @@ Debit in Account Currency,借方(科目币别)
 Credit in Account Currency,贷方(科目币别)
 Picked Qty (in Stock UOM),拣货数量(库存单位)
 "{0} {1} has accounting entries in currency {2} for company {3}. Please select a receivable or payable account with currency {2}.",为{0} {1}指定了非公司{3}本币{2}的科目。请选择币种为{2}的应收/付科目。,
+Apply Tax Withholding Amount,含代扣税款
+Reversal Of,被冲销凭证
+Provisional Expense Account,过渡费用科目
+{0} viewed,{0} 查看了
+Time Taken to Deliver,交货耗时
+Reference number of the invoice from the previous system,旧系统发票号
