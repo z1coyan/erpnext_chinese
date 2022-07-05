@@ -1080,7 +1080,7 @@ Download Template,下载模板
 Download template,下载模板文件
 Download Link,下载链接
 Insert Below,下面插入
-Skip Material Transfer,不从工单触发工单调拨
+Skip Material Transfer,不从工单触发工单发料
 Disable CWIP Accounting,不使用在建工程科目(采购入库）
 Not Allowed,不允许
 Not permitted for {0},不允许{0}
@@ -5610,7 +5610,7 @@ Open To Do,未关闭待办
 Pending Activities,待办事项
 To Do,待办
 ToDo,待办
-Subcontracted Raw Materials To Be Transferred,待调拨委外原材料
+Subcontracted Raw Materials To Be Transferred,待发委外原材料
 Pending,待处理
 Pending,待处理
 Open,待处理
@@ -7063,7 +7063,7 @@ Nothing to update,无需更新
 "No need for symbols, digits, or uppercase letters.",无需符号，数字和大写字母。
 There is nothing to edit.,无需编辑。
 Project-wise data is not available for Quotation,无项目数据，无法报价
-Skip Material Transfer to WIP Warehouse,不进行工单调拨
+Skip Material Transfer to WIP Warehouse,不进行工单发料
 No Preview,无预览
 None: End of Workflow,无：工作流结束
 day,日
@@ -13079,7 +13079,7 @@ Additional Discount and Coupon Code,额外折扣与优惠码
 Manufacturing Section,生产信息
 This is a location where raw materials are available.,发出原材料的仓库
 This is a location where final product stored.,接收成品的仓库
-This is a location where operations are executed.,生产加工现，即产线在制品仓
+This is a location where operations are executed.,生产加工场所，也就是生产车间，产线
 This is a location where scraped materials are stored.,存放报废物料的仓库
 "Row {0}: Quantity not available for {4} in warehouse {1} at posting time of the entry ({2} {3})",第{0}行：在记账时间点({2} {3}) 物料{4}在{1}中的可用数量不足
 For Document Event,单据事件
@@ -14873,3 +14873,5 @@ Provisional Expense Account,过渡费用科目
 {0} viewed,{0} 查看了
 Time Taken to Deliver,交货耗时
 Reference number of the invoice from the previous system,旧系统发票号
+Do Not Explode,不展开
+New Version,新版本
