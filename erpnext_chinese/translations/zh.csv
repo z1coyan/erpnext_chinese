@@ -4647,7 +4647,7 @@ Total Actual Amount,实际总金额
 Actual Cost,实际成本
 Actual Qty,实际数量
 Actual Quantity,实际数量
-Actual Qty {0} / Waiting Qty {1},实际数量{0} /等待数量{1}
+Actual Qty {0} / Waiting Qty {1},实际数量{0} /在途数量{1}
 Actual Qty is mandatory,实际数量是必须项
 Actual Qty (at source/target),实际数量（源/目标）
 Actual Qty: Quantity available in the warehouse.,实际数量：仓库中的可用数量。
@@ -7279,7 +7279,7 @@ Show Opening Entries,显示开帐分录
 Show Totals,显示总计
 Show all data,显示所有数据
 Show all Versions,显示所有版本
-Show failed jobs,显示执行出错了的后台任务
+Show Failed Jobs,显示执行出错了的后台任务
 Show Report,显示报表
 Show Calendar,显示日历
 Show Log,显示日志
@@ -14875,3 +14875,6 @@ Time Taken to Deliver,交货耗时
 Reference number of the invoice from the previous system,旧系统发票号
 Do Not Explode,不展开
 New Version,新版本
+Reserved for manufacturing,工单发料预留,
+Reserved for sale,销售出库预留,
+Reserved for sub contracting,委外发料预留,
