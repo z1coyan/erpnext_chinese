@@ -14878,3 +14878,6 @@ New Version,新版本
 Reserved for manufacturing,工单发料预留,
 Reserved for sale,销售出库预留,
 Reserved for sub contracting,委外发料预留,
+Internal Sale or Delivery Reference missing.,须填写关联公司销售或出货参考编号
+Please create purchase from internal sale or delivery document itself,请自关联方内部销售或出货单创建采购订单
+Internal Sales Reference Missing,关联方内部销售编号必填
