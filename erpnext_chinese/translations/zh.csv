@@ -4141,8 +4141,8 @@ This is based on transactions against this Subscriber. See timeline below for de
 Select students manually for the Activity based Group,基于活动创建班级，请手动添加学生
 On Item Quantity,基于物料数量
 From BOM,基于物料清单
-Territory Target Variance Based On Item Group,基于物料组的区域目标差异
-Sales Person Target Variance Based On Item Group,基于物料组的销售人员目标差异
+Territory Target Variance Based On Item Group,区域物料组业绩达成分析
+Sales Person Target Variance Based On Item Group,业务员物料组业绩达成分析
 Manufacture against Material Request,基于物料需求生产
 Based on Permissions For User,基于用户权限
 This is based on transactions against this Patient. See timeline below for details,基于病人的相关业务。详情请参阅表单下方日志记录
@@ -5174,7 +5174,7 @@ Quoted Item Comparison,已报价物料对比
 "Cannot declare as lost, because Quotation has been made.",已报价，不能更改状态为未成交。
 Scrapped,已报废
 Accepted,已接受
-Accepted Quantity,已接受数量
+Accepted Quantity,允收数量
 Received and Accepted,已接收
 Accepted + Rejected Qty must be equal to Received quantity for Item {0},已接收+已拒收数量须等于物料{0}的已接收数量
 Accepted Qty,已接收数量
@@ -6123,7 +6123,7 @@ Total Weightage of all Assessment Criteria must be 100%,所有评估标准的权
 All Assessment Groups,所有评估组
 All Images attached to Website Slideshow should be public,所有连接到网站幻灯片的图片应该是公开的
 All Departments,所有部门
-All Sales Partner Contact,所有销售合作伙伴
+All Sales Partner Contact,所有业务伙伴联系人
 The selected payment entry should be linked with a creditor bank transaction,所选收付款凭证应关联取款银行交易流水
 The selected payment entry should be linked with a debtor bank transaction,所选收付款凭证应关联存款银行交易流水
 The selected item cannot have Batch,所选物料不能启用批号管理
@@ -8525,8 +8525,8 @@ Add Filter,添加过滤条件
 Add Filter By,添加过滤条件
 Add Filters,添加过滤条件
 Add Unsubscribe Link,添加退订链接
-Add Sales Partners,添加销售伙伴
-apps/frappe/frappe/desk/doctype/event/event.js，Add Sales Partners,添加销售合作伙伴
+Add Sales Partners,添加业务伙伴
+apps/frappe/frappe/desk/doctype/event/event.js，Add Sales Partners,添加业务伙伴
 Add Attachment,添加附件
 Attached To Field,添加附件至字段
 "List as [{""label"": _(""Jobs""), ""route"":""jobs""}]",清单[{“标签”：_（“作业”），“路径”：“工作”}]
@@ -8594,8 +8594,8 @@ Points,点数
 Appreciate,点赞
 Appreciation,点赞
  See all past reports.,点这儿可以查看之前的历史报表。
-"Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Group, Campaign, Sales Partner etc.",然后根据客户，客户组，地区，供应商，供应商组织，市场活动，销售合作伙伴等过滤动态定价规则。
-"Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Type, Campaign, Sales Partner etc.",然后动态定价规则将基于客户，客户组，地区，供应商，供应商类型，活动，销售合作伙伴等条件过滤。
+"Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Group, Campaign, Sales Partner etc.",然后根据客户，客户组，地区，供应商，供应商组织，市场活动，业务伙伴等过滤动态定价规则。
+"Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Type, Campaign, Sales Partner etc.",然后动态定价规则将基于客户，客户组，地区，供应商，供应商类型，活动，业务伙伴等条件过滤。
 Proficiency,熟练程度
 Fuel Type,燃料类型
 Fuel UOM,燃油单位
@@ -9570,7 +9570,7 @@ Manage cost of operations,管理成本
 Manage Sample Collection,管理样品收集
 Manage Third Party Apps,管理第三方应用
 Manage Sales Person Tree.,管理销售人员。
-Manage Sales Partners.,管理销售合作伙伴。
+Manage Sales Partners.,管理业务伙伴。
 Box,箱
 Case No(s) already in use. Try from Case No {0},箱号已被使用，请尝试从{0}开始
 Mizoram,米佐拉姆
@@ -12239,7 +12239,7 @@ Sales Payment Summary,销售收款汇总
 Selling Rate,销售价
 Sales Price List,销售价格表
 Selling Price List,销售价格表
-Sales Partner Type,销售伙伴类型
+Sales Partner Type,业务伙伴类型
 Commission on Sales,销售佣金
 Sales Details,销售信息
 Delivery against Sales Order,销售出库
@@ -12271,17 +12271,17 @@ Against Sales Invoice Item,源销售发票明细
 Sales Invoice Advance,销售发票预付款
 Sales Register,销售台帐
 GST Sales Register,销售台账（GST)
-Sales Partner,销售合作伙伴
-Sales Partner Transaction Summary,销售合作伙伴业绩统计
-Sales Partners Commission,销售合作伙伴佣金
-Sales Partner Commission Summary,销售合作伙伴佣金汇总
-Sales Partner and Commission,销售合作伙伴及佣金
-Sales Partner Name,销售合作伙伴名称
-Sales Partners and Territory,销售合作伙伴和地区
-Sales Partner Addresses And Contacts,销售合作伙伴地址和联系人
-Sales Partner Target Variance based on Item Group,销售合作伙伴基于物料组的目标差异
-Sales Partner Target Variance Based On Item Group,销售合作伙伴基于物料组的目标差异
-Sales Partner Target,销售合作伙伴目标
+Sales Partner,业务伙伴
+Sales Partner Transaction Summary,业务伙伴业绩统计
+Sales Partners Commission,业务伙伴佣金
+Sales Partner Commission Summary,业务伙伴佣金汇总
+Sales Partner and Commission,业务伙伴及佣金
+Sales Partner Name,业务伙伴名称
+Sales Partners and Territory,业务伙伴和地区
+Sales Partner Addresses And Contacts,业务伙伴地址和联系人
+Sales Partner Target Variance based on Item Group,业务伙伴物料组业绩达成分析
+Sales Partner Target Variance Based On Item Group,业务伙伴物料组业绩达成分析
+Sales Partner Target,业务伙伴目标
 Sales User,销售员
 Sales and Returns,销售和退货
 Default tax templates for sales and purchase are created.,销售和采购的默认税费模板已创建。
@@ -13074,7 +13074,7 @@ No results found for {0} in Global Search,很抱歉，没有找到与{0}相关�
 Global Search DocType,全局搜索单据类型
 Global Search Document Types Reset.,全局搜索单据类型重置
 Global Search Settings,全局搜索设置
-Referral Sales Partner,介绍人
+Referral Sales Partner,业务伙伴
 Additional Discount and Coupon Code,额外折扣与优惠码
 Manufacturing Section,生产信息
 This is a location where raw materials are available.,发出原材料的仓库
@@ -13290,7 +13290,7 @@ Reponse,正文,Email Template
 Add Shortcut,添加快速访问
 Inbound Payment,收款凭证
 HR,人力资源
-CRM,客户关系管理
+CRM,客户关系
 Users and Permissions,用户与权限
 dashboard,数据面板
 Marketplace,网上交易市场
@@ -13988,7 +13988,7 @@ Configure Account Settings,设置会计模块
 Review Chart Of Accounts,检查科目表
 "Lets create a Tax Template for Sales ",新增销售税费模板
 Create Opportunity,新增商机
-Introduction to CRM,客户关系管理功能介绍
+Introduction to CRM,客户关系功能介绍
 Create Employee,新增员工
 Create Holiday List,新增假期
 Create Designation,新增职位
@@ -14013,7 +14013,7 @@ Let's Set Up the Healthcare Module.,开始设置医疗模块
 Let's Set Up Your Accounts and Taxes.,开始设置会计模块
 Let's Set Up the Assets Module.,开始设置固定资产模块
 "Let's Set Up the Human Resource Module. ",开始设置人力资源模块
-Let's Set Up Your CRM.,开始设置客户关系管理模块
+Let's Set Up Your CRM.,开始设置客户关系模块
 Let's Set Up the Selling Module.,开始设置销售模块
 Let's Set Up the Buying Module.,开始设置采购模块
 Let's Set Up the Manufacturing Module.,开始设置生产模块
@@ -14209,7 +14209,7 @@ Watch Video,观看视频
 Introduction to Buying,采购功能介绍
 Introduction to Selling,销售功能介绍
 Set up your Warehouse,设置仓库
-Introduction to CRM,客户关系管理功能介绍
+Introduction to CRM,客户关系功能介绍
 "Products, Raw Materials, BOM, Work Order, and more.","产品，原材料，物料清单，工单及更多"
 Manual Inspection,手工检验
 Set the status manually.,手工设置状态
@@ -14604,7 +14604,7 @@ Supplier Item,供应商物料
 Supplier Group Item,供应商组物料
 Customer Group Item,客户组物料
 Sub Operation ,子工序
-Sales Partner Item,销售业务伙伴物料
+Sales Partner Item,业务伙伴明细
 Query Parameters,查询参数
 Production Plan Item Reference,生产计划物料参考
 Production Plan Sub Assembly Item,生产计划子装配件
@@ -14635,7 +14635,7 @@ For Operation,工序
 Is Billable,可开票,
 Completed On,完成日期
 Customer Defaults,客户默认值
-CRM Settings,客户关系管理设置
+CRM Settings,客户关系设置
 Item Price Settings,物料价格设置
 Transaction Settings,业务交易设置
 Calculate Product Bundle Price based on Child Items' Rates,基于套件包含的物料价格计算套件价格
@@ -14881,3 +14881,4 @@ Reserved for sub contracting,委外发料预留,
 Internal Sale or Delivery Reference missing.,须填写关联公司销售或出货参考编号
 Please create purchase from internal sale or delivery document itself,请自关联方内部销售或出货单创建采购订单
 Internal Sales Reference Missing,关联方内部销售编号必填
+BOM Level,BOM层级
