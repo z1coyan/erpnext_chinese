@@ -2044,7 +2044,8 @@ Supplier Part Number,供应商物料编号
 Customer Part Number,客户物料编号
 Place Of Supply (State/UT),供应地点（州/ UT）
 Nature Of Supplies,供应的性质
-Supplied Items,委外发料物料
+Supplied Items,委外原材料
+Supplied Item,委外原材料
 Supply Type,供应类型
 Supplies made to UIN holders,供应给UIN持有人的供应品
 Contributed,供稿
@@ -4230,7 +4231,7 @@ Sub-contracting,委外
 Subcontract,委外
 Raw Materials Supplied Cost,委外原材料成本
 Send to Subcontractor,委外发料
-Subcontracted Item,委外明细
+Subcontracted Item,委外物料
 Backflush Raw Materials of Subcontract Based On,委外订单原材料扣帐
 Purchase Receipt Item Supplied,委外订单外发物料
 Supplier Warehouse mandatory for sub-contracted Purchase Receipt,委外采购入库必须指定供应商仓库
@@ -5084,7 +5085,7 @@ Used Leaves,已休假(天数)
 disabled user,已禁用用户
 Taken,已使用
 Employee record is created using selected field. ,使用所选字段值员工号。
-Supplied Qty,已供应数量
+Supplied Qty,已发料数量
 Saved,已保存
 Filters saved,已保存过滤条件
 Stopped,已停止
@@ -14882,3 +14883,4 @@ Internal Sale or Delivery Reference missing.,须填写关联公司销售或出�
 Please create purchase from internal sale or delivery document itself,请自关联方内部销售或出货单创建采购订单
 Internal Sales Reference Missing,关联方内部销售编号必填
 BOM Level,BOM层级
+Subcontract Order Summary,委外采购订单执行追踪表
