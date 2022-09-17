@@ -14884,3 +14884,14 @@ Please create purchase from internal sale or delivery document itself,请自关�
 Internal Sales Reference Missing,关联方内部销售编号必填
 BOM Level,BOM层级
 Subcontract Order Summary,委外采购订单执行追踪表
+Bulk Transaction,批量操作
+Telephony,电话集成
+Payment Gateways,支付网关
+E-commerce,电商
+Workspace Manager,工作区管理员
+Please clear the,请清空
+Payment Schedule Table,付款计划明细表
+selected Payment Terms Template,付款条款模板字段
+"If this checkbox is checked, paid amount will be splitted and allocated as per the amounts in payment schedule against each payment term",如勾选，则金额根据付款计划明细中的付款条款进行拆分,
+Translate Link Fields,翻译链接字段
+Make Attachments Public by Default,上传文件默认设为公开
