@@ -7089,7 +7089,7 @@ Date,日期
 Date {0} must be in format: {1},日期{0}必须采用格式：{1}
 After Date,日期之后
 Date and Number Format,日期和数字格式
-To Date should be within the Fiscal Year. Assuming To Date = {0},日期应该是在财年内。假设终止日期= {0}
+To Date should be within the Fiscal Year. Assuming To Date = {0},截止日期应早于财年截止日 {0}
 Dates are often easy to guess.,日期往往容易被猜中。
 Datetime,日期时间
 Date Format,日期格式
@@ -14895,3 +14895,5 @@ selected Payment Terms Template,付款条款模板字段
 "If this checkbox is checked, paid amount will be splitted and allocated as per the amounts in payment schedule against each payment term",如勾选，则金额根据付款计划明细中的付款条款进行拆分,
 Translate Link Fields,翻译链接字段
 Make Attachments Public by Default,上传文件默认设为公开
+Allow multi-currency invoices against single party account,允许同一客户/供应商发票多币种结算
+Enabling this will allow creation of multi-currency invoices against single party account in company currency,如果勾选，基础数据中定义本币交易的客户或供应商其发票可使用外币
