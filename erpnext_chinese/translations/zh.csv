@@ -8713,7 +8713,7 @@ Item Locations,物料库存位置
 Item must be added using 'Get Items from Purchase Receipts' button,物料必须要由“从采购入库选物料”添加
 Item valuation rate is recalculated considering landed cost voucher amount,物料成本价将基于到岸成本凭证金额重新计算
 Batch Item Expiry Status,物料批号到期状态
-Batch-Wise Balance History,物料批号结余数量历史记录
+Batch-Wise Balance History,物料批号结余数量
 Item Description,物料描述
 Quantity of Items,物料数量
 Item quantity can not be zero,物料数量不能为零
@@ -12002,7 +12002,7 @@ Purchase Receipt Message,采购入库信息
 Purchase Receipt No,采购入库号码
 Purchase Receipt Item,采购入库明细
 Purchase Receipt Trends,采购入库趋势
-Return Against Purchase Receipt,采购入库退回
+Return Against Purchase Receipt,被退货源单
 Purchase Receipt Amount,采购入库金额
 Buying Amount,采购金额
 Purchase Date,采购日期
@@ -14868,7 +14868,7 @@ Debit in Account Currency,借方(科目币别)
 Credit in Account Currency,贷方(科目币别)
 Picked Qty (in Stock UOM),拣货数量(库存单位)
 "{0} {1} has accounting entries in currency {2} for company {3}. Please select a receivable or payable account with currency {2}.",为{0} {1}指定了非公司{3}本币{2}的科目。请选择币种为{2}的应收/付科目。,
-Apply Tax Withholding Amount,含代扣税款
+"Apply Tax Withholding Amount ",含代扣税款
 Reversal Of,被冲销凭证
 Provisional Expense Account,过渡费用科目
 {0} viewed,{0} 查看了
@@ -14897,3 +14897,8 @@ Translate Link Fields,翻译链接字段
 Make Attachments Public by Default,上传文件默认设为公开
 Allow multi-currency invoices against single party account,允许同一客户/供应商发票多币种结算
 Enabling this will allow creation of multi-currency invoices against single party account in company currency,如果勾选，基础数据中定义本币交易的客户或供应商其发票可使用外币
+"Can't change the valuation method, as there are transactions against some items which do not have its own valuation method",有些物料未在物料基础数据中维护成本计算方法且已关联物料凭证与会计凭证，考虑资料一致性此处成本计算方法不能被修改
+"Party Account {0} currency ({1}) and document currency ({2}) should be same",往来单位基础数据中定义的结算币种需与业务交易币种相同
+Show GL Balance,显示总帐余额
+GL Balance,总帐余额
+Total Amount Due,总未付金额
