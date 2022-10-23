@@ -14846,7 +14846,7 @@ Send To All Assignees,发送给所有待办执行人,
 Receiver By Document Field,收件人(单据字段),
 Receiver By Role,收件人(用户角色),
 "Cannot overbill for Item {0} in row {1} more than {2}. To allow over-billing, please set allowance in Accounts Settings",第{1}行物料{0}发票金额不能超过{2}。要允许超订单金额开票，请在“会计设置”中设置 发票超金额控制(%),
-You cannot change the rate if BOM is mentioned against any Item.,有物料清单的物料其价格不可手工设置
+You cannot change the rate if BOM is mentioned against any Item.,有物料清单的物料价格不可手工设置
 Inter Company Purchase Invoice,关联公司采购发票
 Unreconciled Entries,未核销单据
 "If you need to reconcile particular transactions against each other, then please select accordingly. If not, all the transactions will be allocated in FIFO order.",可以手工勾选匹配，否则按时间先后自动匹配
