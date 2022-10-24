@@ -14902,3 +14902,16 @@ Enabling this will allow creation of multi-currency invoices against single part
 Show GL Balance,显示总帐余额
 GL Balance,总帐余额
 Total Amount Due,总未付金额
+API Key cannot be regenerated,无法重新生成API密钥
+Prospect,意向
+Toggle Theme,切换主题
+Log out,退出系统
+Manage Subscriptions,管理订阅
+Frappe Support,Frappe支持
+Create Workspace,新建工作区
+Your Shortcuts,快速访问
+Sales Pipeline Analytics,销售渠道分析
+Opportunity Summary by Sales Stage,商机汇总(按销售阶段)
+Cost Center Allocation,成本中心分摊
+Cost Center Allocation Percentages,成本中心分摊百分比
+Asset Capitalization,资产资本化
