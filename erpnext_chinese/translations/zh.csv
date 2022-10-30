@@ -4398,7 +4398,7 @@ Notify if unreplied,如果没有回复的通知
 "Multiple Price Rules exists with same criteria, please resolve conflict by assigning priority. Price Rules: {0}",如果相同条件有多条规则存在，请分配优先级解决冲突。动态定价规则：{0}
 "If disabled, this role will be removed from all users.",如果禁用了，这个角色将会从所有用户中删除。
 "If disable, 'Rounded Total' field will not be visible in any transaction",如果禁用，“圆整后金额”字段将不在任何交易中显示
-"If the account is frozen, entries are allowed to restricted users.",如果科目被冻结，只允许受限的用户（编辑冻结凭证的角色）过账
+"If the account is frozen, entries are allowed to restricted users.",如果科目被冻结，只允许有编辑冻结凭证角色的用户过账
 "If unlimited expiry for the Loyalty Points, keep the Expiry Duration empty or 0.",如果积分无失效日期，请将失效日期设为空或0。
 Will only be shown if section headings are enabled,如果章节标题启用才会显示
 If Checked workflow status will not override status in list view,如勾选，工作流状态不会覆盖列表视图中的状态字段
@@ -7233,8 +7233,10 @@ In Filter,是自定义过滤字段
 Is Return (Debit Note),退货(扣款)
 Is Return (Credit Note),退货(退款)
 Is Purchase Item,允许采购
+Allow Purchase,允许采购
 Is Milestone,是里程碑
 Is Sales Item,允许销售
+Allow Sales,允许销售
 Is Attachments Folder,是附件文件夹
 Is Additional Component,是额外薪资？
 Is the Default Account,是默认帐户
@@ -14915,3 +14917,52 @@ Opportunity Summary by Sales Stage,商机汇总(按销售阶段)
 Cost Center Allocation,成本中心分摊
 Cost Center Allocation Percentages,成本中心分摊百分比
 Asset Capitalization,资产资本化
+In Location,在册
+Disposed,已处置
+--Select a group--,选择分组方式
+Stock Movement,物料移动
+Payment Terms Status for Sales Order,销售订单分期付款追踪表
+Packages,包
+Package,包
+Package Import,包导入
+System Logs,系统日志
+Scheduled Jobs Logs,后台任务日志
+Error Logs,错误日志
+Communication Logs,沟通日志
+Cost Centers for Budgeting and Analysis,成本中心预算与分析
+Updating Opening Balances,更新期初
+Tax Detail,税费明细
+Work Order Consumed Materials,工单已耗用物料
+Settings & Configurations,设置
+Opening & Closing,交接班
+POS Beginning Entry,接班记录
+POS Closing Entry,交班记录
+Preview of generated names,自动生成的单据编号预览
+Add this Series,添加单据编号模板
+Try a naming Series,预览测试单据编号模板
+"## Products and Services
+
+Depending on the nature of your business, you might be selling products or services to your clients or even both. 
+ERPNext is optimized for itemized management of your sales and purchase.
+
+The **Item Master**  is where you can add all your sales items. If you are in services, you can create an Item for each service that you offer. If you run a manufacturing business, the same master is used for keeping a record of raw materials, sub-assemblies etc.
+
+Completing the Item Master is very essential for the successful implementation of ERPNext. We have a brief video introducing the item master for you, you can watch it in the next step.","## 产品与服务
+
+你可能出售产品或服务，或者同时出售产品和服务给客户，产品和服务在本系统中都被定义为物料基础数据,被销售、采购、库存等业务流程使用
+
+正确完整地维护物料基础数据对于系统实施到关重要。"
+"## Who is a Customer?
+
+A customer, who is sometimes known as a client, buyer, or purchaser is the one who receives goods, services, products, or ideas, from a seller for a monetary consideration.
+
+Every customer needs to be assigned a unique id. Customer name itself can be the id or you can set a naming series for ids to be generated in Selling Settings.
+
+Just like the supplier, let's quickly create a customer.","## 谁是客户
+
+客户是购买产品、服务的组织
+
+每个客户须有(唯一识别)编号，可在销售(模块)设置中选择客户编号生成方式：客户名或自动流水码"
+DocTypes can not be modified, please use {0} instead,单据类型不能修改，请通过{0}修改
+This site is running in developer mode. Any change made here will be updated in code.,本站点已设置开发者模式参数，单据修改会同步到代码中
+"If you just want to customize for your site, use {0} instead.",如果只是定制，请通过{0}修改
