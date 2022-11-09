@@ -14966,3 +14966,5 @@ Just like the supplier, let's quickly create a customer.","## 谁是客户
 DocTypes can not be modified, please use {0} instead,单据类型不能修改，请通过{0}修改
 This site is running in developer mode. Any change made here will be updated in code.,本站点已设置开发者模式参数，单据修改会同步到代码中
 "If you just want to customize for your site, use {0} instead.",如果只是定制，请通过{0}修改
+The value {0} is already assigned to an existing Item {1}.,现有物料{1}已使用此属性值{0}。,
+"To still proceed with editing this Attribute Value, enable {0} in Item Variant Settings.",如需修改属性值，请在库存模块的“物料多规格设置”中勾选 允许重命名属性值。,
