@@ -14968,3 +14968,19 @@ This site is running in developer mode. Any change made here will be updated in 
 "If you just want to customize for your site, use {0} instead.",如果只是定制，请通过{0}修改
 The value {0} is already assigned to an existing Item {1}.,现有物料{1}已使用此属性值{0}。,
 "To still proceed with editing this Attribute Value, enable {0} in Item Variant Settings.",如需修改属性值，请在库存模块的“物料多规格设置”中勾选 允许重命名属性值。,
+Interviews,面试
+Interview,面试
+Interview Type,面试类型
+Interview Round,页试轮次
+Interview Feedback,面试反馈
+Skill Assessment,技能评估
+Employee Exits,员工离职
+Exit Interview Pending,离职面谈待定
+Exit Questionnaire Pending,离职问卷待定
+Reports To,汇报给
+Interview Status,离职状态
+Final Decision,最终决定
+Employee Retained,员工留任
+Exit Confirmed,确定离职
+Buying & Selling Settings,采购及销售设置
+HR & Payroll Settings,人力资源及薪资设置
