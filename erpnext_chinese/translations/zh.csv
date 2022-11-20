@@ -1989,7 +1989,7 @@ Supplier &gt; Supplier Type,供应商&gt;供应商类型
 Supplier &gt; Supplier Group,供应商&gt;供应商组
 Supplier GSTIN,供应商GSTIN
 Supplier Reference,供应商介绍
-Supplier Warehouse,供应商仓库
+Supplier Warehouse,委外仓
 Supplier Details,供应商信息
 Supplier Score,供应商分数
 Supplier Invoice No exists in Purchase Invoice {0},供应商发票号已被采购发票{0}引用
@@ -4234,7 +4234,7 @@ Send to Subcontractor,委外发料
 Subcontracted Item,委外物料
 Backflush Raw Materials of Subcontract Based On,委外订单原材料扣帐
 Purchase Receipt Item Supplied,委外订单外发物料
-Supplier Warehouse mandatory for sub-contracted Purchase Receipt,委外采购入库必须指定供应商仓库
+Supplier Warehouse mandatory for sub-contracted Purchase Receipt,委外采购入库必须指定委外仓
 Reserved Qty for sub contract,委外预留数量
 Reserved for Sub Contracting,委外预留数量
 Reserved Qty for Subcontract: Raw materials quantity to make subcotracted items.,委外预留数量：为委外订单预留的原材料数量。
@@ -13565,13 +13565,13 @@ Quotation Amount,报价金额
 Reserved Qty for Subcontract: Raw materials quantity to make subcontracted items.,委外预留数量:为委外订单预留的原材料数量
 Reserved Quantity for Production,生产预留数量
 Row # {0}: Returned Item {1} does not exist in {2} {3}, 第{0}行:退回物料{1}在{2} {3}中不存在
-Row #{0}: Accepted Warehouse and Supplier Warehouse cannot be same,第{0}行:接收仓与供应商仓不能相同
+Row #{0}: Accepted Warehouse and Supplier Warehouse cannot be same,第{0}行:接收仓与委外仓不能相同
 Row #{0}: Cannot delete item {1} which has already been billed.,第{0}行: 不能删除已开票物料 {1}
 Row #{0}: Cannot delete item {1} which has already been delivered,第{0}行: 不能删除已出化物料 {1}
 Row #{0}: Cannot delete item {1} which has already been received,第{0}行: 不能删除已收货物料 {1}
 Row #{0}: Cannot delete item {1} which has work order assigned to it.,第{0}行: 不能删除已关联工单的物料 {1}
 Row #{0}: Cannot delete item {1} which is assigned to customer's purchase order.,第{0}行: 不能删除已分派客户采购订单号的物料 {1}
-Row #{0}: Cannot select Supplier Warehouse while suppling raw materials to subcontractor,第{0}行:发委外原材料时不能选供应商仓
+Row #{0}: Cannot select Supplier Warehouse while suppling raw materials to subcontractor,第{0}行:发委外原材料时不能选委外仓
 Row #{0}: Cost Center {1} does not belong to company {2},第{0}行:成本中心 {1} 不隶属于公司 {2}
 Row #{0}: Invalid Local Fieldname,第{0}行: 无效本地字段名
 Row #{0}: Item {1} is not a Serialized/Batched Item. It cannot have a Serial No/Batch No against it.,第{0}行: 物料未启用序列号/批号，不能为其设置序列号/批号
@@ -14131,7 +14131,7 @@ Successfully updated {0} records.,成功导入了{0}笔资料
 "Import File Errors and Warnings",导入文件错误与警告信息
 The following values do not exist for {}: {},下列值不存在：{}: {}
 Report Error,出错提示
-Consumed Items,已耗用物料
+Consumed Items,委外原材料
 Removed items with no change in quantity or value.,已移除数量或金额没有任何变化的物料行
 Selected Serial Numbers,已选序列号
 Fetch Serial Numbers based on FIFO,基于先进先出获取序号
@@ -14565,8 +14565,8 @@ Fixed Asset Defaults,固定资产默认值
 Enable Common Party Accounting,启用既是供应商又是客户合并记账功能
 Enable Discount Accounting,启用折扣科目单独记账功能
 "If enabled, additional ledger entries will be made for discounts in a separate Discount Account",如果勾选，生成的会计凭证中包含折扣科目
-Over Transfer Allowance,超量调拨百分比
-"The percentage you are allowed to transfer more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed transfer 110 units.",允许超工单需求量原材料调拨的百分比。如，需求数量100个，容差10％，则最多可调拨110个,
+Over Transfer Allowance (%),允许超量发料(％),
+Percentage you are allowed to transfer more against the quantity ordered. For example: If you have ordered 100 units. and your Allowance is 10% then you are allowed to transfer 110 units.,允许超订单需求量发料百分比。例如需求100个，最多允许超10％，则最多可发料110个,
 Review Stock Settings,审核库存模块设置
 Setup a Warehouse,设置仓库
 Manage Stock Movements,管理物料移动
