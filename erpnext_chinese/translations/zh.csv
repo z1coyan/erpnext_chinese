@@ -14978,3 +14978,4 @@ Create Depreciation Entry,创建折旧分录
 you must select Capital Work in Progress Account in accounts table,请在明细表设置在建工程科目,
 You can also set default CWIP account in Company {},您还可以在公司{}主数据中设置默认在建工程科目,
 Enable Capital Work in Progress Accounting,资产入库先记帐在建工程科目,
+Get Supplier Group Details,获取供应商组信息
