@@ -14979,3 +14979,53 @@ you must select Capital Work in Progress Account in accounts table,请在明细�
 You can also set default CWIP account in Company {},您还可以在公司{}主数据中设置默认在建工程科目,
 Enable Capital Work in Progress Accounting,资产入库先记帐在建工程科目,
 Get Supplier Group Details,获取供应商组信息
+Setup failed,始始化失败
+Could not start up: Error in setup,初始化过程有错误
+Module Profile,模块集合
+Warehouse Settings,仓库信息
+Available Qty at Target Warehouse,仓库可用数量
+Finished Good Item Qty,成品物料数量
+Finished Good Item Quantity,成品物料数量
+Finished Good Item,成品物料编号
+Create Grouped Asset,创建组资产(多个数量一个资产号)
+Asset Quantity,资产数量
+Shipping Address Template,出货地址模板
+Has Item Scanned,已扫条码
+Voucher Name,凭证编号
+Tax Withheld Vouchers,代缴税款凭证
+Only If Creator,限单据创建者
+Page Number,页码
+Top Left,顶部左侧
+Bottom Left,底部左侧
+Margin Top,顶边距
+Margin Bottom,底边距
+Margin Left,左边距
+Margin Right,右边距
+Internal Customer,内部客户
+Contact & Address,地址与联系人
+Receivable Accounts,往来单位科目
+Is System Generated,由系统生成
+Module (for export),模块(用于导出)
+Reset Password Link Expiry Duration,重置密码间隔
+Session Expiry (idle timeout),会话超时(无操作超时)
+Document Share Key Expiry (in Days),单据共享超时(天)
+Number of days after which the document Web View link shared on email will be expired,透过邮件共享的登录链接多久后过期
+Disable Username/Password Login,禁止用户密码登录
+Make sure to configure a Social Login Key before disabling to prevent lockout,请确保先配置好社交登录码以防登出后被锁
+Encrypt Backups,备份数据加密
+Allow Older Web View Links (Insecure),允许通过登录链接(不安全)
+System Updates,系统更新
+Disable System Update Notification,禁止系统更新通知
+Disable Change Log Notification,禁止系统更新日志通知
+On Payment Authorization,付款授权
+Workstation Type,工站类型
+Subcontracting Order,委外订单
+Subcontracting Receipt,委外入库
+Recalculate Rate,重新计算成本价
+Subcontracting Purchase Order,委外采购
+Distribute Additional Costs Based On,额外费用分摊方式
+Raw Material Cost Per Qty,每单位原材料成本
+Service Cost Per Qty,每单位加工费
+Additional Cost Per Qty,每单位其它成本
+Warehouse Details,仓库信息
+Service Items,委外加工费明细
