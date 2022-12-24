@@ -1482,6 +1482,7 @@ Only show Customer of these Customer Groups,仅显示这些客户组的客户
 Only show Items from these Item Groups,仅显示这些物料组中的物料
 Restrict user from this IP address only. Multiple IP addresses can be added by separating with commas. Also accepts partial IP addresses like (111.111.111),仅此IP地址限制用户。多个IP地址，可以通过用逗号分隔的补充。也接受像（111.111.111）部分的IP地址
 Set Only Once,仅设置一次
+Set only once,仅设置一次
 Select only one Priority as Default.,仅选择一个优先级作为默认值。
 If different than customer address,仅限客户地址不同
 LMS Only,仅限访问学习系统网站
@@ -2703,6 +2704,7 @@ The first Expense Approver in the list will be set as the default Expense Approv
 List View Setting,列表视图设置
 List View Settings,列表视图设置
 List Filter,列表过滤条件
+In List Filter,列表过滤条件
 "Description for listing page, in plain text, only a couple of lines. (max 140 characters)",列表页面说明，使用纯文本（最多140个字符）。
 Row #{0}: Payment document is required to complete the trasaction,列＃{0}：付款单据才能完成trasaction
 just now,刚刚
@@ -4467,6 +4469,7 @@ Field '{0}' cannot be set as Unique as it has non-unique values,字段“{0}”�
 Value To Be Set,字段值
 "Field ""value"" is mandatory. Please specify value to be updated",字段值必填。请指定值进行更新
 Fetch If Empty,字段内容为空时才获取
+Fetch only if value is not set,字段内容为空时才获取
 Read Only Depends On,是否只读先决条件
 Fieldname,字段名
 Fieldname {0} cannot have special characters like {1},字段名{0}不能有特殊字符，如{1}
@@ -14213,7 +14216,7 @@ Introduction to Selling,销售功能介绍
 Set up your Warehouse,设置仓库
 Introduction to CRM,客户关系功能介绍
 "Products, Raw Materials, BOM, Work Order, and more.","产品，原材料，物料清单，工单及更多"
-Manual Inspection,手工检验
+Manual Inspection,手工设置状态
 Set the status manually.,手工设置状态
 Applied on each reading.,适用于每个读数
 Numeric Inspection,检验数值
@@ -14661,7 +14664,7 @@ Set Operating Cost Based On BOM Quantity,基于物料清单数量设置工序成
 Operation Time ,工序时间,
 Scrap Item Code,报废物料编号
 Scrap Item Name,报废物料名称
-FG Qty from Transferred Raw Materials,调拨原料折算的成品数量
+FG Qty from Transferred Raw Materials,成品数量(基于已发原材料)
 Document Naming Rule,单据编号规则,
 Document Naming Rule Condition,单据编号规则条件,
 Following item {0} is not marked as {1} item. You can enable them as {1} item from its Item master,下列物料{0}未勾选{1}。请在物料基础资料中勾选,
@@ -14701,8 +14704,8 @@ Always use this name as sender name,使用此用户名作为发件人
 Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?,启用自动回复将会对所有同步过来的邮件生效，确认继续？
 Allow Continuous Material Consumption,启用工单耗用
 Allow material consumptions without immediately manufacturing finished goods against a Work Order,允许单独记录多次工单耗用后再进行工单入库
-Allow Excess Material Transfer,允许超量物料调拨
-Allow transferring raw materials even after the Required Quantity is fulfilled,允许超工单需求数量调拨原材料
+Allow Excess Material Transfer,允许超需求量工单发料
+Allow transferring raw materials even after the Required Quantity is fulfilled,允许超工单需求数量发原材料
 Show Remarks,显示备注信息
 "Update BOM cost automatically via scheduler, based on the latest Valuation Rate/Price List Rate/Last Purchase Rate of raw materials",通过后台程序基于原材料最新成本价/标价/采购价自动更新BOM成本,
 Ignore Empty Stock,不包括无库存物料
@@ -15029,3 +15032,38 @@ Service Cost Per Qty,每单位加工费
 Additional Cost Per Qty,每单位其它成本
 Warehouse Details,仓库信息
 Service Items,委外加工费明细
+Subcontracting Order Item,委外订单明细
+Subcontracting Order Service Item,委外订单加工费明细
+Subcontracting Order Supplied Item,委外订单原材料明细
+Return Against Subcontracting Receipt,源委外入库
+Subcontracting Receipt Item,委外入库明细
+Subcontracting Receipt Supplied Item,委外入库原材料明细
+Consolidate Sub Assembly Items,合并子装配件
+Sales Order Reference,销售订单号
+Item Reference,物料编号
+qty,数量
+Constraints,约束条件
+Visibility,是否显示
+List / Search Settings,列表 / 搜索设置
+Virtual,虚拟
+Is Calendar and Gantt,有日历与甘特图视图
+Enables Calendar and Gantt views.,从列表界面可切换到日历和甘特图
+Show Title in Link Fields,在链接字段中以标题字段值显示
+Force Re-route to Default View,强制显示默认视图(不返回上次视图)
+Naming Rule,编号规则
+Set by user,用户输入
+Autoincrement,自增
+By fieldname,字段
+By "Naming Series" field,单据编号模板
+Expression,公式
+Expression (old style),公式(旧方法)
+Random,随机
+By script,脚本代码
+Default View,默认视图
+Website Search Field,网站搜索字段
+Display Depends On (JS),显示先决条件(JS)
+Collapsible Depends On (JS),可折叠先决条件(JS)
+Mandatory Depends On (JS),必填先决条件(JS)
+Read Only Depends On (JS),只读先决条件(JS)
+Max Height,最大高度
+DocType State,单据类型状态
