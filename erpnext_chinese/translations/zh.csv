@@ -229,7 +229,7 @@ EDU-INS-.YYYY.-,EDU-INS-.YYYY.-
 EDU-STU-.YYYY.-,EDU-STU-.YYYY.-
 EDU-FEE-.YYYY.-,EDU-收费.YYYY.-
 EMI,EMI
-ERPNext Settings,ERPNext全局设置
+ERPNext Settings,应用设置
 ERPNext Company,ERPNext公司
 ERPNext could not find any matching payment entry,ERPNext未找到任何匹配的收付款凭证
 ERPNext Demo,ERPNext演示
@@ -237,7 +237,7 @@ ERPNext User,ERPNext用户
 ERPNext User ID,ERPNext用户ID
 ERPNext Account,ERPNext科目
 ERPNext Setup Complete!,ERPNext设置完成！
-ERPNext Integrations,ERPNext集成
+ERPNext Integrations,ERP集成
 ES,ES
 eu-central-1,EU-中央-1
 Eway Bill,Eway Bill
@@ -3795,7 +3795,7 @@ Response Options,响应选项
 "Oops, you are not allowed to know that",哎呀，你不能知道
 Repeat on Day,哪一天
 Pre Sales,售前
-Support,售后支持
+Support,售后
 Support Analtyics,售后支持分析
 Support and Resolution,售后支持和解决方案
 Support Team,售后支持团队
@@ -14830,7 +14830,7 @@ Open Sales Orders,未结销售订单
 "Once the Work Order is Closed. It can't be resumed.",不能恢复已关闭工单
 Not allowed via controller permission check,自定义代码权限检查has_permission不通过
 Action / Route,操作 / 网址路径,
-Is Rate Adjustment Entry (Debit Note),是调价单
+Is Rate Adjustment Entry (Debit Note),是否是调价单
 Issue a debit note with 0 qty against an existing Sales Invoice,基于已有销售发票开一张0数量发票
 E Commerce Settings,电商设置
 Filters and Categories,过滤和类别
@@ -14864,7 +14864,7 @@ Partially ordered,已部分下单,
 Qty To Produce,待生产数量
 Selected Qty,已选数量
 End Transit,在途入库
-First Day of the Week,一周开始日
+First Day of the Week,每周开始日
 Overproduction for Sales and Work Order,超销售和工单数量控制,
 Quality Inspection(s),质量检验
 Select Items for Quality Inspection,选择待检验物料
@@ -14892,7 +14892,7 @@ Subcontract Order Summary,委外采购订单执行追踪表
 Bulk Transaction,批量操作
 Telephony,电话集成
 Payment Gateways,支付网关
-E-commerce,电商
+E-commerce,电子商务
 Workspace Manager,工作区管理员
 Please clear the,请清空
 Payment Schedule Table,付款计划明细表
@@ -15012,8 +15012,8 @@ Module (for export),模块(用于导出)
 Reset Password Link Expiry Duration,重置密码间隔
 Session Expiry (idle timeout),会话超时(无操作超时)
 Document Share Key Expiry (in Days),单据共享超时(天)
-Number of days after which the document Web View link shared on email will be expired,透过邮件共享的登录链接多久后过期
-Disable Username/Password Login,禁止用户密码登录
+Number of days after which the document Web View link shared on email will be expired,电子邮件上共享的文档Web视图链接过期的天数
+Disable Username/Password Login,禁用用户名/密码登录
 Make sure to configure a Social Login Key before disabling to prevent lockout,请确保先配置好社交登录码以防登出后被锁
 Encrypt Backups,备份数据加密
 Allow Older Web View Links (Insecure),允许通过登录链接(不安全)
@@ -15067,3 +15067,62 @@ Mandatory Depends On (JS),必填先决条件(JS)
 Read Only Depends On (JS),只读先决条件(JS)
 Max Height,最大高度
 DocType State,单据类型状态
+Buying & Selling Settings,采购和销售设置
+HR & Payroll Settings,人力资源和工资设置
+Accounting Reports,会计报表
+Payroll Reports,工资单报表
+Supplier and Price Defaults,供应商和价格默认值
+Subcontracting Settings,委外设置
+Invoice and Billing,发票和账单
+Invoice Cancellation,发票取消
+Invoicing Features,发票功能
+Enabling ensure each Purchase Invoice has a unique value in Supplier Invoice No. field,启用以确保每个采购发票在“供应商发票号”字段中具有唯一值
+Accounts Closing,期末结账
+Report Setting,报表设置
+Enable Custom Cash Flow Format,启用自定义现金流格式
+Stock Validations,库存和检验
+Serial & Batch Item,序列号和批号
+Serial & Batch Item Settings,序列号和批号设置
+Stock Planning,库存计划
+Stock Closing,库存冻结
+Price List Defaults,价格表默认值
+Enable Discount Accounting for Selling,启用销售折扣单独核算
+Sales Update Frequency in Company and Project,公司和项目中的销售更新频率
+Auto Creation of Contact,自动创建联系人
+Allow Lead Duplication based on Emails,允许复制基于电子邮件的销售线索
+Close Replied Opportunity After Days,回复日期的关闭时间
+Auto close Opportunity Replied after the no. of days mentioned above,自动关闭在上述天数后回复的商机
+Carry Forward Communication and Comments,转发沟通和评论
+All the Comments and Emails will be copied from one document to another newly created document(Lead -> Opportunity -> Quotation) throughout the CRM documents,所有的评论和电子邮件都将在整个CRM文档中从一个文档复制到另一个新创建的文档（Lead->Opportunity->Quote）
+FG Warehouse,成品仓库
+Raw Materials Warehouse,待加工原料仓库
+Get Raw Materials for Purchase,从采购订单获取原料
+Get Raw Materials for Transfer,从物料移动获取原料
+Transfer From Warehouses,选择调拨出库的仓库
+Finished Good Item,成品物料
+Inventory Settings,库存设置
+Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours,示例：如果用户在24小时内不活动，则将其设置为24时将注销
+Max auto email report per user,每个用户的最大自动电子邮件报告数
+Account Deletion Settings,帐户删除设置
+Link that is the website home page. Standard Links (home, login, products, blog, about, contact),链接，即网站主页。标准链接（主页、登录、产品、博客、关于、联系人）
+Interviews,面试
+Warehouse Wise Stock Balance,仓库库存余额
+Supplier Invoice,供应商发票
+Terms & Conditions,条款和条件
+Primary Address and Contact,首选地址和联系人
+Default Receivable Accounts,默认应收账款
+Mention if a non-standard receivable account,涉及到的非标准应收账款
+Deduction Reports,扣除报表
+Credit Limit Settings,信用额度设置
+Role allowed to bypass Credit Limit,允许绕过信用限额角色
+Income Tax Computation,所得税计算
+Tax Setup,税务设置
+Exemption,免税
+Benefits,福利
+Interview Type,面试类型
+Interview Round,面试环节
+Interview Feedback,面试反馈
+Interview,面试
+Scan Mode,扫描模式
+Disables auto-fetching of existing quantity,禁用现有数量的自动提取
+Add Tags,添加标记
