@@ -2209,6 +2209,7 @@ Allow GCalendar Access,允许GCalendar访问
 Allow GSuite access,允许GSuite访问
 Allow Google Contacts Access,允许Google通讯录访问
 Allow Item to be added multiple times in a transaction,允许一个交易中存在相同物料
+Allow Item to be Added Multiple Times in a Transaction,允许一个交易中存在相同物料
 Allow check-out after shift end time (in minutes),允许下班后签退（分钟）
 Allow Account Creation Against Child Company,允许为子公司创建科目
 Allowed To Transact With,允许交易
@@ -8417,7 +8418,7 @@ Message not setup,消息未设置
 Message Examples,消息示例
 Message Count,消息计数
 Message Preview,消息预览
-Consumable,消耗品
+Consumable,耗材
 Consume Stock,消耗库存
 Consumable Total Amount,消耗总量
 Consumed Amount,消耗量
@@ -14569,7 +14570,9 @@ Enable Common Party Accounting,启用既是供应商又是客户合并记账功�
 Enable Discount Accounting,启用折扣科目单独记账功能
 "If enabled, additional ledger entries will be made for discounts in a separate Discount Account",如果勾选，生成的会计凭证中包含折扣科目
 Over Transfer Allowance (%),允许超量发料(％),
+Over Transfer Allowance,允许超量发料(％),
 Percentage you are allowed to transfer more against the quantity ordered. For example: If you have ordered 100 units. and your Allowance is 10% then you are allowed to transfer 110 units.,允许超订单需求量发料百分比。例如需求100个，最多允许超10％，则最多可发料110个,
+"The percentage you are allowed to transfer more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed transfer 110 units.",允许超订单需求量发料百分比。例如需求100个，最多允许超10％，则最多可发料110个,
 Review Stock Settings,审核库存模块设置
 Setup a Warehouse,设置仓库
 Manage Stock Movements,管理物料移动
@@ -15067,3 +15070,35 @@ Mandatory Depends On (JS),必填先决条件(JS)
 Read Only Depends On (JS),只读先决条件(JS)
 Max Height,最大高度
 DocType State,单据类型状态
+Buying & Selling Settings,采购与销售设置
+Price List Defaults,价格表默认值
+Stock Validations,库存防呆校验
+Serial & Batch Item,序列号与批号
+Serial & Batch Item Settings,序列号与批号设置
+Stock Planning,库存计划
+Stock Closing,库存关帐
+Supplier and Price Defaults,供应商与价格默认值
+Subcontracting Settings,委外设置
+Enable Discount Accounting for Selling,启用折扣会计
+Sales Update Frequency in Company and Project,按公司与项目销售统计数据更新频率
+Invoice and Billing,发票与帐单
+Invoicing Features,发票功能
+Invoice Cancellation,发票取消
+Enabling ensure each Sales Invoice has a unique value in Supplier Invoice No. field,强制校验供应商发票号并确保唯一
+Report Setting,报表设置
+Enable Custom Cash Flow Format,启用自定义现金流量格式
+Allow multi-currency invoices against single party account,允许同一往来单位发票多币种
+Credit Limit Settings,信用额度设置
+Role allowed to bypass Credit Limit,不受信用额度限制的角色
+Accounts Closing,会计关帐
+Auto Creation of Contact,自动创建联系人
+Allow Lead Duplication based on Emails,允许基于相同邮箱创建多个线索
+Close Replied Opportunity After Days,自动关闭已回复商机天数
+Auto close Opportunity Replied after the no. of days mentioned above,在上述天数之后自动关闭已回复商机
+Carry Forward Communication and Comments,自动将邮件评论等沟通记录转至下游单据
+Min Qty (As Per Stock UOM),最小数量(库存单位)
+Max Qty (As Per Stock UOM),最大数量(库存单位)
+Threshold for Suggestion (In Percentage),,建议阀值(%)
+Additional Info,附加信息
+Fixed Time,固定时间
+Operation time does not depend on quantity to produce,加工(操作)时间不随着生产数量变化
