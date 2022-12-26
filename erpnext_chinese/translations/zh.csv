@@ -15130,3 +15130,5 @@ Over Transfer Allowance,超量调拨百分比
 "The percentage you are allowed to transfer more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed transfer 110 units.",允许超工单需求量原材料调拨的百分比。如，需求数量100个，容差10％，则最多可调拨110个,
 Allow Item to be Added Multiple Times in a Transaction,允许一个交易中存在相同物料
 Email Retry Limit,邮箱重试限制
+Download Materials Request Plan Section,下载物料需求计划部分
+Download Materials Request Plan,下载物料需求计划
