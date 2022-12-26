@@ -15093,7 +15093,7 @@ Allow Lead Duplication based on Emails,允许复制基于电子邮件的销售�
 Close Replied Opportunity After Days,回复日期的关闭时间
 Auto close Opportunity Replied after the no. of days mentioned above,自动关闭在上述天数后回复的商机
 Carry Forward Communication and Comments,转发沟通和评论
-All the Comments and Emails will be copied from one document to another newly created document(Lead -> Opportunity -> Quotation) throughout the CRM documents,所有的评论和电子邮件都将在整个CRM文档中从一个文档复制到另一个新创建的文档（Lead->Opportunity->Quote）
+All the Comments and Emails will be copied from one document to another newly created document(Lead -> Opportunity -> Quotation) throughout the CRM documents.,所有的评论和电子邮件都将在整个CRM文档中从一个文档复制到另一个新创建的文档（Lead->Opportunity->Quote）
 FG Warehouse,成品仓库
 Raw Materials Warehouse,待加工原料仓库
 Get Raw Materials for Purchase,从采购订单获取原料
@@ -15101,7 +15101,7 @@ Get Raw Materials for Transfer,从物料移动获取原料
 Transfer From Warehouses,选择调拨出库的仓库
 Finished Good Item,成品物料
 Inventory Settings,库存设置
-Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours,示例：如果用户在24小时内不活动，则将其设置为24时将注销
+Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours.,示例：如果用户在24小时内不活动，则将其设置为24时将注销
 Max auto email report per user,每个用户的最大自动电子邮件报告数
 Account Deletion Settings,帐户删除设置
 Link that is the website home page. Standard Links (home, login, products, blog, about, contact),链接，即网站主页。标准链接（主页、登录、产品、博客、关于、联系人）
@@ -15126,3 +15126,7 @@ Interview,面试
 Scan Mode,扫描模式
 Disables auto-fetching of existing quantity,禁用现有数量的自动提取
 Add Tags,添加标记
+Over Transfer Allowance,超量调拨百分比
+"The percentage you are allowed to transfer more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed transfer 110 units.",允许超工单需求量原材料调拨的百分比。如，需求数量100个，容差10％，则最多可调拨110个,
+Allow Item to be Added Multiple Times in a Transaction,允许一个交易中存在相同物料
+Email Retry Limit,邮箱重试限制
