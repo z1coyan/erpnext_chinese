@@ -6734,7 +6734,7 @@ Collected Time,收集时间
 Collection Temperature ,收集温度
 Collection Details,收集细节
 "Change type of field. (Currently, Type change is \						allowed among 'Currency and Float')",改变字段的类型。(目前类型更改允许“货币”和“浮点数”)
-modified,改性
+modified,最后修改
 zoom-in,放大
 To Place,放置
 Government,政府
@@ -15102,3 +15102,14 @@ Threshold for Suggestion (In Percentage),,建议阀值(%)
 Additional Info,附加信息
 Fixed Time,固定时间
 Operation time does not depend on quantity to produce,加工(操作)时间不随着生产数量变化
+Supplier Invoice,供应商发票
+Make Item Group visible in website,在网站上物料组显示
+Include Descendants,包括下层节点
+Include Website Items belonging to child Item Groups,网站上也显示下层物料组物料
+Frequency of Depreciation (Months),折旧频率（几个月折一次）,
+Actual Time (in Hours via Time Sheet),实际工时(工时表小时数)
+Competitor Detail,竞争对手明细
+Competitors,竞争对手
+Competitor,竞争对手
+Bundle Items,套件明细
+POS Opening Entry,POS接班记录, 
