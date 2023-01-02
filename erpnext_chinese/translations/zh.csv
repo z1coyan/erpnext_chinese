@@ -78,7 +78,7 @@ Feb,02
 3 months,3个月
 Mar,03
 Apr,04
-May,05
+May,5月
 5 Records,5笔记录
 6 months,6个月
 Jun,06
@@ -978,11 +978,11 @@ Cent,一分钱
 1 year ago,一年前
  submittable documents cannot be changed. They can only be Cancelled and Amended.,一旦提交后，可提交单据就不能被变更，只能取消后，点修订按钮生成新版本后再修改
 "Once set, this invoice will be on hold till the set date",一旦设置，该发票将被冻结至设定的日期
-January,01
+January,1月
 JAN,01
 You can only upload upto 5000 records in one go. (may be less in some cases),一次最多只能上传5000条记录(某些情况下可能更少)
 "As a best practice, do not assign the same set of permission rule to different Roles. Instead, set multiple Roles to the same User.",一种最佳的做法是，不要给不同的角色分派同样的权限规则，而是向同一用户分派多个角色。
-July,07
+July,7月
 JUL,07
 Ternary Plot,三元剧情
 MAR,03
@@ -1367,7 +1367,7 @@ Tobacco Past Use,之前吸烟情况
 Alcohol Past Use,之前酒精摄入情况
 Between,自
 Overlapping conditions found between:,之间存在重叠的条件：
-September,09
+September,9月
 SEP,09
 Book,书
 book,书
@@ -1383,7 +1383,7 @@ Transaction Hash,事务哈希
 Transaction Log,事务日志
 Transaction Log Report,事务日志报表
 II,二
-February,02
+February,2月
 FEB,02
 Send to Warehouse,二步调拨-发出(在途)
 Receive at Warehouse,二步调拨-收料(在途)
@@ -2345,7 +2345,7 @@ Collapse All,全部折叠
 All BOMs,全部物料清单
 All Results,全部结果
 Global Unsubscribe,全部退订
-August,08
+August,8月
 AUG,08
 Public,公
 Gram,公克
@@ -2391,7 +2391,7 @@ Non Profit,公益组织
 Non Profit Manager,公益组织经理
 Non Profit (beta),公益组织（测试版）
 Public Key,公钥
-June,06
+June,6月
 JUN,06
 Shared secret,共享秘密
 About,关于
@@ -3068,11 +3068,11 @@ Healthcare Settings,医疗设置
 Pharmaceutical,医药
 Hospital,医院
 Anonymous,匿名
-November,11
+November,11月
 NOV,11
-December,12
+December,12月
 DEC,12
-October,10
+October,10月
 OCT,10
 Kg,千克
 Litre,升
@@ -3817,7 +3817,7 @@ Kerala,喀拉拉邦
 Liked,喜欢
 Likes,喜欢
 Himachal Pradesh,喜马偕尔邦
-April,04
+April,4月
 APR,04
 Round Off,四舍五入
 Rounding,四舍五入
@@ -8554,7 +8554,7 @@ Channel,渠道
 Channel Partner,渠道服务商
 Port Code,港口代码
 Visitor,游客
-March,游行
+March,3月
 Source DocType,源DocType
 From Company,源公司
 Source Document Name,源单据编号
@@ -15113,3 +15113,15 @@ Competitors,竞争对手
 Competitor,竞争对手
 Bundle Items,套件明细
 POS Opening Entry,POS接班记录, 
+Apply TDS,计算代扣税
+Compare Versions,版本比较
+From version,先前版本
+To version,当前版本
+Select two versions to view the diff.,选择两个版本比较差异
+Document Naming Settings,单据编号模板设置
+Setup Series for transactions,设置单据编号模板
+Set Naming Series options on your transactions.,设置单据编号模板选项
+Update Series Counter,更新模板当前流水号
+" Change the starting / current sequence number of an existing series. 
+ Warning: Incorrectly updating counters can prevent documents from getting created. ","变更编号模板起始/当前流水号
+警告：设置不当将导致单据无法创建
