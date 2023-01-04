@@ -14944,6 +14944,7 @@ Opening & Closing,交接班
 POS Beginning Entry,接班记录
 POS Closing Entry,交班记录
 Preview of generated names,自动生成的单据编号预览
+Generate 3 preview of names generate by any valid series.,生成3个单据自动编号预览
 Add this Series,添加单据编号模板
 Try a naming Series,单据编号模板预览
 "## Products and Services
