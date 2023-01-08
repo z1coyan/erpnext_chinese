@@ -15125,4 +15125,5 @@ Set Naming Series options on your transactions.,设置单据编号模板选项
 Update Series Counter,更新模板当前流水号
 " Change the starting / current sequence number of an existing series. 
  Warning: Incorrectly updating counters can prevent documents from getting created. ","变更编号模板起始/当前流水号
-警告：设置不当将导致单据无法创建
+警告：设置不当将导致单据无法创建"
+Series Updated for {},单据类型 {} 的编号模板已更新
