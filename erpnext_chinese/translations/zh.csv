@@ -4506,7 +4506,7 @@ Student LMS Activity,学习系统访问记录
 Graduate,学位
 Learn More,学到更多
 Educational Qualification,学历
-Qualification,学历
+Qualification,资质
 Academic Year,学年
 Academic Year Name,学年名称
 Academic Year: ,学年：
@@ -8961,7 +8961,7 @@ Documentation,用户操作手册
 Activity Log,用户操作日志
 User Cannot Create,用户无法创建
 Apply this rule if the User is the Owner,用户是制单人则应用此规则
-If user is the owner,用户是制单人？
+If user is the owner,仅限创建者
 User has not applied rule on the invoice {0},用户未在发票{0}上应用规则
 User do not have doctype access via role permission,用户未被授权访问单据类型
 User Permission,用户权限
@@ -14911,7 +14911,7 @@ Show GL Balance,显示总帐余额
 GL Balance,总帐余额
 Total Amount Due,总未付金额
 API Key cannot be regenerated,无法重新生成API密钥
-Prospect,意向
+Prospect,意向客户
 Toggle Theme,切换主题
 Log out,退出系统
 Manage Subscriptions,管理订阅
@@ -15031,6 +15031,7 @@ Subcontracting Receipt,委外入库
 Recalculate Rate,重新计算成本价
 Subcontracting Purchase Order,委外采购
 Distribute Additional Costs Based On,额外费用分摊方式
+"Distribute Additional Costs Based On ",额外费用分摊方式
 Raw Material Cost Per Qty,每单位原材料成本
 Service Cost Per Qty,每单位加工费
 Additional Cost Per Qty,每单位其它成本
@@ -15127,3 +15128,58 @@ Update Series Counter,更新模板当前流水号
  Warning: Incorrectly updating counters can prevent documents from getting created. ","变更编号模板起始/当前流水号
 警告：设置不当将导致单据无法创建"
 Series Updated for {},单据类型 {} 的编号模板已更新
+Next Execution,下次执行
+Tab Break,页签
+Autocomplete,自动完成
+Quick Lists,快速访问列表
+Quick List Filter,筛选条件
+Workspace Quick List,工作区快速访问列表
+Parent Page,父页面
+Is Hidden,隐藏
+Exchange Gain Or Loss,汇兑损益
+Warehouse Wise Stock Balance,仓库级库存余额
+FG Warehouse,成品仓
+Raw Materials Warehouse,原材料仓
+Get Raw Materials for Purchase,获取待采购原材料
+Get Raw Materials for Transfer,获取待直接调拨原材料
+Named Place,已命名地点
+Split From,拆分前资产号
+Depreciation Entry Posting Status,折旧凭证记账状态
+Phone Ext.,分机号
+Annual Revenue,年收入
+No of Employees,员工数
+No. of Employees,员工数
+Qualification Status,资质状态
+Qualified By,认证机构
+Qualified on,认证日期
+Qualified,已认证
+Unqualified,未认证
+Opportunity Owner,商机负责人
+Opportunity Value,商机价值
+Prospect Owner,意向客户负责人
+Deal Owner,成交负责人
+Contact Mobile,联系人手机
+All Activities,全部活动
+Open Tasks,未关闭任务
+No open task,无未关闭任务
+New Task,新任务
+Open Events,未关闭事件
+No open event,无未关闭事件
+No Notes,无备注
+New Note,新备注
+Prospect Lead,意向客户线索
+Prospect Opportunity,意向客户商机
+Probability,成交机率
+Closing,成交日期
+Stage,阶段
+Opportunity Amount (Company Currency),商机金额(公司币种)
+Materials & Operations,物料与工序
+Operations & Materials,物料与工序
+Configuration,配置
+Cost Configuration,成本配置
+Scrap & Process Loss,报废与制程损耗
+Process Loss,制程损耗
+% Process Loss,制程损耗%
+Returned Qty,退回数量
+Select the Warehouse,请先选择仓库
+Other Info,更多信息
