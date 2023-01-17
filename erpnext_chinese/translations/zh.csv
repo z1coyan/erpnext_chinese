@@ -4984,7 +4984,7 @@ Workflow Transition,工作流状态转换
 Shift Request,工作班次申请
 Tools,工具
 Material Transfer for Manufacture,工单发料
-Material Transferred for Manufacture,已工单发料物料
+Material Transferred for Manufacture,已发到工单的物料
 Work Order Operation,工单工序
 Qty To Manufacture,工单数量
 Work Order Qty,工单数量
@@ -5641,7 +5641,7 @@ Pending Approval,待批准
 Qty to Receive,待收数量
 To Receive,待入库
 To Receive and Bill,待入库与开票
-Subcontracted Item To Be Received,待入库委外物料
+Subcontracted Item To Be Received,待入库委外成品
 Purchase Orders to Receive,待入库采购订单
 Purchase Order Items To Be Received,待入库采购订单物料
 Outstanding Cheques and Deposits to clear,待清帐支票及存款
@@ -6345,7 +6345,7 @@ Quot Count,报价数量
 Quotation Item,报价明细
 "Quotations are proposals, bids you have sent to your customers",报价是你发送给客户的建议或出价
 Quote Status,报价状态
-The request for quotation can be accessed by clicking on the following link,报价请求可以通过点击以下链接进行访问
+The request for quotation can be accessed by clicking on the following link,可点击以下链接访问询价
 Quotation Trends,报价趋势
 Quotations: ,报价：
 Check In,报到
@@ -14903,7 +14903,6 @@ selected Payment Terms Template,付款条款模板字段
 "If this checkbox is checked, paid amount will be splitted and allocated as per the amounts in payment schedule against each payment term",如勾选，则金额根据付款计划明细中的付款条款进行拆分,
 Translate Link Fields,翻译链接字段
 Make Attachments Public by Default,上传文件默认设为公开
-Allow multi-currency invoices against single party account,允许同一客户/供应商发票多币种结算
 Enabling this will allow creation of multi-currency invoices against single party account in company currency,如果勾选，基础数据中定义本币交易的客户或供应商其发票可使用外币
 "Can't change the valuation method, as there are transactions against some items which do not have its own valuation method",有些物料未在物料基础数据中维护成本计算方法且已关联物料凭证与会计凭证，考虑资料一致性此处成本计算方法不能被修改
 "Party Account {0} currency ({1}) and document currency ({2}) should be same",往来单位基础数据中定义的结算币种需与业务交易币种相同
@@ -15089,7 +15088,7 @@ Invoice Cancellation,发票取消
 Enabling ensure each Sales Invoice has a unique value in Supplier Invoice No. field,强制校验供应商发票号并确保唯一
 Report Setting,报表设置
 Enable Custom Cash Flow Format,启用自定义现金流量格式
-Allow multi-currency invoices against single party account,允许同一往来单位发票多币种
+"Allow multi-currency invoices against single party account ",允许同一往来单位发票多币种
 Credit Limit Settings,信用额度设置
 Role allowed to bypass Credit Limit,不受信用额度限制的角色
 Accounts Closing,会计关帐
@@ -15180,6 +15179,21 @@ Cost Configuration,成本配置
 Scrap & Process Loss,报废与制程损耗
 Process Loss,制程损耗
 % Process Loss,制程损耗%
-Returned Qty,退回数量
+"Returned Qty ",退回数量
 Select the Warehouse,请先选择仓库
 Other Info,更多信息
+Is Cash or Non Trade Discount,是现金或非贸易折扣
+Internal Transfers,关联方交易
+Enabling ensure each Purchase Invoice has a unique value in Supplier Invoice No. field,确保采购发票中供应商发票号不重复
+POS Setting,POS设置
+Max auto email report per user,每用户最自动邮件发送报表数
+Email Retry Limit,邮件重试次数限制
+Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours.,如设置为24:00,则会24:00后自动将用户登出
+Avg Rate(Balance Stock),平均成本(库存变动)
+Subcontract Order,委外订单
+Download Materials Request Plan Section,下载物料需求计划
+Download Materials Request Plan,下载物料需求计划
+Select Warehouses to get Stock for Materials Planning,选择仓库
+Transfer From Warehouses,调拨源仓库
+Request For Quotation,询价
+Set Project Status,设置项目状态
