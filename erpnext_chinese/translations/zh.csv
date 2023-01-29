@@ -1231,6 +1231,7 @@ Nos,个
 Individual,个人
 Personal,个人
 My Profile,个人信息
+Profile,个人信息
 Private and public Notes.,个人和公开笔记(备注)。
 Personal and Social History,个人和社会史
 A Lead requires either a person's name or an organization's name,个人姓名或机构名称是线索的必填信息
@@ -1331,6 +1332,7 @@ Explore,主菜单
 Primary Address,首选地址
 Primary Address Details,首选地址信息
 Primary Address and Contact Detail,首选地址和联系人信息
+Primary Address and Contact,首选地址和联系人信息
 Primary Contact Details,首选联系方式
 Primary Settings,首选设置
 Complaints,主诉
@@ -1992,6 +1994,7 @@ Supplier GSTIN,供应商GSTIN
 Supplier Reference,供应商介绍
 Supplier Warehouse,委外仓
 Supplier Details,供应商信息
+Supplier Info,供应商信息
 Supplier Score,供应商分数
 Supplier Invoice No exists in Purchase Invoice {0},供应商发票号已被采购发票{0}引用
 Supplier Invoice Details,供应商发票信息
@@ -3556,6 +3559,7 @@ Merge,合并
 Combined invoice portion must equal 100%,合并发票部分必须等于100％
 "Merging is only possible if following properties are same in both records. Is Group, Root Type, Company",仅在两个科目字段(是组、一级科目类型、公司)内容相同时才可合并
 Group same items,合并相同物料
+"Group Same Items",合并相同物料
 Merge Account,合并科目
 Consolidated Financial Statement,合并财务报表
 Total Eligible HRA Exemption,合格的HRA豁免总数
@@ -7184,6 +7188,8 @@ Is Company Account,是公司帐户
 Is Company,是公司？
 Is Internal Supplier,是内部供应商
 Is Internal Customer,是内部客户
+Internal Supplier,内部供应商
+Internal Customer,内部客户
 If Owner,是制单人？
 Is Billing Contact,是发票联系人
 Is Optional Leave,是可选休假？
@@ -15197,3 +15203,49 @@ Select Warehouses to get Stock for Materials Planning,选择仓库
 Transfer From Warehouses,调拨源仓库
 Request For Quotation,询价
 Set Project Status,设置项目状态
+Inventory Settings,库存设置
+BOM Info,物料清单信息
+Row #{1}: Warehouse is mandatory for stock Item {0},请为第 {1} 行的物料{0}输入仓库信息
+Terms & Conditions,条款和条件
+Connections,关联
+Expires in a week or less,一周内到期
+Expires today / Already Expired,当天到期/已过期
+Valid till,有交期至
+The total column width cannot be more than 10.,总列宽不能超过10
+Return of Components,委外原材料退回
+Partial Material Transferred,部分发料
+Subcontract Return,委外成品退货
+"Sets 'Accepted Warehouse' in each row of the Items table.",为所有明细行设置(收货)仓库
+"Sets 'Rejected Warehouse' in each row of the Items table.",为所有明细行设置拒收仓
+Naming Series and Price Defaults,单据编号及价格默认值
+Is Old Subcontracting Flow,启用旧版委外流程
+Disable Last Purchase Rate,不更新最新采购价
+Inter Transfer Reference,关联交易信息
+quotation_item,报价明细
+Default Receivable Accounts,默认应收帐款科目
+Action if Same Rate is Not Maintained Throughout Sales Cycle,销售流程未使用相同价格时的控制措施
+SCO Supplied Item,委外订单原材明细
+Scan Mode,扫码模式
+Prompt Qty,提示数量
+Qty Change,数量变动
+Qty After Transaction,变更后数量
+Balance Stock Value,变更后库存金额
+Change in Stock Value,库存金额变动
+FIFO Stock Queue (qty, rate),先进先出队列(数量,单位成本)
+Limit timeslot for Stock Reposting,限定库存重过帐时间点
+"Limits don't apply on",限制不适用日期
+Use Item based reposting,基于物料重过帐
+Scheduling,排程
+Ignore Default Payment Terms Template,忽略默认付款条款模板
+Per Received,收货百分比
+Paid From Account Type,付款方帐户类型
+Paid To Account Type,收款方帐户类型
+Paid Amount After Tax (Company Currency),税后付款金额(本币)
+Received Amount After Tax,税后收款金额
+Received Amount After Tax (Company Currency),税后收款金额(本币)
+material_request_item,物料需求明细
+Logs to Clear,待清除日志
+Completed By Role,执行者角色
+Completed By User,执行者用户
+Permitted Roles,被授权的角色
+Workflow Action Permitted Role,工作流操作被授权角色
