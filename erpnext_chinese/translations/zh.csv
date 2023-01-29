@@ -15226,6 +15226,7 @@ Default Receivable Accounts,默认应收帐款科目
 Action if Same Rate is Not Maintained Throughout Sales Cycle,销售流程未使用相同价格时的控制措施
 SCO Supplied Item,委外订单原材明细
 Scan Mode,扫码模式
+Disables auto-fetching of existing quantity,不自动获取现有库存数量
 Prompt Qty,提示数量
 Qty Change,数量变动
 Qty After Transaction,变更后数量
@@ -15249,3 +15250,4 @@ Completed By Role,执行者角色
 Completed By User,执行者用户
 Permitted Roles,被授权的角色
 Workflow Action Permitted Role,工作流操作被授权角色
+Mention if a non-standard receivable account,使用公司基础数据中定义的默认应收帐款科目时，这里不用维护
