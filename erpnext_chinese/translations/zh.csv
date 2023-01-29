@@ -15232,7 +15232,7 @@ Qty Change,数量变动
 Qty After Transaction,变更后数量
 Balance Stock Value,变更后库存金额
 Change in Stock Value,库存金额变动
-FIFO Stock Queue (qty, rate),先进先出队列(数量,单位成本)
+"FIFO Stock Queue (qty, rate)",先进先出队列(数量,单位成本)
 Limit timeslot for Stock Reposting,限定库存重过帐时间点
 "Limits don't apply on",限制不适用日期
 Use Item based reposting,基于物料重过帐
