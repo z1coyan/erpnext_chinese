@@ -9611,12 +9611,12 @@ System,系统
 System will notify to increase or decrease quantity or amount,系统会通知增加或减少数量或金额
 System and Website Users,系统和网站用户
 "Loyalty Points will be calculated from the spent done (via the Sales Invoice), based on collection factor mentioned.",系统将根据消费金额(销售发票)，乘以兑换系数为客户自动积分。
-System will notify to increase or decrease quantity or amount ,系统将通知增加或减少数量或金额
+System will notify to increase or decrease quantity or amount ,系统将通知增加或减少数量或金额，
 Naming Series,单据编号模板
 Series,单据编号模板
 Series {0} already used in {1},单据编号模板{0}已经被{1}使用
-'Special Characters except ""-"", ""#"", ""."", ""/"", ""{"" and ""}"" not allowed in naming series',单据编号模板中不允许使用除“ - ”，“＃”，“。”，“/”，“{”和“}”之外的特殊字符
-'Special Characters except ""-"", ""#"", ""."" and ""/"" not allowed in naming series',单据编号模板中不能输入特殊符号，""-""，""#""，"".""和""/""除外
+"Special Characters except ""-"", ""#"", ""."", ""/"", ""{"" and ""}"" not allowed in naming series",单据编号模板中不允许使用除“ - ”，“＃”，“。”，“/”，“{”和“}”之外的特殊字符
+"Special Characters except ""-"", ""#"", ""."" and ""/"" not allowed in naming series","单据编号模板中不能输入特殊符号，""-""，""#""，"".""和""/""除外"
 Naming Series Prefix,单据编号模板前缀
 Series Updated Successfully,单据编号模板已成功更新
 Series Updated,单据编号模板已更新
