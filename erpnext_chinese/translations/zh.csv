@@ -9615,8 +9615,8 @@ System will notify to increase or decrease quantity or amount ,系统将通知�
 Naming Series,单据编号模板
 Series,单据编号模板
 Series {0} already used in {1},单据编号模板{0}已经被{1}使用
-'Special Characters except ""-"", ""#"", ""."", ""/"", ""{"" and ""}"" not allowed in naming series',""单据编号模板中不允许使用除“ - ”，“＃”，“。”，“/”，“{”和“}”之外的特殊字符""
-'Special Characters except ""-"", ""#"", ""."" and ""/"" not allowed in naming series',""单据编号模板中不能输入特殊符号，""-""，""#""，"".""和""/""除外""
+'Special Characters except ""-"", ""#"", ""."", ""/"", ""{"" and ""}"" not allowed in naming series',单据编号模板中不允许使用除“ - ”，“＃”，“。”，“/”，“{”和“}”之外的特殊字符
+'Special Characters except ""-"", ""#"", ""."" and ""/"" not allowed in naming series',单据编号模板中不能输入特殊符号，""-""，""#""，"".""和""/""除外
 Naming Series Prefix,单据编号模板前缀
 Series Updated Successfully,单据编号模板已成功更新
 Series Updated,单据编号模板已更新
