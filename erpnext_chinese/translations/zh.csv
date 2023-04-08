@@ -3847,7 +3847,7 @@ Item {0} (Serial No: {1}) cannot be consumed as is reserverd\						 to fullfill 
 Leave Type {0} cannot be allocated since it is leave without pay,因为是无薪假，无法分配休假类型{0}
 Cannot convert Cost Center to ledger as it has child nodes,因为有下级成本中心，不能将其转换为记帐成本中心，。
 "Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry",因为此库存调账是开帐凭证，库存变动科目必须是资产/负债类科目，
-'Update Stock' can not be checked because items are not delivered via {0},因为物料还未通过{0）出货，“更新库存'不能被勾选
+"'Update Stock' can not be checked because items are not delivered via {0}",因为退货源单{0}未勾选“更新库存“，退货/退款单也不能勾选“更新库存“
 Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM.,因为该物料已经有使用别的单位的交易记录存在了，不再允许直接修改其默认单位{0}了。如果需要请创建一个新物料，以使用不同的默认单位。
 "Material Request not created, as quantity for Raw Materials already available.",因原材料可用数量足够，物料需求未创建，。
 Group Name,团队名字
