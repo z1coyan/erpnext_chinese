@@ -8720,7 +8720,7 @@ Item Attribute Values,物料属性值
 Item operation,物料工序
 Cannot be a fixed asset item as Stock Ledger is created.,物料已有物料移动记录后不能再将其设置为固定资产。
 Item Serial No,物料序列号
-Item Locations,物料库存位置
+Item Locations,拣货明细
 Item must be added using 'Get Items from Purchase Receipts' button,物料必须要由“从采购入库选物料”添加
 Item valuation rate is recalculated considering landed cost voucher amount,物料成本价将基于到岸成本凭证金额重新计算
 Batch Item Expiry Status,物料批号到期状态
@@ -10164,7 +10164,7 @@ Get Unreconciled Entries,选未清帐凭证
 Get Template,选模板
 Get Items,选物料
 Get Items From,选物料
-Get Item Locations,选物料仓库
+Get Item Locations,分配可拣货仓
 Get Material Request,选物料需求
 Get Items For Work Order,选生产工单物料
 Get Raw Materials For Production,计算原材料需求
@@ -10777,7 +10777,7 @@ Please cancel Purchase Invoice {0} first,请先取消采购发票{0}
 Please cancel Purchase Receipt {0} first,请先取消采购入库{0}
 Please add valid Plaid api keys in site_config.json first,请先在site_config.json中添加有效的Plaid api密钥
 Please select Sample Retention Warehouse in Stock Settings first,请先在库存设置中选择样品仓
-First add items in the Item Locations table,请先在物料库存位置表里添加物料
+First add items in the Item Locations table,请先在拣货明细表里添加物料
 Please sign-up or login to begin,请先注册或登录
 Please set the Item Code first,请先设定物料代码
 Please setup a message first,请先设置一条消息
@@ -11863,7 +11863,7 @@ Drag elements from the sidebar to add. Drag them back to trash.,通过从左边�
 Make Payment via Journal Entry,使用日记帐分录处理付款业务
 "Update BOM cost automatically via Scheduler, based on latest valuation rate / price list rate / last purchase rate of raw materials.",通过后台程序基于最新成本价/标价/最近原材料采购价自动更新BOM成本。
 Via Customer Portal,通过客户门户
-Items under this warehouse will be suggested,通过点击以下按钮获取此仓库下的物料
+Items under this warehouse will be suggested,检索可拣数量的(组节点)仓库
 Follow via Email,通过电子邮件关注
 Email Salary Slip to Employee,通过电子邮件发送工资单给员工
 "The salary slip emailed to the employee will be password protected, the password will be generated based on the password policy.",通过电子邮件发送给员工的工资单将受密码保护，密码将根据密码策略生成。
