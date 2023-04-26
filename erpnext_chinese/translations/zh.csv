@@ -3847,7 +3847,7 @@ Item {0} (Serial No: {1}) cannot be consumed as is reserverd\						 to fullfill 
 Leave Type {0} cannot be allocated since it is leave without pay,因为是无薪假，无法分配休假类型{0}
 Cannot convert Cost Center to ledger as it has child nodes,因为有下级成本中心，不能将其转换为记帐成本中心，。
 "Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry",因为此库存调账是开帐凭证，库存变动科目必须是资产/负债类科目，
-'Update Stock' can not be checked because items are not delivered via {0},因为物料还未通过{0）出货，“更新库存'不能被勾选
+"'Update Stock' can not be checked because items are not delivered via {0}",因为退货源单{0}未勾选“更新库存“，退货/退款单也不能勾选“更新库存“
 Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM.,因为该物料已经有使用别的单位的交易记录存在了，不再允许直接修改其默认单位{0}了。如果需要请创建一个新物料，以使用不同的默认单位。
 "Material Request not created, as quantity for Raw Materials already available.",因原材料可用数量足够，物料需求未创建，。
 Group Name,团队名字
@@ -15257,3 +15257,46 @@ Transit Entry,调拨单
 FG based Operating Cost,计件成本
 FG Based Operating Cost Section,计件成本
 Operating Cost Per BOM Quantity,每个成品工费成本
+Job Requisition,职位申请
+No of. Positions,职位数量
+Expected Compensation,期望薪酬
+Expected By,预期完成时间
+Timelines,时间表
+Interviews,面试
+Interview Type,面试方式
+Interview Round,面试轮次
+Interview,面试
+Resume link,简历链接
+Scheduled On,预定于
+Interview Feedback,面试反馈
+Average Rating,平均评分
+Interview Summary,面试总结
+Skill Assessment,技能评估
+Employee Exits,员工离职
+Full and Final Settlement,全面终止协议结算
+Full and Final Statement,离职结算
+Assets Allocated,已分派资产
+Journey,职业生涯
+Grievance,意见
+Exit Interview,离职面谈
+Questionnaire Email Sent,发送问卷邮件
+Accounting Reports,会计报表
+Shift & Attendance,班次与考勤
+Exit Interview Pending,待办离职面谈
+Exit Questionnaire Pending,待办离职调查问卷
+FnF Pending,未完成的结算
+Reports To,直接上级
+Interview Status,面谈状态
+Final Decision,最终决定
+Interviews (This Week),本周面试
+New Hires (This Month),本月新入职员工
+Exits (This Month),本月离职员工
+Trainings (This Week),本周培训
+Salary Payout,薪资支付
+Income Tax Computation,所得税计算
+Consider Tax Exemption Declaration,考虑税务豁免声明
+Benefits,福利
+Exemption,免税
+Tax Setup,所得税设置
+Tax & Benefits,税务和福利
+Exemption Proofs,免税证明
