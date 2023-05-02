@@ -2106,9 +2106,9 @@ Insurance details,保险信息
 Health Insurance Provider,保险公司
 Insurance Company,保险公司
 Insurer,保险公司
-Insurance Start Date,保险开始日期
+Insurance Start Date,保险生效日
 Insurance Start date should be less than Insurance End date,保险开始日期应小于保险终止日期
-Insurance End Date,保险终止日期
+Insurance End Date,保险失效日
 Insured value,保额
 Letter,信
 Info,信息
@@ -3957,7 +3957,7 @@ Work In Progress,在制品
 WIP Warehouse,在制品仓
 Work-in-Progress Warehouse,在制品仓
 Available Qty at WIP Warehouse,在制品仓可用数量
-Material Transferred for Manufacturing,工单发料数量
+Material Transferred for Manufacturing,发料数量(成品套数)
 Work Orders in Progress,在制生产工单
 Number of columns for a field in a List View or a Grid (Total Columns should be less than 11),在单据列表或子表单列表中所占列数（合计列数应小于11）
 Number of columns for a field in a List View or a Grid (Total Columns should be less than 11),在单据列表或子表单列表中所占列数（合计列数应小于11）
@@ -4432,7 +4432,7 @@ Leave blank if considered for all departments,如果针对所有部门请留空
 System will fetch all the entries if limit value is zero.,如果限额为0，系统会抓取所有记录
 "If non standard port (e.g. 587). If on Google Cloud, try port 2525.",如果非标准端口（例如587）。如果在Google Cloud上，请尝试使用端口2525。
 Leave blank if you make students groups per year,如每年都创建班级，请不要勾选
-Check if Asset requires Preventive Maintenance or Calibration,如资产需预防性维护或校准请勾选
+Check if Asset requires Preventive Maintenance or Calibration,如资产需预防性维护保养或校准请勾选
 Mention if non-standard receivable account,如需记账到非标准应收账款科目
 Please select Carry Forward if you also want to include previous fiscal year's balance leaves to this fiscal year,如须包括上年结余假期，请选择结转
 Always use Account's Name as Sender's Name,始终使用帐户名称作为发件人姓名
@@ -9768,31 +9768,31 @@ Maintenance Manager,维保经理
 Maintenance Manager Name,维保经理姓名
 Repair,维修
 Repair Status,维修状态
-Maintenance Team,维修队
+Maintenance Team,保养小组
 Dimension Name,辅助核算名称
 Dimension Defaults,辅助核算默认值
-Maintenance Task,维护任务
-Maintenance Tasks,维护任务
+Maintenance Task,保养任务
+Maintenance Tasks,保养任务
 Maintenance,维护保养
-Maintenance Team Member,维护团队成员
-Maintenance Team Members,维护团队成员
+Maintenance Team Member,保养小组成员
+Maintenance Team Members,保养小组成员
 Maintenance Visit,维护巡修
 Visit report for maintenance call.,维护巡修报告。
 Maintenance Visit Purpose,维护巡修目的
 Maintenance Schedule,维护巡修计划
 Plan for maintenance visits.,维护巡修计划。
-Maintenance Log,维护日志
-Maintenance Date,维护日期
-Maintenance Time,维护时间
-Maintenance Status,维护状态
-Maintenance Status has to be Cancelled or Completed to Submit,维护状态必须取消或完成提交
-Maintenance Type,维护类型
-Maintenance Team Name,维护组名称
-Maintenance Role,维护角色
-Maintenance Schedules,维护计划
-Maintenance Schedule is not generated for all the items. Please click on 'Generate Schedule',维护计划没有为所有物料生成，请点击“生产计划”
+Maintenance Log,保养日志
+Maintenance Date,保养日期
+Maintenance Time,保养时间
+Maintenance Status,保养状态
+Maintenance Status has to be Cancelled or Completed to Submit,提交前保养状态须为取消或完成
+Maintenance Type,保养类型
+Maintenance Team Name,保养小组名称
+Maintenance Role,角色
+Maintenance Schedules,保养计划
+Maintenance Schedule is not generated for all the items. Please click on 'Generate Schedule',维护计划没有为所有物料生成，请点击“生成计划”
 Maintenance Schedule Item,维护计划物料
-Maintenance Schedule Detail,维护计划细节
+Maintenance Schedule Detail,保养计划详情
 Comprehensive Insurance,综合保险
 Integrated Tax,综合税
 Amount of Integrated Tax,综合税额
@@ -11036,7 +11036,7 @@ Please select the Document Type.,请选择单据类型。
 Please select Employee,请选择员工
 Please select Completion Date for Completed Repair,请选择完成维修完成日期
 Please select customer,请选择客户
-Please select Completion Date for Completed Asset Maintenance Log,请选择已完成资产维护日志的完成日期
+Please select Completion Date for Completed Asset Maintenance Log,请为资产保养日志选择完成日期
 Please select month and year,请选择年份和月份
 Please select Patient,请选择患者
 Please select patient,请选择患者
@@ -11055,7 +11055,7 @@ Please select a Batch for Item {0}. Unable to find a single batch that fulfills 
 Please select BOM against item {0},请选择物料{0}的物料清单
 Please select item code,请选择物料代码
 Please select Existing Company for creating Chart of Accounts,请选择现有的公司创建会计科目表
-Please select Maintenance Status as Completed or remove Completion Date,请选择维护状态为已完成或删除完成日期
+Please select Maintenance Status as Completed or remove Completion Date,请选择保养状态为已完成或删除完成日期
 Please select at least one domain.,请选择至少一个域名。
 Please select Drug,请选择药物
 Please select quantity on row ,请选择行数量
@@ -11223,12 +11223,12 @@ Quality Feedback,质量反馈
 Quality Feedback Parameter,质量反馈参数
 Quality Feedback Template,质量反馈模板
 Quality Feedback Template Parameter,质量反馈模板参数
-Quality Review,质量审查
-Quality Review Objective,质量审查目标
-Quality Review Table,质量审查表
-Quality Action,质量控制措施
-Quality Action Resolution,质量控制措施决议
-Quality Action Table,质量控制措施表
+Quality Review,质量审核
+Quality Review Objective,质量审核目标
+Quality Review Table,质量审核表
+Quality Action,纠正与预防措施
+Quality Action Resolution,纠正与预防措施决议
+Quality Action Table,纠正与预防措施表
 Tree of Quality Procedures.,质量树程序。
 Quality Inspection,质量检验
 Quality Inspection Reading,质量检验报表
@@ -11358,14 +11358,14 @@ Asset Category Name,资产类别名称
 Asset Category Account,资产类别的科目
 Asset Naming Series,资产编号模板
 Asset Repair,资产维修
-Asset Maintenance,资产维护
-Asset Maintenance Task,资产维护任务
-Asset Maintenance Team,资产维护团队
-Asset Maintenance Log,资产维护日志
+Asset Maintenance,资产保养
+Asset Maintenance Task,资产保养任务
+Asset Maintenance Team,资产保养小组
+Asset Maintenance Log,资产保养日志
 Asset Settings,资产设置
 Balance Sheet,资产负债表
 Funded Amount,资助金额
-Capitalization doesn't help very much.,资本没有太大帮助。
+Capitalization doesn't help very much.,资本化不适用。
 Capital Equipments,资本设备
 capital goods,资本货物
 Eligibility and Details,资格和细节
@@ -11393,7 +11393,7 @@ Extra Small,超小
 Action if Annual Budget Exceeded on Actual,超年度预算时的控制措施
 Action if Annual Budget Exceeded on MR,超年度预算时针对物料需求的控制措施
 Action if Annual Budget Exceeded on PO,超年度预算时针对采购订单的控制措施
-Action if Accumulated Monthly Budget Exceeded on Actual,超累计月度预算时的控制措施动
+Action if Accumulated Monthly Budget Exceeded on Actual,超累计月度预算时的控制措施
 Action if Accumulated Monthly Budget Exceeded on MR,超累计月度预算时针对物料需求的控制措施
 Allow over delivery or receipt upto this percent,出入库超量控制%
 Over Delivery/Receipt Allowance (%),出入库超量控制(%)
@@ -12146,7 +12146,7 @@ Amount (Company Currency),金额（本币）
 From Amount,金额（起）
 Against,对方科目
 Advance paid against {0} {1} cannot be greater \						than Grand Total {2},针对{0} {1}的预付不得超过总计{2}
-Maintenance Schedule {0} exists against {1},针对{1}存在维护计划{0}
+Maintenance Schedule {0} exists against {1},针对{1}存在保养计划{0}
 Price not found for item {0} in price list {1},针对价格表{1}的物料{0}价格未定义
 Track this Delivery Note against any Project,针对任何项目跟踪此销售出库
 Transactions against the company already exist! ,针对公司的交易已经存在！
@@ -12528,7 +12528,7 @@ Inspection Required,需要检验
 Login token required,需要登录令牌
 Login Required,需要登录信息
 Require Result Value,需要结果值
-Maintenance Required,需要维护
+Maintenance Required,需要保养
 It is needed to fetch Item Details.,以获取物料详细信息。
 Row {idx}: {field} is required to create the Opening {invoice_type} Invoices,需要行{idx}：{field}才能创建开票{invoice_type}发票
 Purchase Receipt Required,需要采购入库
@@ -12691,7 +12691,7 @@ Reservation Time,预订时间
 Reservation End Time,预订结束时间
 Default Tax Withholding Config,预设税款预扣配置
 Preventive,预防
-Preventive Maintenance,预防性维护
+Preventive Maintenance,预防性维护(保养)
 Frequency,频率
 Period,期间
 Period,频率,Auto Email
@@ -12979,7 +12979,7 @@ Time(In Mins),时间(分)
 Time Required(In Mins),需要时间(分)
 Sub-assembly BOM Count,子装配件物料清单个数
 Excessive machine set up time,机器准备超时
-Unplanned machine maintenance,非计划机器维护
+Unplanned machine maintenance,非计划机器保养
 On-machine press checks,机器压力测试
 Machine operator errors,操作失误
 Machine malfunction,机器故障
@@ -14669,7 +14669,7 @@ Plan to Request Qty,计划数量
 Qty As Per BOM,物料清单需求数量
 From Delivery Date,交货日自
 To Delivery Date,交货日止
-Set Operating Cost Based On BOM Quantity,基于物料清单数量设置工序成本
+Set Operating Cost Based On BOM Quantity,工费成本基于产出数量
 Operation Time ,工序时间,
 Scrap Item Code,报废物料编号
 Scrap Item Name,报废物料名称
@@ -14750,13 +14750,13 @@ Buying module's features are highly configurable as per your business needs. Buy
 - 采购业务中的发票及出货"
 'If source warehouse selected then system will create the material request with type Material Transfer from Source to Target warehouse. If not selected then will create the material request with type Purchase for the target warehouse.',如果指定转出仓且有相应数量，系统会创建自转出仓至收料仓调拨类型的物料需求，否则将针对收料仓创建采购类型的物料需求
 Work Order / Subcontract PO,生产工单 / 委外采购订单
-Create Job Card based on Batch Size,基于生产批量创建加工单
+Create Job Card based on Batch Size,基于批量创建(拆分)加工单
 Production Plan Summary,生产计划汇总报表
 Work Order Tree,生产工单树
 "If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",如勾选，用户每次登录时都弹框通知。否则只弹框通知一次。,
 Go to Notification Settings List,转到通知设置列表
-Sequence Id,工序序号,
-Sequence ID,工序序号,
+Sequence Id,并行顺序号,
+Sequence ID,并行顺序号,
 Cost Per Unit,单位成本
 Base Cost Per Unit,基础单位成本
 Partly Paid,部分付款
@@ -14927,7 +14927,7 @@ Sales Pipeline Analytics,销售渠道分析
 Opportunity Summary by Sales Stage,商机汇总(按销售阶段)
 Cost Center Allocation,成本中心分摊
 Cost Center Allocation Percentages,成本中心分摊百分比
-Asset Capitalization,资产资本化
+Asset Capitalization,资产与存货互转
 In Location,在册
 Disposed,已处置
 --Select a group--,选择分组方式
@@ -15302,3 +15302,14 @@ Tax & Benefits,税务和福利
 Exemption Proofs,免税证明
 Add items in the Item Locations table,请在拣货明细表中添加物料,
 "Delivery Note(s) created for the Pick List",已为拣货单创建销售出库
+Maintain Asset,保养资产
+Split Asset,分割资产
+Split Qty,分割数量
+Target Asset,结转的资产号
+Target Item Code,结转的物料号
+Consumed Stock Items,耗用的库存物料
+Consumed Asset Items,耗用的资产
+Service Expenses,服务类费用
+Capitalization,存货转资产
+Decapitalization,资产转存货
+Non Conformance,不合格报告单
