@@ -1288,7 +1288,7 @@ Assign a permission level to the field.,为字段分派权限级别
 Set a sales goal you'd like to achieve for your company.,为您的公司设定您想要实现的销售目标。
 "For the convenience of customers, these codes can be used in print formats like Invoices and Delivery Notes",为方便客户，这些代码可以在打印格式(如发票和销售出库)中使用
 Set targets Item Group-wise for this Sales Person.,为本业务员设置物料组级的销售目标
-Set Item Group-wise budgets on this Territory. You can also include seasonality by setting the Distribution.,为此区域设置物料组层级的预算。还可以设置“月度分摊”，按季节设置不同的预算。
+Set Item Group-wise budgets on this Territory. You can also include seasonality by setting the Distribution.,为此区域设置物料组层级的预算。还可以设置“每月分摊比例模板”，按季节设置不同的预算。
 Set the display label for the field,为此字段设置显示标签
 Make Accounting Entry For Every Stock Movement,为每个库存变动创建会计分录
 Sets 'Rejected Warehouse' in each row of the items table.,为每个物料行设置默认拒收仓
@@ -4409,7 +4409,7 @@ Notify if unreplied,如果没有回复的通知
 Will only be shown if section headings are enabled,如果章节标题启用才会显示
 If Checked workflow status will not override status in list view,如勾选，工作流状态不会覆盖列表视图中的状态字段
 "If you set this, this Item will come in a drop-down under the selected parent.",如果维护此上级菜单信息，本菜单项仅作为下级菜单。
-Select Monthly Distribution to unevenly distribute targets across months.,如果要不规则的按月分配，请选择“月度分摊”。
+Select Monthly Distribution to unevenly distribute targets across months.,如果要不规则的按月分配，请选择“每月分摊比例模板”。
 "If a Role does not have access at Level 0, then higher levels are meaningless.",如果角色没有0级的访问权限，那么无需设置更高级权限
 Daily Event Digest is sent for Calendar Events where reminders are set.,如果设置了日历事件提醒会发送每日事件摘要。
 Enter name of campaign if source of enquiry is campaign,如果询价的来源是促销活动的话请输入促销活动名称。
@@ -7228,7 +7228,7 @@ In Standard Filter,是标准过滤字段
 Is Single,是单笔记录？
 Include in gross,是毛利相关科目
 Is Existing Asset,是现成固定资产
-Include Item In Manufacturing,是工单发料物料
+Include Item In Manufacturing,按工单发料
 Is Item from Hub,是集市(Hub)网站物料
 Is First Startup,是第一次启动
 Is Group,是组
@@ -7509,10 +7509,10 @@ Month,月
 month,月
 mm-dd-yyyy,月-日-年
 mm/dd/yyyy,月/日/年
-Monthly Distribution,月度分摊
-Name of the Monthly Distribution,月度分摊名称
-Monthly Distribution Percentage,月度分摊比例
-Monthly Distribution Percentages,月度分摊比例
+Monthly Distribution,每月分摊比例模板
+Name of the Monthly Distribution,每月分摊比例模板名称
+Monthly Distribution Percentage,每月分摊比例
+Monthly Distribution Percentages,每月分摊比例
 Has Web View,有Web视图
 There is some problem with the file url: {0},有一些问题与文件的URL：{0}
 Warehouses with child nodes cannot be converted to ledger,有下级子节点仓库的仓库不能转换为记账仓库
@@ -14314,7 +14314,7 @@ Based on Field,基于字段
 Delete Accounting and Stock Ledger Entries on deletion of Transaction,删除业务单据时同步删除关联的物料与会计凭证
 Via Landed Cost Voucher,关联到岸成本凭证
 Allow Zero Rate,允许0成本价
-Repost Item Valuation,物料成本价重过账
+Repost Item Valuation,物料成本价调账
 Quality Inspection Parameter,品管检验参数
 Bank Statement Import,银行对账单导入
 Default In-Transit Warehouse,默认在途仓
@@ -14925,7 +14925,7 @@ Create Workspace,新建工作区
 Your Shortcuts,快速访问
 Sales Pipeline Analytics,销售渠道分析
 Opportunity Summary by Sales Stage,商机汇总(按销售阶段)
-Cost Center Allocation,成本中心分摊
+Cost Center Allocation,成本中心分摊比例模板
 Cost Center Allocation Percentages,成本中心分摊百分比
 Asset Capitalization,资产与存货互转
 In Location,在册
@@ -15233,9 +15233,9 @@ Qty After Transaction,变更后数量
 Balance Stock Value,变更后库存金额
 Change in Stock Value,库存金额变动
 "FIFO Stock Queue (qty, rate)",先进先出队列(数量,单位成本)
-Limit timeslot for Stock Reposting,限定库存重过帐时间点
+Limit timeslot for Stock Reposting,限定物料成本调帐执行时机
 "Limits don't apply on",限制不适用日期
-Use Item based reposting,基于物料重过帐
+Use Item based reposting,基于物料进行成本调帐
 Scheduling,排程
 Ignore Default Payment Terms Template,忽略默认付款条款模板
 Per Received,收货百分比
@@ -15313,3 +15313,12 @@ Service Expenses,服务类费用
 Capitalization,存货转资产
 Decapitalization,资产转存货
 Non Conformance,不合格报告单
+Zero Balance,余额为0
+"This Account has '0' balance in either Base Currency or Account Currency",本科目本币或外币余额为0
+Inventory Dimension,库存辅助核算
+Dimension Details,辅助核算详情
+Apply to All Inventory Documents,适用所有库存单据(添加辅助核算字段)
+Mandatory Section,必填信息
+Apply to Document,适用单据
+Type of Transaction,库存变动类型(收/发)
+Conditional Rule,条件规则
