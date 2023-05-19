@@ -243,7 +243,7 @@ eu-central-1,EU-中央-1
 Eway Bill,Eway Bill
 Excel,Excel
 Excel,Excel
-Excise Entry,Excise分录
+Excise Entry,消费税分录
 Excise Page Number,Excise页码
 Exotel Settings,Exotel设置
 FCFS Rate,FCFS率
@@ -3846,7 +3846,7 @@ Attendance not submitted for {0} as {1} on leave.,因{1}尚在休假中，{0}的
 Item {0} (Serial No: {1}) cannot be consumed as is reserverd\						 to fullfill Sales Order {2}.,因为已被预留，物料{0}（序列号：{1}）无法被销售订单{2}耗用。
 Leave Type {0} cannot be allocated since it is leave without pay,因为是无薪假，无法分配休假类型{0}
 Cannot convert Cost Center to ledger as it has child nodes,因为有下级成本中心，不能将其转换为记帐成本中心，。
-"Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry",因为此库存调账是开帐凭证，库存变动科目必须是资产/负债类科目，
+"Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry",因为此库存调账是开帐凭证，差异科目必须是资产/负债类科目，
 "'Update Stock' can not be checked because items are not delivered via {0}",因为退货源单{0}未勾选“更新库存“，退货/退款单也不能勾选“更新库存“
 Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM.,因为该物料已经有使用别的单位的交易记录存在了，不再允许直接修改其默认单位{0}了。如果需要请创建一个新物料，以使用不同的默认单位。
 "Material Request not created, as quantity for Raw Materials already available.",因原材料可用数量足够，物料需求未创建，。
@@ -4839,7 +4839,7 @@ For Select, enter list of Options, each on a new line.",对链接类型字段，
 Against Voucher,对销凭证
 Against Journal Entry {0} is already adjusted against some other voucher,对销凭证{0}已经被其他凭证调整
 Against Voucher Type,对销凭证类型
-Contra Entry,对销分录
+Contra Entry,内部转帐
 Align Value,对齐值
 Align Value,对齐方式
 Import,导入
@@ -5063,8 +5063,8 @@ Difference,差异
 Variance,差异
 Difference (Dr - Cr),差异(借方-贷方)
 Diff Qty,差异数量
-Difference Account,库存变动科目
-"Difference Account must be a Asset/Liability type account, since this Stock Entry is an Opening Entry",库存变动科目必须是资产/负债类科目，因为物料移动凭证是开帐凭证
+Difference Account,差异科目
+"Difference Account must be a Asset/Liability type account, since this Stock Entry is an Opening Entry",差异科目必须是资产/负债类科目，因为物料移动凭证是开帐凭证
 Difference Amount (Company Currency),差异金额（本币）
 Variance ({}),差异（{}）
 Travel Expenses,差旅费
@@ -5683,7 +5683,7 @@ Mandatory Information missing:,必填字段信息缺失：
 Allow saving if mandatory fields are not filled,必填字段未填完整允许保存
 Mandatory field: {0},必填字段：{0}
 Serial Nos Required for Serialized Item {0},必须为启用序列号管理的物料{0}指定序列号
-Expense or Difference account is mandatory for Item {0} as it impacts overall stock value,必须为物料{0}指定费用/库存变动科目。
+Expense or Difference account is mandatory for Item {0} as it impacts overall stock value,必须为物料{0}指定费用/差异科目。
 Expense account is mandatory for item {0},必须为物料{0}指定费用科目
 Fieldname not set for Custom Field,必须为自定义字段设置设置字段名
 Update stock must be enable for the purchase invoice {0},必须为采购发票{0}启用更新库存
@@ -10160,7 +10160,7 @@ Fetch Data,获取数据
 Get Updates,获取更新
 Get Latest Query,获取最新查询
 Get Outstanding Invoices,选未付发票
-Get Unreconciled Entries,选未清帐凭证
+Get Unreconciled Entries,选未核销凭证
 Get Template,选模板
 Get Items,选物料
 Get Items From,选物料
@@ -11299,7 +11299,7 @@ Expense,费用
 Expense Account,费用科目
 Expenses,费用
 Fee,费用
-Expense / Difference account ({0}) must be a 'Profit or Loss' account,费用/库存变动科目({0})必须是一个“损益”类科目
+Expense / Difference account ({0}) must be a 'Profit or Loss' account,费用/差异科目({0})必须是一个“损益”类科目
 Charges are updated in Purchase Receipt against each item,费用会在每个物料的采购入库中更新
 "Charges will be distributed proportionately based on item qty or amount, as per your selection",费用会根据选择的物料数量和金额按比例分摊。
 Distribute Charges Based On,费用分摊基于
@@ -11753,7 +11753,7 @@ Select the customer or supplier.,选择客户或供应商。
 Select Property,选择属性
 Select Attribute Values,选择属性值
 Select Payroll Period,选择工资期间
-Select Difference Account,选择库存变动科目
+Select Difference Account,选择差异科目
 Select uploaded file,选择已上传文件
 Choose Existing Card or create New Card,选择已有卡或创建一个新卡
 Select the label after which you want to insert new field.,选择希望在其后插入新字段的标签，。
@@ -14314,7 +14314,8 @@ Based on Field,基于字段
 Delete Accounting and Stock Ledger Entries on deletion of Transaction,删除业务单据时同步删除关联的物料与会计凭证
 Via Landed Cost Voucher,关联到岸成本凭证
 Allow Zero Rate,允许0成本价
-Repost Item Valuation,物料成本价调账
+Repost Item Valuation,物料成本价追溯调整
+Stock Reposting Settings,物料成本价追溯调整设置
 Quality Inspection Parameter,品管检验参数
 Bank Statement Import,银行对账单导入
 Default In-Transit Warehouse,默认在途仓
@@ -14864,7 +14865,7 @@ You cannot change the rate if BOM is mentioned against any Item.,有物料清单
 Inter Company Purchase Invoice,关联公司采购发票
 Unreconciled Entries,未核销单据
 "If you need to reconcile particular transactions against each other, then please select accordingly. If not, all the transactions will be allocated in FIFO order.",可以手工勾选匹配，否则按时间先后自动匹配
-Allocated Entries,已匹配单据
+Allocated Entries,已核销单据
 'This is a Template BOM and will be used to make the work order for {0} of the item {1}',此模板物料清单可被基于模板物料的多规格物料直接引(使)用
 Cancel All Documents,取消所有单据,
 Cancelling documents,取消单据,
@@ -15356,3 +15357,10 @@ No of Months (Expense),月份数(费用)
 Avg Rate (Balance Stock),平均成本价(库存余额)
 Reserved for Production Plan,生产计划预留数量
 "If checked, picked qty won't automatically be fulfilled on submit of pick list.",如勾选，拣货单提交时不自动更新拣货数量
+Age (0 - 30),库龄1个月
+Age (31 - 00),库龄2个月
+Age (62 - 90),库龄3个月
+Age (91 - Above),库龄3个月以上
+121-Above,121天以上
+No Outstanding Invoices found for this party,未找到待核销发票
+New Journal Entry will be posted for the difference amount,会为差异金额生成日记帐凭证
