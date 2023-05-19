@@ -15322,3 +15322,37 @@ Mandatory Section,必填信息
 Apply to Document,适用单据
 Type of Transaction,库存变动类型(收/发)
 Conditional Rule,条件规则
+GL Entry Processing Status,会计凭证生成状态
+GL Entry Processing Status,生成会计凭证状态
+Use Company default Cost Center for Round off,计入公司默认四舍五入(尾差)成本中心
+Only Include Allocated Payments,仅含已分配(核销)付款
+Changes,找零
+Payment Terms from orders will be fetched into the invoices as is,从销售订单复制付款条款
+Journals,日记帐凭证
+Merge Similar Account Heads,合并科目
+Rows with Same Account heads will be merged on Ledger,相同科目会被自动合并
+Book Tax Loss on Early Payment Discount,将税损失记帐到提前付款拆扣科目
+Split Early Payment Discount Loss into Income and Tax Loss,将提前付款折扣分解为收入与税损失
+Payment Reconciliations,付款核销
+Auto Reconcile Payments,自动核销付款
+Learn about Common Party,学习更多关于多重身份往来单位知识
+Subcontract Receipt,委外入库
+FG Item,成品物料
+Account Currency (From),源科目币种
+Account Balance (From),源科目余额
+Account Balance (To),目标科目余额
+Account Currency (To),目标科目币种
+Source Exchange Rate,源汇率
+Target Exchange Rate,目标汇率
+Repost Payment Ledger,付款核算调整
+Selected Vouchers,已选凭证
+Add Manually,手动添加
+Ignore Voucher Type filter and Select Vouchers Manually,忽略凭证类型，手动选择凭证
+Payment Ledger Entry,付款核销台帐
+DeLinked,已取消关联
+Against Voucher No,关联凭证号
+Amount in Account Currency,金额(科目币种)
+No of Months (Expense),月份数(费用)
+Avg Rate (Balance Stock),平均成本价(库存余额)
+Reserved for Production Plan,生产计划预留数量
+"If checked, picked qty won't automatically be fulfilled on submit of pick list.",如勾选，拣货单提交时不自动更新拣货数量
