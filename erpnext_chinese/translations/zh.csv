@@ -7184,7 +7184,7 @@ Contact Numbers,联系电话
 Is Primary Contact,首选
 Child Tables are shown as a Grid in other DocTypes.,"是依附于其它单据类型的子表,通过表类型的字段关联，如采购明细就是采购订单(主/父）单据的子单据类型。"
 Is Your Company Address,是公司地址
-Is Company Account,是公司帐户
+Is Company Account,是本公司户头
 Is Company,是公司？
 Is Internal Supplier,是内部供应商
 Is Internal Customer,是内部客户
@@ -8205,10 +8205,9 @@ Validate Selling Price for Item against Purchase Rate or Valuation Rate,比对�
 Compare List function takes on list arguments,比较List函数采用列表参数
 Year of Passing,毕业年份
 Leaving Certificate Number,毕业证书号码
-Nothing is included in gross,毛不包含任何内容
-Gross Margin,毛利
+Nothing is included in gross,无毛利数据
 Gross Profit,毛利
-Gross and Net Profit Report,毛利润和净利润报告
+Gross and Net Profit Report,净毛利报告
 Gross Margin %,毛利率％
 Gross Profit %,毛利率％
 Gross Profit Percent,毛利率
@@ -9706,7 +9705,7 @@ Ensure Delivery Based on Produced Serial No,绑定工单入库序列号出货
 Balance Qty,结余数量
 Balance Value,结余金额
 Balance (Dr - Cr),结余（Dr  -  Cr）
-Closing Account Head,结帐科目
+Closing Account Head,结转科目
 Checkout Settings,结帐设置
 End on,结束日期
 Ends On,结束日期
@@ -10682,7 +10681,7 @@ Trial Period Start Date,试用期开始日期
 Trial Period End Date Cannot be before Trial Period Start Date,试用期结束日不能早于开始日
 Trial Period End Date,试用期结束日期
 Trial Balance,试算平衡表
-Trial Balance (Simple),试算平衡（简单）
+Trial Balance (Simple),试算平衡简表
 Request for Quotation,询价
 Request for quotation.,询价。
 Request for Quotation Supplier,询价供应商
@@ -11172,7 +11171,7 @@ Fiscal Year {0} does not exist,财年{0}不存在
 Fiscal Year {0} is required,财年{0}是必需的
 Fiscal Year {0} not found,财年{0}未找到
 Cannot change Fiscal Year Start Date and Fiscal Year End Date once the Fiscal Year is saved.,财年保存后便不能更改财年开始日期和结束日期
-Closing Fiscal Year,财年关帐
+Closing Fiscal Year,财年
 Number of Days in Fiscal Year,财年天数
 Fiscal Year Start Date and Fiscal Year End Date are already set in Fiscal Year {0},财年开始日期和结束日期已经在财年{0}中设置
 Fiscal Year Start Date should not be greater than Fiscal Year End Date,财年开始日期应不晚于结束日期
@@ -14361,7 +14360,7 @@ Stock Qty vs Serial No Count,库存数量与序列号数量对账,
 First Response Time for Issues,问题首次响应时间,
 First Response Time for Opportunity,商机首次响应时间,
 Greeting Subtitle,问候子标题,
-Setting the account as a Company Account is necessary for Bank Reconciliation,银行对账须将账户设为公司账户
+Setting the account as a Company Account is necessary for Bank Reconciliation,银行对账功能仅限本公司银行户头
 Available Qty at Company,公司即时库存
 Sales Order Status,销售订单状态
 after_insert,新增
@@ -15363,4 +15362,25 @@ Age (62 - 90),库龄3个月
 Age (91 - Above),库龄3个月以上
 121-Above,121天以上
 No Outstanding Invoices found for this party,未找到待核销发票
+No Unreconciled Payments found for this party,未找到待核销收付款凭证
 New Journal Entry will be posted for the difference amount,会为差异金额生成日记帐凭证
+Payment Ledger,付款核销台帐
+Include Account Currency,包括科目币种
+Outstanding:,未结
+Company Account,总帐科目,
+Ledger Merge,科目合并
+Accounts to Merge,待合并科目
+start Merge,开始合并
+Merged,已合并
+Scheduler is inactive. Cannot merge accounts.,后台任务进程未开启，无法合并科目
+'Successfully merged {0} out of {1}.',待合并{1}，已成功合并{0}
+Receivable/Payable Account,应收/应付科目
+Bank/Cash Account,银行/现金科目
+Reconciliation Logs,核销日志
+Process Payment Reconciliation Log,自动核销付款日志
+Process Payment Reconciliation,自动核销付款
+Auto Reconciliation of Payments has been disabled. Enable it through {0}",请在{0}中勾选自动核销付款
+Start / Resume,开始 / 恢复
+COGS By Item Group,按物料组销货成本
+COGS Debit,销售成本(借方)
+Deferred Revenue and Expense,递延收入与费用
