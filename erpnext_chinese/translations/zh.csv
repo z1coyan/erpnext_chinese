@@ -2164,7 +2164,7 @@ Value,值,Dashboard Chart
 Value / Description,值/说明
 The value {0} is already assigned to an exisiting Item {2}.,值{0}已分配给现有物料{2}。
 Value cannot be changed for {0},值不能被改变为{0}
-Value Change,值变更
+Value Change,金额变动
 Value To Be Set,值变更为
 Value Changed,值变更的字段
 Values Changed,值已更改
@@ -2302,6 +2302,7 @@ Previous Hash,先前的哈希
 Show Print First,先显示打印
 Mr,先生
 FIFO,先进先出
+LIFO,后进先出
 Exemption Sub Category,免税子类别
 Total Exemption Amount,免税总额
 Exemption Category,免税类别
@@ -6122,7 +6123,7 @@ All Accounts,所有科目
 All Lead (Open),所有线索（跟进中）
 Net Change in Equity,所有者权益净变动
 Opening Balance Equity,所有者权益期初余额
-All Jobs,所有职位
+All Jobs,全部任务
 All Contact,所有联系人
 All Contacts.,所有联系人。
 List of all share transactions,所有股份交易清单
@@ -15384,3 +15385,38 @@ Start / Resume,开始 / 恢复
 COGS By Item Group,按物料组销货成本
 COGS Debit,销售成本(借方)
 Deferred Revenue and Expense,递延收入与费用
+Use Batch-wise Valuation,按批号计算成本
+"FIFO Stock Queue (qty, rate)",先进先出队列(数量，单价)
+Start Reposting,执行成本价追溯调整记帐
+Reposting has been started in the background.,成本价追溯调整记帐已在后台运行
+Rate Difference with Purchase Invoice,采购发票价差
+No jobs found on this site,本站点无当前任务
+Auto Refresh,自动刷新
+All Queues,全部队列
+Deferred,已延后
+Short,短
+Long,长
+Remove Failed Jobs,删除运行出错的任务
+Are you sure you want to remove all failed jobs?确定删除所有运行出错的任务？
+Scheduler: Active,后台任务:运行中
+Scheduler: Inactive,后台任务:未运行
+Are you sure you want to re-enable scheduler?,确定启动后台任务？
+Enabled Scheduler,已启动后台任务
+Failed to enable scheduler: {0},启动后台任务 {0} 失败
+Incorrect Stock Value Report,异常库存金额报表
+Stock Ledger Invariant Check,物料凭证数据检查报表
+"Creation",创建日期
+"Batchwise Valuation",启用批号成本
+"Consumption Rate",出库成本价
+"(A) Qty After Transaction",(A) 变更后数量
+"(B) Expected Qty After Transaction",(B) 预期变更后数量
+"FIFO/LIFO Queue",先进先出/后进先出队列
+"(C) Total qty in queue",(C) 队列中总数量
+"(D) Balance Stock Value",(D) 库存余额
+"(E) Balance Stock Value in Queue",(E) 队列中库存余额
+"(F) Stock Value Difference",(F) 库存差异
+"Balance Stock Value using (F)",库存差异余额 (F)
+"(G) Stock Value difference (FIFO queue)",(G) 库存差异(先进先出队列)
+"(H) Valuation Rate",(H) 成本价
+"(I) Valuation Rate as per FIFO",(I) 先进先出成本价
+"(J) Valuation = Value (D) ÷ Qty (A)",(J) 成本价 = 金额(D) ÷ 数量(A)
