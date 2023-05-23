@@ -1295,7 +1295,7 @@ Sets 'Rejected Warehouse' in each row of the items table.,为每个物料行设�
 Sets 'From Warehouse' in each row of the items table.,为每个物料行设置默认发出仓
 Sets 'Accepted Warehouse' in each row of the items table.,为每个物料行设置默认收料仓
 Set non-standard precision for a Float or Currency field,为浮点或货币字段设置非标准精度
-Create Quality Inspection for Item {0},为物料{0}创建质量检验
+Create Quality Inspection for Item {0},为物料{0}创建质检单
 Sets 'Warehouse' in each row of the Items table.,为物料明细行设置仓码
 Sets 'Source Warehouse' in each row of the items table.,为物料明细行设置发料仓
 Sets 'Target Warehouse' in each row of the items table.,为物料明细行设置收料仓
@@ -3788,7 +3788,7 @@ Brand Image,品牌形象
 Tag Line,品牌理念
 Brand Defaults,品牌默认值
 Item Details,物料详细信息
-Action if Quality inspection is not submitted,质量检验报告未提交时采取的控制措施
+Action if Quality inspection is not submitted,质检单未提交时采取的控制措施
 Haryana,哈里亚纳邦
 Response,响应
 Response and Resolution Time,响应和解决时间
@@ -6557,7 +6557,7 @@ Before Submit,提交前
 Before Validate,校验前
 Cannot cancel before submitting. See Transition {0},提交前不能取消，详情参考状态转换{0}
 For Warehouse is required before Submit,提交前必须选择仓库
-Quality Inspection required for Item {0} to submit,提交前请完成物料{0}的质量检验
+Quality Inspection required for Item {0} to submit,提交前请完成物料{0}的质检单
 Submitted row for {0},提交单据{0}
 Feedback Submitted,提交反馈
 After Submit,提交后
@@ -7240,8 +7240,8 @@ Is Working Capital,是营运资本
 Is a Subscription,是订阅
 Is Finance Cost,是财务成本
 In Filter,是自定义过滤字段
-Is Return (Debit Note),退货(扣款)
-Is Return (Credit Note),退货(退款)
+Is Return (Debit Note),退款(借记单)
+Is Return (Credit Note),退款(贷记单)
 Is Purchase Item,允许采购
 Allow Purchase,允许采购
 Is Milestone,是里程碑
@@ -7679,7 +7679,7 @@ No record found,未找到记录
 No Permissions Specified,未指定权限
 Support Email Address Not Specified,未指定的售后支持电子邮箱
 Purchase Order Items not received on time,未按时收货采购订单物料
-Quality Inspection: {0} is not submitted for the item: {1} in row {2},未提交第{2}行中物料{1}的质量检验{0}
+Quality Inspection: {0} is not submitted for the item: {1} in row {2},未提交第{2}行中物料{1}的质检单{0}
 No description given,未提供描述
 Not Updated,未更新
 Future Payment Ref,未来收款参考
@@ -8677,7 +8677,7 @@ Max discount allowed for item: {0} is {1}%,物料{0}的最大折扣为 {1}%
 Item Group not mentioned in item master for item {0},物料{0}的物料组没有设置
 Item {0}: Ordered qty {1} cannot be less than minimum order qty {2} (defined in Item).,物料{0}的订单数量{1}不能小于最低订货量{2}（物料基础资料中定义）。
 Selling rate for item {0} is lower than its {1}. Selling rate should be atleast {2},物料{0}的销售价格低于其{1}。售价应至少为{2}
-Quality Inspection required for Item {0},物料{0}要求质量检验
+Quality Inspection required for Item {0},物料{0}要求质检单
 Warehouse required for stock Item {0},物料{0}需要指定仓库
 "Item {0}: {1} qty produced.",物料{0}：完工数量{1}.
 Cannot deliver Serial No {0} of item {1} as it is reserved to \												fullfill Sales Order {2},物料{1}序列号{0}被销售订单{2}冻结（预留）了
@@ -8777,7 +8777,7 @@ Item Naming By,物料编号字段
 Item Code is mandatory because Item is not automatically numbered,物料编号是必须项，因为物料没有自动编号
 Material Consumption,物料耗用
 Item Variant Attribute,物料规格属性
-Item Quality Inspection Parameter,物料质量检验参数
+Item Quality Inspection Parameter,物料质检参数
 Items Filter,物料过滤
 Item-wise Purchase History,物料采购明细
 Item-wise Purchase Register,物料采购台帐
@@ -11230,10 +11230,10 @@ Quality Action,纠正与预防措施
 Quality Action Resolution,纠正与预防措施决议
 Quality Action Table,纠正与预防措施表
 Tree of Quality Procedures.,质量树程序。
-Quality Inspection,质量检验
-Quality Inspection Reading,质量检验报表
-Quality Inspection Template,质量检验模板
-Quality Inspection Template Name,质量检验模板名称
+Quality Inspection,质检单
+Quality Inspection Reading,质检结果
+Quality Inspection Template,质检模板
+Quality Inspection Template Name,质检模板名称
 Quality Goal,质量目标
 Quality Goal Objective,质量目标
 Quality Objective,质量目标
@@ -11670,10 +11670,10 @@ Unsubscribe Method,退订方法
 Unsubscribe from this Email Digest,退订该电子邮件
 Return,退货
 Returns,退货
-Return / Debit Note,退货/扣款单
-Return / Credit Note,退货/退款
+Return / Debit Note,退款/借记单
+Return / Credit Note,退款/贷记单
 Returned Qty,退货数量
-Is Return,退货？
+Is Return,退款
 Points Given,送出点数
 Points Given,送出的点数
 Points Given,送出的评审点数
@@ -12955,7 +12955,7 @@ Forecasting,预测
 Downtime Entry,停机记录
 Production Planning Report,生产计划报表
 Work Order Summary,工单进度追踪表
-Quality Inspection Summary,质量检验进度追踪表
+Quality Inspection Summary,质检进度追踪表
 Downtime Analysis,停机分析
 Job Card Summary,工序进度追踪表
 BOM Operations Time,工艺时间
@@ -13228,7 +13228,7 @@ Allow Monthly Depreciation,允许按月折旧
 Only If Creator,仅限创建者
 Inbox User,邮件收件箱用户
 Loan Manager,借款经理
-Row {0}: Quality Inspection rejected but no rejected qty for item {1},第{0}行：质量检验结论为拒收，物料{1}没有维护拒收数量
+Row {0}: Quality Inspection rejected but no rejected qty for item {1},第{0}行：质检结论为拒收，物料{1}没有维护拒收数量
 Default Company Bank Account,默认公司银行账户
 Show Seconds,显示秒
 Show Days,显示天
@@ -13566,8 +13566,8 @@ Purchase Orders,采购订单
 Purchase Receipt Detail,采购订单详情
 Purchase Receipt doesn't have any Item for which Retain Sample is enabled.,采购入库未包括启用了保留样品的物料
 Qty to Manufacture,生产数量
-Quality Inspection Analysis,质量检验分析
-Quality Inspection is required for Item {0},物料 {0} 需要质量检验
+Quality Inspection Analysis,质检单分析
+Quality Inspection is required for Item {0},物料 {0} 需要质检
 Quantity to Manufacture,生产数量
 Quantity to Manufacture can not be zero for the operation {0},工序 {0} 生产数量不能为0
 Quotation Amount,报价金额
@@ -14541,8 +14541,8 @@ Investigation Details,调查详情
 Cause of Grievance,意见原因
 Employee Responsible,意见负责人
 Investigated,已调查
-Quality Inspection Settings,质量检验设置
-Action If Quality Inspection Is Rejected,质量检验被拒的措施
+Quality Inspection Settings,质检单设置
+Action If Quality Inspection Is Rejected,质检被拒的措施
 Incorrect Data Report,异常数据报表
 Incorrect Serial No Valuation,无成本价序列号
 Incorrect Balance Qty After Transaction,交易记账后结余数量不正确
@@ -14608,8 +14608,8 @@ Workspace Link,工作区链接
 DocType Layout,单据类型屏幕布局
 DocType Layout Field,单据类型屏幕布局字段
 Custom DocPerm,自定义单据权限
-Query Parameters,质量检验参数
-Quality Inspection Parameter Group,质量检验参数组
+Query Parameters,质检参数
+Quality Inspection Parameter Group,质检参数组
 Parameter Group,参数组
 Shipment Parcel Template,货运包裹模板
 Email Digest Recipient,电子邮件摘要收件人
@@ -14876,7 +14876,7 @@ Selected Qty,已选数量
 End Transit,在途入库
 First Day of the Week,一周开始日
 Overproduction for Sales and Work Order,超销售和工单数量控制,
-Quality Inspection(s),质量检验
+Quality Inspection(s),质检单
 Select Items for Quality Inspection,选择待检验物料
 Sales Order Packed Item,销售订单套件明细
 Debit in Account Currency,借方(科目币别)
