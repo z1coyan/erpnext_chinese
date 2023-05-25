@@ -7301,7 +7301,7 @@ Show Latest Forum Posts,显示最新的论坛帖子
 Show unclosed fiscal year's P&L balances,显示未关闭财年损益余额
 Show Open,显示未完成
 Show open,显示未完成
-Show Future Payments,显示未来收款
+Show Future Payments,显示报表日后付款
 Show Permissions,显示权限
 Show Barcode Field,显示条码扫描字段
 Show Tags,显示标签
@@ -7682,9 +7682,9 @@ Purchase Order Items not received on time,未按时收货采购订单物料
 Quality Inspection: {0} is not submitted for the item: {1} in row {2},未提交第{2}行中物料{1}的质检单{0}
 No description given,未提供描述
 Not Updated,未更新
-Future Payment Ref,未来收款参考
-Future Payment Amount,未来收款金额
-Future dates not allowed,未来的日期不允许
+Future Payment Ref,报表日后付款参考
+Future Payment Amount,报表日后付款金额
+Future dates not allowed,不允许晚于当前日期
 Not Specified,未标明
 Not Marked,未标记
 Unreconciled,未核销
