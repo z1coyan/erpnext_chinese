@@ -160,7 +160,7 @@ BOM Variance Report,BOM差异报表
 BOM Stock Report,BOM库存齐套报表
 BOM Stock Calculated,BOM库存计算
 BOM Scrap Item,BOM废料
-BOM Search,物料清单反查
+BOM Search,物料用途查询(用在哪个物料清单中)
 BOM Update Tool,物料清单批量更新工具
 BOM Browser,BOM浏览器
 BOM Item,BOM明细
@@ -5074,7 +5074,7 @@ Difference Amount,差额
 uploaded file,已上传文件
 Ordered,已下单
 % Ordered,已下单%
-Ordered Quantity,已下单数量
+Ordered Quantity,采购数量
 A new document {0} has been shared by with you {1}.,已与您{1}分享了一个新单据{0}。
 Lost Quotation,未成交报价
 {0} vacancies and {1} budget for {2} already planned for subsidiary companies of {3}. \				You can only plan for upto {4} vacancies and and budget {5} as per staffing plan {6} for parent company {3}.,已为{3}的子公司计划{2}的{0}空缺和{1}预算。 \根据母公司{3}的员工计划{6}，您只能计划最多{4}个职位空缺和预算{5}。
@@ -10439,9 +10439,9 @@ Unscheduled,计划外
 Planned Start Date,计划开始日期
 Planned Start Time,计划开始时间
 Next Scheduled Date,计划执行日期
-Planned Qty,计划数量
-Planned Quantity,计划数量
-"Planned Qty: Quantity, for which, Work Order has been raised, but is pending to be manufactured.",计划数量：已生成生产工单，尚待制造的数量。
+Planned Qty,工单数量
+Planned Quantity,工单数量
+"Planned Qty: Quantity, for which, Work Order has been raised, but is pending to be manufactured.",工单数量：已生成生产工单，尚待生产的数量。
 Schedule Date,计划日期
 Scheduled Date,计划日期
 Planned number of Positions,计划的职位数量
@@ -12612,7 +12612,7 @@ Name of Consultant,顾问的名字
 Advances,预付
 Advance Paid,预付款
 Advance Payments,预付款
-Advance Amount,预付款总额
+Advance Amount,预付款金额
 Advance account currency should be same as company currency {0},预付科目货币应与本币{0}相同
 Advance amount,预付金额
 Advance amount cannot be greater than {0} {1},预付金额不能大于{0} {1}
@@ -14840,7 +14840,7 @@ Open Sales Orders,未结销售订单
 "Once the Work Order is Closed. It can't be resumed.",不能恢复已关闭工单
 Not allowed via controller permission check,自定义代码权限检查has_permission不通过
 Action / Route,操作 / 网址路径,
-Is Rate Adjustment Entry (Debit Note),是调价单
+Is Rate Adjustment Entry (Debit Note),追加收款(借记单)
 Issue a debit note with 0 qty against an existing Sales Invoice,基于已有销售发票开一张0数量发票
 E Commerce Settings,电商设置
 Filters and Categories,过滤和类别
@@ -15420,3 +15420,6 @@ Stock Ledger Invariant Check,物料凭证数据检查报表
 "(H) Valuation Rate",(H) 成本价
 "(I) Valuation Rate as per FIFO",(I) 先进先出成本价
 "(J) Valuation = Value (D) ÷ Qty (A)",(J) 成本价 = 金额(D) ÷ 数量(A)
+Advance payments allocated against orders will only be fetched,仅获取关联了订单的预付款
+Adjustment Against,源单
+Finished Good Quantity,成品数量
