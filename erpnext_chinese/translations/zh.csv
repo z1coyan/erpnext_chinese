@@ -5257,7 +5257,7 @@ Selected Option,已选项
 Updated via 'Time Log'",通过“工时记录”更新的工时(分)
 Overdue,已逾期
 Google Contacts has been configured.,已配置Google通讯录。
-Ordered Qty,已下单数量
+Ordered Qty,采购与委外数量
 Seen,已阅
 Hidden,已隐藏
 Booked,已预订
@@ -15397,7 +15397,7 @@ Deferred,已延后
 Short,短
 Long,长
 Remove Failed Jobs,删除运行出错的任务
-Are you sure you want to remove all failed jobs?确定删除所有运行出错的任务？
+Are you sure you want to remove all failed jobs?,确定删除所有运行出错的任务?
 Scheduler: Active,后台任务:运行中
 Scheduler: Inactive,后台任务:未运行
 Are you sure you want to re-enable scheduler?,确定启动后台任务？
