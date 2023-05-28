@@ -1695,7 +1695,7 @@ Rates,价格
 Price or Product Discount,价格/产品折扣
 Price Not UOM Dependant,价格不依赖于UOM
 Rate & Amount,价格和金额
-Price or product discount slabs are required,价格或产品折扣板是必需的
+Price or product discount slabs are required,价格或产品折扣表是必需的
 Rate or Discount,价格或折扣
 Price Discount Slabs,价格折扣板
 PRICE DISCOUNT SLABS,价格折扣表
@@ -12164,7 +12164,7 @@ Ringing,铃声
 bell,铃声
 pencil,铅笔
 Bank,银行
-Bank / Cash Account,银行/现金账户
+Bank / Cash Account,银行/现金科目
 Banking,银行业
 Bank Transaction,银行交易流水
 Reference No and Reference Date is mandatory for Bank transaction,使用了银行科目，请输入银行交易业务编号和业务日期
@@ -15423,3 +15423,26 @@ Stock Ledger Invariant Check,物料凭证数据检查报表
 Advance payments allocated against orders will only be fetched,仅获取关联了订单的预付款
 Adjustment Against,源单
 Finished Good Quantity,成品数量
+No Unreconciled Invoices and Payments found for this party and account,未找到待核销发票与收付款凭证
+Disable Document Sharing,禁用单据表单/详情界面左侧栏分享功能
+Login with email link,启用邮件中链接登录
+Allow users to log in without a password, using a login link sent to their email,允许用户点击邮件中的链接不输密码登录系统
+Apply Perm Level on API calls (Recommended),外部程序接口调用时进行字段级权限检查(推荐)
+Telemetry,系统使用情况上报
+Allow Sending Usage Data for Improving Applications,允许发送用于系统改进的使用情况数据
+added rows for {0},新增了 {0} 明细行
+removed rows for {0},删除了 {0} 明细行
+{0} changed values for {1} {2},{0} 变更了 {1} {2}
+{0} changed values for {1},{0} 变更了 {1}
+You created this {0},你创建了本单据
+You edited this {0},你修改了本单据
+Get Customer Group Details,获取客户组信息
+Link with Supplier,关联供应商
+Link with Supplier,关联客户
+Create Link,创建关联
+Successfully linked to Supplier,成功关联了供应商
+Successfully linked to Customer,成功关联了客户
+Allow Sales Order Creation For Expired Quotation,允许从已过期报价创建(下推)销售订单
+Over Order Allowance (%),超框架订单容差(%)
+"Percentage you are allowed to order more against the Blanket Order Quantity. For example: If you have a Blanket Order of Quantity 100 units. and your Allowance is 10% then you are allowed to order 110 units.",允许累计订单数量超框架订单的百分比。例如：框架订单数量100。容差10％，那么关联框架订单的多个订单累计数量最多为110。
+Show Pay Button in Purchase Order Portal,在门户网站采购订单详情界面显示付款按钮
