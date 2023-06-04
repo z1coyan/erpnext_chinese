@@ -7786,7 +7786,7 @@ Permissions Settings,权限设置
 Quick Help for Setting Permissions,权限设置的快速帮助
 Permission Error,权限错误
 Restrictions,权限限制清单
-Material Consumption is not set in Manufacturing Settings.,生产设置中未定义物料耗用方式。
+Material Consumption is not set in Manufacturing Settings.,生产设置中未勾选启用工单耗用。
 Condition,条件
 Condition Detail,条件
 Conditions,条件
@@ -15423,6 +15423,7 @@ Stock Ledger Invariant Check,物料凭证数据检查报表
 Advance payments allocated against orders will only be fetched,仅获取关联了订单的预付款
 Adjustment Against,源单
 Finished Good Quantity,成品数量
+"Finished Good Quantity ",成品数量
 No Unreconciled Invoices and Payments found for this party and account,未找到待核销发票与收付款凭证
 Disable Document Sharing,禁用单据表单/详情界面左侧栏分享功能
 Login with email link,启用邮件中链接登录
@@ -15446,3 +15447,7 @@ Allow Sales Order Creation For Expired Quotation,允许从已过期报价创建(
 Over Order Allowance (%),超框架订单容差(%)
 "Percentage you are allowed to order more against the Blanket Order Quantity. For example: If you have a Blanket Order of Quantity 100 units. and your Allowance is 10% then you are allowed to order 110 units.",允许累计订单数量超框架订单的百分比。例如：框架订单数量100。容差10％，那么关联框架订单的多个订单累计数量最多为110。
 Show Pay Button in Purchase Order Portal,在门户网站采购订单详情界面显示付款按钮
+For link field filter,用户链接字段智能过滤
+This form is not editable due to a Workflow.,此表单因工作流状态不能被编辑。
+Skip Available Sub Assembly Items,不考虑子装配件可用库存
+"System consider the projected quantity to check available or will be available sub-assembly items ",系统是否考虑子装配件预期可用库存
