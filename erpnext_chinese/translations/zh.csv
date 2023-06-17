@@ -14946,9 +14946,6 @@ Updating Opening Balances,更新期初
 Tax Detail,税费明细
 Work Order Consumed Materials,工单已耗用物料
 Settings & Configurations,设置
-Opening & Closing,交接班
-POS Beginning Entry,接班记录
-POS Closing Entry,交班记录
 Preview of generated names,自动生成的单据编号预览
 Generate 3 preview of names generate by any valid series.,生成3个单据自动编号预览
 Add this Series,添加单据编号模板
@@ -15451,3 +15448,28 @@ For link field filter,用户链接字段智能过滤
 This form is not editable due to a Workflow.,此表单因工作流状态不能被编辑。
 Skip Available Sub Assembly Items,不考虑子装配件可用库存
 "System consider the projected quantity to check available or will be available sub-assembly items ",系统是否考虑子装配件预期可用库存
+Item and Warehouse,物料与仓库
+Opening & Closing,POS机交接班
+POS Closing Entry,POS机接班
+POS Opening Entry,POS机交班
+Create POS Opening Entry,创建POS接班记录,
+All Items,所有物料
+Search by item code, serial number or barcode,"按物料编号，序列号，批号搜索"
+Select item group,选择物料组,
+Add Discount,折扣
+Item Code: {0} is not available under warehouse {1}.,仓库 {1} 中无此物料 {0}。
+Complete Order,完成订单
+Edit Cart,返回购物车
+Email Receipt,邮件发送收据
+New Order,新订单
+Edit Order,修改订单
+Delete Order,删除订单
+Sold by,售货员
+To Be Paid,待支付,
+Recent Orders,最近订单
+Validate Stock on Save,保存时检查库存
+Write Off Limit,抹零限额
+Auto write off precision loss while consolidation,合并时自动圆整抹零
+If enabled, the consolidated invoices will have rounded total disabled,如勾选合并后的发票禁用圆整功能(金额不四舍五入)
+POS Search Fields,POS机搜索字段
+POS Field,POS机字段,
