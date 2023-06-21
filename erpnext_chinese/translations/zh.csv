@@ -15473,3 +15473,5 @@ Auto write off precision loss while consolidation,合并时自动圆整抹零
 If enabled, the consolidated invoices will have rounded total disabled,如勾选合并后的发票禁用圆整功能(金额不四舍五入)
 POS Search Fields,POS机搜索字段
 POS Field,POS机字段,
+Page Size,纸张大小
+Please check either with operations or FG Based Operating Cost.,有工艺路线与计件成本两个勾选字段必须二选一
