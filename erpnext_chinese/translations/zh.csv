@@ -10165,7 +10165,7 @@ Get Template,选模板
 Get Items,选物料
 Get Items From,选物料
 Get Item Locations,分配可拣货仓
-Get Material Request,选物料需求
+Get Material Request,获取物料需求
 Get Items For Work Order,选生产工单物料
 Get Raw Materials For Production,计算原材料需求
 Get Contacts,选联系人
@@ -10173,7 +10173,7 @@ Get prescribed procedures,获取规定的程序
 Fetch Subscription Updates,获取订阅更新
 Fetching records......,选记录......
 Get Courses,获取课程
-Get Sales Orders,选销售订单
+Get Sales Orders,获取销售订单
 Achievement,获奖情况
 gained {0} points,获得{0}分
 Get Suppliers By,获得供应商
@@ -15447,7 +15447,7 @@ Show Pay Button in Purchase Order Portal,在门户网站采购订单详情界面
 For link field filter,用户链接字段智能过滤
 This form is not editable due to a Workflow.,此表单因工作流状态不能被编辑。
 Skip Available Sub Assembly Items,考虑子装配件可用库存
-"System consider the projected quantity to check available or will be available sub-assembly items ",勾选后，计划数量=需求数量-可用库存，可用库存足够时子装配件不出现在清单中
+"System consider the projected quantity to check available or will be available sub-assembly items ",勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除
 Item and Warehouse,物料与仓库
 Opening & Closing,POS机交接班
 POS Closing Entry,POS机接班
@@ -15475,3 +15475,6 @@ POS Search Fields,POS机搜索字段
 POS Field,POS机字段,
 Page Size,纸张大小
 Please check either with operations or FG Based Operating Cost.,有工艺路线与计件成本两个勾选字段必须二选一
+"Row #{0}: Please select Item Code in Assembly Items",装配件明细第 {0} 行，请输入物料编号(请先点获取待生产成品物料按钮)
+Please fill the Material Requests table,请先点获取物料需求,
+Items to Manufacture are required to pull the Raw Materials associated with it.,需有装配件或子装配件明细后才可计算采购原材料需求。,
