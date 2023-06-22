@@ -15446,8 +15446,8 @@ Over Order Allowance (%),超框架订单容差(%)
 Show Pay Button in Purchase Order Portal,在门户网站采购订单详情界面显示付款按钮
 For link field filter,用户链接字段智能过滤
 This form is not editable due to a Workflow.,此表单因工作流状态不能被编辑。
-Skip Available Sub Assembly Items,不考虑子装配件可用库存
-"System consider the projected quantity to check available or will be available sub-assembly items ",系统是否考虑子装配件预期可用库存
+Skip Available Sub Assembly Items,考虑子装配件可用库存
+"System consider the projected quantity to check available or will be available sub-assembly items ",勾选后，计划数量=需求数量-可用库存，可用库存足够时子装配件不出现在清单中
 Item and Warehouse,物料与仓库
 Opening & Closing,POS机交接班
 POS Closing Entry,POS机接班
