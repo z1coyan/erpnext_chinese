@@ -14565,7 +14565,7 @@ Return Issued,被退货
 Incorrect Serial No Qty and Valuation,序列号数量与成本价错误报表
 Production Plan Sub-assembly Item,子装配件
 Serial Nos,序列号
-Get Finished Goods for Manufacture,获取待生产成品物料
+Get Finished Goods for Manufacture,获取待计划物料
 Sub Assembly Item Code,子装配件物料号
 Level (BOM),物料清单层级
 Backflush Raw Materials From Work-in-Progress Warehouse,从在制品仓耗用原材料,
@@ -15447,7 +15447,9 @@ Show Pay Button in Purchase Order Portal,在门户网站采购订单详情界面
 For link field filter,用户链接字段智能过滤
 This form is not editable due to a Workflow.,此表单因工作流状态不能被编辑。
 Skip Available Sub Assembly Items,考虑子装配件可用库存
+Skip Available Assembly Items,考虑装配件可用库存
 "System consider the projected quantity to check available or will be available sub-assembly items ",勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除
+"System consider the projected quantity to check available or will be available assembly items ",勾选后，计划数量=需求-可用库存，可用足够时装配件被删除
 Item and Warehouse,物料与仓库
 Opening & Closing,POS机交接班
 POS Closing Entry,POS机接班
