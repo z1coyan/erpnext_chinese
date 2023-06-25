@@ -15195,8 +15195,8 @@ Email Retry Limit,邮件重试次数限制
 Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours.,如设置为24:00,则会24:00后自动将用户登出
 Avg Rate(Balance Stock),平均成本(库存变动)
 Subcontract Order,委外订单
-Download Materials Request Plan Section,下载物料需求计划
-Download Materials Request Plan,下载物料需求计划
+Download Materials Request Plan Section,导出原材料计划建议
+Download Materials Request Plan,导出原材料需求与库存
 Select Warehouses to get Stock for Materials Planning,选择仓库
 Transfer From Warehouses,调拨源仓库
 Request For Quotation,询价
@@ -15480,3 +15480,4 @@ Please check either with operations or FG Based Operating Cost.,有工艺路线�
 "Row #{0}: Please select Item Code in Assembly Items",装配件明细第 {0} 行，请输入物料编号(请先点获取待生产成品物料按钮)
 Please fill the Material Requests table,请先点获取物料需求,
 Items to Manufacture are required to pull the Raw Materials associated with it.,需有装配件或子装配件明细后才可计算采购原材料需求。,
+Get Stock,导出库存数据
