@@ -15447,7 +15447,6 @@ Show Pay Button in Purchase Order Portal,在门户网站采购订单详情界面
 For link field filter,用户链接字段智能过滤
 This form is not editable due to a Workflow.,此表单因工作流状态不能被编辑。
 Skip Available Sub Assembly Items,考虑子装配件可用库存
-Skip Available Assembly Items,考虑装配件可用库存
 "System consider the projected quantity to check available or will be available sub-assembly items ",勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除
 "System consider the projected quantity to check available or will be available assembly items ",勾选后，计划数量=需求-可用库存，可用足够时装配件被删除
 Item and Warehouse,物料与仓库
@@ -15481,3 +15480,12 @@ Please check either with operations or FG Based Operating Cost.,有工艺路线�
 Please fill the Material Requests table,请先点获取物料需求,
 Items to Manufacture are required to pull the Raw Materials associated with it.,需有装配件或子装配件明细后才可计算采购原材料需求。,
 Get Stock,导出库存数据
+"As there are sufficient raw materials, Material Request is not required for Warehouse {0}.","因仓库 {0} 有足够库存，未生成物料需求。"
+Rounding Loss Allowance,尾数限额
+Gain/Loss from Revaluation,重估损益
+Gain/Loss already booked,已记账损益
+New Balance In Account Currency,科目币别新余额
+"Gain/Loss accumulated in foreign currency account. Accounts with '0' balance in either Base or Account currency","外币累计损益，"
+"Only values between [0,1) are allowed. Like {0.00, 0.04, 0.09, ...}
+Ex: If allowance is set at 0.07, accounts that have balance of 0.07 in either of the currencies will be considered as zero balance account","限0到1之间，如0.04，0.09
+举例 尾差限额0.07，本币或外币余额小于0.07时被视为余额为0"
