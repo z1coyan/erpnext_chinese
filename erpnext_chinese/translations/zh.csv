@@ -15489,3 +15489,16 @@ New Balance In Account Currency,科目币别新余额
 "Only values between [0,1) are allowed. Like {0.00, 0.04, 0.09, ...}
 Ex: If allowance is set at 0.07, accounts that have balance of 0.07 in either of the currencies will be considered as zero balance account","限0到1之间，如0.04，0.09
 举例 尾差限额0.07，本币或外币余额小于0.07时被视为余额为0"
+Select Link,读(链接字段)
+Last 6 months,上半年
+Next Quarter,下季度
+Next 6 months,下半年
+Client Secret,客户端秘钥
+Allow existing Serial No to be Manufactured/Received again,允许现有序列号重新生产及入库
+Show Taxes as Table in Print,税以明细表形式打印输出
+Enable Automatic Party Matching,启用自动匹配往来单位
+Auto match and set the Party in Bank Transactions,在银行交易中自动匹配并设置往来单位字段
+Banking,银行,
+Ignore Closing Balance,忽略期末库存余额
+Regenerate Closing Stock Balance,重新生成期末库存全额
+Closing Stock Balance,期末库存余额
