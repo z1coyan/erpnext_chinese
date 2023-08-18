@@ -15502,3 +15502,14 @@ Banking,银行,
 Ignore Closing Balance,忽略期末库存余额
 Regenerate Closing Stock Balance,重新生成期末库存全额
 Closing Stock Balance,期末库存余额
+For quantity {0} should not be greater than allowed quantity {1},成品数量 {0} 不能大于剩余可入库数量 {1}
+Uses Auto Increment feature of database.,使用数据库的自增序列功能
+WARNING: After using this option, any other naming option will not be accessible.,警告:自增编号功能会导致其它命名编号机制失效
+Cannot change to/from autoincrement autoname in Customize Form,定制表单不支持修改自增编号
+Can only change to/from Autoincrement naming rule when there is no data in the doctype,仅在单据类型无数据时修改自增编号
+Sort Options,按选项值排序
+Ignore Available Stock,忽略可用数量
+Consolidate Sales Order Items,合并物料
+"If enabled, the system won't create material requests for the available items.","勾选后，系统不会为有可用数量的物料创建物料需求"
+"If this checkbox is enabled, then the system won't run the MRP for the available sub-assembly items.","勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除"
+"If this checkbox is enabled, then the system won’t run the MRP for the available sub-assembly items.","勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除"
