@@ -3824,12 +3824,12 @@ Likes,喜欢
 Himachal Pradesh,喜马偕尔邦
 April,4月
 APR,04
-Round Off,四舍五入
-Rounding,四舍五入
-Round Off Cost Center,四舍五入成本中心
-Round Off Account,四舍五入科目
-Rounding Adjustment (Company Currency,四舍五入调整（本币）
-Rounding Adjustment (Company Currency),四舍五入调整（本币）
+Round Off,小数精度尾差
+Rounding,小数精度尾差
+Round Off Cost Center,小数精度尾差成本中心
+Round Off Account,小数精度尾差科目
+Rounding Adjustment (Company Currency,小数精度尾差调整（本币）
+Rounding Adjustment (Company Currency),小数精度尾差调整（本币）
 Back to upload files,回到上传文件界面
 In Reply To,回复
 Replies,回复
@@ -10116,7 +10116,7 @@ To No,至No
 To Address 1,致地址1
 To Address 2,致地址2
 Tongue,舌
-Rounding Adjustment,舍入调整
+Rounding Adjustment,小数精度尾差调整
 Aerospace,航天
 Airline,航空公司
 Ship,船
@@ -10851,7 +10851,7 @@ Please set an Address on the Company '%s',请在公司&#39;％s&#39;上设置地
 Please set either the Tax ID or Fiscal Code on Company '%s',请在公司&#39;％s&#39;上设置税号或财务代码
 Please set Unrealized Exchange Gain/Loss Account in Company {0},请在公司{0}中设置未实现汇兑损益科目
 Please mention Basic and HRA component in Company,请为公司设置底薪和房租津贴
-Please mention Round Off Account in Company,请在公司基础资料维护四舍五入调整科目
+Please mention Round Off Account in Company,请在公司基础资料维护小数精度尾差调整科目
 Please register the SIREN number in the company information file,请在公司信息文件中注册SIREN号码
 Please enter default currency in Company Master,请在公司设置中维护默认货币
 Please enable default incoming account before creating Daily Work Summary Group,请在创建每日工作总结组之前启用默认收件邮箱
@@ -12131,7 +12131,7 @@ To Amount,金额(止)
 Amount {0} {1} {2} {3},金额{0} {1} {2} {3}
 Amount {0} {1} transferred from {2} to {3},金额{0} {1}从转移{2}到{3}
 Amount {0} {1} deducted against {2},金额{0} {1}抵扣{2}
-Disable Rounded Total,金额不四舍五入
+Disable Rounded Total,禁用小数精度尾差
 Amount should not be less than zero.,金额不应小于零。
 Amount based on formula,金额基于公式
 Amount Based On Field,金额基准字段
@@ -13015,7 +13015,7 @@ Employee Leave Balance Summary,员工剩余假期汇总
 Calculate Payroll Working Days Based On,发薪工作日基于
 Daily Wages Fraction for Half Day,半天工作日薪
 The fraction of daily wages to be paid for half-day attendance,半天工作发放日工资的比例
-If checked, hides and disables Rounded Total field in Salary Slips,如勾选，在工资单上不进行四舍五入处理
+If checked, hides and disables Rounded Total field in Salary Slips,如勾选，在工资单上不进行小数精度尾差处理
 Restrict Backdated Leave Application,禁止后补请假单
 You're doing great, let's take you back to the onboarding page.,干得不错
 Good Work,干得漂亮
@@ -15322,7 +15322,7 @@ Type of Transaction,库存变动类型(收/发)
 Conditional Rule,条件规则
 GL Entry Processing Status,会计凭证生成状态
 GL Entry Processing Status,生成会计凭证状态
-Use Company default Cost Center for Round off,计入公司默认四舍五入(尾差)成本中心
+Use Company default Cost Center for Round off,使用公司默认小数精度尾差成本中心
 Only Include Allocated Payments,仅含已分配(核销)付款
 Changes,找零
 Payment Terms from orders will be fetched into the invoices as is,从销售订单复制付款条款
@@ -15471,7 +15471,7 @@ Recent Orders,最近订单
 Validate Stock on Save,保存时检查库存
 Write Off Limit,抹零限额
 Auto write off precision loss while consolidation,合并时自动圆整抹零
-If enabled, the consolidated invoices will have rounded total disabled,如勾选合并后的发票禁用圆整功能(金额不四舍五入)
+If enabled, the consolidated invoices will have rounded total disabled,如勾选合并后的发票禁用小数精度尾差
 POS Search Fields,POS机搜索字段
 POS Field,POS机字段,
 Page Size,纸张大小
@@ -15481,7 +15481,7 @@ Please fill the Material Requests table,请先点获取物料需求,
 Items to Manufacture are required to pull the Raw Materials associated with it.,需有装配件或子装配件明细后才可计算采购原材料需求。,
 Get Stock,导出库存数据
 "As there are sufficient raw materials, Material Request is not required for Warehouse {0}.","因仓库 {0} 有足够库存，未生成物料需求。"
-Rounding Loss Allowance,尾数限额
+Rounding Loss Allowance,小数精度尾差限额
 Gain/Loss from Revaluation,重估损益
 Gain/Loss already booked,已记账损益
 New Balance In Account Currency,科目币别新余额
@@ -15513,3 +15513,23 @@ Consolidate Sales Order Items,合并物料
 "If enabled, the system won't create material requests for the available items.","勾选后，系统不会为有可用数量的物料创建物料需求"
 "If this checkbox is enabled, then the system won't run the MRP for the available sub-assembly items.","勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除"
 "If this checkbox is enabled, then the system won’t run the MRP for the available sub-assembly items.","勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除"
+"No Work Orders were created",无待创建的生产工单
+Get Outstanding Orders,选未关闭订单
+"{0} {1} is associated with {2}, but Party Account is {3}", 待付款源单据 {0} {1} 科目 {2} 与当前收付款凭证科目 {3} 不一致
+Is Group Warehouse,是父仓库
+Transit,中转
+Allow Negative rates for Items,允许物料负单价
+Account Closing Balance,科目结账余额
+Ignore Account Closing Balance,忽略科目结账余额
+"Financial reports will be generated using GL Entry doctypes (should be enabled if Period Closing Voucher is not posted for all years sequentially or missing) ",如果之前年度未按顺序或没做过期末结账凭证，请勾选，这样财务报表数据源就是总帐明细而不是上年余额加本年明细
+Exchange Rate Revaluation Settings,汇率重估设置
+Auto Create Exchange Rate Revaluation,自动创建汇率重估
+Submit ERR Journals?,直接提交自动创建的汇率重估日记帐凭证
+"Adjustment for {} {}",调整 {} {}
+Use Company Default Round Off Cost Center,使用公司默认小数精度尾差成本中心
+Packed Qty,装箱数量
+Row {0}: Packed Qty must be equal to {1} Qty.,第 {0} 行：装箱数量必须与 {1} 数量相等
+Add to Prospect,关联意向客户
+Add Lead to Prospect,线索关联意向客户
+Leads,线索
+Production Plan Qty,生产计划数量
