@@ -15533,3 +15533,55 @@ Add to Prospect,关联意向客户
 Add Lead to Prospect,线索关联意向客户
 Leads,线索
 Production Plan Qty,生产计划数量
+Invalid Account,无效科目,
+Row #{0}: Account {1} does not belong to company {2}, 第 {0} 行 ：科目 {1} 不是公司 {3} 的有效科目
+Row {0}: Cost Center {1} does not belong to Company {2}, 第 {0} 行 ：成本中心 {1} 不是公司 {3} 的有效成本中心
+"A template with tax category {0} already exists. Only one template is allowed with each tax category", 每个税种只能分派一个税费模板， 税种 {0} 已分派了税费模板
+RQ Job,RQ后台任务
+RQ Worker,RQ后台进程
+Worker Information,进程信息
+Queue(s),队列
+Queue Type(s),队列类型
+Statistics,统计信息
+Successful Job Count,成功任务数量
+Failed Job Count,失败任务数量
+Worker Name,进程名
+Total Working Time,总进程时间
+Last Heartbeat,上一次心跳
+Utilization %,利用率%
+Job Info,任务信息
+Job Name,任务名
+Queue,队列
+Timeout,超时
+Job Status,任务状态
+Time Taken,运行时间
+Arguments,参数
+PID,进程ID
+Started At,开始时间
+Ended At,结束时间
+This is a virtual doctype and data is cleared periodically.,这是个虚拟单据，数据会被定期清理
+queued,已进入队列
+started,已开始
+finished,已完成
+failed,失败
+deferred,已延迟
+scheduled,已排程
+canceled,取消
+BOM Importer,物料清单导入工具
+BOM Update Log,物料清单更新日志
+Data Import Log,数据导入日志
+Are you sure you want to remove the {0} filter?,你确定要删除过滤条件 {0}？
+"Sets 'Reserve Warehouse' in each row of the Supplied Items table.",为委外原材料表设置预留仓库
+You are not permitted to access this resource.,不允许调用内部非白名单方法
+"Function {0} is not whitelisted.",方法 {0} 申明前未添加@frappe.whitelist()装饰器
+Method Not Allowed,方法不可调用
+"Only one Subcontracting Order can be created against a Purchase Order, cancel the existing Subcontracting Order to create a new one.",一个委外采购订单只能创建一个委外订单
+Show Currency Symbol on Right Side,在金额右边显示货币符号
+Add Local Holidays,添加国家公众假期
+Mid-Autumn Festival,中秋节
+New Year's Day,阳历新年
+National Day,国庆节
+Chinese New Year (Spring Festival),农历新年
+Tomb-Sweeping Day,清明节
+Dragon Boat Festival,端午节
+Labour Day,劳动节
