@@ -15585,3 +15585,5 @@ Chinese New Year (Spring Festival),农历新年
 Tomb-Sweeping Day,清明节
 Dragon Boat Festival,端午节
 Labour Day,劳动节
+Set Landed Cost Based on Purchase Invoice Rate,到岸成本(采购入库)以采购发票价为准
+"Users can enable the checkbox If they want to adjust the incoming rate (set using purchase receipt) based on the purchase invoice rate.",勾选后采购发票与与采购入库的价差会自动(追溯)结转到采购入库时的库存成本
