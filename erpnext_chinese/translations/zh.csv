@@ -14509,7 +14509,7 @@ Scheduled Job Type,已排程后台任务
 Scheduled Job Log,后台任务运行日志
 Cron,自定义频率(Cron)
 Transaction Deletion Record,业务交易删除记录
-Incorrect Balance Qty After Transaction,库存与会计总账差异
+Incorrect Balance Qty After Transaction,异常物料凭证结余数量
 Get Sub Assembly Items,计算子装配件需求
 Sub Assembly Items,子装配件
 Assembly Items,装配件
@@ -14544,7 +14544,7 @@ Investigated,已调查
 Quality Inspection Settings,质检单设置
 Action If Quality Inspection Is Rejected,质检被拒的措施
 Incorrect Data Report,异常数据报表
-Incorrect Serial No Valuation,无成本价序列号
+Incorrect Serial No Valuation,异常序列号成本价
 Incorrect Balance Qty After Transaction,交易记账后结余数量不正确
 "Billed, Received & Returned",已开票，已收货，已退货
 Link Details,链接详情
@@ -15400,8 +15400,8 @@ Scheduler: Inactive,后台任务:未运行
 Are you sure you want to re-enable scheduler?,确定启动后台任务？
 Enabled Scheduler,已启动后台任务
 Failed to enable scheduler: {0},启动后台任务 {0} 失败
-Incorrect Stock Value Report,异常库存金额报表
-Stock Ledger Invariant Check,物料凭证数据检查报表
+Incorrect Stock Value Report,异常物料凭证结余金额
+Stock Ledger Invariant Check,物料凭证与会计凭证差异表
 "Creation",创建日期
 "Batchwise Valuation",启用批号成本
 "Consumption Rate",出库成本价
