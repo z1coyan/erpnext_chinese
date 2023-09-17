@@ -1400,7 +1400,7 @@ Amazon will synch data updated after this date,亚马逊将同步在此日期之
 Number of Interaction,交互次数
 Transaction,交易
 Transactions,交易
-Transaction ID,银行交易参考信息
+Transaction ID,银行交易流水编号
 Match Transaction to Invoices,交易与发票匹配
 "Looks like something went wrong during the transaction. Since we haven't confirmed the payment, Paypal will automatically refund you this amount. If it doesn't, please send us an email and mention the Correlation ID: {0}.",交易中似乎发生错误。由于我方尚未确认付款，贝宝（paypal)会自动给您全额退款。如果没有退款，请给我们发邮件并注明相关ID：{0}。
 Transaction reference no {0} dated {1},交易参考编号 {0} 日期 {1}
@@ -2137,7 +2137,7 @@ Repair Cost,修理费用
 Amend,修订
 Amending,修订
 Revision and Revised On,修订和修订
-Amended From,修订源
+Amended From,修订自(上一版单据编号)
 Revised On,修订版
 Sort Descending,倒序
 Debit and Credit not equal for {0} #{1}. Difference is {2}.,借{0}贷{1}不相等。差额为{2}。
@@ -4160,12 +4160,12 @@ This is based on the attendance of this Employee,基于该员工的考勤
 This is based on the attendance of this Student,基于该学生的考勤
 This is based on logs against this Vehicle. See timeline below for details,基于车辆加油/保养记录。详情请参阅表单下方日志记录
 Set Qty in Transactions Based on Serial No Input,根据输入的序列号个数自动填写数量
-Return Against Purchase Invoice,基于采购发票退货
+Return Against Purchase Invoice,源采购发票
 Quantity  that must be bought or sold per UOM,以指定包装单位采购或销售，即订单数量须是包装数量的倍数，价格才生效
 Total Applicable Charges in Purchase Receipt Items table must be same as Total Taxes and Charges,基于采购入库信息计算的总税费必须与采购单（单头）的总税费一致
 How often should project and company be updated based on Sales Transactions.,基于销售交易更新项目和公司统计信息的频率
-Return Against Delivery Note,基于销售出库退货
-Return Against Sales Invoice,基于销售发票退货
+Return Against Delivery Note,源销售出库
+Return Against Sales Invoice,源销售发票
 This is based on the Time Sheets created against this project,基于项目工时表
 Fetch items based on Default Supplier.,基于默认供应商选物料
 Base Hour Rate(Company Currency),基准工费率（本币）
@@ -11673,7 +11673,7 @@ Returns,退货
 Return / Debit Note,退款/借记单
 Return / Credit Note,退款/贷记单
 Returned Qty,退货数量
-Is Return,退款
+Is Return,退货
 Points Given,送出点数
 Points Given,送出的点数
 Points Given,送出的评审点数
@@ -15586,4 +15586,36 @@ Tomb-Sweeping Day,清明节
 Dragon Boat Festival,端午节
 Labour Day,劳动节
 Set Landed Cost Based on Purchase Invoice Rate,到岸成本(采购入库)以采购发票价为准
-"Users can enable the checkbox If they want to adjust the incoming rate (set using purchase receipt) based on the purchase invoice rate.",勾选后采购发票与与采购入库的价差会自动(追溯)结转到采购入库时的库存成本
+"Users can enable the checkbox If they want to adjust the incoming rate (set using purchase receipt) based on the purchase invoice rate.",勾选后采购发票与采购入库的价差会自动(追溯)结转到采购入库时的库存成本
+All these items have already been Invoiced/Returned,所有物料已经开票/被退货,
+xlrd.biffh.XLRDError: Excel xlsx file; not supported,只支持elsx格式
+No matching references found for auto reconciliation,自动核销未匹配可核销单据
+Filter by Reference Date,按参考日期过滤
+From Reference Date,参考日期起
+To Reference Date,参考日期止
+Auto Reconcile,自动核销
+Unreconcile Transaction,取消银行交易流水核销
+Please add the Bank Account column,请包括银行户头Bank Account字段
+naming_series,单据编号模板
+date,日期
+status,状态
+bank_account,银行户头
+company,公司
+deposit,存款
+withdrawal,取款
+currency,货币
+reference_number,参考编号
+transaction_id,银行交易流水编号
+transaction_type,交易类型
+payment_entries,付款凭证
+allocated_amount,已分配金额
+amended_from,修订自(上一版单据编号)
+unallocated_amount,未分配金额
+party_type,往来类型
+party,往来单位
+bank_party_name,开户人
+bank_party_account_number,银行账号
+bank_party_iban,国际银行账号iban
+Party Name/Account Holder (Bank Statement),开户人(银行对账)
+Party Account No. (Bank Statement),银行账号(银行对账)
+Party IBAN (Bank Statement),国际银行账号iban(银行对账)
