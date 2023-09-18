@@ -1206,7 +1206,7 @@ Shared with user {0} with read access,与用户{0}分享读取权限
 Expert,专家
 Rest Of The World,世界其他地区
 Karma,业值
-Address used to determine Tax Category in transactions.,业务交易用于决定税别的地址
+Address used to determine Tax Category in transactions,业务交易用于决定税别的地址
 Party Tax Withholding Config,业务伙伴代扣税配置
 Default settings for accounting transactions.,业务会计的默认设置。
 Business Development Manager,业务发展经理
@@ -6621,7 +6621,7 @@ Help on Search,搜索帮助
 Search Help,搜索帮助
 Search Application,搜索应用程序
 Search or Create a New Chat,搜索或创建一个新的聊天
-Search or type a command,搜索或输入命令
+Search or type a command (Ctrl + G),搜索或输入命令 (Ctrl + G)
 Search Item,搜索物料
 Search Item (Ctrl + i),搜索物料（Ctrl + i）
 Search Results,搜索结果
@@ -11479,7 +11479,7 @@ Transfer Material Against Job Card,依据加工单工单发料
 Transfer Type,转移类型
 Transfer Asset,转移资产
 Waitlisted,轮候
-Profile,轮廓
+Profile,简历
 Software,软件
 Softwares,软件
 Software Developer,软件开发人员
@@ -15333,7 +15333,6 @@ Book Tax Loss on Early Payment Discount,将税损失记帐到提前付款拆扣�
 Split Early Payment Discount Loss into Income and Tax Loss,将提前付款折扣分解为收入与税损失
 Payment Reconciliations,付款核销
 Auto Reconcile Payments,自动核销付款
-Learn about Common Party,学习更多关于多重身份往来单位知识
 Subcontract Receipt,委外入库
 FG Item,成品物料
 Account Currency (From),源科目币种
@@ -15619,3 +15618,49 @@ bank_party_iban,国际银行账号iban
 Party Name/Account Holder (Bank Statement),开户人(银行对账)
 Party Account No. (Bank Statement),银行账号(银行对账)
 Party IBAN (Bank Statement),国际银行账号iban(银行对账)
+List View,列表视图
+"If ""Months"" is selected, a fixed amount will be booked as deferred revenue or expense for each month irrespective of the number of days in a month. It will be prorated if deferred revenue or expense is not booked for an entire month",如果选择“月”，则无论一个月的天数如何，都会将固定金额记录为每个月的递延收入或费用。如果整个月未记录递延收入或费用，则将按比例分配
+"If this is unchecked, direct GL entries will be created to book deferred revenue or expense",如果未选中此项，则将创建直接的总账分录以记账递延收入或费用
+Show Balances in Chart Of Accounts,在科目表中显示余额
+Copy to Clipboard,复制到剪贴板
+Remind Me,提醒我
+Stock Reservation,库存预留
+Enable Stock Reservation,启用库存预留
+Allows to keep aside a specific quantity of inventory for a particular order.,允许为特定订单保留特定数量的库存
+You created this,你创建了
+You last edited this,你上次编辑
+You changed the value of {0},你更改了 {0}
+You changed the value of {0} {1},你更改了 {0} {1}
+Build,构建
+Custom Translation,定制翻译
+Workspace,工作区
+Desk User,桌面用户
+Submission Queue,提交队列
+Marketing Campaign,营销活动
+Custom HTML Block,自定义HTML块
+Connected App,关联应用
+Token Cache,Token缓存
+POS Invoice,POS发票
+Voice Call Settings,语音通话设置
+No filters selected,未选择筛选
+Add a Filter,添加筛选
+Sales Contributions and Incentives,销售贡献和激励措施
+How often should Project and Company be updated based on Sales Transactions?,根据销售交易记录，项目和公司应多久更新一次？
+Don't Reserve Sales Order Qty on Sales Return,销售退货不预留销售订单数量
+Newly created user {0} has no roles enabled.,新创建的用户 {0} 未启用任何角色
+Roles & Permissions,角色和权限
+User Details,用户详细信息
+Desk Theme,桌面主题
+Light,浅色
+Dark,深色
+Automatic,自动
+Desk Settings,桌面设置
+Apply Filters,应用筛选
+Overview,概况
+Company Details,公司信息
+Joining,入职
+Attendance & Leaves,出勤和休假
+Cost to Company (CTC),公司成本（CTC）
+Salary Currency,薪资货币
+Passport Details,护照信息
+Exit Interview Held On,离职面谈时间
