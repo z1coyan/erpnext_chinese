@@ -15603,7 +15603,6 @@ status,状态
 bank_account,银行户头
 deposit,存款
 withdrawal,取款
-currency,货币
 reference_number,参考编号
 transaction_id,银行交易流水编号
 transaction_type,交易类型
