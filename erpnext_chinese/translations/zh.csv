@@ -1778,7 +1778,7 @@ Priority {0} has been repeated.,优先级{0}已重复。
 Priority has been changed to {0}.,优先级已更改为{0}。
 Optimize Route,优化路线
 Optimizing routes.,优化路线。
-Vouchers,优惠券
+Vouchers,凭证
 Top Performer,优秀员工
 Stock Ledger Entries and GL Entries are reposted for the selected Purchase Receipts,会为所选采购入库重新生成物料移动和会计总帐凭证
 Will also apply for variants,会同时应用于多规格物料
@@ -2035,7 +2035,7 @@ Templates of supplier scorecard criteria.,供应商计分卡标准模板。
 Supplier Scorecard,供应商记分卡
 Supplier Scorecard Scoring Standing,供应商记分卡
 Templates of supplier scorecard variables.,供应商记分卡变数模板。
-Supplier Scorecard Standing,供应商记分卡当前评分
+Supplier Scorecard Standing,供应商记分卡等级
 Supplier Scorecard Period,供应商记分期间
 Supplier Scorecard Criteria,供应商记分标准
 Supplier Scorecard Setup,供应商记分卡设置
@@ -4121,7 +4121,7 @@ Stats based on last week's performance (from {0} to {1}),基于上周表现的�
 "Publish ""In Stock"" or ""Not in Stock"" on Hub based on stock available in this warehouse.",基于仓库中的库存，在集市(Hub)网站上发布“库存”或“库存”。
 Reorder level based on Warehouse,基于仓库的重订货点
 Depends on Payment Days,基于付款天数
-Based On Payment Terms,基于付款条款
+Based On Payment Terms,显示付款计划明细
 Based on price list,基于价格表
 Coupon Code Based,基于优惠码
 This is based on transactions against this Supplier. See timeline below for details,基于供应商的过往交易。详情请参阅表单下方日志记录
@@ -5591,6 +5591,7 @@ Offer Term,录用通知条款
 Recorder,程序运行过程记录
 Motion Picture & Video,影视业
 Delete {0} items permanently?,彻底删除{0}条记录？
+Delete {0} item permanently?,彻底删除{0}条记录？
 Party,往来单位
 PARTY INFORMATION,往来单位
 Party Balance,往来余额
@@ -7302,7 +7303,7 @@ Show Latest Forum Posts,显示最新的论坛帖子
 Show unclosed fiscal year's P&L balances,显示未关闭财年损益余额
 Show Open,显示未完成
 Show open,显示未完成
-Show Future Payments,显示报表日后付款
+Show Future Payments,显示未来(报表记账日期后)付款金额
 Show Permissions,显示权限
 Show Barcode Field,显示条码扫描字段
 Show Tags,显示标签
@@ -9364,7 +9365,7 @@ Account Number,科目代码
 Account Balance,科目余额
 "Account balance already in Debit, you are not allowed to set 'Balance Must Be' as 'Credit'",科目余额已设置为'借方'，不能设置为'贷方'
 "Account balance already in Credit, you are not allowed to set 'Balance Must Be' as 'Debit'",科目余额已设置为'贷方'，不能设置为'借方'
-Account Details,科目信息
+Account Details,账户信息
 Account Info,科目信息
 Accounts Browser,科目列表
 Account Name,科目名称
@@ -15342,7 +15343,7 @@ Account Balance (To),目标科目余额
 Account Currency (To),目标科目币种
 Source Exchange Rate,源汇率
 Target Exchange Rate,目标汇率
-Repost Payment Ledger,付款核算调整
+Repost Payment Ledger,收付款台账重过账
 Selected Vouchers,已选凭证
 Add Manually,手动添加
 Ignore Voucher Type filter and Select Vouchers Manually,忽略凭证类型，手动选择凭证
@@ -15362,7 +15363,7 @@ Age (91 - Above),库龄3个月以上
 No Outstanding Invoices found for this party,未找到待核销发票
 No Unreconciled Payments found for this party,未找到待核销收付款凭证
 New Journal Entry will be posted for the difference amount,会为差异金额生成日记帐凭证
-Payment Ledger,付款核销台帐
+Payment Ledger,收付款台帐
 Include Account Currency,包括科目币种
 Outstanding:,未结
 Company Account,总帐科目,
@@ -15600,7 +15601,6 @@ naming_series,单据编号模板
 date,日期
 status,状态
 bank_account,银行户头
-company,公司
 deposit,存款
 withdrawal,取款
 currency,货币
@@ -15624,7 +15624,7 @@ Setup your organization,设置公司
 Welcome,欢迎
 Module Settings,模块设置
 Communication Channels,沟通渠道
-No {0} found with matching filters. Clear filters to see all {0}.,"未找到匹配当前筛选条件的{0},请清除筛选条件再试"
+No {0} found with matching filters. Clear filters to see all {0}.,"未找到匹配当前筛选条件的{0},请清除筛选条件后查看全部{0}"
 List View,列表视图
 "If ""Months"" is selected, a fixed amount will be booked as deferred revenue or expense for each month irrespective of the number of days in a month. It will be prorated if deferred revenue or expense is not booked for an entire month",如果选择“月”，则无论一个月的天数如何，都会将固定金额记录为每个月的递延收入或费用。如果整个月未记录递延收入或费用，则将按比例分配
 "If this is unchecked, direct GL entries will be created to book deferred revenue or expense",如果未选中此项，则将创建直接的总账分录以记账递延收入或费用
@@ -15639,7 +15639,6 @@ You last edited this,你上次编辑
 You changed the value of {0},你更改了 {0}
 You changed the value of {0} {1},你更改了 {0} {1}
 Build,构建
-Custom Translation,定制翻译
 Workspace,工作区
 Desk User,桌面用户
 Submission Queue,提交队列
@@ -15673,3 +15672,9 @@ Passport Details,护照信息
 Exit Interview Held On,离职面谈时间
 Search or type a command (Ctrl + G),搜索或输入命令 (Ctrl + G)
 Address used to determine Tax Category in transactions,业务交易用于决定税别的地址
+"The following values do not exist for {0}: {1}",以下单据 {0}：{1} 不存在
+Value Based Inspection,检测结果
+{0}-Above,>={0}天
+"{0} Account", {0}科目
+Set Default Supplier,设置默认供应商
+Create Stock Entry,新建物料移动
