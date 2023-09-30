@@ -1400,7 +1400,7 @@ Amazon will synch data updated after this date,亚马逊将同步在此日期之
 Number of Interaction,交互次数
 Transaction,交易
 Transactions,交易
-Transaction ID,银行交易流水编号
+Transaction ID,银行业务编号
 Match Transaction to Invoices,交易与发票匹配
 "Looks like something went wrong during the transaction. Since we haven't confirmed the payment, Paypal will automatically refund you this amount. If it doesn't, please send us an email and mention the Correlation ID: {0}.",交易中似乎发生错误。由于我方尚未确认付款，贝宝（paypal)会自动给您全额退款。如果没有退款，请给我们发邮件并注明相关ID：{0}。
 Transaction reference no {0} dated {1},交易参考编号 {0} 日期 {1}
@@ -5183,7 +5183,7 @@ Approved,已批准
 Quoted Item Comparison,已报价物料对比
 "Cannot declare as lost, because Quotation has been made.",已报价，不能更改状态为未成交。
 Scrapped,已报废
-Accepted,已接受
+Accepted,接受
 Accepted Quantity,允收数量
 Received and Accepted,已接收
 Accepted + Rejected Qty must be equal to Received quantity for Item {0},已接收+已拒收数量须等于物料{0}的已接收数量
@@ -7201,7 +7201,7 @@ Is Submittable,可提交(审批)
 Is Day Book Data Processed,是否处理了日记簿数据
 Is Master Data Imported,是否导入基础资料
 Is Day Book Data Imported,是否导入了日记簿数据
-Is Published Field,是已发布字段
+Is Published Field,是否发布字段
 Is Mandatory Field,必填字段
 Is Cancelled,已取消
 Is Advance,是预付款
@@ -14201,8 +14201,8 @@ Minimum Value,最小值
 Maximum Value,最大值
 Formula Based Criteria,条件公式
 Numeric,数值
-Acceptance Criteria Formula,允收条件公式
-Acceptance Criteria Value,允收条件值
+Acceptance Criteria Formula,标准要求条件公式
+Acceptance Criteria Value,标准要求
 "Valuation Rate for the Item {0}, is required to do accounting entries for {1} {2}.",要为{1} {2}生成会计凭证，物料{0}须有成本价
 Mention Valuation Rate in the Item master.,请在物料基础资料中维护成本价
 "If the item is transacting as a Zero Valuation Rate item in this entry, please enable 'Allow Zero Valuation Rate' in the {0} Item table.",如在交易中允许物料成本价为0，请在明细行中勾选允许成本价为0
@@ -15677,3 +15677,13 @@ Value Based Inspection,检测结果
 "{0} Account", {0}科目
 Set Default Supplier,设置默认供应商
 Create Stock Entry,新建物料移动
+Expense Head Changed,费用科目已被修改,
+{0} {1} has already been fully paid. {0} {1} 已完全付款
+Row #{0}: Allocated amount:{1} is greater than outstanding amount:{2} for Payment Term {3}, 第 {0} 行：已分配金额 {1} 大于针对付款条款 {3} 的未付金额
+"{0} {1} has already been partly paid. Please use the 'Get Outstanding Invoice' or the 'Get Outstanding Orders' button to get the latest outstanding amounts.","{0} {1} 已被部分付款，请点击 选未付发票 或 选未关闭订单 按钮获取最新未付单据"
+Row #{0}: Acceptance Criteria Formula is required.,第 {0} 行：请维护标准要求条件公式
+Missing Formula, 未维护公式
+Invalid Formula, 公式不正确
+Row #{0}: {1} is not a valid reading field. Please refer to the field description.,第 {0} 行：{1} 是无效的检测结果读数字段，详见公式字段底下的说明
+Row #{0}: Acceptance Criteria Formula is incorrect.,第 {0} 行的标准要求条件公式不正确
+Status set to rejected as there are one or more rejected readings.,质检单状态因一个或多个检验项检验结果读数与标准要求不符已被改为拒绝
