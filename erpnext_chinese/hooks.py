@@ -11,7 +11,7 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
+app_include_js = ["erpnext_chinese.bundle.js"]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/erpnext_chinese/css/erpnext_chinese.css"
 

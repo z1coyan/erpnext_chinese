@@ -4441,7 +4441,7 @@ Always use Account's Email Address as Sender,始终使用用户的电子邮箱�
 Last Name,姓
 Person Name,姓名
 First Name,姓名
-Name cannot contain special characters like {0},姓名不能包含特殊字符，如{0}
+Name cannot contain special characters like {0},名称不能包含特殊字符，如{0}
 Name and Employee ID,姓名和员工号
 Name or Email is mandatory,姓名或电子邮件信息必填
 Entertainment & Leisure,娱乐休闲
@@ -15678,7 +15678,7 @@ Value Based Inspection,检测结果
 Set Default Supplier,设置默认供应商
 Create Stock Entry,新建物料移动
 Expense Head Changed,费用科目已被修改,
-{0} {1} has already been fully paid. {0} {1} 已完全付款
+{0} {1} has already been fully paid. {0} {1}, 已完全付款
 Row #{0}: Allocated amount:{1} is greater than outstanding amount:{2} for Payment Term {3}, 第 {0} 行：已分配金额 {1} 大于针对付款条款 {3} 的未付金额
 "{0} {1} has already been partly paid. Please use the 'Get Outstanding Invoice' or the 'Get Outstanding Orders' button to get the latest outstanding amounts.","{0} {1} 已被部分付款，请点击 选未付发票 或 选未关闭订单 按钮获取最新未付单据"
 Row #{0}: Acceptance Criteria Formula is required.,第 {0} 行：请维护标准要求条件公式
@@ -15687,3 +15687,5 @@ Invalid Formula, 公式不正确
 Row #{0}: {1} is not a valid reading field. Please refer to the field description.,第 {0} 行：{1} 是无效的检测结果读数字段，详见公式字段底下的说明
 Row #{0}: Acceptance Criteria Formula is incorrect.,第 {0} 行的标准要求条件公式不正确
 Status set to rejected as there are one or more rejected readings.,质检单状态因一个或多个检验项检验结果读数与标准要求不符已被改为拒绝
+Value Details,详情
+Row {0}# Item {1} cannot be transferred more than {2} against {3} {4},第 {0} 行： 对 {3} {4} 发原物料 {1} 的数量不能超过 {2}
