@@ -15689,3 +15689,11 @@ Row #{0}: Acceptance Criteria Formula is incorrect.,第 {0} 行的标准要求�
 Status set to rejected as there are one or more rejected readings.,质检单状态因一个或多个检验项检验结果读数与标准要求不符已被改为拒绝
 Value Details,详情
 Row {0}# Item {1} cannot be transferred more than {2} against {3} {4},第 {0} 行： 对 {3} {4} 发原物料 {1} 的数量不能超过 {2}
+Show {0} List,查看 {0} 清单,
+Reset the password for your account,重置账户密码,
+Manage third party apps,管理第三方应用,
+To manage your authorized third party apps,管理已授权的第三方应用,
+Manage your apps,管理应用,
+Hide Tags,隐藏标签,
+Edit Filters,编辑过滤条件,
+Is Fully Depreciated,已完全折旧,
