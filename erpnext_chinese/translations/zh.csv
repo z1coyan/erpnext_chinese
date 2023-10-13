@@ -15193,7 +15193,7 @@ Enabling ensure each Purchase Invoice has a unique value in Supplier Invoice No.
 POS Setting,POS设置
 Max auto email report per user,每用户最自动邮件发送报表数
 Email Retry Limit,邮件重试次数限制
-Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours.,如设置为24:00,则会24:00后自动将用户登出
+Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours.,"如设置为24:00,则会24:00后自动将用户登出"
 Avg Rate(Balance Stock),平均成本(库存变动)
 Subcontract Order,委外订单
 Download Materials Request Plan Section,导出原材料计划建议
@@ -15425,7 +15425,7 @@ Finished Good Quantity,成品数量
 No Unreconciled Invoices and Payments found for this party and account,未找到待核销发票与收付款凭证
 Disable Document Sharing,禁用单据表单/详情界面左侧栏分享功能
 Login with email link,启用邮件中链接登录
-Allow users to log in without a password, using a login link sent to their email,允许用户点击邮件中的链接不输密码登录系统
+"Allow users to log in without a password, using a login link sent to their email",允许用户点击邮件中的链接不输密码登录系统
 Apply Perm Level on API calls (Recommended),外部程序接口调用时进行字段级权限检查(推荐)
 Telemetry,系统使用情况上报
 Allow Sending Usage Data for Improving Applications,允许发送用于系统改进的使用情况数据
@@ -15697,3 +15697,14 @@ Manage your apps,管理应用,
 Hide Tags,隐藏标签,
 Edit Filters,编辑过滤条件,
 Is Fully Depreciated,已完全折旧,
+Max File Size (MB),最大文件大小(MB),
+Drag and drop files here or upload from,拖入文件或者从下方上传,
+My Device,我的设备,
+Library,库,
+Set all private,设为私有,
+Set all public,设为公共,
+{0} filter,{0} 项过滤条件,
+{0} filters,{0} 项过滤条件,
+System Notifications,系统通知,
+Event Reminders,事件提醒,
+Add Tags,添加标签,
