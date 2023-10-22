@@ -15802,6 +15802,43 @@ Learn Inventory Management,学习库存管理
 Learn Sales Management,学习销售管理
 Learn Procurement,学习采购管理
 Learn Accounting,学习会计管理
+Learn Manufacturing,学习生产管理
 Learn Project Management,学习项目管理
+Learn Frappe Framework,学习Frappe框架
 Browse Apps,浏览可用APP
 Try the new Print Format Builder,尝试新打印格式编辑器
+Advance Payment,预付款
+You last edited this,你最新修订了本单据
+{0} last edited this, {0} 最新修订了本单据
+You created this, 你创建了本单据
+You changed the value of {0} {1}, 你变更了 {0} {1}
+{0} changed the value of {1} {2},{0} 变更了 {0} {1}
+Deleting {0} records...,删除 {0} 笔单据...
+Deleting {0}..., 删除 {0} 笔单据...
+"Hide Sidebar, Menu, and Comments",隐藏左边栏，菜单及评论
+Hide Preview,隐藏预览
+Create a Reminder,创建提醒
+Remind Me In,提醒频率
+Remind At,提醒时间
+30 minnutes,半小时
+1 hour,1小时
+4 hours,4小时
+1 Day,1天
+Print Desinger,打印设计器
+Delivery User,交付用户
+Delivery Manager,交付经理
+Insights Admin,Insights(商业智能报表)管理员
+Insights User,Insights(商业智能报表)用户
+Wiki Approver,维基文章审批人
+Force Web Capture Mode for Uploads,上传时强制使用网页上传模式
+"When uploading files, force the use of the web-based image capture. If this is unchecked, the default behavior is to use the mobile native camera when use from a mobile is detected.",上传文件时强制使用网页上传图片机制，如未勾选，如侦测是移动设备则默认使用移动设备照相机
+Rounding Method,圆整方式
+Banker's Rounding,银行圆整
+Commercial Rounding,商业圆整
+Expected Time Required (In Mins),预期时间(分钟)
+Actual Time,实际时间
+Operation & Workstation,工序与工站
+Planned Date,计划日期
+"Add Serial / Batch No",添加序列号/批号
+"Add Serial / Batch No (Rejected Qty)",添加序列号/批号(拒收数量)
+Reload Report,重新加载报表
