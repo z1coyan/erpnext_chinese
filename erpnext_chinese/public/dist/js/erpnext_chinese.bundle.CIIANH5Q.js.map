@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../apps/erpnext_chinese/erpnext_chinese/public/erpnext_chinese.bundle.js"],
-  "sourcesContent": ["$(document).on('page-change', function() {\n    setTimeout(function(){\n        if (frappe.boot.lang == 'zh' && frappe.get_route() && \n            (frappe.get_route().at(-1) == 'Workspaces' || frappe.get_route()[0] == 'Workspaces')){\n            $('div.ce-block__content span b:contains(\"\u62A5\u8868\u4E0E\u4E3B\u6570\u636E\")').html(\"Report and master\");\n        }\n    },\n    1000)    \n});"],
-  "mappings": "MAAA,EAAE,QAAQ,EAAE,GAAG,cAAe,UAAW,CACrC,WAAW,UAAU,CACjB,AAAI,OAAO,KAAK,MAAQ,MAAQ,OAAO,UAAU,GAC5C,QAAO,UAAU,EAAE,GAAG,EAAE,GAAK,cAAgB,OAAO,UAAU,EAAE,IAAM,eACvE,EAAE,+EAAiD,EAAE,KAAK,mBAAmB,CAErF,EACA,GAAI,CACR,CAAC",
-  "names": []
-}

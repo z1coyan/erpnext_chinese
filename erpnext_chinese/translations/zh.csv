@@ -15726,4 +15726,61 @@ Add / Remove Columns,添加/移除列,
 Login With Email Link,邮箱链接登录,
 Login with Email Link,通过邮箱链接登录,
 Send login link,发送登录链接,
-State,省/州,
+Items Catalogue,物料
+BOM Creator,物料清单创建工具
+Multi-level BOM Creator,多级物料清单创建工具
+Item Code (Final Product),成品物料编号
+Sub Assemblies & Raw Materials,子装配件与原材料
+Final Product,成品
+Finished Good Qty,成品数量
+No of Months (Revenue),月（收)
+Reschedule Days,排程天数
+Default Waiver Account,默认豁免科目
+Default Write Off Account,默认注销科目
+Default Suspense Account,默认挂账科目
+Use Transaction Date Exchange Rate,使用交易日汇率
+Serial and Batch Bundle,序列号与批号
+Rejected Serial and Batch Bundle,被拒的序列号与批号
+WIP Composite Asset,在建工程资产号
+Reserve Stock,预留库存
+Stock Reserved Qty (in Stock UOM),预留库存(库存单位)
+Packing Length,长
+Packing Width,宽
+Packing Height,高
+Puchase Vendor,供应商
+Show Preview,预览
+Reset Layout,重置
+Reset All Customizations,恢复标准设置
+Field Types,字段类型
+Field Properties,字段属性
+Search fields,搜索字段
+Customer Portal Users,客户门户网站用户
+Supplier Portal Users,供应商门户网站用户
+Portal User,门户网站用户
+Is Alternative,是替代
+CSV Delimiter,分隔符
+CSV Quoting,引号
+CSV Preview,预览
+File Format,文件格式
+"While making Purchase Invoice from Purchase Order, use Exchange Rate on Invoice's transaction date rather than inheriting it from Purchase Order. Only applies for Purchase Invoice.",从采购订单下推采购发票时，取发票日汇率而不是复制采购订单的汇率
+Server Scripts feature is not available on this site. Please contact your system administrator to enable this feature.,服务器(python)脚本已禁用，请联络管理员启用
+Daily Time to send,每天发送
+Weekly Time to send,每周发送
+Round Tax Amount Row-wise,税额按行取整
+Tax Amount will be rounded on a row(items) level,税额按每个物料行分别取整
+Stock UOM Quantity,数量(库存单位)
+Allow to Edit Stock UOM Qty for Sales Documents,允许手工修改销售相关业务单据的数量(库存单位)
+Allow to Edit Stock UOM Qty for Purchase Documents,允许手工修改采购相关业务单据的数量(库存单位)
+Auto Reserve Stock for Sales Order,自动为销售订单预留库存
+Allow Partial Reservation,允许部分预留
+Serial and Batch Reservation,序列号与批号预留
+Auto Reserve Serial and Batch Nos,自动按序列号与批号预留库存
+If enabled, Serial and Batch Nos will be auto-reserved based on Pick Serial / Batch Based On,如勾选，会自动将已选择的序列号/批号设置为已预留库存
+If enabled, Stock Reservation Entries will be created on submission of Sales Order,如勾选，提交销售订单时会自动创建库存预留
+If enabled, Partial Stock Reservation Entries can be created. For example, If you have a Sales Order of 100 units and the Available Stock is 90 units then a Stock Reservation Entry will be created for 90 units.,如勾选，系统会创建部分数量的库存预留，比如库存90，订单需求100，则创建数量为90的库存预留
+Create your workflow visually using the Workflow Builder.,可视化拖拽创建工作流
+Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update thieir properties from the sidebar.,允许拖拽工作流状态，连接状态生成状态转换规则，还可以通过左边栏更新状态与转换规则属性
+New Workflow Name,新工作流名称
+Create or Edit Workflow,创建或修改工作流
+Server Scripts Disabled,服务器(python)脚本已禁用
+Server Scripts are disabled. Please enable server scripts from bench configuration.,服务器(python)脚本已禁用，可通知后台bench命令启用
