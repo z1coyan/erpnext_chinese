@@ -1,5 +1,5 @@
 $(document).on('page-change', function() {
-    //setTimeout(function(){
+    setTimeout(function(){
         if (frappe.boot.lang == 'zh' && frappe.get_route() && 
             (frappe.get_route().at(-1) == 'Workspaces' || frappe.get_route()[0] == 'Workspaces')){
             let trans_map = [['Reports &amp; Masters', '功能报表'],
@@ -15,6 +15,6 @@ $(document).on('page-change', function() {
                 $('div.ce-block__content span b:contains("'+v[0]+'")').html(v[1]);
             })
         }
-    //},
-    //500)    
+    },
+    500)    
 });
