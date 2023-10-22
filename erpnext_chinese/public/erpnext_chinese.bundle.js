@@ -9,6 +9,7 @@ $(document).on('page-change', function() {
                 ['Quick Access', '快捷方式'],
                 ['Your Shortcuts', '快捷方式'],
                 ['Settings', '设置'],
+                ['Integrations', '应用集成'],
                 ['Documents', '单据']
             ];
             $.each(trans_map, function(i,v){

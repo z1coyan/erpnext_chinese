@@ -15775,11 +15775,11 @@ Auto Reserve Stock for Sales Order,自动为销售订单预留库存
 Allow Partial Reservation,允许部分预留
 Serial and Batch Reservation,序列号与批号预留
 Auto Reserve Serial and Batch Nos,自动按序列号与批号预留库存
-If enabled, Serial and Batch Nos will be auto-reserved based on Pick Serial / Batch Based On,如勾选，会自动将已选择的序列号/批号设置为已预留库存
-If enabled, Stock Reservation Entries will be created on submission of Sales Order,如勾选，提交销售订单时会自动创建库存预留
-If enabled, Partial Stock Reservation Entries can be created. For example, If you have a Sales Order of 100 units and the Available Stock is 90 units then a Stock Reservation Entry will be created for 90 units.,如勾选，系统会创建部分数量的库存预留，比如库存90，订单需求100，则创建数量为90的库存预留
+"If enabled, Serial and Batch Nos will be auto-reserved based on Pick Serial / Batch Based On",如勾选，会自动将已选择的序列号/批号设置为已预留库存
+"If enabled, Stock Reservation Entries will be created on submission of Sales Order",如勾选，提交销售订单时会自动创建库存预留
+"If enabled, Partial Stock Reservation Entries can be created. For example, If you have a Sales Order of 100 units and the Available Stock is 90 units then a Stock Reservation Entry will be created for 90 units.",如勾选，系统会创建部分数量的库存预留，比如库存90，订单需求100，则创建数量为90的库存预留
 Create your workflow visually using the Workflow Builder.,可视化拖拽创建工作流
-Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update thieir properties from the sidebar.,允许拖拽工作流状态，连接状态生成状态转换规则，还可以通过左边栏更新状态与转换规则属性
+"Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update thieir properties from the sidebar.",允许拖拽工作流状态，连接状态生成状态转换规则，还可以通过左边栏更新状态与转换规则属性
 New Workflow Name,新工作流名称
 Create or Edit Workflow,创建或修改工作流
 Server Scripts Disabled,服务器(python)脚本已禁用
@@ -15792,9 +15792,16 @@ Book Advance Payments in Separate Party Account,预收/付款记单独的预收�
 Planning Defaults,计划天数默认值
 Pick Pack Days,拣货打包天数
 Delivery Preparation Days,出货准备天数
-Threshold days reschedule next available existing supply order to fulfill demand other than creating new plan order,
+Threshold days reschedule next available existing supply order to fulfill demand other than creating new plan order,重新安排下一个现有可用供应订单而不是创建新计划订单来完成需求的阈值天数
 Repeat Header and Footer,非首页也显示页首页尾
 You changed the values for {0} {1},你变更了 {0} {1}
 {0} changed the values for {1},{0} 变更了 {0} {1}
 You submitted this document {0},你提交了 {0}
 {0} submitted this document {1},{0} 提交了 {1}
+Learn Inventory Management,学习库存管理
+Learn Sales Management,学习销售管理
+Learn Procurement,学习采购管理
+Learn Accounting,学习会计管理
+Learn Project Management,学习项目管理
+Browse Apps,浏览可用APP
+Try the new Print Format Builder,尝试新打印格式编辑器
