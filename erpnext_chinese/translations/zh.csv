@@ -15633,7 +15633,6 @@ Remind Me,提醒我
 Stock Reservation,库存预留
 Enable Stock Reservation,启用库存预留
 Allows to keep aside a specific quantity of inventory for a particular order.,允许为特定订单保留特定数量的库存
-You created this,你创建了
 You last edited this,你上次编辑
 You changed the value of {0},你更改了 {0}
 You changed the value of {0} {1},你更改了 {0} {1}
@@ -15757,6 +15756,7 @@ Search fields,搜索字段
 Customer Portal Users,客户门户网站用户
 Supplier Portal Users,供应商门户网站用户
 Portal User,门户网站用户
+Portal Users,门户网站用户
 Is Alternative,是替代
 CSV Delimiter,分隔符
 CSV Quoting,引号
@@ -15811,10 +15811,13 @@ Advance Payment,预付款
 You last edited this,你最新修订了本单据
 {0} last edited this, {0} 最新修订了本单据
 You created this, 你创建了本单据
+{0} created this, {0}创建了本单据
 You changed the value of {0} {1}, 你变更了 {0} {1}
 {0} changed the value of {1} {2},{0} 变更了 {0} {1}
 Deleting {0} records...,删除 {0} 笔单据...
 Deleting {0}..., 删除 {0} 笔单据...
+You attached {0},你添加了附件 {0}
+{0} attached {1},{0} 添加了附件 {0}
 "Hide Sidebar, Menu, and Comments",隐藏左边栏，菜单及评论
 Hide Preview,隐藏预览
 Create a Reminder,创建提醒
@@ -15842,3 +15845,25 @@ Planned Date,计划日期
 "Add Serial / Batch No",添加序列号/批号
 "Add Serial / Batch No (Rejected Qty)",添加序列号/批号(拒收数量)
 Reload Report,重新加载报表
+Terms Template,贸易条款模板
+Send Attached Files,发送上传的附件
+Send Document Print,发送打印的pdf附件
+Tax Withholding Net Total,代扣税净总额
+Base Tax Withholding Net Total,基准代扣税净总额
+Stock Reservation Entry,库存预留单
+Service Level Agreement,服务水平协议
+Service Level Name,服务水平协议名
+Assignment Conditions,分派条件
+Response and Resolution,响应与解决方案
+Apply SLA for Resolution Time,服务水平基于解决时间
+Status Details,状态信息
+SLA Fulfilled On,服务水平协议计时
+SLA Paused On,服务水平协议计时暂停
+Database Table Row Size Utilization: {0}%, this limits number of fields you can add.,数据库数据表每行空间利用率：{0}%，利用率影响可以添加的字段数
+Default Advance Received Account,默认预收账款科目
+Default Advance Paid Account,默认预付账款科目
+HR & Payroll Settings,人资与薪酬设置
+Check Stock Ledger,查看物料凭证
+Let's begin your journey with ERPNext,让我们一起开启ERPNext之旅
+Create an Item,创建物料
+"Stock Ledger report contains every submitted stock transaction. You can use filter to narrow down ledger entries.",物料凭证报表包括所有库存业务交易，可使用过滤条件筛选物料凭证
