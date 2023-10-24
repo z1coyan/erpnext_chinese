@@ -13307,7 +13307,7 @@ CRM,客户关系
 Users and Permissions,用户与权限
 dashboard,数据面板
 Marketplace,网上交易市场
-"If this item has variants, then it cannot be selected in sales orders etc.",如果勾选有多种规格，该物料就是多规格模板物料，用于生成多规格物料，本身不能用于实际业务中
+"If this item has variants, then it cannot be selected in sales orders etc.",勾选表示该物料不能用于实际业务，是仅用于生成多规格物料的模板
 All Time,全部时间
 Rank,序号
 Minimum quantity should be as per Stock UOM,最小起订量须基于库存计量单位
@@ -15783,7 +15783,7 @@ Create your workflow visually using the Workflow Builder.,可视化拖拽创建�
 New Workflow Name,新工作流名称
 Create or Edit Workflow,创建或修改工作流
 Server Scripts Disabled,服务器(python)脚本已禁用
-Server Scripts are disabled. Please enable server scripts from bench configuration.,服务器(python)脚本已禁用，可通知后台bench命令启用
+Server Scripts are disabled. Please enable server scripts from bench configuration.,服务器(python)脚本已禁用，可通过后台bench命令 bench set-config -g server_script_enabled 1 启用
 Buying and Selling,采购与销售
 Default Advance Accounts Receivable,默认预收账款科目
 Default Advance Accounts Payable,默认预付账款科目
@@ -15797,6 +15797,7 @@ Repeat Header and Footer,非首页也显示页首页尾
 You changed the values for {0} {1},你变更了 {0} {1}
 {0} changed the values for {1},{0} 变更了 {0} {1}
 You submitted this document {0},你提交了 {0}
+You submitted this document,你提交本单据
 {0} submitted this document {1},{0} 提交了 {1}
 Learn Inventory Management,学习库存管理
 Learn Sales Management,学习销售管理
@@ -15823,10 +15824,11 @@ Hide Preview,隐藏预览
 Create a Reminder,创建提醒
 Remind Me In,提醒频率
 Remind At,提醒时间
-30 minnutes,半小时
+30 minutes,半小时
 1 hour,1小时
 4 hours,4小时
 1 Day,1天
+Reminder set at {0},已设置在 {0} 时提醒
 Print Desinger,打印设计器
 Delivery User,交付用户
 Delivery Manager,交付经理
@@ -15867,3 +15869,34 @@ Check Stock Ledger,查看物料凭证
 Let's begin your journey with ERPNext,让我们一起开启ERPNext之旅
 Create an Item,创建物料
 "Stock Ledger report contains every submitted stock transaction. You can use filter to narrow down ledger entries.",物料凭证报表包括所有库存业务交易，可使用过滤条件筛选物料凭证
+Create a new Item,创建一个新物料
+Manage Sales Tax Templates,维护销售税/费模板
+"Item, Customer, Supplier and Quotation",物料，客户，供应商，报价
+"Filters <span class='filter-label'>{0}</span>","过滤 <span class='filter-label'>{0}</span>"
+Import Data from Spreadsheet,从excel导入数据
+Asset Activity,资产日志
+Audit Trail,审计轨迹
+Repost Accounting Ledger,会计凭证重过账(调整)台账
+Unreconcile Payment Entries,取消付款核销
+Payment Reconciliation Alloation,付款核销分派
+Is Composite Asset,组合资产
+Capitalization Method,资本化方法
+Asset Depreciation Schedule,固定资产折旧计划
+Daily Depreciation,日折旧
+Depreciation Details,折旧详情
+Capitalize Asset,资本化固定资产
+"Asset Depreciation Schedules created:<br>{0}<br><br>Please check, edit if needed, and submit the Asset.","已生成资产折旧计划:<br>{0}<br><br>请检查, 必要时请修改后再提交资产, ."
+Reserved Qty for Production Plan,生产计划预留数量
+Auto follow documents that you create,自动关注你创建的单据
+Auto follow documents that you comment on,自动关注你评论的单据
+Auto follow documents that you Like,自动关注你喜欢的单据
+Auto follow documents that are assigned to you,自动关注分派给你的单据
+Auto follow documents that are shared with you,自动关注分享给你的单据
+Reserved Stock,预留数量
+Show Disabled Warehouses,显示已禁用仓库
+"If enabled, the system will create material requests even if the stock exists in the 'Raw Materials Warehouse'.","如勾选，即使'原材料仓'有库存系统也会创建物料需求"
+Asia/Chongqing,亚洲/重庆
+Asia/Shanghai,亚洲/上海
+Asia/Beijing,亚洲/北京
+Helpdesk,服务台
+Print document,打印单据
