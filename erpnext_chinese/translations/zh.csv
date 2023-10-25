@@ -15814,7 +15814,8 @@ You last edited this,你最新修订了本单据
 You created this, 你创建了本单据
 {0} created this, {0}创建了本单据
 You changed the value of {0} {1}, 你变更了 {0} {1}
-{0} changed the value of {1} {2},{0} 变更了 {0} {1}
+{0} changed the value of {1} {2},{0} 变更了 {1} {2}
+{0} changed the value of {1},{0} 变更了 {1}
 Deleting {0} records...,删除 {0} 笔单据...
 Deleting {0}..., 删除 {0} 笔单据...
 You attached {0},你添加了附件 {0}
