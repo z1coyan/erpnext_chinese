@@ -4461,7 +4461,6 @@ Child Table Mapping,子表映射
 Child Item should not be a Product Bundle. Please remove item `{0}` and save,子项不应该是一个套件。请删除物料`{0}`再保存
 Font,字体
 Fonts,字体
-Font,字体
 Font Size,字体大小
 Font Size (px),字体大小（px）
 Font Styles,字体样式
@@ -11717,7 +11716,7 @@ Applicable Charges,分摊费用
 Check this to enable a scheduled Daily synchronization routine via scheduler,选中此选项可通过调度程序启用计划的每日同步例程
 Holiday List for Optional Leave,选休假假期表
 Select items to save the invoice,选取物料以保存发票
-Selected Price List should have buying and selling fields checked.,价格表基础数据中应勾选采购和销售。
+Selected Price List should have buying and selling fields checked.,价格表主数据中应勾选采购和销售。
 choose an,选择
 Select POS Profile,选择POS配置文件
 "Select target = ""_blank"" to open in a new page.","选择taget=""_blank""在新页面中打开。"
@@ -14804,7 +14803,7 @@ Match Against Voucher,匹配凭证
 Create Voucher,新建凭证
 Update Bank Transaction,更新银行交易流水
 Grant Commission,付佣金
-Update Existing Price List Rate,更新物料价格基础数据
+Update Existing Price List Rate,更新物料价格主数据
 Hide Descendants,隐藏下层节点
 "Hide descendant records of <b>For Value</b>.",隐藏下层节点<b>值</b>
 IQC,来料检验
@@ -14911,9 +14910,9 @@ selected Payment Terms Template,付款条款模板字段
 "If this checkbox is checked, paid amount will be splitted and allocated as per the amounts in payment schedule against each payment term",如勾选，则金额根据付款计划明细中的付款条款进行拆分,
 Translate Link Fields,翻译链接字段
 Make Attachments Public by Default,上传文件默认设为公开
-Enabling this will allow creation of multi-currency invoices against single party account in company currency,如果勾选，基础数据中定义本币交易的客户或供应商其发票可使用外币
-"Can't change the valuation method, as there are transactions against some items which do not have its own valuation method",有些物料未在物料基础数据中维护成本计算方法且已关联物料凭证与会计凭证，考虑资料一致性此处成本计算方法不能被修改
-"Party Account {0} currency ({1}) and document currency ({2}) should be same",往来单位基础数据中定义的结算币种需与业务交易币种相同
+Enabling this will allow creation of multi-currency invoices against single party account in company currency,如果勾选，主数据中定义本币交易的客户或供应商其发票可使用外币
+"Can't change the valuation method, as there are transactions against some items which do not have its own valuation method",有些物料未在物料主数据中维护成本计算方法且已关联物料凭证与会计凭证，考虑资料一致性此处成本计算方法不能被修改
+"Party Account {0} currency ({1}) and document currency ({2}) should be same",往来单位主数据中定义的结算币种需与业务交易币种相同
 Show GL Balance,显示总帐余额
 GL Balance,总帐余额
 Total Amount Due,总未付金额
@@ -14960,9 +14959,9 @@ The **Item Master**  is where you can add all your sales items. If you are in se
 
 Completing the Item Master is very essential for the successful implementation of ERPNext. We have a brief video introducing the item master for you, you can watch it in the next step.","## 产品与服务
 
-你可能出售产品或服务，或者同时出售产品和服务给客户，产品和服务在本系统中都被定义为物料基础数据,被销售、采购、库存等业务流程使用
+你可能出售产品或服务，或者同时出售产品和服务给客户，产品和服务在本系统中都被定义为物料主数据,被销售、采购、库存等业务流程使用
 
-正确完整地维护物料基础数据对于系统实施到关重要。"
+正确完整地维护物料主数据对于系统实施到关重要。"
 "## Who is a Customer?
 
 A customer, who is sometimes known as a client, buyer, or purchaser is the one who receives goods, services, products, or ideas, from a seller for a monetary consideration.
@@ -15249,7 +15248,7 @@ Completed By Role,执行者角色
 Completed By User,执行者用户
 Permitted Roles,被授权的角色
 Workflow Action Permitted Role,工作流操作被授权角色
-Mention if a non-standard receivable account,使用公司基础数据中定义的默认应收帐款科目时，这里不用维护
+Mention if a non-standard receivable account,使用公司主数据中定义的默认应收帐款科目时，这里不用维护
 Return Components,原材料退回
 Material Returned from WIP,原材料已退回
 Transit Entry,调拨单
@@ -15901,3 +15900,14 @@ Asia/Shanghai,亚洲/上海
 Asia/Beijing,亚洲/北京
 Helpdesk,服务台
 Print document,打印单据
+Form,表单
+Queue in Background (BETA),启用后台提交(试验功能)
+Enabling this will submit documents in background,启用后台任务执行提交操作，避免单据明细行多，运算量大前台执行超时
+Indicator color,指示器颜色(快捷方式右上角数字)
+Cyan,蓝绿色
+Gray,灰色(美式)
+Grey,灰色
+Light-blue,浅蓝色
+Pink,粉红色
+Choose an icon,选择图标
+Search for icons...,搜索图标...
