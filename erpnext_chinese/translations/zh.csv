@@ -1717,7 +1717,7 @@ Rate at which Price list currency is converted to company's base currency,价格
 Rate at which Price list currency is converted to customer's base currency,价格表货币转换成客户币种后的单价
 Price List (Auto created),价格表（自动创建）
 Rate: {0},价格：{0}
-Any other details,任何其他细节
+Any other details,补充信息
 "Any other remarks, noteworthy effort that should go in the records.",任何其他言论，值得一提的努力，应该在记录中。
 Anytime,任何时候
 Task,任务
@@ -2929,7 +2929,7 @@ Period Based On,期间基于
 Expiry Duration (in days),到期时间（天）
 Due Advance Amount,到期金额
 e-Way Bill JSON cannot be generated for Sales Return as of now,到目前为止，无法为销售生成电子方式发票JSON
-Arrival Datetime,到达日期时间
+Arrival Datetime,到达时间
 Owner,制单人
 Mapping,制图
 To make Customer based incentive schemes.,制定基于客户的激励计划。
@@ -3754,9 +3754,9 @@ Employee A/C Number,员工账号
 Employee Loan,员工借款
 Employee Information,员工资料
 Employee Transfer Details,员工转移详情
-Employee Advance,员工预付款
-Employee Advances,员工预付款
-Employee Advance Summary,员工预付款汇总
+Employee Advance,员工预支
+Employee Advances,员工预支
+Employee Advance Summary,员工预支汇总
 Employee (optional),员工（可选）
 Week,周
 week,周
@@ -10147,7 +10147,7 @@ Get Suppliers,选供应商
 Get Entries,选凭证
 Get Invoices,选发票
 Get Employees,获取员工
-Select an employee to get the employee advance.,获取员工预付款前请先选择员工。
+Select an employee to get the employee advance.,获取员工预支前请先选择员工。
 Fetch Images,获取图像
 Parent is required to get child table data,获取子表数据时需要父(parent)信息
 Get Fields,选字段
@@ -11883,7 +11883,7 @@ Avoid sequences like abc or 6543 as they are easy to guess,避免像ABC或6543�
 Avoid dates and years that are associated with you.,避免日期和与你相关的年。
 Avoid recent years.,避免最近几年。
 Avoid Confirmation,避免确认
-Copy of Invitation/Announcement,邀请/公告的副本
+Copy of Invitation/Announcement,邀请函附件
 Invite as User,邀请成为用户
 Invite as User,邀请成为用户
 Nagaland,那加兰邦
@@ -11937,7 +11937,7 @@ PDC/LC,部分支付
 PDC/LC Ref,部分支付参考号码
 PDC/LC Date,部分支付日期
 PDC/LC Amount,部分支付金额
-"Partially Sponsored, Require Partial Funding",部分赞助，需要部分资金
+"Partially Sponsored, Require Partial Funding",部分赞助，部分资助
 Department,部门
 Department Analytics,部门分析
 Department and Grade,部门和职级
@@ -12612,7 +12612,7 @@ Name of Consultant,顾问的名字
 Advances,预付
 Advance Paid,预付款
 Advance Payments,预付款
-Advance Amount,预付款金额
+Advance Amount,预支金额
 Advance account currency should be same as company currency {0},预付科目货币应与本币{0}相同
 Advance amount,预付金额
 Advance amount cannot be greater than {0} {1},预付金额不能大于{0} {1}
@@ -12810,7 +12810,7 @@ Default Source Warehouse,默认发料仓
 Default Invoice Naming Series,默认发票单据编号模板
 Default Sending and Inbox,默认发送和收件账号
 Default Sending,默认发送账号
-Default Employee Advance Account,默认员工预付款科目
+Default Employee Advance Account,默认员工预支科目
 Default Work In Progress Warehouse,默认在制品仓
 Default Address Template cannot be deleted,默认地址模板不能删除
 Default Outgoing,默认外发
@@ -15923,3 +15923,46 @@ Consumed Assets,耗用的资产
 Auto Create Serial and Batch Bundle For Outward,出库时自动创建(分派)序列号与批号记录
 Enable Fuzzy Matching,启用模糊匹配
 Approximately match the description/party name against parties,通过描述及往来单位名模糊匹配往来单位
+Hiring vs Attrition Count,招聘与离职数
+Hiring Count,招聘数
+Attrition Count,离职数
+HR Dashboard,人资数据面板
+Recruitment Dashboard,招聘数据面板
+Employee Lifecycle Dashboard,员工生命周期数据面板
+Attendance Dashboard,考勤数据面板
+Claims,报销
+Dates & Reason,日期与原因
+Approval,审批
+Unclaimed Amount,未报销金额
+Exit Questionnaire,离职问卷
+Interview Details,面谈详情
+Interviewers,面谈人
+Employee Retained,留下
+Exit Confirmed,确认离职
+Shifts,班次
+Shift Attendance,班次考勤
+Clamins,报销
+Unclaimed,待报销
+Application,申请
+Employee Performance Feedback,员工绩效反馈
+Employee Feedback Criteria,员工反馈标准
+Appraisal Cycle,绩效评估周期
+Appraisal Overview,绩效评估概览
+Promotion,晋升
+Set the properties that should be updated in the Employee master on promotion submission,提交晋升时修改员工主数据
+Add Employee Property,添加待更新的员工主数据字段
+Current CTC,当前工资
+Reviewer,评审人
+Added On,反馈日期
+Active Employees,在职员工
+New Hires (This Year),新招录（本年）
+Employee Exits (This Year),离职（本年）
+Employees Joining (Next Quarter),入职（下季度）
+Employees Relieving (Next Quarter),离职（下季度）
+Employees by Age,员工年龄分布
+Employees by Type,员工类型分布
+Employees by Grade,员工职级分布
+Employees by Branch,员工分支机构分布
+Not Specified,未指定
+Accepted,已接受
+Vehicle Service Item,车辆服务项
