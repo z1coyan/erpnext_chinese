@@ -12511,7 +12511,7 @@ Request for,仓库
 Request Type,需求类型
 At least one mode of payment is required for POS invoice.,需要为POS发票定义至少付款模式
 Lodging Required,需要住宿
-Require Full Funding,需要全额资助
+Require Full Funding,全额资助
 Reference DocType and Reference Name are required,请输入源单据类型和源单据
 Require Trusted Certificate,需要可信证书
 Time series based on is required to create a dashboard chart,创建统计图表需定义时间跨度字段
@@ -15930,6 +15930,7 @@ HR Dashboard,人资数据面板
 Recruitment Dashboard,招聘数据面板
 Employee Lifecycle Dashboard,员工生命周期数据面板
 Attendance Dashboard,考勤数据面板
+Expense Claims Dashboard,费用报销数据面板
 Claims,报销
 Dates & Reason,日期与原因
 Approval,审批
@@ -15966,3 +15967,42 @@ Employees by Branch,员工分支机构分布
 Not Specified,未指定
 Accepted,已接受
 Vehicle Service Item,车辆服务项
+Repay Unclaimed Amount from Salary,超报销金额应退还预支从工资扣除
+Earnings & Deductions,收入与扣除
+Accounting & Payment,会计与付款
+Payroll Payable Account,应付工资科目
+Filter Employees,筛选员工
+Working Days and Hours,工作日与上班时间
+Show Leave Balances in Salary Slip,在工资单上显示休假余额
+Define Opening Balance for Earning and Deductions,定义收入与扣除期初数
+Process Payroll Accounting Entry based on Employee,应付工资按员工记账
+"If checked, Payroll Payable will be booked against each employee",如勾选，应付工资按员工记账
+"If enabled, total no. of working days will include holidays, and this will reduce the value of Salary Per Day",如勾选，总工作日包括假期，日工资则相应减少
+"If checked, then the system will enable the provision to set the opening balance for earnings and deductions till date while creating a Salary Structure Assignment (if any)",如勾选，系统会允许设置期初收与扣除
+Employee Naming By,员工号编号规则
+Employee records are created using the selected option,员工号会基于选择的规则自动生成
+Retirement Age (In Years),退休年龄
+Reminders,提醒
+Leave and Expense Claim Settings,休假与费用报销设置
+Birthdays,生日
+Work Anniversaries,工作周年
+Set the frequency for holiday reminders,假期提醒频率
+Send Interview Reminder,发送面试提醒
+Send Interview Feedback Reminder,发送面试反馈提醒
+Employee Exit Settings,员工离职设置
+Exit Questionnaire Web Form,离职问卷网页模板
+Exit Questionnaire Notification Template,离职问卷通知模板
+Department wise Timesheet Hours,按部门工时分布
+Timesheet Activity Breakup,按业务活动工时分布
+Shift Assignment Breakup,班次分派
+Total Present (This Month),总出勤 （本月）
+Total Absent (This Month),总缺勤 （本月）
+Late Entry (This Month),迟到 （本月）
+Early Exit (This Month),早退 （本月）
+Y-O-Y Promotions,本年晋升
+Y-O-Y Transfers,本年调岗
+Onboardings (This Month),入职 (本月)
+Separations (This Month),离职 （本月）
+Promotions (This Month),晋升 （本月）
+Transfers (This Month),调岗 （本月）
+Training Type,培训类型
