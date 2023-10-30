@@ -4434,7 +4434,8 @@ System will fetch all the entries if limit value is zero.,如果限额为0，系
 "If non standard port (e.g. 587). If on Google Cloud, try port 2525.",如果非标准端口（例如587）。如果在Google Cloud上，请尝试使用端口2525。
 Leave blank if you make students groups per year,如每年都创建班级，请不要勾选
 Check if Asset requires Preventive Maintenance or Calibration,如资产需预防性维护保养或校准请勾选
-Mention if non-standard receivable account,如需记账到非标准应收账款科目
+Mention if non-standard receivable account,如使用非标准应收科目，请在这里指定
+Mention if non-standard Receivable account,如使用非标准应收科目，请在这里指定
 Please select Carry Forward if you also want to include previous fiscal year's balance leaves to this fiscal year,如须包括上年结余假期，请选择结转
 Always use Account's Name as Sender's Name,始终使用帐户名称作为发件人姓名
 Always use Account's Email Address as Sender,始终使用用户的电子邮箱地址作为发件人
@@ -15672,11 +15673,11 @@ Address used to determine Tax Category in transactions,业务交易用于决定�
 "The following values do not exist for {0}: {1}",以下单据 {0}：{1} 不存在
 Value Based Inspection,检测结果
 {0}-Above,>={0}天
-"{0} Account", {0}科目
+"{0} Account",{0}科目
 Set Default Supplier,设置默认供应商
 Create Stock Entry,新建物料移动
 Expense Head Changed,费用科目已被修改,
-{0} {1} has already been fully paid. {0} {1}, 已完全付款
+{0} {1} has already been fully paid., {0} {1} 已完全付款
 Row #{0}: Allocated amount:{1} is greater than outstanding amount:{2} for Payment Term {3}, 第 {0} 行：已分配金额 {1} 大于针对付款条款 {3} 的未付金额
 "{0} {1} has already been partly paid. Please use the 'Get Outstanding Invoice' or the 'Get Outstanding Orders' button to get the latest outstanding amounts.","{0} {1} 已被部分付款，请点击 选未付发票 或 选未关闭订单 按钮获取最新未付单据"
 Row #{0}: Acceptance Criteria Formula is required.,第 {0} 行：请维护标准要求条件公式
@@ -16013,3 +16014,8 @@ Department wise Expense Claims,报销按部门分布
 Expense Claims (This Month),费用报销 （本月）
 Approved Claims (This Month),已批准报销 （本月）
 Rejected Claims (This Month),已拒绝报销 （本月）
+EUR,欧元
+JPY,日元
+INR,印度卢比
+GBP,英镑
+Print Designer,打印设计器
