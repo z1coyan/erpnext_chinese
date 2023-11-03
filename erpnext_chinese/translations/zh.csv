@@ -459,7 +459,7 @@ Pincode,PIN代码
 Pin Code,PIN码
 PMO-,PMO-
 POS,POS
-Territory is Required in POS Profile,销售点设置区域字段必填
+Territory is Required in POS Profile,销售点设置中区域字段必填
 Customer Group is Required in POS Profile,POS Profile中需要客户组
 POS-CLO-,POS-CLO-
 POS Closing Voucher,POS关闭凭证
@@ -4149,7 +4149,7 @@ This is based on transactions against this Subscriber. See timeline below for de
 Select students manually for the Activity based Group,基于活动创建班级，请手动添加学生
 On Item Quantity,基于物料数量
 From BOM,基于物料清单
-Territory Target Variance Based On Item Group,区域物料组业绩达成分析
+Territory Target Variance Based On Item Group,分区域物料组业绩达成分析
 Sales Person Target Variance Based On Item Group,业务员物料组业绩达成分析
 Manufacture against Material Request,基于物料需求生产
 Based on Permissions For User,基于用户权限
@@ -4695,7 +4695,7 @@ Client,客户
 Customer,客户
 Customers,客户
 Customer ID,客户
-Customer &gt; Customer Group &gt; Territory,客户&gt;客户组&gt;地区
+Customer &gt; Customer Group &gt; Territory,客户&gt;客户组&gt;区域
 Customer / Item Name,客户/物料名称
 Customer / Lead Name,客户/线索名称
 Customer / Lead Address,客户/线索地址
@@ -8608,8 +8608,8 @@ Points,点数
 Appreciate,点赞
 Appreciation,点赞
  See all past reports.,点这儿可以查看之前的历史报表。
-"Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Group, Campaign, Sales Partner etc.",然后根据客户，客户组，地区，供应商，供应商组织，市场活动，业务伙伴等过滤动态定价规则。
-"Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Type, Campaign, Sales Partner etc.",然后动态定价规则将基于客户，客户组，地区，供应商，供应商类型，活动，业务伙伴等条件过滤。
+"Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Group, Campaign, Sales Partner etc.",然后根据客户，客户组，区域，供应商，供应商组织，市场活动，业务伙伴等过滤动态定价规则。
+"Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Type, Campaign, Sales Partner etc.",然后动态定价规则将基于客户，客户组，区域，供应商，供应商类型，活动，业务伙伴等条件过滤。
 Proficiency,熟练程度
 Fuel Type,燃料类型
 Fuel UOM,燃油单位
@@ -8626,8 +8626,8 @@ Parent Account,父科目
 Parent Procedure,父程序
 Parent Table,父表
 Parent Item {0} must not be a Stock Item,父项{0}不能勾选了允许库存的物料
-Parent Customer Group,父（上级）客户组
-Parent Item Group,父（上级）物料组
+Parent Customer Group,父客户组
+Parent Item Group,父物料组
 Version,版本
 Version Updated,版本更新
 Copyright,版权
@@ -12290,7 +12290,7 @@ Sales Partners Commission,业务伙伴佣金
 Sales Partner Commission Summary,业务伙伴佣金汇总
 Sales Partner and Commission,业务伙伴及佣金
 Sales Partner Name,业务伙伴名称
-Sales Partners and Territory,业务伙伴和地区
+Sales Partners and Territory,业务伙伴和区域
 Sales Partner Addresses And Contacts,业务伙伴地址和联系人
 Sales Partner Target Variance based on Item Group,业务伙伴物料组业绩达成分析
 Sales Partner Target Variance Based On Item Group,业务伙伴物料组业绩达成分析
@@ -13241,7 +13241,7 @@ DocType Action,单据操作
 Please select Item from Table,请从表中选择物料
 Please set a Supplier against the Items to be considered in the Purchase Order.,请为要创建采购订单的物料设置供应商
 Search Priorities,搜索优先级
-Territory Wise Sales,区域销售
+Territory Wise Sales,区域销售额分布
 Total Outgoing Bills,总销售发票
 Set From Warehouse,发料仓
 Source Warehouse (Material Transfer),发料仓(调拨)
@@ -14317,7 +14317,7 @@ Via Landed Cost Voucher,关联到岸成本凭证
 Allow Zero Rate,允许0成本价
 Repost Item Valuation,物料成本价追溯调整
 Stock Reposting Settings,物料成本价追溯调整设置
-Quality Inspection Parameter,品管检验参数
+Quality Inspection Parameter,质检参数
 Bank Statement Import,银行对账单导入
 Default In-Transit Warehouse,默认在途仓
 Default Payment Discount Account,默认付款折扣科目
@@ -14378,7 +14378,7 @@ Payment Amount (Company Currency),付款金额(公司本币)
 Console,控制台
 Commit,提交
 Basic Info,基本信息
-"If blank, parent Warehouse Account or company default will be considered in transactions",如果为空，则取父仓库或公司基础资料里默认的科目,
+"If blank, parent Warehouse Account or company default will be considered in transactions","如果为空，则取父仓库或公司主数据里默认的存货科目"
 % Returned,已退货%
 "If not, you can Cancel / Submit this entry",请选择以下方式中的一种之后 
 "performing either one below:",再提交或取消此单据
@@ -16019,3 +16019,5 @@ JPY,日元
 INR,印度卢比
 GBP,英镑
 Print Designer,打印设计器
+Total Contribution Amount Against Orders: {0},总订单金额贡献 {0}
+Total Contribution Amount Against Invoices: {0},总发票金额贡献 {0}
