@@ -13227,6 +13227,7 @@ frappe.ui.form.on('Sales Invoice',  {
 <p>条件表达式使用简单python语句. 仅限使用表单中现有属性(字段）.</p>"
 Allow Monthly Depreciation,允许按月折旧
 Only If Creator,仅限创建者
+Only if Creator,仅限创建者
 Inbox User,邮件收件箱用户
 Loan Manager,借款经理
 Row {0}: Quality Inspection rejected but no rejected qty for item {1},第{0}行：质检结论为拒收，物料{1}没有维护拒收数量
@@ -16032,3 +16033,12 @@ Move Up,上移
 Move Down,下移
 Onboarding Name,使用向导名
 Age ({0}),天数 ({0})
+Payroll Reports,薪资报表
+Custom Block Name,自定义HTML块
+Please select a supplier for fetching payments.,请选择一个供应商以获取付款台账信息
+Show Ledger View,显示单个供应商付款台账
+Job Card Scheduled Time,加工单计划工时
+Scheduled Time Logs,计划工时
+Qty In Stock,实际库存数量
+Repair Details,维修详情
+"Level 0 is for document level permissions, higher levels for field level permissions.",级别0为单据级权限，大于0为字段级权限。,

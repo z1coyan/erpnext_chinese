@@ -10,6 +10,7 @@ def custom_get_workspace_sidebar_items():
             ["Masters &amp; Reports",'主数据、业务交易、报表'],            
             ['Reports & Masters', '主数据、业务交易、报表'],
             ["Masters & Reports",'主数据、业务交易、报表'],
+            ["Transactions & Reports",'主数据、业务交易、报表'],            
             ['Elements', '定制项'],
             ['Quick Access', '快捷方式'],
             ['Your Shortcuts', '快捷方式'],
