@@ -8,9 +8,12 @@ def custom_get_workspace_sidebar_items():
         trans_map = [
             ['Reports &amp; Masters', '主数据、业务交易、报表'],
             ["Masters &amp; Reports",'主数据、业务交易、报表'],            
+            ['Reports & Masters', '主数据、业务交易、报表'],
+            ["Masters & Reports",'主数据、业务交易、报表'],
             ['Elements', '定制项'],
             ['Quick Access', '快捷方式'],
             ['Your Shortcuts', '快捷方式'],
+            ['Quick Links', '简易列表'],
             ['Settings', '设置'],
             ['Integrations', '应用集成'],
             ['My Workspaces', '我的工作区'],
