@@ -8720,7 +8720,7 @@ Item Attribute,物料属性
 Item Attribute Value,物料属性值
 Item Attribute Values,物料属性值
 Item operation,物料工序
-Cannot be a fixed asset item as Stock Ledger is created.,物料已有物料移动记录后不能再将其设置为固定资产。
+Cannot be a fixed asset item as Stock Ledger is created.,物料已有物料凭证后不能再将其设置为固定资产。
 Item Serial No,物料序列号
 Item Locations,拣货明细
 Item must be added using 'Get Items from Purchase Receipts' button,物料必须要由“从采购入库选物料”添加
@@ -8752,9 +8752,9 @@ Stock Entry,物料移动
 Transfer Material,物料移动
 Stock Entry {0} is not submitted,物料移动{0}不提交
 Stock Entry {0} created,物料移动{0}已创建
-Stock Ledger Entry,物料移动凭证
+Stock Ledger Entry,物料凭证
 Stock Entry Child,物料移动明细
-Stock Entry Detail,物料凭证明细
+Stock Entry Detail,物料移动明细
 Stock Ledger,物料凭证
 Stock Entry (Outward GIT),物料移动（在途发出）
 Item Wise Tax Detail,物料税/费信息
