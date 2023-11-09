@@ -5379,7 +5379,7 @@ Stock Balance,库存余额(收发存汇总表)
 Quick Stock Balance,库存余额速查
 Stock Value,库存金额
 Stock Value Difference,库存值变动
-Stock Frozen Upto,库存冻结至
+Stock Frozen Upto,库存变动锁账日期
 Net Change in Inventory,库存净变动
 Stock UOM,库存单位
 Available Qty at Warehouse,仓库即时库存
@@ -14249,11 +14249,13 @@ Allow Item To Be Added Multiple Times in a Transaction,允许在交易中物料�
 Disable Serial No And Batch Selector,禁用序列号与批号选择
 Auto Insert Price List Rate If Missing,标价主数据不存在时，基于第一笔交易手工价格自动生成,
 Control Historical Stock Transactions,历史库存交易控制
-Role Allowed to Create/Edit Back-dated Transactions,允许新建/修改最新记账日之前交易的角色
-No stock transactions can be created or modified before this date.,库存交易(物料移动)记账日期不得早于此日期
-Stock transactions that are older than the mentioned days cannot be modified.,早于此日期之前的库存交易(物料移动）不可修改
-"If mentioned, the system will allow only the users with this Role to create or modify any stock transaction earlier than the latest stock transaction for a specific item and warehouse. If set as blank, it allows all users to create/edit back-dated transactions.","如维护用户角色，则仅该角色的用户可以新建/修改记账日期早于最新日期的物料移动(物料与仓库），即事后补账，如角色字段留空，则有物料移动权限的用户均可事后补账"
-Freeze Stocks Older Than (Days),冻结库存修改(天),
+Role Allowed to Create/Edit Back-dated Transactions,允许事后补单的角色
+No stock transactions can be created or modified before this date.,库存业务记账日期不得早于此日期
+Stock transactions that are older than the mentioned days cannot be modified.,"补录单据过账日期不得早于今天-锁帐天数，如今天9月20号，锁账天数10，则系统不允许过账日期早于9月10号"
+Role Allowed to Edit Frozen Stock,不受锁账天数限制的角色
+"The users with this Role are allowed to create/modify a stock transaction, even though the transaction is frozen.",有此角色的用户不受锁账天数限制
+"If mentioned, the system will allow only the users with this Role to create or modify any stock transaction earlier than the latest stock transaction for a specific item and warehouse. If set as blank, it allows all users to create/edit back-dated transactions.","如指定角色，则仅该角色的用户可提交过账日期早于当前物料和仓库最新记账日期（事后补单）的库存变动单据，如留空，则所有用户均可事后补单"
+Freeze Stocks Older Than (Days),库存变动锁账天数,
 Raise Material Request When Stock Reaches Re-order Level,库存低于重订货点自动产生物料需求,
 Notify by Email on Creation of Automatic Material Request,自动新建物料需求时发送邮件通知,
 Is Purchase Order Required for Purchase Invoice & Receipt Creation?,必须有采购订单才能新建采购入库和采购发票？,
@@ -16042,3 +16044,4 @@ Scheduled Time Logs,计划工时
 Qty In Stock,实际库存数量
 Repair Details,维修详情
 "Level 0 is for document level permissions, higher levels for field level permissions.",级别0为单据级权限，大于0为字段级权限。,
+My Workspace,我的工作区
