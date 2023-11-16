@@ -16045,3 +16045,16 @@ Qty In Stock,实际库存数量
 Repair Details,维修详情
 "Level 0 is for document level permissions, higher levels for field level permissions.",级别0为单据级权限，大于0为字段级权限。,
 My Workspace,我的工作区
+Serial and Batch No,序列号与批号
+Serial and Batch,序列号与批号
+Serial / Batch No,序列号/批号
+Avg Rate,平均单价
+Scan Batch No,扫批号
+Attach CSV File,上传CSV文件
+Download CSV Template,下载CSV文件模板
+Make Batch Nos,创建批号主数据
+Batch Nos,批号
+Batch Nos are created successfully,已成功创建批号
+Is Rejected,已拒收
+Serial and Batch Summary,序列号与批号报表
+Batch Qty,批号数量
