@@ -15791,8 +15791,8 @@ Buying and Selling,采购与销售
 Default Advance Accounts Receivable,默认预收账款科目
 Default Advance Accounts Payable,默认预付账款科目
 Default Advance Account,默认预付账款科目
-Book Advance Payments in Separate Party Account,预收/付款记单独的预收付款科目
-"Enabling this option will allow you to record - <br><br> 1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>","勾选后，收到的预付款记负债而不是资产科目，支付的预付款记资产而不是负债科目"
+Book Advance Payments in Separate Party Account,启用预收/付款科目
+"Enabling this option will allow you to record - <br><br> 1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>","勾选后，收到预付款记负债而非资产科目，支付预付款记资产而非负债科目"
 Planning Defaults,计划天数默认值
 Pick Pack Days,拣货打包天数
 Delivery Preparation Days,出货准备天数
@@ -16058,3 +16058,11 @@ Batch Nos are created successfully,已成功创建批号
 Is Rejected,已拒收
 Serial and Batch Summary,序列号与批号报表
 Batch Qty,批号数量
+Serial and Batch Entry,序列号与批号明细
+Subcontracting BOM,委外物料清单
+Payment Reconciliation Allocation,付款核销分派
+Bulk Transaction Log,批量操作日志
+Bulk Transaction Log Detail,批量操作日志明细
+BOM Creator Item,物料清单创建工具明细
+BOM Update Batch,物料清单批量更新
+Voucher,凭证
