@@ -3269,7 +3269,7 @@ Send days before or after the reference date,参考日几天前或后发送
 Ref Date,参考日期
 Days Before,参考日期前
 Days After,参考日期后
-Reference Date,参考日期字段
+Reference Date,参考日期
 Please enter Reference date,参考日期请输入
 From Template,参考模板
 Reference No.,参考编号。
@@ -8390,6 +8390,8 @@ Party can only be one of ,派对只能是其中之一
 Fluid,流体
 Current Liabilities,流动负债
 Current Assets,流动资产
+Current Liability,流动负债
+Current Asset,流动资产
 Processes,流程
 Process Description,流程描述
 lightblue,浅蓝
@@ -16066,3 +16068,20 @@ Bulk Transaction Log Detail,批量操作日志明细
 BOM Creator Item,物料清单创建工具明细
 BOM Update Batch,物料清单批量更新
 Voucher,凭证
+{0} {1} via CSV File,通过上传CSV文件 {0} {1}
+DocType Name,单据类型名
+Create & Continue,创建并继续
+Create New DocType,创建新单据类型
+Fetch on Save if Empty,限字段为空时取值一次
+"If unchecked, the value will always be re-fetched on save.",如不勾选则每次保存单据时都刷新本字段值
+Add tab,添加页签
+Add field,添加字段
+Select a field to edit its properties.,选择一个字段在这里编辑其属性
+Drag & Drop a section here from another tab,从另一个页签拖拽一个分区(段)到这里
+Preview Mode,预览模式
+Direct Expense,直接费用
+Indirect Expense,间接费用
+Include Default FB Entries,包括默认账簿分录
+Total Other Charges,总其它费用
+SupplierName,供应商名称
+Sub Assembly Warehouse,子装配件仓库
