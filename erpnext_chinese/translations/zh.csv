@@ -5588,7 +5588,7 @@ Recording URL,录制网址
 Admission End Date,录取结束日期
 Offer Date,录用日期
 Offer Term,录用通知条款
-Recorder,程序运行过程记录
+Recorder,程序运行记录
 Motion Picture & Video,影视业
 Delete {0} items permanently?,彻底删除{0}条记录？
 Delete {0} item permanently?,彻底删除{0}条记录？
@@ -8372,7 +8372,7 @@ Note: {0},注： {0}
 Note: Other permission rules may also apply,注：其它权限规则也可申请
 Note: Multiple sessions will be allowed in case of mobile device,注：在使用移动设备时允许多个会话
 Note: Total allocated leaves {0} shouldn't be less than already approved leaves {1} for the period,注：期间内总分配休假{0}应不低于已核定休假{1}
-Note: This Cost Center is a Group. Cannot make accounting entries against groups.,注：此成本中心是一个组，会计分录不能对组录入。
+Note: This Cost Center is a Group. Cannot make accounting entries against groups.,注：此成本中心勾选了是组，不能用于会计凭证记账。
 Tamil Nadu,泰米尔纳德邦
 Active,激活
 Activity,活动
@@ -9158,7 +9158,7 @@ Department Stores,百货
 Ca/(K+Ca+Mg),的Ca /（K +钙+镁）
 "DocType's name should start with a letter and it can only consist of letters, numbers, spaces and underscores",的DocType的名称应以字母开始，它只能由字母，数字，空格和下划线
 "URIs for receiving authorization code once the user allows access, as well as failure responses. Typically a REST endpoint exposed by the Client App.<br>e.g. http://hostname//api/method/frappe.www.login.login_via_facebook",的URI，用于接收授权代码一旦用户允许访问，以及失败的响应。通常，REST端点的客户端应用程序暴露出来。 <br>例如http：//hostname//api/method/frappe.www.login.login_via_facebook
-Robots.txt,的robots.txt
+Robots.txt,机器人自动回复文字
 Length of {0} should be between 1 and 1000,的{0}长度应介于1和1000之间
 Profitability,盈利能力
 Profitability Analysis,盈利能力分析
@@ -16085,3 +16085,40 @@ Include Default FB Entries,包括默认账簿分录
 Total Other Charges,总其它费用
 SupplierName,供应商名称
 Sub Assembly Warehouse,子装配件仓库
+Revaluation Journals,汇率重估日记账凭证
+"Blanket Order Allowance (%)",框架订单超量控制(％)
+"Percentage you are allowed to order beyond the Blanket Order quantity.",允许订单数量超过框架订单数量的%
+Disable Signups on site. New users will have to be manually registered by system managers.,本站点不启用自助注册，须管理员手工创建用户账号
+Login Page,登录页
+"Link that is the website home page. Standard Links (home, login, products, blog, about, contact)",
+Footer Details,页脚详情
+Custom Footer,自定义页脚
+'Footer ""Powered By""',页脚""技术支持""信息
+Account Deletion Settings,账号删除设置
+Auto Account Deletion within (Hours),自动删除账号时限(小时)
+Show Account Deletion Link in My Account Page,在我的账号页显示删除账号链接
+"Header, Robots",页首，机器人
+Redirects,重定向
+Splash Image,启动图像
+Exact Copies,总查询次数
+Normalized Copies,基础查询(剔除查询参数)次数
+Stack Trace,调用栈
+function,方法
+filename,文件名
+lineno,行号
+SQL Explain,SQL解析
+Number of Queries,查询次数
+Time in Queries,查询执行时长
+Request Headers,请求头
+Form Dict,请求参数字典
+SQL Queries,SQL查询
+Outgoing Server,发送邮件服务器
+Incoming Server,接收邮件服务器
+Use different Email ID,使用别的邮箱账号
+Alternative Email ID,别的邮箱账号
+Connected User,已连接用户
+Footer Content,页脚内容
+Brand Logo,品牌图标
+Use STARTTLS,使用TLS
+Folder Name,目录名
+IMAP Folder,收件箱目录
