@@ -1263,7 +1263,7 @@ Temporary,临时
 Temporarily on Hold,临时冻结
 Temporary Opening,临时开账
 Temporary Opening Account,临时开账科目
-Provisional Profit / Loss (Credit),临时溢利/（亏损）（贷方）
+Provisional Profit / Loss (Credit),利润/(亏损）（贷方）
 Temperorily Disabled,临时禁用了
 Temporary Accounts,临时科目
 Set Role For,为..设置角色
@@ -6091,7 +6091,7 @@ Room Capacity,房间容量
 Restrict To Domain,所属行业
 Income Tax,所得税
 Tax Assets,所得税资产
-All,所有
+All,全部
 All Sales Person,所有业务员
 All Products,所有产品
 Everyone,所有人
@@ -8242,8 +8242,8 @@ Automotive,汽车
 Vehicle Service,汽车服务
 Sand Composition (%),沙成分（％）
 Communication,沟通
-NO,没有
-None,没有
+NO,无
+None,无
 none of,没有
 No Google Contacts present to sync.,没有Google联系人可供同步。
 No {0} mail,没有{0}邮件
@@ -15654,7 +15654,7 @@ Voice Call Settings,语音通话设置
 No filters selected,未选择筛选
 Add a Filter,添加筛选
 Sales Contributions and Incentives,销售贡献和激励措施
-How often should Project and Company be updated based on Sales Transactions?,根据销售交易记录，项目和公司应多久更新一次？
+How often should Project and Company be updated based on Sales Transactions?,项目和公司主数据中的销量统计多久更新一次？
 Don't Reserve Sales Order Qty on Sales Return,销售退货不预留销售订单数量
 Newly created user {0} has no roles enabled.,新创建的用户 {0} 未启用任何角色
 Roles & Permissions,角色和权限
@@ -15780,7 +15780,7 @@ Auto Reserve Stock for Sales Order,自动为销售订单预留库存
 Allow Partial Reservation,允许部分预留
 Serial and Batch Reservation,序列号与批号预留
 Auto Reserve Serial and Batch Nos,自动按序列号与批号预留库存
-"If enabled, Serial and Batch Nos will be auto-reserved based on <b>Pick Serial / Batch Based On</b>",如勾选，会自动将已选择的<b>序列号/批号</b>设置为已预留库存
+"Serial and Batch Nos will be auto-reserved based on <b>Pick Serial / Batch Based On</b>",如勾选，会自动将已选择的<b>序列号/批号</b>设置为已预留库存
 "If enabled, <b>Stock Reservation Entries</b> will be created on submission of <b>Sales Order</b>",如勾选，提交<b>销售订单</b>时会自动创建<b>库存预留</b>
 "If enabled, <b>Partial Stock Reservation Entries</b> can be created. For example, If you have a Sales Order of 100 units and the Available Stock is 90 units then a Stock Reservation Entry will be created for 90 units. ","如勾选，系统会创建<b>部分数量库存预留</b>，比如库存90，订单需求100，则创建数量为90的库存预留"
 Create your workflow visually using the Workflow Builder.,可视化拖拽创建工作流
@@ -16087,13 +16087,13 @@ SupplierName,供应商名称
 Sub Assembly Warehouse,子装配件仓库
 Revaluation Journals,汇率重估日记账凭证
 "Blanket Order Allowance (%)",框架订单超量控制(％)
-"Percentage you are allowed to order beyond the Blanket Order quantity.",允许订单数量超过框架订单数量的%
+"Percentage you are allowed to sell beyond the Blanket Order quantity.",允许订单数量超过框架订单数量的%
 Disable Signups on site. New users will have to be manually registered by system managers.,本站点不启用自助注册，须管理员手工创建用户账号
 Login Page,登录页
 "Link that is the website home page. Standard Links (home, login, products, blog, about, contact)",
 Footer Details,页脚详情
 Custom Footer,自定义页脚
-'Footer ""Powered By""',页脚""技术支持""信息
+"Footer ""Powered By""","页脚""技术支持""信息"
 Account Deletion Settings,账号删除设置
 Auto Account Deletion within (Hours),自动删除账号时限(小时)
 Show Account Deletion Link in My Account Page,在我的账号页显示删除账号链接
@@ -16119,6 +16119,19 @@ Alternative Email ID,别的邮箱账号
 Connected User,已连接用户
 Footer Content,页脚内容
 Brand Logo,品牌图标
+App Logo,应用图标
+"Link that is the website home page. Standard Links (home, login, products, blog, about, contact)",指向网站主页的链接。通常包括一些标准使用入口(登录，产品，博客，关于，联系人)
 Use STARTTLS,使用TLS
 Folder Name,目录名
 IMAP Folder,收件箱目录
+All Work Orders,所有工单
+Minimal,最少
+Non-numeric,非数字
+Total Billed Amount (via Sales Invoice),总开票金额（通过销售发票）
+Plan operations X days in advance,提交工单时最多提前多少天自动创建加工单
+"Partial stock can be reserved. For example, If you have a Sales Order of 100 units and the Available Stock is 90 units then a Stock Reservation Entry will be created for 90 units. ",允许预留部分订单数量，如库存数量90个，订单数量100个，允许为订单创建数量为90个的预留单
+"Auto Reserve Stock for Sales Order on Purchase",启用采购入库时自动为关联的销售订单创建预留
+"Stock will be reserved on submission of <b>Purchase Receipt</b> created against Material Receipt for Sales Order.",<b>采购入库</b>提交时自动为与之关联的物料需求，即销售订单创建库存预留
+"Learn about <a href=""https://docs.erpnext.com/docs/v13/user/manual/en/accounts/articles/common_party_accounting#:~:text=Common%20Party%20Accounting%20in%20ERPNext,Invoice%20against%20a%20primary%20Supplier."">Common Party</a>","了解更多 <a href=""https://docs.erpnext.com/docs/v13/user/manual/en/accounts/articles/common_party_accounting#:~:text=Common%20Party%20Accounting%20in%20ERPNext,Invoice%20against%20a%20primary%20Supplier.\"">供应商/客户合并记账功能</a>"
+Get Backup Encryption Key,获取备份秘钥
+Backup Encryption Key,备份秘钥
