@@ -1177,7 +1177,7 @@ Cannot produce more Item {0} than Sales Order quantity {1},不能生产超过销
 Cannot move row,不能移动行
 Cannot edit standard fields,不能编辑标准字段
 Cannot edit a standard report. Please duplicate and create a new report,不能编辑标准的报表。请复制并创建一个新的报表
-Cannot covert to Group because Account Type is selected.,不能转换到组，因为你选择的是科目类型。
+Cannot covert to Group because Account Type is selected.,科目类型字段须为空才能转换为组。
 Rename Not Allowed,不能重命名
 Cannot link cancelled document: {0},不能链接到已取消单据{0}
 "Don't HTML Encode HTML tags like &lt;script&gt; or just characters like &lt; or &gt;, as they could be intentionally used in this field",后台不进行HTML编码过滤，即可以直接使用HTML标签，如&lt;SCRIPT&gt;或者就像字符&lt;或&gt;
@@ -3450,6 +3450,8 @@ Name of Beneficiary,受益人姓名
 Attendees,受训学员
 Transfer Date,变动日期
 changed value of {0},变更了{0}
+{0} changed value of {1} {2},{0} 变更了 {1} {2}
+{0} changed value of {1},{0} 变更了 {1}
 changed values for {0},变更了{0}
 Logout From All Devices After Changing Password,变更密码后登出所有设备
 Variables,变量
@@ -9374,8 +9376,8 @@ Account Name,科目名称
 Account Subtype,科目子类型
 Account Currency,科目币别
 Balance In Account Currency,科目币别余额
-Debit Amount in Account Currency,科目币别借方金额
-Credit Amount in Account Currency,科目币别贷方金额
+Debit Amount in Account Currency,借方金额(科目币别)
+Credit Amount in Account Currency,贷方金额(科目币别)
 Account Type,科目类型
 Chart Of Accounts,科目表
 Chart of Accounts,科目表
@@ -14840,8 +14842,8 @@ Vihicle Maker,车辆品牌
 It can take upto few hours for accurate stock values to be visible after merging items.,合并后的物料库存数量更新可能需几个小时
 Pick Batch No,选批号
 Selected Qty,已选数量
-Enable Provisional Accounting For Non Stock Items,启用非库存物料临时科目
-Default Provisional Account,默认临时科目
+Enable Provisional Accounting For Non Stock Items,非库存物料采购入库启用暂估费用记账
+Default Provisional Account,默认暂估费用科目
 Open Sales Orders,未结销售订单
 "Once the Work Order is Closed. It can't be resumed.",不能恢复已关闭工单
 Not allowed via controller permission check,自定义代码权限检查has_permission不通过
@@ -15801,6 +15803,7 @@ Delivery Preparation Days,出货准备天数
 Threshold days reschedule next available existing supply order to fulfill demand other than creating new plan order,重新安排下一个现有可用供应订单而不是创建新计划订单来完成需求的阈值天数
 Repeat Header and Footer,非首页也显示页首页尾
 You changed the values for {0} {1},你变更了 {0} {1}
+You changed the values for {0},你变更了 {0}
 {0} changed the values for {1},{0} 变更了 {0} {1}
 You submitted this document {0},你提交了 {0}
 You submitted this document,你提交本单据
@@ -16050,6 +16053,7 @@ My Workspace,我的工作区
 Serial and Batch No,序列号与批号
 Serial and Batch,序列号与批号
 Serial / Batch No,序列号/批号
+Serial / Batch Nos,序列号/批号
 Avg Rate,平均单价
 Scan Batch No,扫批号
 Attach CSV File,上传CSV文件
@@ -16135,3 +16139,34 @@ Plan operations X days in advance,提交工单时最多提前多少天自动创�
 "Learn about <a href=""https://docs.erpnext.com/docs/v13/user/manual/en/accounts/articles/common_party_accounting#:~:text=Common%20Party%20Accounting%20in%20ERPNext,Invoice%20against%20a%20primary%20Supplier."">Common Party</a>","了解更多 <a href=""https://docs.erpnext.com/docs/v13/user/manual/en/accounts/articles/common_party_accounting#:~:text=Common%20Party%20Accounting%20in%20ERPNext,Invoice%20against%20a%20primary%20Supplier.\"">供应商/客户合并记账功能</a>"
 Get Backup Encryption Key,获取备份秘钥
 Backup Encryption Key,备份秘钥
+Percentage you are allowed to order beyond the Blanket Order quantity.,允许订单数量超关联的框架订单数量的百分比
+Reposting Info,追溯调整信息
+Reposting Data File,追溯调整数据文件
+Total Reposting Count,追溯调整单据数量
+Debit Amount in Transaction Currency,借方金额(交易币别)
+Credit Amount in Transaction Currency,贷方金额(交易币别)
+Transaction Exchange Rate,交易日汇率
+The parent account {0} does not exists in the uploaded template,上传模板中父科目 {0} 不存在,
+Serial / Batch Bundle,序列号/批号
+Get Scrap Items,获取损耗物料
+Scrap Cost Per Qty,每单位数量报废成本
+Serial and Batch Details,序列号/批号详情
+If checked, Stock will be reserved on <b>Submit</b>,勾选后，在订单<b>提交</b>时会创建库存预留
+Request Method,请求方法
+Request Timeout,请求超时
+The number of seconds until the request expire,请求超时的秒数
+"On checking this option, URL will be treated like a jinja template string",勾选后网址是可内嵌变量的jinja模板字符串
+Select Document,选择单据
+Meets Condition?满足条件?
+Request Body,请求内容
+Select a document to preview request data,选择一个单据预览发送的请求数据
+Incoming Settings,收邮件设置
+Outgoing Settings,发邮件设置
+"Please contact any of the following users to extend the credit limits for {0}: {1}",请联系以下人员为客户 <b>{0}</b> 增加信用额度：{1}
+Notify,通知
+Bypass credit check at Sales Order,销售订单不检查信用额度
+Depreciate based on daily pro-rata,按折旧日天数占比计提当月折旧
+Rename Fieldname,修改字段名
+Manufactured,已转成工单,
+You changed {0} to {1},你更改了 {0} 为 {1}
+"No outstanding {0} found for the {1} {2} which qualify the filters you have specified.",没有找到针对{1} {2} 及相关过滤条件的未付发票或订单
