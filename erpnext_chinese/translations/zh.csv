@@ -16157,7 +16157,7 @@ Request Timeout,请求超时
 The number of seconds until the request expire,请求超时的秒数
 "On checking this option, URL will be treated like a jinja template string",勾选后网址是可内嵌变量的jinja模板字符串
 Select Document,选择单据
-Meets Condition?满足条件?
+Meets Condition?,满足条件?
 Request Body,请求内容
 Select a document to preview request data,选择一个单据预览发送的请求数据
 Incoming Settings,收邮件设置
