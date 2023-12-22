@@ -1626,7 +1626,7 @@ Payment Term Name,付款条款名称
 Payment Terms based on conditions,付款条款基于条件
 Payment Terms Template,付款条款模板
 Payment Terms Template Detail,付款条款模板信息
-Payment Reconciliation,付款核销
+Payment Reconciliation,收付款核销
 Payment Confirmation,付款确认
 Account Paid From,贷方科目
 Payment Type,付款类型
@@ -3941,7 +3941,7 @@ The holiday on {0} is not between From Date and To Date,在{0}这个节日之间
 {0} applicable after {1} working days,在{1}个工作日后适用{0}
 Supplier {0} not found in {1},在{1}中找不到供应商{0}
 Find {0} in {1},在{1}中找到{0}
-Another Period Closing Entry {0} has been made after {1},在{1}之后另一个年终结束分录{0}已经被录入
+Another Period Closing Entry {0} has been made after {1},{1} 后已存在另一张期末结账凭证 {0}
 Created Custom Field {0} in {1},在{1}创建了自定义字段{0}
 in the Auto Repeat document,在“自动重复”单据中
 Open a dialog with mandatory fields to create a new record quickly,在一个只包括必填字段的弹出对话框快速创建新单据
@@ -7302,7 +7302,7 @@ Show Calendar,显示日历
 Show Log,显示日志
 Show more details,显示更多详情
 Show Latest Forum Posts,显示最新的论坛帖子
-Show unclosed fiscal year's P&L balances,显示未关闭财年损益余额
+Show unclosed fiscal year's P&L balances,含未期末结账财年损益余额
 Show Open,显示未完成
 Show open,显示未完成
 Show Future Payments,显示未来(报表记账日期后)付款金额
@@ -14957,7 +14957,8 @@ Settings & Configurations,设置
 Preview of generated names,自动生成的单据编号预览
 Generate 3 preview of names generate by any valid series.,生成3个单据自动编号预览
 Add this Series,添加单据编号模板
-Try a naming Series,单据编号模板预览
+Try a Naming Series,单据编号模板预览
+Get a preview of generated names with a series.,预览编号模板生成的编号
 "## Products and Services
 
 Depending on the nature of your business, you might be selling products or services to your clients or even both. 
@@ -15339,7 +15340,7 @@ Merge Similar Account Heads,合并科目
 Rows with Same Account heads will be merged on Ledger,相同科目会被自动合并
 Book Tax Loss on Early Payment Discount,将税损失记账到提前付款拆扣科目
 Split Early Payment Discount Loss into Income and Tax Loss,将提前付款折扣分解为收入与税损失
-Payment Reconciliations,付款核销
+Payment Reconciliations,收付款核销
 Auto Reconcile Payments,自动核销付款
 Learn about Common Party,学习更多关于多重身份往来单位知识
 Subcontract Receipt,委外入库
@@ -15354,7 +15355,7 @@ Repost Payment Ledger,收付款台账重过账
 Selected Vouchers,已选凭证
 Add Manually,手动添加
 Ignore Voucher Type filter and Select Vouchers Manually,忽略凭证类型，手动选择凭证
-Payment Ledger Entry,付款核销台账
+Payment Ledger Entry,收付款台账
 DeLinked,已取消关联
 Against Voucher No,关联凭证号
 Amount in Account Currency,金额(科目币种)
@@ -15806,7 +15807,9 @@ You changed the values for {0} {1},你变更了 {0} {1}
 You changed the values for {0},你变更了 {0}
 {0} changed the values for {1},{0} 变更了 {0} {1}
 You submitted this document {0},你提交了 {0}
-You submitted this document,你提交本单据
+You submitted this document,你提交了本单据
+{0} submitted this document,{0} 提交了本单据
+{0} cancelled this document,{0} 取消了本单据
 {0} submitted this document {1},{0} 提交了 {1}
 Learn Inventory Management,学习库存管理
 Learn Sales Management,学习销售管理
@@ -15821,7 +15824,7 @@ Advance Payment,预付款
 You last edited this,你最新修订了本单据
 {0} last edited this, {0} 最新修订了本单据
 You created this, 你创建了本单据
-{0} created this, {0}创建了本单据
+{0} created this, {0} 创建了本单据
 You changed the value of {0} {1}, 你变更了 {0} {1}
 {0} changed the value of {1} {2},{0} 变更了 {1} {2}
 {0} changed the value of {1},{0} 变更了 {1}
@@ -15887,8 +15890,8 @@ Import Data from Spreadsheet,从excel导入数据
 Asset Activity,资产日志
 Audit Trail,审计轨迹
 Repost Accounting Ledger,会计凭证重过账(调整)台账
-Unreconcile Payment Entries,取消付款核销
-Payment Reconciliation Alloation,付款核销分派
+Unreconcile Payment Entries,取消收付款核销
+Payment Reconciliation Alloation,收付款核销分派
 Is Composite Asset,组合资产
 Capitalization Method,资本化方法
 Asset Depreciation Schedule,固定资产折旧计划
@@ -16066,7 +16069,7 @@ Serial and Batch Summary,序列号与批号报表
 Batch Qty,批号数量
 Serial and Batch Entry,序列号与批号明细
 Subcontracting BOM,委外物料清单
-Payment Reconciliation Allocation,付款核销分派
+Payment Reconciliation Allocation,收付款核销分派
 Bulk Transaction Log,批量操作日志
 Bulk Transaction Log Detail,批量操作日志明细
 BOM Creator Item,物料清单创建工具明细
@@ -16170,3 +16173,56 @@ Rename Fieldname,修改字段名
 Manufactured,已转成工单,
 You changed {0} to {1},你更改了 {0} 为 {1}
 "No outstanding {0} found for the {1} {2} which qualify the filters you have specified.",没有找到针对{1} {2} 及相关过滤条件的未付发票或订单
+Update Hooks Resolution Order,更新应用钩子解析顺序
+{0} {1} is not in any active Fiscal Year,{0} {1} 不在有效财年中
+Card Links,卡片链接
+Disable Comment Count,禁用评论计数
+Errors Notification,出错通知
+Notify Reposting Error to Role,接收成本追溯调整出错通知的角色
+Previous Year is not closed, please close it first,请先关闭以前财年。
+Books have been closed till the period ending on {0},截止到 {0} 的会计记账已关闭
+You cannot create/amend any accounting entries till this date.,不允许创建/修改早于此日期的会计凭证
+Period Closed,会计期间已关闭
+Stock Entries already created for Work Order {0}: {1},工单 {0} 物料移动(工单入库) {1} 已经存在
+Debit Amount in Transaction Currency,交易币别借方金额
+Credit Amount in Transaction Currency,交易币别贷方金额
+Transaction Exchange Rate,交易币别汇率
+Remarks Column Length,备注(摘要)文本长度
+Accounts Receivable/Payable,应收/应付
+"Truncates 'Remarks' column to set character length",截取指定长度的摘要内容
+Log DocType,日志单据类型
+Clear Logs After (days),日志保留天数
+Amended Documents,修订后单据
+"Change the starting / current sequence number of an existing series. <br>
+
+Warning: Incorrectly updating counters can prevent documents from getting created. ", "变更现有编号模板当前流水号
+警告：修改当前流水号不正确可能导致新单据编号不正确"
+"Configure how amended documents will be named.<br>
+
+Default behaviour is to follow an amend counter which adds a number to the end of the original name indicating the amended version. <br>
+
+Default Naming will make the amended document to behave same as new documents.","设置修订后单据编号规则
+默认规则是在被修订单据编号基础上添加修订次数(版本)后缀
+选择默认单据编号规则时修订后的单据会重新生成下一个新编号"
+Default Amendment Naming,默认修订后单据编号方式
+Amend Counter,修订次数后缀
+Default Naming,默认单据编号规则
+Amendment Naming Override,修改后单据编号方式重定义
+Update Amendment Naming,更新修订后编号方式
+Financial Ratios,财务指标
+Ratios,指标
+Liquidity Ratios,流动性比率
+Current Ratio,流动比率
+Quick Ratio,速动比率
+Solvency Ratios,偿债能力比率
+Debt Equity Ratio,负债权益比率
+Profit Ratios,盈利能力比率
+Gross Profit Ratio,毛利率
+Net Profit Ratio,净利润率
+Return on Asset Ratio,资产收益率
+Return on Equity Ratio,股东权益收益率
+Turnover Ratios,周转率
+Fixed Asset Turnover Ratio,固定资产周转率
+Debtor Turnover Ratio,应收账款周转率
+Creditor Turnover Ratio,应付账款周转率
+Inventory Turnover Ratio,存货周转率
