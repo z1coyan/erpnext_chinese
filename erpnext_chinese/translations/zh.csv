@@ -16195,7 +16195,7 @@ Clear Logs After (days),日志保留天数
 Amended Documents,修订后单据
 "Change the starting / current sequence number of an existing series. <br>
 
-Warning: Incorrectly updating counters can prevent documents from getting created. ", "变更现有编号模板当前流水号
+Warning: Incorrectly updating counters can prevent documents from getting created. ","变更现有编号模板当前流水号
 警告：修改当前流水号不正确可能导致新单据编号不正确"
 "Configure how amended documents will be named.<br>
 
@@ -16226,3 +16226,4 @@ Fixed Asset Turnover Ratio,固定资产周转率
 Debtor Turnover Ratio,应收账款周转率
 Creditor Turnover Ratio,应付账款周转率
 Inventory Turnover Ratio,存货周转率
+Web Template,网页模板

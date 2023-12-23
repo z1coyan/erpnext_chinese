@@ -1,5 +1,10 @@
 ## ERPNext Chinese
-
+<div align="center">
+    <a href="https://zelin.tech">
+        <img src="https://gitee.com/yuzelin/erpnext_chinese/blob/master/erpnext_chinese/public/images/erpnext_chinese-logo.png" height="128">
+    </a>
+    <h2>ERPNext 中文汉化</h2>    
+</div>
 ERPNext中文汉化
 
 本应用只包括中文汉化文件translations/zh.csv 实现了绝大部分标准功能支持的界面汉化,另外一些代码级汉化在另一个开箱即用 https://gitee.com/yuzelin/erpnext_oob应用中通过修改字段标签以及猴子补丁方式实现(详见以下特别说明)。
