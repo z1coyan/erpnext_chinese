@@ -13020,7 +13020,7 @@ Employee Leave Balance Summary,员工剩余假期汇总
 Calculate Payroll Working Days Based On,发薪工作日基于
 Daily Wages Fraction for Half Day,半天工作日薪
 The fraction of daily wages to be paid for half-day attendance,半天工作发放日工资的比例
-If checked, hides and disables Rounded Total field in Salary Slips,如勾选，在工资单上不进行小数精度尾差处理
+"If checked, hides and disables Rounded Total field in Salary Slips",如勾选，将不在工资单上进行小数精度尾差处理
 Restrict Backdated Leave Application,禁止后补请假单
 You're doing great, let's take you back to the onboarding page.,干得不错
 Good Work,干得漂亮
@@ -13395,7 +13395,7 @@ Schedule Send,定时发送
 Applicant Email Address,申请者邮箱
 Update Property,更新字段值
 Mark Auto Attendance,标记为自动考勤
-If checked, hides and disables Rounded Total field in Salary Slips,如勾选，禁止圆整并隐藏工资单中总计字段
+"If checked, hides and disables Rounded Total field in Salary Slips",如勾选，将禁止圆整并隐藏工资单中总计字段
 "<h3>Help</h3>
 
 <p>Notes:</p>
@@ -16154,7 +16154,7 @@ Serial / Batch Bundle,序列号/批号
 Get Scrap Items,获取损耗物料
 Scrap Cost Per Qty,每单位数量报废成本
 Serial and Batch Details,序列号/批号详情
-If checked, Stock will be reserved on <b>Submit</b>,勾选后，在订单<b>提交</b>时会创建库存预留
+"If checked, Stock will be reserved on <b>Submit</b>",勾选后，在订单<b>提交</b>时会创建库存预留
 Request Method,请求方法
 Request Timeout,请求超时
 The number of seconds until the request expire,请求超时的秒数
