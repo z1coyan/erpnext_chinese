@@ -16227,3 +16227,15 @@ Debtor Turnover Ratio,应收账款周转率
 Creditor Turnover Ratio,应付账款周转率
 Inventory Turnover Ratio,存货周转率
 Web Template,网页模板
+Generate Demo Data for Exploration,生成供学习体验的样板数据
+'If checked, we will create demo data for you to explore the system. This demo data can be erased later.',勾选后系统会为您生成供学习探索的样板数据，样板数据使用过后可被清除
+Updates,更新
+Update frequency of Project,项目统计数据更新频率
+How often should Project be updated of Total Purchase Cost ?,更新项目总采购成本的频率
+Auto Create Subcontracting Order,自动创建委外订单
+Subcontracting Order (Draft) will be auto-created on submission of Purchase Order.,采购订单提交时自动创建委外订单（草稿）
+Auto Create Purchase Receipt,自动创建委外入库
+Purchase Receipt (Draft) will be auto-created on submission of Subcontracting Receipt.,委外入库提交时自动创建委外采购入库（草稿）
+Pick Serial / Batch Based On,自动选序列号/批号规则
+Expiry,到期日
+You cannot create a {0} within the closed Accounting Period {1}, 会计期间 {1} 中创建 {0} 被设置为已关闭
