@@ -14756,7 +14756,7 @@ Buying module's features are highly configurable as per your business needs. Buy
 采购模块有很多可配置选项，比如
 
 - 供应商编号规则及默认值
-- 采购业务中的发票及出货"
+- 采购发票及采购入库设置"
 'If source warehouse selected then system will create the material request with type Material Transfer from Source to Target warehouse. If not selected then will create the material request with type Purchase for the target warehouse.',如果指定转出仓且有相应数量，系统会创建自转出仓至收料仓调拨类型的物料需求，否则将针对收料仓创建采购类型的物料需求
 Work Order / Subcontract PO,生产工单 / 委外采购订单
 Create Job Card based on Batch Size,基于批量创建(拆分)加工单
@@ -16239,3 +16239,142 @@ Purchase Receipt (Draft) will be auto-created on submission of Subcontracting Re
 Pick Serial / Batch Based On,自动选序列号/批号规则
 Expiry,到期日
 You cannot create a {0} within the closed Accounting Period {1}, 会计期间 {1} 中创建 {0} 被设置为已关闭
+System will not check over billing since amount for Item {0} in {1} is zero, 因为 {1} 中的物料 {0}  金额为0系统无法进行超额开票防错检查
+Update Billed Amount in Delivery Note,更新销售出库单已开票金额
+"# Create an Item
+
+Item is a product or a service offered by your company, or something you buy as a part of your supplies or raw materials.
+
+Items are integral to everything you do in ERPNext - from billing, purchasing to managing inventory. Everything you buy or sell, whether it is a physical product or a service is an Item. Items can be stock, non-stock, variants, serialized, batched, assets, etc.
+","# 创建物料
+
+物料可以是贵公司的产品或服务，亦可为贸易商品或原材料等。
+
+物料是 ERPNext 中的关键基础数据 - 用于采购、生产、销售、库存管理各个环节。 采购、销售中涉及的实物或服务都是物料。 物料有允许库存、多规格、序列号、批号、允许资产等属性。"
+"# Create a Customer
+
+The Customer master is at the heart of your sales transactions. Customers are linked in Quotations, Sales Orders, Invoices, and Payments. Customers can be either numbered or identified by name (you would typically do this based on the number of customers you have).
+
+Through Customer’s master, you can effectively track essentials like:
+ - Customer’s multiple address and contacts
+ - Account Receivables
+ - Credit Limit and Credit Period
+","# 创建客户
+
+客户是销售模块核心主数据。用于报价单、销售订单、销售发票和收付款凭证。 取决于客户数量多少，可以基于客户名或编号生成客户名称编号（唯一识别码）。
+
+客户主数据可以管理以下重要信息：
+ - 多个地址和联系人
+ - 应收账款
+ - 信用额度和信用期限
+"
+"Let’s create your first Customer",创建第一个客户
+"# All about sales invoice
+
+A Sales Invoice is a bill that you send to your Customers against which the Customer makes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice, the system updates the receivable and books income against a Customer Account.","销售发票
+
+销售发票是您发送给客户的账单，客户根据该账单付款。 销售发票属于会计相关业务。 提交销售发票后，系统会自动生成会计凭证并更新应收账款"
+"# Selling Settings
+
+CRM and Selling module’s features are configurable as per your business needs. Selling Settings is the place where you can set your preferences for:
+ - Customer naming and default values
+ - Billing and shipping preference in sales transactions
+","# 销售设置
+
+客户关系管理和销售模块的功能可根据您的业务需求进行配置。 主要可配置项为：
+  - 客户编号和默认值
+  - 开票和运输设置"
+"# Sales Order
+
+A Sales Order is a confirmation of an order from your customer. It is also referred to as Proforma Invoice.
+
+Sales Order at the heart of your sales and purchase transactions. Sales Orders are linked in Delivery Note, Sales Invoices, Material Request, and Maintenance transactions. Through Sales Order, you can track fulfillment of the overall deal towards the customer.","＃ 销售订单
+
+销售订单是对客户订单的确认。 有时也被称为形式发票。
+
+销售订单是销售和采购交易的核心。 主要被销售出库、销售发票、物料需求和维护巡修单引用。 通过销售订单，您可以跟踪对客户订单的履行情况。"  
+"# Chart Of Accounts
+
+ERPNext sets up a simple chart of accounts for each Company you create, but you can modify it according to business and legal requirements.","# 科目表
+创建公司时会基于预设科目表模板创建会计科目表，可根据业务和法律要求增补及修改科目表。"
+"# Account Settings
+
+In ERPNext, Accounting features are configurable as per your business needs. Accounts Settings is the place to define some of your accounting preferences like:
+
+ - Credit Limit and over billing settings
+ - Taxation preferences
+ - Deferred accounting preferences
+","＃ 会计设置
+
+在 ERPNext 中，会计功能可根据您的业务需求进行配置。 主要的可配置项如下：
+
+  - 信用额度和超额开票容差
+  - 税费模板
+  - 递延会计
+"
+"# Setting up Taxes
+
+ERPNext lets you configure your taxes so that they are automatically applied in your buying and selling transactions. You can configure them globally or even on Items. ERPNext taxes are pre-configured for most regions.","# 设置税费
+
+ERPNext 允许您配置税费模板，以便在采购与销售业务中自动计税。 可按订单计税也可以按物料明细行计税。 正常情况下系统自带的税费模板就够用了。"
+"# Account Settings
+
+This is a crucial piece of configuration. There are various account settings in ERPNext to restrict and configure actions in the Accounting module.
+
+The following settings are avaialble for you to configure
+
+1. Account Freezing 
+2. Credit and Overbilling
+3. Invoicing and Tax Automations
+4. Balance Sheet configurations
+
+There's much more, you can check it all out in this step","＃ 会计设置
+
+ERPNext 中有很多会计设置可用于限制和配置会计模块中的操作。
+
+以下是主要可配置项
+
+1. 锁账
+2. 信用和超额计费
+3. 发票和自动计税
+4. 资产负债表配置
+
+还有更多，您可以在这一步中全部查看"
+"# Cost Centers for Budgeting and Analysis
+
+While your Books of Accounts are framed to fulfill statutory requirements, you can set up Cost Center and Accounting Dimensions to address your companies reporting and budgeting requirements.
+
+Click here to learn more about how  <b>[Cost Center](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/cost-center)</b> and <b> [Dimensions](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-dimensions)</b> allow you to get advanced financial analytics reports from ERPNext.","# 成本中心预算与分析
+
+虽然会计总帐主要目标是为满足法定要求，但您可以设置成本中心和辅助核算来满足公司的报表和预算要求。
+
+允许您从 ERPNext 获取高级财务分析报表。"
+"# Create your first Purchase Invoice
+
+A Purchase Invoice is a bill received from a Supplier for a product(s) or service(s) delivery to your company. You can track payables through Purchase Invoice and process Payment Entries against it.
+
+Purchase Invoices can also be created against a Purchase Order or Purchase Receipt.","# 创建第一张采购发票
+
+采购发票是供应商发给贵公司交付产品或服务的账单（发票）。 您可以通过采购发票跟踪应付账款并根据其处理付款分录。
+
+还可以根据采购订单或采购入库创建采购发票。"
+"# Updating Opening Balances
+
+Once you close the financial statement in previous accounting software, you can update the same as opening in your ERPNext's Balance Sheet accounts. This will allow you to get complete financial statements from ERPNext in the coming years, and discontinue the parallel accounting system right away.","# 更新期初余额
+
+一旦您在以前的会计软件中关闭了财务报表，您就可以像在 ERPNext 的资产负债表帐户中打开财务报表一样进行更新。 这将使您能够在未来几年从 ERPNext 获得完整的财务报表，并立即停止并行会计系统。"
+"# Financial Statements
+
+In ERPNext, you can get crucial financial reports like [Balance Sheet] and [Profit and Loss] statements with a click of a button. You can run in the report for a different period and plot analytics charts premised on statement data. For more reports, check sections like Financial Statements, General Ledger, and Profitability reports.
+
+<b>[Check Accounting reports](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-reports)</b>","# 财务报表
+
+在 ERPNext 中，您只需单击一个按钮即可获得重要的财务报表，例如[资产负债表]和[损益表]。 您可以按不同财务期间生成报表，并根据报表数据绘制分析图表。 如需更多报告，请查看财务报表、总账和盈利能力报告等部分。
+
+<b>[查看会计报表](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-reports)</b>"
+"Let’s walk-through Selling Settings",向导式销售设置
+"Let’s convert your first Sales Order against a Quotation",向导式基于销售报价创建销售订单
+Let’s create your first Purchase Order,创建第一个采购订单
+Let’s create your first Purchase Invoice,创建第一个采购发票
+View Cost Center Tree,查看成本中心树
+"Take a quick walk-through of Accounts Settings",快速浏览会计设置
