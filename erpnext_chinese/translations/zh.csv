@@ -14936,7 +14936,7 @@ Sales Pipeline Analytics,销售渠道分析
 Opportunity Summary by Sales Stage,商机汇总(按销售阶段)
 Cost Center Allocation,成本中心分摊比例模板
 Cost Center Allocation Percentages,成本中心分摊百分比
-Asset Capitalization,资产与存货互转
+Asset Capitalization,资产资本化
 In Location,在册
 Disposed,已处置
 --Select a group--,选择分组方式
@@ -16378,3 +16378,30 @@ Let’s create your first Purchase Order,创建第一个采购订单
 Let’s create your first Purchase Invoice,创建第一个采购发票
 View Cost Center Tree,查看成本中心树
 "Take a quick walk-through of Accounts Settings",快速浏览会计设置
+Voucher Subtype,源凭证业务类型
+In Party Currency,往来单位币别
+Depreciate based on shifts,按班次折旧
+"Asset Depreciation Schedules created:<br>{0}<br><br>Please check, edit if needed, and submit the Asset.",固定资产折旧计划<br>{0}<br><br> 已创建，请检查，根据需要进行调整，提交固定资产启动自动折旧计算与记账。
+This schedule was created when Asset {0} was scrapped.,针对固定资产 {0} 报废的折旧计划已创建
+This schedule was created when Asset {0} was restored.,针对固定资产 {0} 恢复的折旧计划已创建
+This schedule was created when Asset {0} was adjusted through Asset Value Adjustment {1}.,因资产价值调整 {1}已创建固定资产 {0} 折旧计划
+This schedule was created when Asset {0}'s Asset Value Adjustment {1} was cancelled., 因取消资产价值调整 {1} 已创建固定资产 {0} 折旧计划
+This schedule was created when Asset {0}'s Asset Repair {1} was cancelled.,因取消资产维修 {1} 已创建固定资产 {0} 折旧计划
+Asset updated after cancellation of Asset Repair {0}, 因取消资产维修 {0} 固定资产已被更新
+This schedule was created when Asset {0} was updated after being split into new Asset {1}.,因拆分成新资产{0}，已创建固定资产{0} 折旧计划
+This schedule was created when Asset {0} was sold through Sales Invoice {1}.,因经由销售发票 {1} 卖出，已创建固定资产{0} 折旧计划
+This schedule was created when Asset {0} was returned through Sales Invoice {1}.,因经由销售发票 {1} 退回，已创建固定资产{0} 折旧计划
+This schedule was created when Asset {0}'s shifts were adjusted through Asset Shift Allocation {1}.,因按班次分派{1}，固定资产{0}折旧计划已更新
+Asset's depreciation schedule updated after Asset Shift Allocation {0},因按班次分派{0}，固定资产折旧计划已更新
+This schedule was created when Asset {0} was consumed through Asset Capitalization {1}.,因被耗用在资产资本化{1}中，已为资产{0} 创建折旧计划
+This schedule was created when Asset {0} was restored on Asset Capitalization {1}'s cancellation.,因取消资产资本化{1}，已为资产{0} 创建折旧计划
+Asset capitalized after Asset Capitalization {0} was submitted, 资产资本化{0} 增加了资产价值
+Asset decapitalized after Asset Capitalization {0} was submitted,资产资本化{0} 减少了资产价值
+Asset restored after Asset Capitalization {0} was cancelled,因取消资产资本化{0} 恢复了资产价值
+Target Asset Location,新固定资产位置
+Create a new composite asset,创建组合固定资产
+Choose a WIP composite asset,选择在建组合固定资产
+Consumed Stock Total Value,耗用的库存金额
+Consumed Asset Total Value,耗用的资产金额
+Service Expense Total Amount,耗用的服务金额
+Total Value,总金额
