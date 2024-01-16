@@ -16405,3 +16405,59 @@ Consumed Stock Total Value,耗用的库存金额
 Consumed Asset Total Value,耗用的资产金额
 Service Expense Total Amount,耗用的服务金额
 Total Value,总金额
+Review Fixed Asset Accounts,检查固定资产科目
+Define Asset Category,定义固定资产类型
+Create an Asset Item,创建固定资产物料号
+Purchase an Asset,采购固定资产
+Add an existing Asset,添加现有固定资产
+Add an Existing Asset,添加现有固定资产
+"Let's walk-through Chart of Accounts to review setup",快速浏览固定资产科目设置
+"# Fixed Asset Accounts
+
+With the company, a host of fixed asset accounts are pre-configured. To ensure your asset transactions are leading to correct accounting entries, you can review and set up following asset accounts as per your business  requirements.
+ - Fixed asset accounts (Asset account)
+ - Accumulated depreciation
+ - Capital Work in progress (CWIP) account
+ - Asset Depreciation account (Expense account)","# 固定资产科目
+
+默认科目表自带了许多固定资产科目。 为了确保您的资产业务生成正确的会计分录，您可以根据您的业务需求查看和设置以下资产科目。
+  - 固定资产（资产科目）
+  - 累计折旧
+  - 在建工程
+  - 资产折旧（费用科目）"
+"# Add an Existing Asset
+
+If you are just starting with ERPNext, you will need to enter Assets you already possess. You can add them as existing fixed assets in ERPNext. Please note that you will have to make a Journal Entry separately updating the opening balance in the fixed asset account.","# 添加现有资产
+
+如果您刚刚开始使用 ERPNext，您将需要输入您已经拥有的资产。 您可以将它们添加为 ERPNext 中的现有固定资产。 请注意，您必须单独制作日记帐分录，更新固定资产帐户中的期初余额。"
+"Let's review existing Asset Category",检查资产类别
+"# Asset Category
+
+An Asset Category classifies different assets of a Company.
+
+You can create an Asset Category based on the type of assets. For example, all your desktops and laptops can be part of an Asset Category named ""Electronic Equipments"". Create a separate category for furniture. Also, you can update default properties for each category, like:
+ - Depreciation type and duration
+ - Fixed asset account
+ - Depreciation account
+","# 资产类别
+
+资产类别对公司的不同资产进行分类。
+
+您可以根据资产类型创建资产类别。 例如，您的所有台式机和笔记本电脑都可以属于名为“电子设备”的资产类别。 为家具创建一个单独的类别。 此外，您还可以更新每个类别的默认属性，例如：
+
+  - 折旧类型和期限
+  - 固定资产科目
+  - 折旧科目"
+"Let's create a Purchase Receipt",创建采购入库
+"# Purchase an Asset
+
+Assets purchases process if done following the standard Purchase cycle. If capital work in progress is enabled in Asset Category, Asset will be created as soon as Purchase Receipt is created for it. You can quickly create a Purchase Receipt for Asset and see its impact on books of accounts.","# 购买资产
+
+如果按照标准购买周期完成资产购买流程。 如果在资产类别中启用了在建工程，则在为其创建采购入库后将立即创建资产。 您可以快速创建资产采购入库并查看其对账簿的影响。"
+"# Asset Item
+
+Asset items are created based on Asset Category. You can create one or multiple items against once Asset Category. The sales and purchase transaction for Asset is done via Asset Item. ","# 固定资产物料号
+
+固定资产物料号是根据资产类别创建的。 您可以针对一个资产类别创建一个或多个物料号。 资产的买卖交易是通过资产物料号完成的。"
+"Let's create a new Asset item",创建固定资产物料号
+Select Naming Series based on which Asset ID will be generated,选择固定资产编号模板
