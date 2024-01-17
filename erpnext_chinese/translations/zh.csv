@@ -16469,8 +16469,10 @@ Repost Accounting Ledger Settings,会计凭证更新台账设置
 Allowed Doctypes,允许的单据类型
 Delete Cancelled Ledger Entries,删除被取消凭证
 "{0} {1} not allowed to be reposted. Modify {2} to enable reposting.",不允许更新 {0} {1} 会计凭证，请在 {2} 中启用允许更新
-Reposting Accounting Entries,更新会计凭证
+Repost Accounting Entries,更新会计凭证
 Accounting Entries are reposted.,会计凭证已更新
 Repost has started in the background,会计凭证更新任务在后台执行中
 Cannot Resubmit Ledger entries for vouchers in Closed fiscal year.,不允许在已关闭财年更新会计凭证
 Documents: {0} have deferred revenue/expense enabled for them. Cannot repost.,不允许更新递延收入/费用相关会计凭证
+"Accounting entries for this invoice need to be reposted. Please click on 'Repost' button to update.",请点击更新会计凭证按钮更新会计凭证
+"Accounting entries for this invoice needs to be reposted. Please click on 'Repost' button to update.",请点击更新会计凭证按钮更新会计凭证
