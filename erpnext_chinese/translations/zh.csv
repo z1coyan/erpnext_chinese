@@ -15261,8 +15261,8 @@ Mention if a non-standard receivable account,使用公司主数据中定义的�
 Return Components,原材料退回
 Material Returned from WIP,原材料已退回
 Transit Entry,调拨单
-FG based Operating Cost,计件成本
-FG Based Operating Cost Section,计件成本
+FG based Operating Cost,启用计件成本
+FG Based Operating Cost Section,启用计件成本
 Operating Cost Per BOM Quantity,每个成品工费成本
 Job Requisition,职位申请
 No of. Positions,职位数量
@@ -15484,7 +15484,7 @@ If enabled, the consolidated invoices will have rounded total disabled,如勾选
 POS Search Fields,POS机搜索字段
 POS Field,POS机字段,
 Page Size,纸张大小
-Please check either with operations or FG Based Operating Cost.,有工艺路线与计件成本两个勾选字段必须二选一
+Please check either with operations or FG Based Operating Cost.,有工艺路线与启用计件成本两个勾选字段必须二选一
 "Row #{0}: Please select Item Code in Assembly Items",装配件明细第 {0} 行，请输入物料编号(请先点获取待生产成品物料按钮)
 Please fill the Material Requests table,请先点获取物料需求,
 Items to Manufacture are required to pull the Raw Materials associated with it.,需有装配件或子装配件明细后才可计算采购原材料需求。,
@@ -16461,3 +16461,6 @@ Asset items are created based on Asset Category. You can create one or multiple 
 固定资产物料号是根据资产类别创建的。 您可以针对一个资产类别创建一个或多个物料号。 资产的买卖交易是通过资产物料号完成的。"
 "Let's create a new Asset item",创建固定资产物料号
 Select Naming Series based on which Asset ID will be generated,选择固定资产编号模板
+Accounting Ledger Preview,会计凭证预览
+The number of seconds until the request expires,请求逾期时间(秒)
+Is Dynamic URL?,是动态网址?
