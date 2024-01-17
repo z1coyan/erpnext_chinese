@@ -11269,7 +11269,7 @@ Cr,贷方
 Credit,贷方
 Credit(CNY),贷方(人民币)
 Credit Balance,剩余信用额度
-Credit Amount,贷方总额
+Credit Amount,贷方金额
 Credit Account,贷方科目
 Credit To account must be a Balance Sheet account,贷方科目必须是资产负债表科目
 Credit in Company Currency,贷方(本币）
@@ -15889,7 +15889,7 @@ Manage Sales Tax Templates,维护销售税/费模板
 Import Data from Spreadsheet,从excel导入数据
 Asset Activity,资产日志
 Audit Trail,审计轨迹
-Repost Accounting Ledger,会计凭证重过账(调整)台账
+Repost Accounting Ledger,会计凭证更新台账
 Unreconcile Payment Entries,取消收付款核销
 Payment Reconciliation Alloation,收付款核销分派
 Is Composite Asset,组合资产
@@ -16465,3 +16465,12 @@ Accounting Ledger Preview,会计凭证预览
 The number of seconds until the request expires,请求逾期时间(秒)
 Is Dynamic URL?,是动态网址?
 Is Stock Item,是库存物料
+Repost Accounting Ledger Settings,会计凭证更新台账设置
+Allowed Doctypes,允许的单据类型
+Delete Cancelled Ledger Entries,删除被取消凭证
+"{0} {1} not allowed to be reposted. Modify {2} to enable reposting.",不允许更新 {0} {1} 会计凭证，请在 {2} 中启用允许更新
+Reposting Accounting Entries,更新会计凭证
+Accounting Entries are reposted.,会计凭证已更新
+Repost has started in the background,会计凭证更新任务在后台执行中
+Cannot Resubmit Ledger entries for vouchers in Closed fiscal year.,不允许在已关闭财年更新会计凭证
+Documents: {0} have deferred revenue/expense enabled for them. Cannot repost.,不允许更新递延收入/费用相关会计凭证
