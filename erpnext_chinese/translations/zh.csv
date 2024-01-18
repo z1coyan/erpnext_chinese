@@ -5117,7 +5117,7 @@ Allocated Amount,已分配金额
 Invoice Created,已创建发票
 Job card {0} created,已创建加工单{0}
 All bank transactions have been created,已创建所有银行交易流水
-Payment request {0} created,已创建收款申请{0}
+Payment request {0} created,已创建收付款申请{0}
 Work Orders Created: {0},已创建生产工单：{0}
 Sales Invoice {0} created,已创建销售发票{0}
 Initiated,已初始化
@@ -6713,12 +6713,12 @@ To Warehouse (Optional),收料仓（可选）
 Inward,收款
 Receive,收款
 Incoming Payment,收款
-Payment Request,付款申请
+Payment Request,收付款申请
 Incoming Payment Request,收款申请
-Payment Request for {0},收款申请{0}
-To create a Payment Request reference document is required,收款申请中源单据信息必填
-Payment Request already exists {0},收款申请已经存在{0}
-Payment Request Type,收款申请类型
+Payment Request for {0},收付款申请{0}
+To create a Payment Request reference document is required,收付款申请中源单据信息必填
+Payment Request already exists {0},收付款申请已经存在{0}
+Payment Request Type,收付款申请类型
 Account Paid To,借方科目
 Gain/Loss,收益/损失
 Set Accepted Warehouse,收货仓库
@@ -8110,7 +8110,7 @@ This report was generated on {0},此报表是在{0}上生成的
 This action will stop future billing. Are you sure you want to cancel this subscription?,此操作将停止未来的结算。您确定要取消此订阅吗？
 This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,此操作将取消此账户与将ERPNext与您的银行账户集成的任何外部服务的链接。它无法撤销。你确定吗 ？
 Cannot refer row number greater than or equal to current row number for this Charge type,此收取类型不能引用大于或等于本行的数据。
-The amount of {0} set in this payment request is different from the calculated amount of all payment plans: {1}. Make sure this is correct before submitting the document.,此收款申请中设置的{0}金额与所有付款计划的计算金额不同：{1}。在提交单据之前确保这是正确的。
+The amount of {0} set in this payment request is different from the calculated amount of all payment plans: {1}. Make sure this is correct before submitting the document.,此收付款申请中设置的{0}金额与所有付款计划的计算金额不同：{1}。在提交单据之前确保这是正确的。
 This Service Level Agreement is specific to Customer {0},此服务级别协议特定于客户{0}
 Salary Slip of employee {0} already created for this period,此期间的员工{0}工资单已创建
 This query style is discontinued,此查询样式已停止
@@ -10350,7 +10350,7 @@ West Bengal,西孟加拉邦
 "To allow over receipt / delivery, update ""Over Receipt/Delivery Allowance"" in Stock Settings or the Item.",要允许超量收货/出货，请在库存设置或物料主数据中更新“出入库超量控制”。
 "To allow over-billing or over-ordering, update ""Allowance"" in Stock Settings or the Item.",要允许超额开票或收发货，请在库存设置或物料主数据中更新“出入库超量控制(%)”。
 Sales Orders to Deliver,待出货销售订单
-To create a Payment Request reference document is required,要创建付款请求源单据是必需的
+To create a Payment Request reference document is required,要创建收付款申请源单据是必需的
 Email Address whose Google Contacts are to be synced.,要同步其Google通讯录的电子邮件地址。
 Check this if you want to show in website,要在网站上展示，请勾选此项。
 To Pin Code,要密码
@@ -10433,7 +10433,7 @@ Plan,计划
 Planned,计划
 Planning,计划
 Plans,计划
-The payment gateway account in plan {0} is different from the payment gateway account in this payment request,计划{0}中的支付网关账户与此付款请求中的支付网关账户不同
+The payment gateway account in plan {0} is different from the payment gateway account in this payment request,计划{0}中的支付网关账户与此收付款申请中的支付网关账户不同
 Schedule,计划任务
 Schedules,计划任务
 Scheduled,计划内
