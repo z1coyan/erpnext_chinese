@@ -7962,8 +7962,8 @@ Sample Size,样本大小
 Sanctioned,核准
 Sanctioned Amount cannot be greater than Claim Amount in Row {0}.,核准金额不能大于申报额行{0}。
 Core,核心
-Successfully Reconciled,核消/对账成功
-Reconcile,核消（对账）
+Successfully Reconciled,核销/对账成功
+Reconcile,核销（对账）
 Exception occurred while reconciling {0},核销{0}时发生异常
 Reconcile Entries,核销凭证
 Before reconciliation,核销前
@@ -15359,7 +15359,7 @@ Payment Ledger Entry,收付款台账
 DeLinked,已取消关联
 Against Voucher No,关联凭证号
 Amount in Account Currency,金额(科目币种)
-No of Months (Expense),月份数(费用)
+No of Months (Expense),月数(费用)
 Avg Rate (Balance Stock),平均成本价(库存余额)
 Reserved for Production Plan,生产计划预留数量
 "If checked, picked qty won't automatically be fulfilled on submit of pick list.",如勾选，拣货单提交时不自动更新拣货数量
@@ -15634,7 +15634,7 @@ Communication Channels,沟通渠道
 No {0} found with matching filters. Clear filters to see all {0}.,"未找到匹配当前筛选条件的{0},请清除筛选条件后查看全部{0}"
 List View,列表视图
 "If ""Months"" is selected, a fixed amount will be booked as deferred revenue or expense for each month irrespective of the number of days in a month. It will be prorated if deferred revenue or expense is not booked for an entire month",如果选择“月”，则无论一个月的天数如何，都会将固定金额记录为每个月的递延收入或费用。如果整个月未记录递延收入或费用，则将按比例分配
-"If this is unchecked, direct GL entries will be created to book deferred revenue or expense",如果未选中此项，则将创建直接的总账分录以记账递延收入或费用
+"If this is unchecked, direct GL entries will be created to book deferred revenue or expense",不勾选时系统直接创建递延收入/费用会计凭证
 Show Balances in Chart Of Accounts,在科目表中显示余额
 Copy to Clipboard,复制到剪贴板
 Remind Me,提醒我
@@ -15740,7 +15740,7 @@ Item Code (Final Product),成品物料编号
 Sub Assemblies & Raw Materials,子装配件与原材料
 Final Product,成品
 Finished Good Qty,成品数量
-No of Months (Revenue),月（收)
+No of Months (Revenue),月数（收)
 Reschedule Days,排程天数
 Default Waiver Account,默认豁免科目
 Default Write Off Account,默认注销科目
@@ -16476,3 +16476,16 @@ Cannot Resubmit Ledger entries for vouchers in Closed fiscal year.,不允许在�
 Documents: {0} have deferred revenue/expense enabled for them. Cannot repost.,不允许更新递延收入/费用相关会计凭证
 "Accounting entries for this invoice need to be reposted. Please click on 'Repost' button to update.",请点击更新会计凭证按钮更新会计凭证
 "Accounting entries for this invoice needs to be reposted. Please click on 'Repost' button to update.",请点击更新会计凭证按钮更新会计凭证
+Deferred Accounting Defaults,默认递延科目
+Manual entry cannot be created! Disable automatic entry for deferred accounting in accounts settings and try again,请到会计设置-递延记账设置中取消勾选自动生成递延日记账凭证后再使用本功能（手工创建递延凭证）,
+Show with upcoming revenue/expense,显示未来收入/费用
+Total Deferred Income,总递延收入
+Total Deferred Expense,总递延费用
+Actual Posting,实际过账金额
+Expected,预期金额
+Revenue,收入
+No matches occurred via auto reconciliation,无待核销单据
+Auto Reconciliation,自动核销
+NaN,无数据
+General and Payment Ledger Comparison,总账与收付款台账对比
+Repeat on Days,哪几天重复
