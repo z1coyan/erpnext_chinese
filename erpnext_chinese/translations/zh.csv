@@ -16489,3 +16489,20 @@ Auto Reconciliation,自动核销
 NaN,无数据
 General and Payment Ledger Comparison,总账与收付款台账对比
 Repeat on Days,哪几天重复
+Auto Repeat Day {0} has been repeated., 哪几天重复子表中 {0} 被重复定义了。
+Submit Generated Invoices,提交生成的发票
+Generate Invoice At,发票生成时机
+End of the current subscription period,当前订阅期间结束
+Beginning of the current subscription period,当前订阅期间开始
+Days before the current subscription period,当前订阅期间前几天
+Number of Days,几天
+Product Price ID,产品价格ID
+Main Cost Center,主成本中心
+Percentage (%),百分比（%）
+Inter Company Purchase Order,关联公司采购订单
+Inter Company Purchase Receipt,关联公司采购入库
+Unrealized Profit / Loss account for intra-company transfers,公司内部交易未实现损益科目
+Please select Unrealized Profit / Loss account or add default Unrealized Profit / Loss account account for company {0},请在单据中维护公司内部交易未实现损益科目，或在公司 {0} 主数据中维护相应的默认科目
+Qty to Fetch,待获取数量
+Fetch Based On,获取方式
+Pick Serial / Batch No,选序列号 / 批号
