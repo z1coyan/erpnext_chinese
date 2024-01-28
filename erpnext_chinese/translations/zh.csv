@@ -1266,7 +1266,7 @@ Temporary Opening Account,临时开账科目
 Provisional Profit / Loss (Credit),利润/(亏损）（贷方）
 Temperorily Disabled,临时禁用了
 Temporary Accounts,临时科目
-Set Role For,为..设置角色
+Set Role For,权限对象
 Please enter values for App Access Key and App Secret Key,为App访问键和App保密密钥请输入值
 Configure accounts for google calendar,为Google日历配置账户
 Created {0} scorecards for {1} between: {2} - {3},为{1} 在 {2} 至 {3} 时间段内创建了{0}个记分卡：
@@ -1417,8 +1417,8 @@ Transaction Currency,交易货币
 Transaction currency must be same as Payment Gateway currency,交易货币必须与支付网关货币
 Actual Qty After Transaction,交易过账后实际数量
 Lead Time in days,交期（天）
-Lead Time Days,交货天数
-Lead Time,生产周期
+Lead Time Days,交期天数
+Lead Time,交期天数
 Delivery Status,交货状态
 Fees,交费记录
 Transportation,交通
@@ -2156,11 +2156,11 @@ Debit To account must be a Balance Sheet account,借记科目必须是资产负�
 Debit A/C Number,借记科目编号
 Debit To,借记科目（应收账款）
 Debtors ({0}),债务人（{0}）
-For Value,值
-Value,值
-value,值
-Value,值,Prepared Report
-Value,值,Dashboard Chart
+For value,金额
+value,金额
+value,金额
+value,金额,Prepared Report
+value,金额,Dashboard Chart
 Value / Description,值/说明
 The value {0} is already assigned to an exisiting Item {2}.,值{0}已分配给现有物料{2}。
 Value cannot be changed for {0},值不能被改变为{0}
@@ -7607,7 +7607,7 @@ Service Detail,服务细节
 Service Details,服务细节
 Service End Date,服务结束日期
 Service Expense,服务费用
-Service Item,服务项目
+Service Item,服务物料
 "Service Item,Type,frequency and expense amount are required",服务项目，类型，频率和消费金额都是必填字段
 Apparel & Accessories,服装及配饰
 Opening,期初
@@ -16508,3 +16508,22 @@ Fetch Based On,获取方式
 Pick Serial / Batch No,选序列号 / 批号
 Database Processes,数据库进程
 Show Processlist,显示进程清单
+Apply restriction on dimension values,针对辅助核算值作限制
+Repost Error Log,重过账错误日志
+Repost Status,重过账状态
+Repost Payment Ledger Items,收付款台账重过账明细
+Repost started in the background,重过账已在后台任务中运行
+Repost in background,在后台任务运行重过账
+Reposting in the background.,重过账后台任务运行中
+Total Asset Cost,总资产成本
+Additional Asset Cost,额外资产成本
+Item Warehouse based reposting has been enabled.,已启用按物料进行成本追溯调整
+Convert to Item Based Reposting,启用按物料进行成本追溯调整
+Enable Prepared Report,允许后台运行报表
+FIFO Queue vs Qty After Transaction Comparison,先进先出队列与交易后数量比较报表
+Include filters,包括过滤条件
+Finished Good BOM,成品物料清单
+Service Item Qty,服务物料数量
+Service Item UOM,服务物料单位
+Set Operating Cost / Scrape Items From Sub-assemblies,基于子装配件设置工序成本 / 报废物料
+"In the case of 'Use Multi-Level BOM' in a work order, if the user wishes to add sub-assembly costs to Finished Goods items without using a job card as well the scrap items, then this option needs to be enable.",适用于成品工单不启用加工单，使用多级物料清单，将下层子装配件的工序成本及报废物料添加到成品工单场景
