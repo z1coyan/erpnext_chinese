@@ -4171,9 +4171,9 @@ Return Against Sales Invoice,源销售发票
 This is based on the Time Sheets created against this project,基于项目工时表
 Fetch items based on Default Supplier.,基于默认供应商选物料
 Base Hour Rate(Company Currency),基准工费率（本币）
-Basic,底薪
+Basic,基本的
 Base Distinguished Name (DN),基本专有名称（DN）
-Base,底薪
+Base,基本
 Basic Component,基本组件
 Base URL,基本网址
 Basic Amount,基准金额
@@ -13423,7 +13423,7 @@ Mark Auto Attendance,标记为自动考勤
 <p>说明:</p>
 
 <ol>
-<li>字段 <code>base</code>表示员工的底薪</li>
+<li>字段 <code>base</code>表示员工的基本工资</li>
 <li>在条件与公式中可引用薪资构成缩写代码 <code>BS = 基本工资</code></li>
 <li>在条件与公式中可引用员工表中的字段 <code>Employment Type = employment_type</code><code>Branch = branch</code></li>
 <li>在条件与公式中可引用工资单字段 <code>Payment Days = payment_days</code><code>Leave without pay = leave_without_pay</code></li>
@@ -13431,7 +13431,7 @@ Mark Auto Attendance,标记为自动考勤
 
 <h4>范例</h4>
 <ol>
-<li>基于底薪计算基本工资 <code>base</code>
+<li>基于基本工资计算工资 <code>base</code>
 <pre><code>条件: base &lt; 10000</code></pre>
 <pre><code>公式: base * .2</code></pre></li>
 <li>基于基本工资计算租房津贴<code>BS</code> 
@@ -16506,3 +16506,5 @@ Please select Unrealized Profit / Loss account or add default Unrealized Profit 
 Qty to Fetch,待获取数量
 Fetch Based On,获取方式
 Pick Serial / Batch No,选序列号 / 批号
+Database Processes,数据库进程
+Show Processlist,显示进程清单
