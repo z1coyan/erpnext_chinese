@@ -13,6 +13,7 @@ def custom_get_workspace_sidebar_items():
             ['Elements', '定制项'],
             ['Quick Access', '快捷方式'],
             ['Your Shortcuts', '快捷方式'],
+            ['Shortcuts', '快捷方式'],
             ['Quick Links', '简易列表'],
             ['<b>Settings</b>', '<b>设置</b>'],
             ['Integrations', '应用集成'],            
@@ -26,5 +27,3 @@ def custom_get_workspace_sidebar_items():
                     content = content.replace(en,zh)
             page.content = content                                
     return data
-
-
