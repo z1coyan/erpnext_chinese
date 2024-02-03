@@ -16,7 +16,9 @@ def custom_get_workspace_sidebar_items():
             ['Shortcuts', '快捷方式'],
             ['Quick Links', '简易列表'],
             ['<b>Settings</b>', '<b>设置</b>'],
-            ['Integrations', '应用集成'],            
+            ['Integrations', '应用集成'],  
+            ['Get started','开始使用'],
+            ['Components to build your app','应用构建组件'],          
             ['Documents', '单据']
         ]
         pages = data.get('pages', [])        
