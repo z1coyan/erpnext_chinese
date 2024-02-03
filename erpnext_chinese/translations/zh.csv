@@ -229,7 +229,7 @@ EDU-INS-.YYYY.-,EDU-INS-.YYYY.-
 EDU-STU-.YYYY.-,EDU-STU-.YYYY.-
 EDU-FEE-.YYYY.-,EDU-收费.YYYY.-
 EMI,EMI
-ERPNext Settings,ERPNext全局设置
+ERPNext Settings,设置
 ERPNext Company,ERPNext公司
 ERPNext could not find any matching payment entry,ERPNext未找到任何匹配的收付款凭证
 ERPNext Demo,ERPNext演示
@@ -237,7 +237,7 @@ ERPNext User,ERPNext用户
 ERPNext User ID,ERPNext用户ID
 ERPNext Account,ERPNext科目
 ERPNext Setup Complete!,ERPNext设置完成！
-ERPNext Integrations,ERPNext集成
+ERPNext Integrations,系统集成
 ES,ES
 eu-central-1,EU-中央-1
 Eway Bill,Eway Bill
@@ -16537,3 +16537,4 @@ Print Format Builder (New),打印设计器(新)
 Normalized Query,规范化查询
 Ledgers,账
 Financial Reports,财务报表
+Consider Minimum Order Qty,考虑最小订单数量
