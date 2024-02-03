@@ -10074,10 +10074,10 @@ Manage Appointment Invoice Automatically,自动管理预约发票
 Automatically Fetch Payment Terms,自动获取付款条款
 Automatically triggers the feedback request based on conditions.,自动触发基于条件的反馈请求。
 Auto Repeat,自动重复
-Auto Repeat Detail,自动重复
-Subscription,自动重复
+Auto Repeat Detail,自动重复明细
+Subscription,订阅
 Auto Repeat has been {0},自动重复已经{0}
-Auto repeat document updated,自动重复文件更新
+Auto repeat document updated,自动重复单据已更新
 Auto Repeat Schedule,自动重复计划
 Auto Repeat Section,自动重复
 Auto re-order,自动重订货
@@ -12067,7 +12067,7 @@ Reset,重启
 Rename Tool,批量修改名称(编号)工具
 Rename Log,重命名日志
 Repeat On,重复
-Subscription Section,重复
+Subscription Section,订阅
 repeat,重复
 "Repeats like ""abcabcabc"" are only slightly harder to guess than ""abc""",重复像“ABCABCABC”只稍硬比“ABC”猜测
 Recurring document creation failure,自动重复单据创建失败
@@ -12625,7 +12625,7 @@ Estimated Cost Per Position,预估岗位成本
 Estimated Cost,预估成本
 Preprocess Method,预处理方法
 Scheduled To Send,预定发送
-Advance Account,预支科目
+Advance Account,预付科目
 Projected Quantity as Source,预期可用库存
 Stock Projected Qty,预期可用库存
 Projected,预期可用库存
@@ -16538,3 +16538,4 @@ Normalized Query,规范化查询
 Ledgers,账
 Financial Reports,财务报表
 Consider Minimum Order Qty,考虑最小订单数量
+Accounting Dimensions Filter,辅助核算过滤条件
