@@ -1448,7 +1448,7 @@ Production Capacity,产能
 Capacity Planning,产能计划
 Capacity Planning For (Days),产能计划期限（天）
 Capacity Planning Error,产能计划错误
-Output,产量
+Output,输出
 Yield UOM,产量UOM
 Siblings,亲属
 Sibling Details,亲属详情
@@ -16527,3 +16527,13 @@ Service Item Qty,服务物料数量
 Service Item UOM,服务物料单位
 Set Operating Cost / Scrape Items From Sub-assemblies,基于子装配件设置工序成本 / 报废物料
 "In the case of 'Use Multi-Level BOM' in a work order, if the user wishes to add sub-assembly costs to Finished Goods items without using a job card as well the scrap items, then this option needs to be enable.",适用于成品工单不启用加工单，使用多级物料清单，将下层子装配件的工序成本及报废物料添加到成品工单场景
+Current Serial / Batch Bundle,当前序列号/批号
+Permission Type,权限类型
+Tax Masters,税
+Get started,开始使用
+Components to build your app,应用构建组件
+Alerts and Notifications,预警与通知
+Print Format Builder (New),打印设计器(新)
+Normalized Query,规范化查询
+Ledgers,账
+Financial Reports,财务报表
