@@ -14917,7 +14917,7 @@ selected Payment Terms Template,付款条款模板字段
 "If this checkbox is checked, paid amount will be splitted and allocated as per the amounts in payment schedule against each payment term",如勾选，则金额根据付款计划明细中的付款条款进行拆分,
 Translate Link Fields,翻译链接字段
 Make Attachments Public by Default,上传文件默认设为公开
-Enabling this will allow creation of multi-currency invoices against single party account in company currency,如果勾选，主数据中定义本币交易的客户或供应商其发票可使用外币
+Enabling this will allow creation of multi-currency invoices against single party account in company currency,如果勾选，允许客户或供应商第一张发票货币为非主数据中的结算货币(默认为本币)
 "Can't change the valuation method, as there are transactions against some items which do not have its own valuation method",有些物料未在物料主数据中维护成本计算方法且已关联物料凭证与会计凭证，考虑资料一致性此处成本计算方法不能被修改
 "Party Account {0} currency ({1}) and document currency ({2}) should be same",往来单位主数据中定义的结算币种需与业务交易币种相同
 Show GL Balance,显示总账余额
@@ -16541,3 +16541,5 @@ Accounting Dimensions Filter,辅助核算过滤条件
 UnReconcile Allocations,取消核销分派
 UnReconcile,取消核销
 Allocations,分派
+Link Field Results Limit,链接字段下拉显示笔数（默认10，最大50）
+Show Only Failed Logs,只显示出错信息
