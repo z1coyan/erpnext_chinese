@@ -2517,22 +2517,22 @@ Hold Type,冻结类型
 Freeze Stocks Older Than [Days],冻结超出此天数的库存
 Net ITC Available(A) - (B),净ITC可用（A） - （B）
 Net Profit,净利
-Net Rate,未税单价
-Net Rate (Company Currency),未税单价（本币）
-Net Total (Company Currency),未税金额(本币)
+Net Rate,净价
+Net Rate (Company Currency),净价（本币）
+Net Total (Company Currency),净总计(本币)
 Net Hour Rate,净工费率
 Net Pay cannot be less than 0,净工资不能低于0
 net pay info,净工资信息
 Net Salary Amount,净工资金额
-Net Total,未税金额
+Net Total,净总计
 Net Profit/Loss,净损益
 Net Pay,净支付金额
 Net pay cannot be negative,净支付金额不能为负数
 Net Pay cannnot be negative,净薪酬不能为负
 Net Weight,净重
 Net Weight UOM,净重单位
-Net Amount (Company Currency),未税金额（本币）
-Net Amount,未税金额
+Net Amount (Company Currency),净额（本币）
+Net Amount,净额
 Preparing Report,准备报表
 Grant Leaves,准许休假
 minus,减号
@@ -4128,7 +4128,7 @@ Based on price list,基于价格表
 Coupon Code Based,基于优惠码
 This is based on transactions against this Supplier. See timeline below for details,基于供应商的过往交易。详情请参阅表单下方日志记录
 Automatically Set Serial Nos based on FIFO,基于先进先出自动带出序列号
-On Net Total,基于未税金额
+On Net Total,基于净总计
 Columns based on,基于列
 On Previous Row Total,基于前一行的总计
 On Previous Row Amount,基于前一行的金额
@@ -9201,7 +9201,7 @@ Destination ID,目的地ID
 Purpose must be one of {0},目的必须是一个{0}
 Until,直到
 Direct,直接
-Include Payment (POS),直接付款（POS订单）
+Include Payment (POS),已付款（POS订单）
 Direct Income,直接收入
 Direct Expenses,直接费用
 Straight Line,直线法
@@ -11162,14 +11162,13 @@ Liabilities,负债
 Negative Quantity is not allowed,不能是负数
 Person Responsible,负责人
 Responsible Individual,负责任的个人
-Contribution to Net Total,对未税金额的贡献
+Contribution to Net Total,对净总计的贡献
 Contributed Translation Doctype Name,贡献翻译单据类型名称
 Contribution Amount,贡献金额
 Contribution %,贡献％
 Contribution (%),贡献（％）
 Tree of financial Cost Centers.,财务成本中心的树。
 Is Finance Cost Adjustment,财务成本调整
-Financial Statements,财务报表
 Financial Statements,财务报表
 Financial Year,财年
 Fiscal Year,财年
@@ -14507,8 +14506,8 @@ Mid Center,正中
 {0} {1}: Account {2} is a Group Account and group accounts cannot be used in transactions,{0} {1}:  {2} 是组类型科目，不能用于业务交易中
 Considered In Paid Amount,含在付款金额中
 "If checked, the tax amount will be considered as already included in the Paid Amount in Payment Entry",如勾选，收付款凭证中付款金额就含税
-Minimum Net Rate,最低未税单价
-Maximum Net Rate,最高未税单价
+Minimum Net Rate,最低净价
+Maximum Net Rate,最高净价
 Bank Account Name,银行户头
 Bank Account Type,银行户头类型
 Bank Account Subtype,银行户头子类型
@@ -15863,8 +15862,8 @@ Reload Report,重新加载报表
 Terms Template,贸易条款模板
 Send Attached Files,发送上传的附件
 Send Document Print,发送打印的pdf附件
-Tax Withholding Net Total,代扣税净总额
-Base Tax Withholding Net Total,基准代扣税净总额
+Tax Withholding Net Total,代扣税净总计
+Base Tax Withholding Net Total,基准代扣税净总计
 Stock Reservation Entry,库存预留单
 Service Level Agreement,服务水平协议
 Service Level Name,服务水平协议名
@@ -16539,3 +16538,6 @@ Ledgers,账
 Financial Reports,财务报表
 Consider Minimum Order Qty,考虑最小订单数量
 Accounting Dimensions Filter,辅助核算过滤条件
+UnReconcile Allocations,取消核销分派
+UnReconcile,取消核销
+Allocations,分派
