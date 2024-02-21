@@ -10511,9 +10511,8 @@ Discussion,讨论
 Discuss ID,讨论ID
 "Make ""name"" searchable in Global Search",让“名称”字段在全局搜索框中可搜索
 Let's prepare the system for first use.,让我们在首次使用前对系统进行初始化。
-Let's avoid repeated words and characters,让我们避免重复的字和字符
-Track Seen,让系统记录谁查看过
-Track Changes,让系统记录资料变更历史
+Let's avoid repeated words and characters,让我们避免重复的字、词
+Track Changes,追踪单据变更
 Agenda,议程
 Scorecards,记分卡
 Scorecard Actions,记分卡操作
@@ -15092,7 +15091,7 @@ Stock Planning,库存计划
 Stock Closing,库存关账
 Supplier and Price Defaults,供应商与价格默认值
 Subcontracting Settings,委外设置
-Enable Discount Accounting for Selling,启用折扣会计
+Enable Discount Accounting for Selling,启用折扣科目单独记账
 Sales Update Frequency in Company and Project,按公司与项目销售统计数据更新频率
 Invoice and Billing,发票与账单
 Invoicing Features,发票功能
@@ -15337,7 +15336,7 @@ Payment Terms from orders will be fetched into the invoices as is,从销售订�
 Journals,日记账凭证
 Merge Similar Account Heads,合并科目
 Rows with Same Account heads will be merged on Ledger,相同科目会被自动合并
-Book Tax Loss on Early Payment Discount,将税损失记账到提前付款拆扣科目
+Book Tax Loss on Early Payment Discount,将税损失记账到提前付款折扣科目
 Split Early Payment Discount Loss into Income and Tax Loss,将提前付款折扣分解为收入与税损失
 Payment Reconciliations,收付款核销
 Auto Reconcile Payments,自动核销付款
@@ -16576,3 +16575,13 @@ Send Emails,发送电子邮件
 Statement of Accounts,对账单,
 Process Statement Of Accounts,对账单,
 Process Statement Of Accounts Customer,对账单客户,
+Difference Posting Date,差异记账日期
+Login Methods,登录方式
+Add Roles,添加角色
+Process Subscription,处理订阅
+Unreconcile Payment,取消收付款核销
+Asset Shift Allocation,固定资产班次分派
+Asset Shift Factor,固定资产班次比率
+For Value,允许值
+"You are not allowed to access this {0} record because it is linked to {1} '{2}' in row {3}, field {4}","无权限访问包含了未被授权的{1} '{2}'（第{3}行，字段 {4}）信息的 {0}"
+"You are not allowed to access this {0} record because it is linked to {1} '{2}' in field {3}","无权限访问包含了未被授权的{1} '{2}'（字段 {3}）信息的 {0}"
