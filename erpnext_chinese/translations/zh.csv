@@ -16585,3 +16585,18 @@ Asset Shift Factor,固定资产班次比率
 For Value,允许值
 "You are not allowed to access this {0} record because it is linked to {1} '{2}' in row {3}, field {4}","无权限访问包含了未被授权的{1} '{2}'（第{3}行，字段 {4}）信息的 {0}"
 "You are not allowed to access this {0} record because it is linked to {1} '{2}' in field {3}","无权限访问包含了未被授权的{1} '{2}'（字段 {3}）信息的 {0}"
+Impersonate,用其它用户身份登录
+Reason for impersonating,用其它用户身份登录原因
+Note: This will be shared with user.,此登录行为将通知对应用户
+Impersonate as {0},被模拟的用户
+User {0} impersonated as {1},用户 {0} 以 {1} 身份登录
+{0} just impersonated as you. They gave this reason: {1}, {0} 因为 {1} 原因以你的帐号登录了系统
+Cannot convert to Group because Account Type is selected.,科目类型字段清空后才能执行操作->转换为组
+You have not entered a value. The field will be set to empty.,"未输入字段值，字段值将被设为空值"
+Bulk Edit,批量修改
+Update {0} records,更新{0}个单据
+Successfully updated {0},成功更新了{0}
+Successfully {0} 1 record.,成功 {0} 1 笔记录
+Successfully {0} {1} records.,成功 {0} {1} 笔记录
+"Successfully {0} {1} record out of {2}. Click on Export Errored Rows, fix the errors and import again.","从 {2} 笔记录中成功 {0} {1} 笔记录，点击导出出错记录，修复错误，再重新导入"
+"Successfully {0} {1} records out of {2}. Click on Export Errored Rows, fix the errors and import again.","从 {2} 笔记录中成功 {0} {1} 笔记录，点击导出出错记录，修复错误，再重新导入"
