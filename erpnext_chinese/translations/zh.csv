@@ -119,7 +119,7 @@ ACC-PINV-.YYYY.-,ACC-PINV-.YYYY.-
 ACC-PRQ-.YYYY.-,ACC-PRQ-.YYYY.-
 ACC-SH-.YYYY.-,ACC-SH-.YYYY.-
 ACC-SINV-.YYYY.-,ACC-SINV-.YYYY.-
-AMC Expiry Date,AMC到期时间
+AMC Expiry Date,年底维保合同到期日
 ap-northeast-1,AP-东北-1
 ap-northeast-2,AP-东北-2
 ap-northeast-3,AP-东北-3
@@ -2070,8 +2070,8 @@ CAMPAIGN SCHEDULES,促销计划
 Promotional Scheme Id,促销计划ID
 Promotional Scheme Product Discount,促销计划产品折扣
 Promotional Scheme Price Discount,促销计划价格折扣
-Warranty / AMC Details,保修/ 年度保养合同信息
-Warranty / AMC Status,保修/ 年度保养合同状态
+Warranty / AMC Details,年度维保合同信息
+Warranty / AMC Status,年度维保合同状态
 Warranty Expiry Date,保修到期日
 Warranty Period (Days),保修期天数
 Warranty Period (in days),保修期天数
@@ -2591,7 +2591,7 @@ Outgoing,Outgoing
 Cost of Delivered Items,出货物料成本
 Shipping Rule Country,出货规则国家
 Delivery Settings,出货设置
-Out of AMC,出资产管理公司
+Out of AMC,年度维保合同失效日
 Discharge,出院
 Discharged,出院
 Discharge Note,出院医嘱
@@ -3981,7 +3981,7 @@ Apply Rule On Brand,在品牌上应用规则
 Work From Home,在家工作
 Cancel Invoice After Grace Period,在宽限期后取消发票
 "Include symbols, numbers and capital letters in the password",在密码中加入符号，数字和大写字母
-Under AMC,在年度保养合同中
+Under AMC,有年度维保养合同
 This goes above the slideshow.,在幻灯片上面。
 Open your authentication app on your mobile phone.,在手机上打开授权认证应用程序。
 Show Inclusive Tax In Print,在打印中显示包含税
@@ -10270,7 +10270,7 @@ Row # {0}:,行＃{0}：
 Row # {0}: ,行＃{0}：
 Row #{0}:,行＃{0}：
 Row #{0}: {1} can not be negative for item {2},行＃{0}：{1}不能为负值对项{2}
-Row #{0}: Not allowed to change Supplier as Purchase Order already exists,行＃{0}：不能更改供应商的采购订单已经存在
+Row #{0}: Not allowed to change Supplier as Purchase Order already exists,行＃{0}：因采购订单已经存在不能再更改供应商
 Row #{0}: Timings conflicts with row {1},行＃{0}：与排时序冲突{1}
 Row #{0}: Journal Entry {1} does not have account {2} or already matched against another voucher,行＃{0}：日记账凭证{1}没有科目{2}或已被另一凭证核销
 Row # {0}: Rate cannot be greater than the rate used in {1} {2},行＃{0}：单价不能大于{1} {2}中使用的单价
@@ -11161,7 +11161,7 @@ Liabilities,负债
 Negative Quantity is not allowed,不能是负数
 Person Responsible,负责人
 Responsible Individual,负责任的个人
-Contribution to Net Total,对净总计的贡献
+Contribution to Net Total,贡献金额
 Contributed Translation Doctype Name,贡献翻译单据类型名称
 Contribution Amount,贡献金额
 Contribution %,贡献％
@@ -16077,7 +16077,7 @@ Voucher,凭证
 DocType Name,单据类型名
 Create & Continue,创建并继续
 Create New DocType,创建新单据类型
-Fetch on Save if Empty,限字段为空时取值一次
+Fetch on Save if Empty,保存时仅字段为空才赋值
 "If unchecked, the value will always be re-fetched on save.",如不勾选则每次保存单据时都刷新本字段值
 Add tab,添加页签
 Add field,添加字段
@@ -16600,3 +16600,11 @@ Successfully {0} 1 record.,成功 {0} 1 笔记录
 Successfully {0} {1} records.,成功 {0} {1} 笔记录
 "Successfully {0} {1} record out of {2}. Click on Export Errored Rows, fix the errors and import again.","从 {2} 笔记录中成功 {0} {1} 笔记录，点击导出出错记录，修复错误，再重新导入"
 "Successfully {0} {1} records out of {2}. Click on Export Errored Rows, fix the errors and import again.","从 {2} 笔记录中成功 {0} {1} 笔记录，点击导出出错记录，修复错误，再重新导入"
+Depreciation cannot be calculated for fully depreciated assets,不能为已勾选已完全折旧的固定资产勾选计算折旧
+Custom field renamed to {0} successfully.,已成功将自定义字段更名为{0}
+{0} Not allowed to change {1} after submission from {2} to {3},{0} 不允许提交后将{0} 从 {2} 修改为 {3}
+Cannot Update After Submit,不允许提交后修改
+This document is currently locked and queued for execution. Please try again after some time.,单据被后台待执行操作锁定，请稍后再试。
+Invoiced Amount (Excl. Tax),发票金额(未税)
+Account Not Found,找不到科目,
+"While creating account for Child Company {0}, parent account {1} found as a ledger account.",在为子公司{0}创建科目时，发现父科目{1}是一个未勾选是组的记账科目。,
