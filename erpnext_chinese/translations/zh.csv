@@ -16608,3 +16608,5 @@ This document is currently locked and queued for execution. Please try again aft
 Invoiced Amount (Excl. Tax),发票金额(未税)
 Account Not Found,找不到科目,
 "While creating account for Child Company {0}, parent account {1} found as a ledger account.",在为子公司{0}创建科目时，发现父科目{1}是一个未勾选是组的记账科目。,
+Use Serial / Batch Fields,启用明细行批号与序列号字段
+"On submission of the stock transaction, system will auto create the Serial and Batch Bundle based on the Serial No / Batch fields.",勾选后物料移动相关单据提交时系统会基于明细行中的批号与序列号自动创建序列号/批号主数据
