@@ -5629,7 +5629,7 @@ Pending,待处理
 Open,待处理
 open,待处理
 Opening Invoice Item,待处理发票明细
-Workflow Action,待处理工作流
+Workflow Action,待审批工作流
 Pending Quotations,待处理报价
 Open Quotations,待处理报价单
 Pending Qty,待处理数量
@@ -8339,7 +8339,6 @@ Legal,法律
 Legal Expenses,法律费用
 Silty Clay Loam,泥土粘土
 Loamy Sand,泥沙
-Note,注
 Enroll,注册
 Enrollment,注册
 Register,注册
@@ -9483,8 +9482,6 @@ Port,端口
 Endpoint,端点
 Endpoints,端点
 Endpoint URL,端点URL
-Note,笔记
-Notes: ,笔记：
 Symbol,符号
 Eligible ITC,符合条件的ITC
 Page {0},第{0}
@@ -13545,7 +13542,7 @@ Why do think this Item should be removed?,为什么你认为可移除此项？
 Work In Progress Warehouse,在制品仓
 Work Order Analysis,工单分析
 Work Order Qty Analysis,工单数量分析
-Work Order cannot be created for following reason: <br> {0}, 工单不能创建，原因是<br> {0}
+Work Order cannot be created for following reason:  {0}, 工单不能创建，原因是<br> {0}
 Work Order {0}: Job Card not found for the operation {1},工单 {0}: Job Card not found 未找到针对工序 {1} 的加工单
 Work Orders,工单
 Work in Progress,进行中
@@ -15251,9 +15248,9 @@ Received Amount After Tax,税后收款金额
 Received Amount After Tax (Company Currency),税后收款金额(本币)
 material_request_item,物料需求明细
 Logs to Clear,待清除日志
-Completed By Role,执行者角色
-Completed By User,执行者用户
-Permitted Roles,被授权的角色
+Completed By Role,审批人角色
+Completed By User,审批人用户
+Permitted Roles,被授权角色
 Workflow Action Permitted Role,工作流操作被授权角色
 Mention if a non-standard receivable account,使用公司主数据中定义的默认应收账款科目时，这里不用维护
 Return Components,原材料退回
@@ -15795,7 +15792,7 @@ Default Advance Accounts Receivable,默认预收账款科目
 Default Advance Accounts Payable,默认预付账款科目
 Default Advance Account,默认预付账款科目
 Book Advance Payments in Separate Party Account,启用预收/付款科目
-"Enabling this option will allow you to record - <br><br> 1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>","勾选后，收到预付款记负债而非资产科目，支付预付款记资产而非负债科目"
+"Enabling this option will allow you to record -  1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>","勾选后，收到预付款记负债而非资产科目，支付预付款记资产而非负债科目"
 Planning Defaults,计划天数默认值
 Pick Pack Days,拣货打包天数
 Delivery Preparation Days,出货准备天数
@@ -15896,7 +15893,7 @@ Asset Depreciation Schedule,固定资产折旧计划
 Daily Depreciation,日折旧
 Depreciation Details,折旧详情
 Capitalize Asset,资本化固定资产
-"Asset Depreciation Schedules created:<br>{0}<br><br>Please check, edit if needed, and submit the Asset.","已生成资产折旧计划:<br>{0}<br><br>请检查, 必要时请修改后再提交资产, ."
+"Asset Depreciation Schedules created:{0}Please check, edit if needed, and submit the Asset.","已生成资产折旧计划:<br>{0}<br><br>请检查, 必要时请修改后再提交资产, ."
 Reserved Qty for Production Plan,生产计划预留数量
 Auto follow documents that you create,自动关注你创建的单据
 Auto follow documents that you comment on,自动关注你评论的单据
@@ -16379,7 +16376,6 @@ View Cost Center Tree,查看成本中心树
 Voucher Subtype,源凭证业务类型
 In Party Currency,往来单位币别
 Depreciate based on shifts,按班次折旧
-"Asset Depreciation Schedules created:<br>{0}<br><br>Please check, edit if needed, and submit the Asset.",固定资产折旧计划<br>{0}<br><br> 已创建，请检查，根据需要进行调整，提交固定资产启动自动折旧计算与记账。
 This schedule was created when Asset {0} was scrapped.,针对固定资产 {0} 报废的折旧计划已创建
 This schedule was created when Asset {0} was restored.,针对固定资产 {0} 恢复的折旧计划已创建
 This schedule was created when Asset {0} was adjusted through Asset Value Adjustment {1}.,因资产价值调整 {1}已创建固定资产 {0} 折旧计划
@@ -16614,4 +16610,4 @@ Use Serial No / Batch Fields,启用明细行批号与序列号字段
 Do Not Update Serial / Batch on Creation of Auto Bundle,自动创建序列号/批号时不同步明细行上的序列号与批号字段
 "If enabled, do not update serial / batch values in the stock transactions on creation of auto Serial 
  / Batch Bundle. ","如勾选，物料移动相关单据自动创建序列号/批号时不同步明细行的序列号与批号字段"
- Scan Serial No,扫序列号
+Scan Serial No,扫序列号
