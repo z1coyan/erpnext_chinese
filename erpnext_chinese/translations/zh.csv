@@ -4472,7 +4472,7 @@ Fields,字段
 Fields Multicheck,字段Multicheck
 Field {0} is not selectable.,字段{0}是不可选择的。
 Field '{0}' cannot be set as Unique as it has non-unique values,字段“{0}”不能设为不允许重复，因已有数据中存在重复值
-"Field that represents the Workflow State of the transaction (if field is not present, a new hidden Custom Field will be created)",字段代表交易的工作流状态（如果字段不存在，系统会创建一个隐藏的自定义字段）
+"Field that represents the Workflow State of the transaction (if field is not present, a new hidden Custom Field will be created)",单据工作流状态字段（如果字段不存在，系统会创建一个隐藏的自定义字段）
 "Fields separated by comma (,) will be included in the ""Search By"" list of Search dialog box",字段以逗号分隔（，），将可通过全局搜索框进行搜索
 Value To Be Set,字段值
 "Field ""value"" is mandatory. Please specify value to be updated",字段值必填。请指定值进行更新
@@ -7725,11 +7725,12 @@ Local Primary Key,本地主键
 Local Fieldname,本地字段名称
 "LocalStorage is full , did not save",本地存储已满，未保存
 Pondicherry,本地治里
-"This field will appear only if the fieldname defined here has value OR the rules are true (examples): 
+"This field will appear only if the fieldname defined here has value OR the rules are true (examples):
 myfield
 eval:doc.myfield=='My Value'
-eval:doc.age&gt;18","本字段仅在以上代码框中定义的字段有值或表达式(js 代码)结果为真时显示，如，案例1：字段1等于my value；案例2：年龄大于18岁
+eval:doc.age&gt;18","本字段仅在以上代码框中定义的字段有值或表达式(js代码)结果为真时显示，如案例1：字段等于指定值；<br>
 eval:doc.myfield=='my value'
+案例2：年龄大于18 <br>
 eval:doc.age&gt;18"
 Balance In Base Currency,本币余额
 New Balance In Base Currency,本币新余额
@@ -8257,7 +8258,7 @@ Did not find {0} for {0} ({1}),没有为{0} 找到{0}( {1} )
 No correct answer is set for {0},没有为{0}设置正确答案
 Optional Holiday List not set for leave period {0},没有为休假期间{0}设置选休假假期表
 No repayments selected for Journal Entry,没有为日记账凭证选择还款
-Workflow Action is not created for optional states,没有为可选状态创建工作流操作
+Workflow Action is not created for optional states,系统不会为可选状态创建待审批工作流
 No Salary Structure assigned for Employee {0} on given date {1},没有为员工{0}在日期{1}分配薪资结构
 No Delivery Note selected for Customer {},没有为客户{}选择销售出库
 Row {0}: Bill of Materials not found for the Item {1},没有为第{0}行的物料{1}定义物料清单
@@ -9429,8 +9430,6 @@ Material Transfer,直接调拨
 Move to Row Number,移至行号
 Remove,移除
 remove,移除
-Remove Section,移除分节符
-Remove column,移除列
 Procedure,程序
 Procedures,程序
 Procedure Name,程序名称
@@ -10065,9 +10064,6 @@ Notify by Email on creation of automatic Material Request,自动生成物料需�
 Auto Name,自动编号
 Email Digest:,自动电子邮件(统计信息)：
 Manage Appointment Invoice Automatically,自动管理预约发票
-"Naming Options:
-<ol><li><b>field:[fieldname]</b> - By Field</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li>
-<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>",自动编号方式： <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据编号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据编号模板，花括号外可以使用任何固定字符。 </li></ol>
 Automatically Fetch Payment Terms,自动获取付款条款
 Automatically triggers the feedback request based on conditions.,自动触发基于条件的反馈请求。
 Auto Repeat,自动重复
@@ -16611,3 +16607,30 @@ Do Not Update Serial / Batch on Creation of Auto Bundle,自动创建序列号/�
 "If enabled, do not update serial / batch values in the stock transactions on creation of auto Serial 
  / Batch Bundle. ","如勾选，物料移动相关单据自动创建序列号/批号时不同步明细行的序列号与批号字段"
 Scan Serial No,扫序列号
+"Don't encode HTML tags like &lt;script&gt; or just characters like &lt; or &gt;, as they could be intentionally used in this field","允许字段内容为原生html，即无须对&lt;script&gt;这样的 HTML 标签或者&lt; 或 &gt; 这样的字符进行编码/转义如& lt;"
+"Naming Options:
+field:[fieldname] - By Fieldautoincrement - Uses Databases' Auto Increment featurenaming_series: - By Naming Series (field called naming_series must be present)Prompt - Prompt user for a name[series] - Series by prefix (separated by a dot); for example PRE.#####
+format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####} - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.","自动编号方式：
+ <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据编号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### 
+ </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据编号模板，花括号外可以使用任何固定字符。 </li></ol>"
+ Move the current field and the following fields to a new column,移动当前及以下字段到新栏
+Duplicate field,复制字段
+Remove field,删除字段
+Add field below,添加字段
+Add section below,添加段
+Remove section,删除段
+Move sections to new tab,移动段到新页签
+Add column,添加栏
+Remove column,删除栏
+Move current and all subsequent sections to a new tab,移动当前及以下段到新页签
+Remove all fields in the column,删除本栏全部字段
+Remove last column,删除最后一栏
+Select a field to edit its properties.,选择字段在此编辑属性
+Double click to edit label,双击修改标签
+Add new tab,添加新页签
+Are you sure you want to delete the section? All the columns along with fields in the section will be moved to the previous section.,确定删除段？本段所有栏及字段将被移到前一个段
+Delete entire section with fields,删除段及其包含的字段
+Search properties...,搜索属性
+Search fieldtypes...,搜索字段类型
+Section must have at least one column,段至少须包括一栏
+Section,段
