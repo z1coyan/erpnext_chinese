@@ -4005,7 +4005,7 @@ Time in seconds to retain QR code image on server. Min:<strong>240</strong>,在�
 Generate Invoice At Beginning Of Period,在期初生成发票
 Cancel At End Of Period,订阅期结束后自动取消订阅
 Unable to find Time Slot in the next {0} days for Operation {1},在未来{0}天，无可用时间（档期）完成工序{1}
-Plan material for sub-assemblies,在本工单耗用子装配件下层物料，无需额外工单生产子装配件
+Plan material for sub-assemblies,子装配件作为虚拟物料，本工单直接耗用底层原材料
 Hide field in Standard Print Format,在标准打印格式隐藏字段
 Show a description below the field,在此字段下显示说明
 Total allocated leaves are more days than maximum allocation of {0} leave type for employee {1} in the period,在此期间，总分配的离职时间超过员工{1}的最大分配{0}离职类型的天数
@@ -16634,3 +16634,12 @@ Search properties...,搜索属性
 Search fieldtypes...,搜索字段类型
 Section must have at least one column,段至少须包括一栏
 Section,段
+No Select Field Found,无生成看板列所需的单选字段
+Reference No,参考编号
+Posting Datetime,记账日期时间
+Started a background job to create {1} {0},已启动后台任务创建{0} {1} 
+Descendants Of (inclusive),子节点(含本节点)
+Queued By,队列创建者
+Queued At,排除时间
+Job ID,任务ID
+Finished At,完成时间
