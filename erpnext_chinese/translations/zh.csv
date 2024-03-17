@@ -2418,7 +2418,7 @@ Invalid {0} for Inter Company Invoice.,关联公司发票无效{0}。
 Invalid Company for Inter Company Invoice.,关联公司发票：公司不正确。
 Inter Company Order Reference,关联公司订单参考号
 Inter Company Account,关联公司间交易科目
-Inter Warehouse Transfer Settings,关联公司间内部调拨设置
+Inter Warehouse Transfer Settings,公司内部调拨(内部销售与采购)设置
 Reference Document,源单据
 Related,关联单据
 Reference Owner,源单据制单人
@@ -14437,7 +14437,7 @@ Delete Transactions,删除业务单据(交易)
 Warehouse Type Name,仓库类型名称
 Stock Transactions Settings,库存交易设置
 Auto Insert Item Price If Missing,自动创建物料价格主数据（仅针对新物料首次交易手工输入价格）
-Show Barcode Field in Stock Transactions,在库存交易记录中显示条形码字段
+Show Barcode Field in Stock Transactions,启用扫条码字段
 Convert Item Description to Clean HTML in Transactions,将交易中的物料描述转换为纯HTML
 Role Allowed to Over Deliver/Receive,允许超额交货/收货的角色
 Users with this role are allowed to over deliver/receive against orders above the allowance percentage,此角色的用户可超订单数量容差出入库
@@ -16643,3 +16643,10 @@ Queued By,队列创建者
 Queued At,排除时间
 Job ID,任务ID
 Finished At,完成时间
+Update Total Purchase Cost,更新总采购成本
+Consider Rejected Warehouses,考虑退货仓
+Enable it if users want to consider rejected materials to dispatch.,需从退货仓拣料时勾选
+Internal Purchase Receipt,内部采购入库
+Allow Material Transfer from Delivery Note to Sales Invoice,销售出库与销售发票明细显示收货仓(在途仓)字段,
+Allow Material Transfer from Purchase Receipt to Purchase Invoice,采购入库与采购发票明细显示发料仓(在途仓)字段,
+Segregate Serial / Batch Bundle,显示序列号与批号明细
