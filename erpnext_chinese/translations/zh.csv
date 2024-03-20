@@ -1048,7 +1048,6 @@ Next Date's day and Repeat on Day of Month must be equal,下一个日期的一�
 Next Contact By cannot be same as the Lead Email Address,下一个联系人不能与线索的邮箱地址相同
 Next Business Day,下一个营业日
 Next Steps,下一步
-Next actions,下一步操作
 Next Actions HTML,下一步操作HTML
 Next Action Email Template,下一步操作电子邮件模板
 Next State,下一状态
@@ -6484,7 +6483,7 @@ Territory Target Variance Item Group-Wise,按物料组的区域目标差异
 Group by Account,按科目分组
 "Can not filter based on Account, if grouped by Account",按科目分组后不能再基于科目过滤
 Track Leads by Industry Type.,按行业类型追踪线索。
- by Role ,按角色
+by Role ,按角色
 Button,按钮
 Button,按钮
 Button Help,按钮帮助
@@ -8836,7 +8835,7 @@ now,现在
 Existing Customer,现有客户
 Existing Company,现有的公司
 Cash In Hand,现款
-Current status,现状
+Current status,当前状态
 Cash,现金
 Cash/Bank Account,现金/银行科目
 Net Change in Cash,现金净变动
@@ -10389,7 +10388,7 @@ Roles Permission,角色权限
 Role Permissions Manager,角色权限管理
 Roles HTML,角色的HTML
 Only Allow Edit For,角色（允许编辑）
-Allowed,角色（允许）
+Allowed,角色（允许审批）
 Resolution,解决方案
 Resolution Details,解决方案
 Resolution Time,解决时间
@@ -15332,7 +15331,7 @@ Rows with Same Account heads will be merged on Ledger,相同科目会被自动�
 Book Tax Loss on Early Payment Discount,将税损失记账到提前付款折扣科目
 Split Early Payment Discount Loss into Income and Tax Loss,将提前付款折扣分解为收入与税损失
 Payment Reconciliations,收付款核销
-Auto Reconcile Payments,自动核销付款
+Auto Reconcile Payments,启用自动核销收付款
 Learn about Common Party,学习更多关于多重身份往来单位知识
 Subcontract Receipt,委外入库
 FG Item,成品物料
@@ -15375,9 +15374,9 @@ Scheduler is inactive. Cannot merge accounts.,后台任务进程未开启，无�
 Receivable/Payable Account,应收/应付科目
 Bank/Cash Account,银行/现金科目
 Reconciliation Logs,核销日志
-Process Payment Reconciliation Log,自动核销付款日志
-Process Payment Reconciliation,自动核销付款
-Auto Reconciliation of Payments has been disabled. Enable it through {0}",请在{0}中勾选自动核销付款
+Process Payment Reconciliation Log,自动核销收付款日志
+Process Payment Reconciliation,自动核销收付款
+Auto Reconciliation of Payments has been disabled. Enable it through {0},请在{0}中勾选启用自动核销收付款
 Start / Resume,开始 / 恢复
 COGS By Item Group,按物料组销货成本
 COGS Debit,销售成本(借方)
@@ -15788,7 +15787,7 @@ Default Advance Accounts Receivable,默认预收账款科目
 Default Advance Accounts Payable,默认预付账款科目
 Default Advance Account,默认预付账款科目
 Book Advance Payments in Separate Party Account,启用预收/付款科目
-"Enabling this option will allow you to record -  1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>","勾选后，收到预付款记负债而非资产科目，支付预付款记资产而非负债科目"
+"Enabling this option will allow you to record -  1. Advances Received in a Liability Account instead of the Asset Account2. Advances Paid in an Asset Account instead of the  Liability Account","勾选后，收到预付款记负债而非资产科目，支付预付款记资产而非负债科目"
 Planning Defaults,计划天数默认值
 Pick Pack Days,拣货打包天数
 Delivery Preparation Days,出货准备天数
@@ -16650,3 +16649,22 @@ Internal Purchase Receipt,内部采购入库
 Allow Material Transfer from Delivery Note to Sales Invoice,销售出库与销售发票明细显示收货仓(在途仓)字段,
 Allow Material Transfer from Purchase Receipt to Purchase Invoice,采购入库与采购发票明细显示发料仓(在途仓)字段,
 Segregate Serial / Batch Bundle,显示序列号与批号明细
+Print Format Name,打印格式名称
+Create or Edit Print Format,创建或修改打印格式
+With Period Closing Entry For Opening Balances,期初包括期末结账凭证
+Period Closing Entry For Current Period,借贷方包括期末结账凭证
+Debit (Transaction),借(交易货币)
+Debit (Transaction),贷(交易货币)
+Journal Entries,日记账凭证
+Exchange Gain/Loss amount has been booked through {0},自动生成了汇兑损益日记帐凭证{0}
+Update Billed Amount in Purchase Order,更新采购订单开票金额
+Update Billed Amount in Purchase Receipt,更新采购入库开票金额
+Update Billed Amount in Sales Order,更新销售订单开票金额
+Update Billed Amount in Delivery Note,更新销售出库开票金额
+Repost Required,需更新会计凭证
+Item Group wise Discount,物料组折扣
+Customer / Item / Item Group,客户 / 物料 / 物料组
+No Roles Specified,未分派角色
+Document is only editable by users with role,只有具有角色的用户才能编辑文档,
+by Role,角色
+Next actions,审批动作
