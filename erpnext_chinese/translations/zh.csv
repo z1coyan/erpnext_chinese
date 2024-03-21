@@ -905,7 +905,7 @@ Illegal Document Status for {0},{0}非法单据状态
 {0}: {1} in {2},{0}：{1}在{2}
 {0}: {1} not found in Invoice Details table,{0}：{1}在发票信息表中无法找到
 {0}: {1} must be less than {2},{0}：{1}必须小于{2}
-{0}: {1} is set to state {2},{0}：{1}设置为状态{2}
+{0}: {1} is set to state {2},{0}：{1} 状态已变更为 {2}
 {0}: Fieldtype {1} for {2} cannot be unique,{0}：{2}的字段类型{1}不能是唯一的
 "{0}: '{1}' ({3}) will get truncated, as max characters allowed is {2}",{0}：“{1}”（{3}）将被截断，因最大允许字符数为{2}
 "{0}: Only one rule allowed with the same Role, Level and {1}",{0}：具有相同的角色，级别和允许只有一个规则{1}
@@ -1049,7 +1049,7 @@ Next Contact By cannot be same as the Lead Email Address,下一个联系人不�
 Next Business Day,下一个营业日
 Next Steps,下一步
 Next Actions HTML,下一步操作HTML
-Next Action Email Template,下一步操作电子邮件模板
+Next Action Email Template,审批邮件模板
 Next State,下一状态
 Afternoon,下午
 Place Order,下单
@@ -2271,9 +2271,9 @@ Allow user to edit Rate,允许用户修改单价
 User Count Limit,允许用户数
 Allow user to edit Price List Rate in transactions,允许用户编辑交易中的标价
 Allow user to edit Discount,允许用户编辑折扣
-Allow Self Approval,允许申请者自己批准
+Allow Self Approval,允许自已批准
 Allow Same Item Multiple Times,允许相同物料多次出现
-Allow Appointments,允许约会
+Allow Appointments,允许预约
 Allow Edit,允许编辑
 Allow Auto Repeat,允许自动重复
 Allow Self Enroll,允许自助注册
@@ -4356,7 +4356,7 @@ Leave blank if the Supplier is blocked indefinitely,如果供应商被无限期�
 "Applicable if the company is SpA, SApA or SRL",如果公司是SpA，SApA或SRL，则适用
 "If multiple Pricing Rules continue to prevail, users are asked to set Priority manually to resolve conflict.",如果几条动态定价规则同时使用，系统将提醒用户设置优先级。
 "If checked, this field will be not overwritten based on Fetch From if a value already exists.",如勾选，仅在字段值为空时从关联单据获取值，字段有值则不覆盖
-"If checked, all other workflows become inactive.",如果勾选，其他工作流将变为失效状态。
+"If checked, all other workflows become inactive.",如果勾选，本单据类型其他工作流将变为失效状态。
 "If Auto Opt In is checked, then the customers will be automatically linked with the concerned Loyalty Program (on save)",如果勾选，则新客户将自动被分配该积分方案
 "If selected, the value specified or calculated in this component will not contribute to the earnings or deductions. However, it's value can be referenced by other components that can be added or deducted. ",如果勾选，则此薪资构成项中指定或计算的值不影响收入或扣除。但是，其值可被其它添加或扣除薪资构成项引用。
 "If this is checked, rows with valid data will be imported and invalid rows will be dumped into a new file for you to import later.",如果勾选，将仅导入有效数据，无效数据被保存在新文件中供稍后导入。
@@ -4976,7 +4976,6 @@ Job Offer,工作机会
 Workflow,工作流
 Workflow Document State,工作流单据状态
 Workflow Name,工作流名称
-Workflow Action,工作流操作
 Workflow Action Master,工作流操作主数据
 Workflow Action Name,工作流操作名称
 "Actions for workflow (e.g. Approve, Cancel).",工作流操作（例如审批，取消） 。
@@ -9063,7 +9062,7 @@ Email Addresses,电子邮件地址
 Email Footer Address,电子邮件地址页脚
 Email Field,电子邮件字段
 Email Fieldname,电子邮件字段名
-Emails will be sent with next possible workflow actions,电子邮件将与下一个可能的工作流操作一起发送
+Emails will be sent with next possible workflow actions,系统自动发送带审批操作按钮及单据pdf附件的电子邮件给审批人
 "Emails will be sent to all Active Employees of the company at the given hour, if they do not have holiday. Summary of responses will be sent at midnight.",电子邮件将在指定的时间发送给公司的所有在职员工，如果他们没有假期。回复摘要将在午夜被发送。
 Emails salary slip to employee based on preferred email selected in Employee,电子邮件工资单员工根据员工选择首选的电子邮件
 Email has been marked as spam,电子邮件已被标记为垃圾邮件
@@ -9659,8 +9658,8 @@ Income Tax Slab,累进税率表
 Corrective/Preventive,纠正/预防
 Corrective,纠正
 Red,红色
-Appointments,约会
-Date TIme,约会时间
+Appointments,预约
+Date TIme,预约时间
 Level,级别
 "Level 0 is for document level permissions, \								higher levels for field level permissions.",级别0是用于单据级别权限，\更高级别的字段级权限。
 Level Name,级别名称
@@ -10918,7 +10917,7 @@ Please make sure you really want to delete all the transactions for this company
 Please make sure the Reference Communication Docs are not circularly linked.,请确保参考通信单据未被递归引用。
 Please ensure that your profile has an email address,请确保您的个人资料有一个电子邮件地址，
 Please make sure that there are no empty columns in the file.,请确保没有空列在文件中。
-Please confirm your action to {0} this document.,请确认您对{0}单据的操作。
+Please confirm your action to {0} this document.,确认 {0} 本单据。
 Please re-type company name to confirm,请确认重新输入公司名
 Please give a fullname.,请给一个全名。
 Please give a detailed feebdack.,请给一个详细的反馈。
@@ -16668,3 +16667,15 @@ No Roles Specified,未分派角色
 Document is only editable by users with role,只有具有角色的用户才能编辑文档,
 by Role,角色
 Next actions,审批动作
+Number Card,数字卡
+Number Card Name,数字卡名称
+Custom Blocks,自定义块
+"This document allows you to edit limited fields. For all kinds of workspace customization, use the Edit button located on the workspace page",这里只能定制部分信息，更多定制请到工作区界面点右上角的编辑按钮后进行操作
+Workflow Builder,工作流设计器
+Edit your workflow visually using the Workflow Builder.,使用工作流设计器可视化编辑工作流
+"NOTE: If you add states or transitions in the table, it will be reflected in the Workflow Builder but you will have to position them manually. Also Workflow Builder is currently in BETA.",说明：通过以下子表添加的状态和转换规则也会体现在工作流设计器图形界面中，但需手工调整位置。工作流设计器目前尚在<b>试用阶段</b>
+Domain Name,域名
+Show all activity,显示全部日志
+"Updating Email Queue Statuses. The emails will be picked up in the next scheduled run.",更新邮件队列状态中...，邮件将在下一次定时执行的邮件发送任务中发出
+Default Workspace,默认工作区
+"If left empty, the default workspace will be the last visited workspace",如果不勾选，默认工作区为最后一次访问的工作区
