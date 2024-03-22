@@ -13554,7 +13554,7 @@ You are not allowed to export {} doctype,未被授权导出单据类型{}
 {0} are required,需要{0}
 {0} assigned a new task {1} {2} to you,{0}分派了新任务 {1} {2} 给你
 {0} can not be greater than {1},{0} 不能大于 {1}
-{0} Retain Sample is based on batch, please check Has Batch No to retain sample of item,{0}保留样品基于批号，请在物料主数据中勾选启用批号管理
+"{0} Retain Sample is based on batch, please check Has Batch No to retain sample of item",{0}保留样品基于批号，请在物料主数据中勾选启用批号管理
 Purchase Invoice cannot be made against an existing asset {0},采购发票不能基于现存固定资产 {0}
 Purchase Invoices,采购发票
 Purchase Orders,采购订单
@@ -16653,7 +16653,7 @@ Create or Edit Print Format,创建或修改打印格式
 With Period Closing Entry For Opening Balances,期初包括期末结账凭证
 Period Closing Entry For Current Period,借贷方包括期末结账凭证
 Debit (Transaction),借(交易货币)
-Debit (Transaction),贷(交易货币)
+Credit (Transaction),贷(交易货币)
 Journal Entries,日记账凭证
 Exchange Gain/Loss amount has been booked through {0},自动生成了汇兑损益日记帐凭证{0}
 Update Billed Amount in Purchase Order,更新采购订单开票金额
@@ -16673,9 +16673,21 @@ Custom Blocks,自定义块
 "This document allows you to edit limited fields. For all kinds of workspace customization, use the Edit button located on the workspace page",这里只能定制部分信息，更多定制请到工作区界面点右上角的编辑按钮后进行操作
 Workflow Builder,工作流设计器
 Edit your workflow visually using the Workflow Builder.,使用工作流设计器可视化编辑工作流
-"NOTE: If you add states or transitions in the table, it will be reflected in the Workflow Builder but you will have to position them manually. Also Workflow Builder is currently in BETA.",说明：通过以下子表添加的状态和转换规则也会体现在工作流设计器图形界面中，但需手工调整位置。工作流设计器目前尚在<b>试用阶段</b>
+"NOTE: If you add states or transitions in the table, it will be reflected in the Workflow Builder but you will have to position them manually. Also Workflow Builder is currently in <b>BETA</b>.",说明：通过以下子表添加的状态和转换规则也会体现在工作流设计器图形界面中，但需手工调整位置。工作流设计器目前尚在<b>试用阶段</b>
 Domain Name,域名
 Show all activity,显示全部日志
 "Updating Email Queue Statuses. The emails will be picked up in the next scheduled run.",更新邮件队列状态中...，邮件将在下一次定时执行的邮件发送任务中发出
 Default Workspace,默认工作区
 "If left empty, the default workspace will be the last visited workspace",如果不勾选，默认工作区为最后一次访问的工作区
+Schedule Send At,定时发送
+Prepend the template to the email message,将模板内容追加到邮件正文(消息)
+Clear & Add Template,清空并添加模板
+Clear the email message and add the template,模板内容覆盖邮件正文(消息)
+Optimize,优化
+Crop,裁切
+"Enabling this option will allow you to record - <br><br> 1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>","勾选后，收到预付款记负债而非资产科目，支付预付款记资产而非负债科目"
+"Naming Options:
+<ol><li><b>field:[fieldname]</b> - By Field</li><li><b>autoincrement</b> - Uses Databases' Auto Increment feature</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present)</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li>
+<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>","自动编号方式：
+ <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据编号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### 
+ </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据编号模板，花括号外可以使用任何固定字符。 </li></ol>"
