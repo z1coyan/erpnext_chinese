@@ -16691,3 +16691,19 @@ Crop,裁切
 <li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>","自动编号方式：
  <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据编号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### 
  </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据编号模板，花括号外可以使用任何固定字符。 </li></ol>"
+Drag to add state,拖拽添加状态
+Reset Changes,放弃修改
+Fit,自适应
+Transition Properties,状态转换属性
+State Properties,状态属性
+Workflow Details,工作流详情
+Workflow updated successfully,工作流更新成功
+Search or type a command ({0}),搜索或输入命令({0})
+Parts Per Hour,每小时产量
+Job Capacity,加工单产能
+Workstation Status,工站状态
+Status Illustration,状态图样
+Active Status,在产状态
+Inactive Status,停机状态
+Plant Floor,车间
+Floor,车间
