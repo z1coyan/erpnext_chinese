@@ -8797,7 +8797,7 @@ Material Request {0} submitted.,物料需求{0}已提交。
 The total Issue / Transfer quantity {0} in Material Request {1}  \							cannot be greater than requested quantity {2} for Item {3},物料需求{1}中的物料{3}其总发料/调拨数量{0}不能超过需求数量{2}
 Material Request Plan Item,物料需求中的计划物料
 Material Request Detail,物料需求信息
-Material Request No,物料需求号
+Material Request No,物料需求单号
 Material Request Date,物料需求日期
 Material Request Item,物料需求明细
 Material Request Type,物料需求类型
@@ -10339,7 +10339,7 @@ West Bengal,西孟加拉邦
 "To stop sending repetitive error notifications from the system, we have checked Disabled field in the Auto Repeat document",要停止从系统发送重复性错误通知，我们在自动重复单据中选中了“禁用标记”字段
 "To allow over billing, update ""Over Billing Allowance"" in Accounts Settings or the Item.",要允许超订单金额开票，请在“会计设置”或“物料主数据”中更新“发票超金额控制(%)”。
 "To allow over receipt / delivery, update ""Over Receipt/Delivery Allowance"" in Stock Settings or the Item.",要允许超量收货/出货，请在库存设置或物料主数据中更新“出入库超量控制”。
-"To allow over-billing or over-ordering, update ""Allowance"" in Stock Settings or the Item.",要允许超额开票或收发货，请在库存设置或物料主数据中更新“出入库超量控制(%)”。
+"To allow over-billing or over-ordering, update ""Allowance"" in Stock Settings or the Item.",要允许超额开票或收发货，请在库存设置或物料主数据中更新“超额送货/收货比率(%)”。
 Sales Orders to Deliver,待出货销售订单
 To create a Payment Request reference document is required,要创建收付款申请源单据是必需的
 Email Address whose Google Contacts are to be synced.,要同步其Google通讯录的电子邮件地址。
@@ -11391,9 +11391,9 @@ Action if Annual Budget Exceeded on PO,超年度预算时针对采购订单的�
 Action if Accumulated Monthly Budget Exceeded on Actual,超累计月度预算时的控制措施
 Action if Accumulated Monthly Budget Exceeded on MR,超累计月度预算时针对物料需求的控制措施
 Allow over delivery or receipt upto this percent,出入库超量控制%
-Over Delivery/Receipt Allowance (%),出入库超量控制(%)
+Over Delivery/Receipt Allowance (%),超额送货/收货比率(%)
 Overproduction Percentage For Sales Order,允许工单数量超销售订单百分比
-Over Billing Allowance (%),发票容差(%)
+Over Billing Allowance (%),超额开票比率(%)
 Run,跑
 Distance,距离
 Distance cannot be greater than 4000 kms,距离不能超过4000公里
@@ -16708,3 +16708,59 @@ Inactive Status,停机状态
 Plant Floor,车间
 Floor,车间
 Job Cards,加工单
+Page Height (in mm),页高(毫米)
+Page Width (in mm),页宽(毫米)
+PDF Page Height (in mm),PDF页高(毫米)
+PDF Page Width (in mm),PDF页宽(毫米)
+Enabled Items Only,在用物料
+Disabled Items Only,禁用物料
+Reset Fields,重置字段
+Remove column,移除栏
+Empty column,空栏
++ Add / Remove Fields,添加/移除字段
+SO Total Qty,销售订单总数量
+Contribution Qty,贡献数量
+Value,金额
+Workspace Custom Block,工作区自定义html
+Workspace Number Card,工作区数字卡
+Task User,任务用户
+Asset Capitalization Service Item,资产资本化服务物料
+Asset Capitalization Stock Item,资产资本化库存物料
+Push Notification Settings,推送通知设置
+Transaction Deletion Record Details,交易记录删除明细
+Whitelist Role,白名单角色
+Twilio Agents,Twilio代理
+Permission Inspector,权限调试工具
+Bisect Nodes,枢纽分析表节点
+Bisect Accounting Statements,会计报表枢纽分析
+Repost Allowed Types,允许重过账单据类型
+Recorder Query,执行记录器查询
+Repost Accounting Ledger Items,重过账凭证明细
+Amended Document Naming Settings,修订单据命名设置
+Webhook Request Log,网页钩子请求日志
+Asset Repair Consumed Item,固定资产维修消耗物料
+BOM Batch Create Detail,批量创建物料清单明细
+Process Payment Reconciliation Log Allocations,收付款核销日志分派
+Web Form List Column,网页表单列表字段
+Logs To Clear,待清除日志
+Telephony Call Type,电话呼叫类型
+Cost Center Allocation Percentage,成本中心分配百分比
+Document Share Key,单据分享码
+Ledger Merge Accounts,合并科目
+Newsletter Attachment,通讯附件
+Advance Tax,预扣税
+Currency Exchange Settings Details,汇率设置明细
+Currency Exchange Settings Result,汇率设置结果
+Print Format Field Template,打印格式字段模板
+Discussion Topic,讨论主题
+Discussion Reply,讨论回复
+Asset Capitalization Asset Item,资产资本化资产物料
+Package Release,包发布
+SLA Fulfilled On Status,SLA按期达成
+Campaign Item,促销活动物料
+Territory Item,区域物料
+Customer Item,客户物料
+Personal Data Deletion Step,个人数据删除步骤
+Incoming Call Settings,来电设置
+Incoming Call Handling Schedule,来电回复排期
+Auto Repeat Day,自动重复日
