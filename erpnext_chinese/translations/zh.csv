@@ -1044,7 +1044,7 @@ Next,下一个
 Next Due Date,下一个到期日
 Next Sync Token,下一个同步令牌
 Next Scheduled Date,下一个排程日期
-Next Date's day and Repeat on Day of Month must be equal,下一个日期的一天，重复上月的天必须相等
+Next Date's day and Repeat on Day of Month must be equal,下次执行日期需与自动重复日一致
 Next Contact By cannot be same as the Lead Email Address,下一个联系人不能与线索的邮箱地址相同
 Next Business Day,下一个营业日
 Next Steps,下一步
@@ -3643,7 +3643,7 @@ Available-for-use Date is entered as past date,启用日期是作为过去的日
 Enable Exit Grace Period,启用早退宽限期
 Enable Different Consequence for Early Exit,启用早退次数有不同后果
 Enable Template,启用模板
-Enable Perpetual Inventory,启用永续盘存功能（每次物料移动实时生成会计凭证）
+Enable Perpetual Inventory,启用永续盘存（物料移动实时生成会计凭证）
 Enable Gradients,启用渐变
 Enable Social Login,启用社交登录
 Use Naming Series,启用单据编号模板
@@ -3800,7 +3800,7 @@ Response Type,响应类型
 Response Result Key Path,响应结果关键路径
 Response Options,响应选项
 "Oops, you are not allowed to know that",哎呀，你不能知道
-Repeat on Day,哪一天
+Repeat on Day,自动重复日
 Pre Sales,售前
 Support,售后支持
 Support Analtyics,售后支持分析
@@ -6228,7 +6228,7 @@ Deductions or Loss,扣除或损失
 Tax Amount After Discount Amount (Company Currency),折后税额（本币）
 Taxes and Charges Deducted,抵扣税费
 Taxes and Charges Deducted (Company Currency),抵扣税费（本币）
-License,执照
+License,许可证
 Execution,执行
 Execute Python Code,执行python代码
 Execution Time: {0} sec,运行时间：{0}秒
@@ -8101,7 +8101,7 @@ This document cannot be reverted,此单据无法还原
 This employee already has a log with the same timestamp.{0},此员工已有一个具有相同时间戳的日志。{0}
 Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer,此字段链接到的单据类型，例如客户
 DocType on which this Workflow is applicable.,此工作流适用的单据类型。
-This tool helps you to update or fix the quantity and valuation of stock in the system. It is typically used to synchronise the system values and what actually exists in your warehouses.,此工具可帮助您更新或修复系统中的库存数量和金额。它通常被用于同步系统值和实际存在于您的仓库。
+This tool helps you to update or fix the quantity and valuation of stock in the system. It is typically used to synchronise the system values and what actually exists in your warehouses.,用于调整物料库存数量(库存盘点)和成本价(成本调整)。
 "Email Domain not configured for this account, Create one?",此帐号的电子邮箱未配置，创建一个？
 Validity period of this quotation has ended.,此报价的有效期已经结束。
 This report was generated on {0},此报表是在{0}上生成的
@@ -9326,7 +9326,7 @@ Offline,离线
 Offline POS Name,离线POS名称
 Offline POS Settings,离线POS设置
 Offline POS Section,离线POS部分
-Exit,离职
+Exit,退出
 Relieving,离职
 Reason for Leaving,离职原因
 Reason for Resignation,离职原因
@@ -9458,8 +9458,8 @@ Item Tax Template,物料税费模板
 Tax/Exp Rate,税费率
 Tax Rule,税费模板分派规则
 Taxes and Charges Calculation,税费计算
-Tax,税项
-"Tax Category has been changed to ""Total"" because all the Items are non-stock items",税项类别已更改为“合计”，因为所有物料均为非库存物料
+Tax,税
+"Tax Category has been changed to ""Total"" because all the Items are non-stock items",税类别已更改为“合计”，因为所有物料均为非库存物料
 empty,空
 Not Set,空值
 Air,空气
@@ -9750,7 +9750,7 @@ Add unused leaves from previous allocations,结转之前结余休假
 Bypass restricted IP Address check If Two Factor Auth Enabled,绕过受限制的IP地址检查如果双因素验证启用
 gave {0} points,给了{0}分
 To Employee,员工(接收人)
-Send Me A Copy of Outgoing Emails,给我自己发电子邮件的副本
+Send Me A Copy of Outgoing Emails,外发邮件时抄送给自己
 Send Me A Copy,给我自己抄送一份
 To User,给用户
 To Shareholder,给股东
@@ -10327,7 +10327,7 @@ Is Frozen,冻结
 Suspended,被吊销
 The item referenced by {0} - {1} is already invoiced,物料已用于{0}  -  {1}发票已开
 Rejected Serial No,拒收序列号
-"to be generated. If delayed, you will have to manually change the ""Repeat on Day of Month"" fieldof this",被生成。如果延迟，您将不得不手动更改“每月重复”字段
+"to be generated. If delayed, you will have to manually change the ""Repeat on Day of Month"" fieldof this",被生成。如果延迟，您将不得不手动更改每月的自动重复日字段
 Disabled template must not be default template,被禁用模板不能设为默认模板
 Followed by,被谁关注
 Invited,被邀请
@@ -11691,10 +11691,10 @@ Filters applied for {0},过滤条件：{0}
 Applicable if the company is an Individual or a Proprietorship,适用于公司是个人或独资企业的情况
 Mention if non-standard receivable account applicable,适用于公司需使用非标准应付科目的情况
 Applicable in the case of Employee Onboarding,适用于员工入职
-Applicable for Countries,适用于国家
-Apply To All Document Types,适用于所有单据类型
-Apply to all Documents Types,适用于所有单据类型
-Applicable if the company is a limited liability company,适用于有限责任公司公司
+Applicable for Countries,适用国家
+Apply To All Document Types,适用所有单据类型
+Apply to all Documents Types,适用所有单据类型
+Applicable if the company is a limited liability company,适用有限责任公司
 Applicable on Material Request,物料需求控制措施
 Applicable for Users,适用于用户
 Applicable on Purchase Order,采购订单控制措施
@@ -11704,12 +11704,12 @@ Applicable on booking actual expenses,实际费用记账控制措施
 Applies to Company,适用整个公司
 Applicable Modules,适用模块
 Applicable Percent,适用百分比
-Applicable Document Types,适用的单据类型
+Applicable Document Types,适用单据类型
 Rule Applied,适用规则
 Applicable Charges,分摊费用
 Check this to enable a scheduled Daily synchronization routine via scheduler,选中此选项可通过调度程序启用计划的每日同步例程
 Holiday List for Optional Leave,选休假假期表
-Select items to save the invoice,选取物料以保存发票
+Select items to save the invoice,选择物料后保存发票
 Selected Price List should have buying and selling fields checked.,价格表主数据中应勾选采购和销售。
 choose an,选择
 Select POS Profile,选择POS配置文件
@@ -16476,7 +16476,7 @@ No matches occurred via auto reconciliation,无待核销单据
 Auto Reconciliation,自动核销
 NaN,无数据
 General and Payment Ledger Comparison,总账与收付款台账对比
-Repeat on Days,哪几天重复
+Repeat on Days,自动重复日
 Auto Repeat Day {0} has been repeated., 哪几天重复子表中 {0} 被重复定义了。
 Submit Generated Invoices,提交生成的发票
 Generate Invoice At,发票生成时机
@@ -16556,15 +16556,15 @@ A customer must have primary contact email.,客户须有主联络邮箱
 Page Break After Each SoA,按对账单分页
 PDF Name,PDF文件名
 No Customers found with selected options.,无满足筛选条件的客户
-No billing email found for customer: {0},客户 {0} 无接收开票信息的邮箱
-No primary email found for customer: {0},客户 {0} 无主联络邮箱
+No billing email found for customer: {0},客户 {0} 主数据中未维护接收开票信息的邮箱
+No primary email found for customer: {0},客户 {0} 主数据中未维护首选联络邮箱
 Customers not selected.,未选择客户
 Please save before proceeding.,请先保存
 No Records for these settings.,无满足筛选条件的数据
 Send Emails,发送电子邮件
 Statement of Accounts,对账单,
-Process Statement Of Accounts,对账单,
-Process Statement Of Accounts Customer,对账单客户,
+Process Statement Of Accounts,客户对账单批处理,
+Process Statement Of Accounts Customer,客户对账单批处理客户明细,
 Difference Posting Date,差异记账日期
 Login Methods,登录方式
 Add Roles,添加角色
@@ -16721,9 +16721,9 @@ Empty column,空栏
 SO Total Qty,销售订单总数量
 Contribution Qty,贡献数量
 Value,金额
-Workspace Custom Block,工作区自定义html
+Workspace Custom Block,工作区自定义html块
 Workspace Number Card,工作区数字卡
-Task User,任务用户
+Task User,任务成员
 Asset Capitalization Service Item,资产资本化服务物料
 Asset Capitalization Stock Item,资产资本化库存物料
 Push Notification Settings,推送通知设置
@@ -16764,3 +16764,57 @@ Personal Data Deletion Step,个人数据删除步骤
 Incoming Call Settings,来电设置
 Incoming Call Handling Schedule,来电回复排期
 Auto Repeat Day,自动重复日
+"If set, only user with these roles can access this chart. If not set, DocType or Report permissions will be used.",如勾选则仅限分派了这些角色的用户可看到本图表，否则由单据类型或报表权限控制图表是否显示
+Email Threads on Assigned Document,被分派单据收到邮件
+Get notified when an email is received on any of the documents assigned to you.,当分派给你的单据接收邮件时发送通知
+Shared with the following Users with Read access:{0},单据分享(读权限）给了以下用户：{0},
+Rate limit for email link login,通过邮件链接登录次数限制
+You can set a high value here if multiple users will be logging in from the same network.,如多个用户通过相同网络登录，请设置一个大一点的数字
+Store Attached PDF Document,存储PDF附件
+"When sending document using email, store the PDF on Communication. Warning: This can increase your storage usage.",邮件发送单据时在沟通(时间线)记录中保存pdf附件。提醒：会耗用更多存储空间
+"Customize properties, naming, fields and more for standard doctypes",为标准单据类型定制属性，编号方式，字段及更多
+"Group your custom doctypes under modules",将自定义单据类型按模块分类
+"Monitor logs for errors, background jobs, communications, and user activity",监控出错日志，后台任务，通讯与用户操作日志
+"Packages are lightweight apps (collection of Module Defs) that can be created, imported, or released right from the UI",包是可从用户界面创建、导入、或发布的包含模块的轻量级应用
+"Automate processes and extend standard functionality using scripts and background jobs",使用脚本与后台任务自动化流程以及扩展标准功能
+"Build your own reports, print formats, and dashboards. Create personalized workspaces for easier navigation",创建自定义报表，打印格式，图表。创建个性化工作区便捷访问各个功能
+"Create new forms and views with doctypes. Set up multi-level workflows for approval",创建单据类型新表单与视图，设置多级审批工作流
+Package Name,包名
+License Type,软件许可证类型
+Attach Package,添加包
+Activate,激活
+"When a parent warehouse is chosen, the system conducts stock checks against the associated child warehouses",选择父仓库时，系统检查其子仓库库存
+Use First Day of Period,所选期间的第一天
+"To begin the date range at the start of the chosen period. For example, if 'Year' is selected as the period, the report will start from January 1st of the current year.",例如期间为年，则为当年1月1号
+"A Price List is a collection of Item Prices either Selling, Buying, or both",代表一组物料的销售价，采购价
+"Log the selling and buying rate of an Item",物料的销售价和采购价
+"Standard Terms and Conditions that can be added to Sales and Purchases. Examples: Validity of the offer, Payment Terms, Safety and Usage, etc.",可添加到销售订单和采购订单的标准交易条款，如报价有效期，付款方式，安全要求及使用方式等
+"Standard tax template that can be applied to all Purchase Transactions. This template can contain a list of tax heads and also other expense heads like \"Shipping\", \"Insurance\", \"Handling\", etc.",用于采购业务的标准税费模板，模板可包括税与费用科目如\"运费\"，\"保险费\"等
+"Standard tax template that can be applied to all Sales Transactions. This template can contain a list of tax heads and also other expense/income heads like \"Shipping\", \"Insurance\", \"Handling\" etc.",用于销售业务的标准税费模板，模板可包括税与费用科目如\"运费\"，\"保险费\"等
+An Item Group is a way to classify items based on types.,物料组用于对物料进行分类
+Default settings for your stock-related transactions,库存相关业务默认设置
+Automatically delete account within (hours),自动删除账号时限(小时)
+Show account deletion link in My Account page,在我的账号页显示帐号删除链接
+Enable Google indexing,启用谷歌索引
+Hide footer signup,在帐号注册页隐藏页脚
+Disable signups,禁用自助注册
+New users will have to be manually registered by system managers.,新用户需由系统管理员手动创建
+Show footer on login,在登录页显示页脚
+Reserved Qty for Subcontract,委外预留数量
+Please select either the Item or Warehouse filter to generate the report.,物料凭证已超1万行，请输入物料或仓库过滤条件
+Packaging Slip From Delivery Note,创建装箱单
+Edit Existing,编辑
+please resolve overlapping,请解决被包含对象y轴+高大于页头页尾高度问题
+Print Format Saved Successfully,打印格式保存成功
+"Route: Example \"/app\"","路径: 例如 \"/app\"",
+"Route: Example ""/app""","路径: 例如 ""/app""",
+There must be atleast 1 Finished Good in this Stock Entry,至少须有一行勾选了是成品的明细行
+Missing Finished Good,无成品明细行
+Multiple items cannot be marked as finished item,只允许一个明细行勾选了是成品
+Body Part,正文
+Body Parts,正文
+Body Part Link,正文链接
+Body,正文
+Printed On,打印时间
+Send To Primary Contact,发送给首选联系人,
+Enable Auto Email,自动发送电子邮件,
