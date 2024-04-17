@@ -8785,7 +8785,7 @@ Item Quality Inspection Parameter,物料质检参数
 Items Filter,物料过滤
 Item-wise Purchase History,物料采购明细
 Item-wise Purchase Register,物料采购台账
-Item Reorder,物料重新排序
+Item Reorder,物料重订货
 Item Weight Details,物料重量
 Item-wise Sales History,物料销售明细
 Item-wise Sales Register,物料销售台账
@@ -16789,8 +16789,8 @@ Use First Day of Period,所选期间的第一天
 "A Price List is a collection of Item Prices either Selling, Buying, or both",代表一组物料的销售价，采购价
 "Log the selling and buying rate of an Item",物料的销售价和采购价
 "Standard Terms and Conditions that can be added to Sales and Purchases. Examples: Validity of the offer, Payment Terms, Safety and Usage, etc.",可添加到销售订单和采购订单的标准交易条款，如报价有效期，付款方式，安全要求及使用方式等
-"Standard tax template that can be applied to all Purchase Transactions. This template can contain a list of tax heads and also other expense heads like \"Shipping\", \"Insurance\", \"Handling\", etc.",用于采购业务的标准税费模板，模板可包括税与费用科目如\"运费\"，\"保险费\"等
-"Standard tax template that can be applied to all Sales Transactions. This template can contain a list of tax heads and also other expense/income heads like \"Shipping\", \"Insurance\", \"Handling\" etc.",用于销售业务的标准税费模板，模板可包括税与费用科目如\"运费\"，\"保险费\"等
+"Standard tax template that can be applied to all Purchase Transactions. This template can contain a list of tax heads and also other expense heads like ""Shipping"", ""Insurance"", ""Handling"", etc.","用于采购业务的标准税费模板，模板可包括税与费用科目如""运费""，""保险费""等"
+"Standard tax template that can be applied to all Sales Transactions. This template can contain a list of tax heads and also other expense/income heads like ""Shipping"", ""Insurance"", ""Handling"" etc.","用于销售业务的标准税费模板，模板可包括税与费用科目如""运费""，""保险费""等"
 An Item Group is a way to classify items based on types.,物料组用于对物料进行分类
 Default settings for your stock-related transactions,库存相关业务默认设置
 Automatically delete account within (hours),自动删除账号时限(小时)
@@ -16818,3 +16818,14 @@ Body,正文
 Printed On,打印时间
 Send To Primary Contact,发送给首选联系人,
 Enable Auto Email,自动发送电子邮件,
+From Voucher Type,源单据类型
+From Voucher No,源单据编号
+Reservation Based On,预留类型
+Voucher Qty,单据数量
+Available Qty to Reserve,可预留数量
+Unreserve,取消预留
+Reserve,取消预留
+{0} As {1} units are reserved for other sales orders, you are allowed to consume only {2} units.,{0} 因其它销售订单已预留了数量 {1}，剩余可耗用数量为 {2}
+{0} As the full stock is reserved for other sales orders, you're not allowed to consume the stock., {0} 因现有数量被其它销售订单预留，无可耗用数量
+Is Rejected Warehouse,是拒收仓
+"If yes, then this warehouse will be used to store rejected materials",如勾选则该仓库是检验不合格待退货的拒收仓
