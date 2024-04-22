@@ -16843,3 +16843,8 @@ Time Window (Seconds),时间(秒)
 Before Rename,修改编号(名称)前
 After Rename,修改编号(名称)后
 Before Print,打印前
+Total Costing Amount (via Timesheet),总成本（工时表）
+Total Expense Claim (via Expense Claim),总费用报销（费用报销）
+Total Billable Amount (via Timesheet),总可开票金额（工时表）
+Total Billed Amount (via Sales Invoice),总已开票金额（销售发票）
+Total Consumed Material Cost (via Stock Entry),总物料成本（物料移动）
