@@ -12589,6 +12589,7 @@ Project Update,项目更新
 Project Update.,项目更新。
 Project Template,项目模板
 Project Template Task,项目模板任务
+Template Task,模板任务
 Project activity / task.,项目活动/任务。
 Project Status,项目状态
 How is the Project Progressing Right Now?,项目现在进展如何？
@@ -15238,6 +15239,7 @@ Per Received,收货百分比
 Paid From Account Type,付款方账户类型
 Paid To Account Type,收款方账户类型
 Paid Amount After Tax (Company Currency),税后付款金额(本币)
+Paid Amount After Tax,税后付款金额(本币)
 Received Amount After Tax,税后收款金额
 Received Amount After Tax (Company Currency),税后收款金额(本币)
 material_request_item,物料需求明细
@@ -15434,7 +15436,7 @@ You created this {0},你创建了本单据
 You edited this {0},你修改了本单据
 Get Customer Group Details,获取客户组信息
 Link with Supplier,关联供应商
-Link with Supplier,关联客户
+Link with Customer,关联客户
 Create Link,创建关联
 Successfully linked to Supplier,成功关联了供应商
 Successfully linked to Customer,成功关联了客户
@@ -16829,3 +16831,15 @@ Reserve,取消预留
 {0} As the full stock is reserved for other sales orders, you're not allowed to consume the stock., {0} 因现有数量被其它销售订单预留，无可耗用数量
 Is Rejected Warehouse,是拒收仓
 "If yes, then this warehouse will be used to store rejected materials",如勾选则该仓库是检验不合格待退货的拒收仓
+Select a Customer,选择客户
+"{} {} is already linked with {} {}",{} {} 已经关联了 {} {}
+"{} {} is already linked with another {}",{} {} 已经关联了其它 {}
+Linking Failed,关联不成功
+Rate Limiting,调用次数限制
+Enable Rate Limit,启用调用次数限制
+Request Limit,可调用次数(多少秒内)
+Time Window (Seconds),时间(秒)
+"User {0}: Removed Employee role as there is no mapped employee.", 因用户 {0} 没有关联的员工主数据，已移除了员工角色
+Before Rename,修改编号(名称)前
+After Rename,修改编号(名称)后
+Before Print,打印前
