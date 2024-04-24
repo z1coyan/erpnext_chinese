@@ -3306,7 +3306,7 @@ Sender Email,发件人电子邮箱
 Outgoing email account not correct,发件人邮箱帐号不正确
 Out Qty,发出数量
 Issue Date,发出日期
-Issue Credit Note,发出退款单
+Issue Credit Note,退款
 Out Value,发出金额
 Issued Items Against Work Order,发到工单的物料
 Raw Materials Supplied,发委外原材料给供应商？
@@ -7052,7 +7052,7 @@ Cannot ensure delivery by Serial No as \					Item {0} is added with and without 
 Cannot ensure delivery by Serial No as \				Item {0} is added with and without Ensure Delivery by \				Serial No.,无法确保按序列号出货，因为\已添加的物料{0}没有定义是否确保\按序列号出货
 Cannot edit cancelled document,无法编辑已取消单据
 "Cannot edit Standard Notification. To edit, please disable this and duplicate it",无法编辑标准通知。要进行编辑，请勾选禁用然后复制它
-"Could not create Credit Note automatically, please uncheck 'Issue Credit Note' and submit again",无法自动创建退款单，请取消选中&#39;发出退款单&#39;并再次提交
+"Could not create Credit Note automatically, please uncheck 'Issue Credit Note' and submit again",无法自动创建退款单，请取消选中&#39;退款&#39;并再次提交
 Could not solve criteria score function for {0}. Make sure the formula is valid.,无法解决{0}的标准分数函数。确保公式有效。
 Could not solve weighted score function. Make sure the formula is valid.,无法解决加权分数函数。确保公式有效。
 Cannot set quantity less than delivered quantity,无法设定数量小于出货数量
@@ -15849,6 +15849,7 @@ Actual Time,实际时间
 Operation & Workstation,工序与工站
 Planned Date,计划日期
 "Add Serial / Batch No",添加序列号/批号
+"Add Serial / Batch Bundle",添加序列号/批号
 "Add Serial / Batch No (Rejected Qty)",添加序列号/批号(拒收数量)
 Reload Report,重新加载报表
 Terms Template,贸易条款模板
@@ -15899,9 +15900,6 @@ Auto follow documents that are shared with you,自动关注分享给你的单据
 Reserved Stock,预留数量
 Show Disabled Warehouses,显示已禁用仓库
 "If enabled, the system will create material requests even if the stock exists in the 'Raw Materials Warehouse'.","如勾选，即使'原材料仓'有库存系统也会创建物料需求"
-Asia/Chongqing,亚洲/重庆
-Asia/Shanghai,亚洲/上海
-Asia/Beijing,亚洲/北京
 Helpdesk,服务台
 Print document,打印单据
 Form,表单
@@ -16848,3 +16846,6 @@ Total Expense Claim (via Expense Claim),总费用报销（费用报销）
 Total Billable Amount (via Timesheet),总可开票金额（工时表）
 Total Billed Amount (via Sales Invoice),总已开票金额（销售发票）
 Total Consumed Material Cost (via Stock Entry),总物料成本（物料移动）
+Database Storage Usage By Tables,数据库表空间使用量报表
+Available Batch Report,批号数量报表
+Include Expired Batches,包括已失效批号
