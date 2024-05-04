@@ -344,7 +344,7 @@ Employees HTML,HTML员工
 Help HTML,HTML帮助
 HTML / Banner that will show on the top of product list.,HTML或横幅，将显示在产品列表的顶部。
 "HTML Header, Robots and Redirects",HTML标头，机器人和重定向
-Letter Head in HTML,HTML格式表头
+Letter Head in HTML,打印表头HTML
 Modules HTML,HTML模块
 HTML for header section. Optional,HTML的标题区。可选
 HTML Editor,HTML编辑器
@@ -702,7 +702,7 @@ Assignment for {0} {1},{0} {1}的分派
 {0} {1} is cancelled or stopped,{0} {1}被取消或停止
 {0} {1} is cancelled or closed,{0} {1}被取消或关闭
 {0} {1}: 'Profit and Loss' type account {2} not allowed in Opening Entry,{0} {1}：“损益”科目类型{2}不允许开账凭证
-{0} {1}: Either debit or credit amount is required for {2},{0} {1}：借方或贷方金额是必输的{2}
+{0} {1}: Either debit or credit amount is required for {2},{0} {1}：请为 {2} 输入借方或贷方
 {0} {1}: Customer is required against Receivable account {2},{0} {1}：应收账款科目{2}客户信息必填
 {0} {1}: Supplier is required against Payable account {2},{0} {1}：应付账款科目{2}供应商信息必填
 {0} {1}: Cost Center {2} does not belong to Company {3},{0} {1}：成本中心{2}不属于公司{3}
@@ -966,7 +966,7 @@ GST HSN Code does not exist for one or more items,一个或多个项目不存在
 "A new task, {0}, has been assigned to you by {1}. {2}",一个新的任务，{0}，已分派给您{1}。 {2}
 1 month ago,一个月前
 {0} month ago,一个月前
-You cannot credit and debit same account at the same time,同一科目不可同时有借方和贷方金额。
+You cannot credit and debit same account at the same time,同一科目不可同时有借方和贷方。
 Too many writes in one request. Please send smaller requests,一个网页请求中包括太多的更新数据操作。
 There can be only one Fold in a form,一个表单只能有一个折叠
 A question must have more than one options,一个问题必须有多个选项
@@ -1001,8 +1001,8 @@ Upload HTML,上传HTML
 Uploading,上传中
 Please save the document before uploading.,上传之前请先保存单据。
 Upload {0} files,上传了{0}份文件
-Upload your letter head and logo. (you can edit them later).,上传你的表头和logo。(您可以在以后对其进行编辑）。
-Upload your letter head (Keep it web friendly as 900px by 100px),上传你的表头（保持网页友好，900px乘100px）
+Upload your letter head and logo. (you can edit them later).,上传打印表头和logo。(您可以在以后对其进行编辑）。
+Upload your letter head (Keep it web friendly as 900px by 100px),上传打印表头（为保证网页显示效果图片大小建议为900 X 100像素）
 Uploaded To Dropbox,上传到Dropbox
 Upload Failed,上传失败
 Upload a statement,上传对账单
@@ -1413,7 +1413,7 @@ Transaction Date,交易日期
 Transaction Details,交易明细
 Transaction Type,交易类型
 Transaction Currency,交易货币
-Transaction currency must be same as Payment Gateway currency,交易货币必须与支付网关货币
+Transaction currency must be same as Payment Gateway currency,交易货币必须与支付网关货币相同
 Actual Qty After Transaction,交易过账后实际数量
 Lead Time in days,交期（天）
 Lead Time Days,交期天数
@@ -1713,7 +1713,7 @@ Price List Exchange Rate,价格表汇率
 Price List Currency,价格表货币
 Price List Currency not selected,价格表货币没有选择
 Rate at which Price list currency is converted to company's base currency,价格表货币转换为公司本币后的单价
-Rate at which Price list currency is converted to customer's base currency,价格表货币转换成客户币种后的单价
+Rate at which Price list currency is converted to customer's base currency,价格表货币转换成客户货币后的单价
 Price List (Auto created),价格表（自动创建）
 Rate: {0},价格：{0}
 Any other details,补充信息
@@ -1804,7 +1804,7 @@ Journal Entries {0} are un-linked,日记账凭证{0}没有关联
 Journal Entry {0} does not have account {1} or already matched against other voucher,日记账凭证{0}没有科目{1}或已经匹配其他凭证
 "Valuation rate not found for the Item {0}, which is required to do accounting entries for {1} {2}. If the item is transacting as a zero valuation rate item in the {1}, please mention that in the {1} Item table. Otherwise, please create an incoming stock transaction for the item or mention valuation rate in the Item record, and then try submiting/cancelling this entry",日记账凭证{1}{2}需要物料{0}的成本价信息，请先在物料主数据中维护成本价，或在本单据的物料行上勾选允许成本价为0，或者先对该物料做一笔有金额的收货由系统自动生成成本价.
 "Accounting entry frozen up to this date, nobody can do / modify entry except role specified below.",日记账凭证冻结截止至此日期，除了以下角色外，其它用户被禁止录入/修改。
-Accounting entries have already been made in currency {0} for company {1}. Please select a receivable or payable account with currency {0}.,日记账凭证已取得货币{0}为公司{1}。请选择一个应收或应付账户币别{0}。
+Accounting entries have already been made in currency {0} for company {1}. Please select a receivable or payable account with currency {0}.,公司{1}的会计凭证记账货币为{0}。请选择结算货币为 {0} 的应收或应付科目。
 Journal Entry Account,日记账凭证科目
 Accounting Entries,会计分录
 Accounting Entry for {0}: {1} can only be made in currency: {2},会计分录为{0}：{1}只能在货币做：{2}
@@ -2146,7 +2146,7 @@ Debit (CNY),借方(人民币)
 Debit(CNY),借方(人民币)
 Debit in Company Currency,借方(本币)
 Debit Account,借方科目
-Debit Amount,借方金额
+Debit Amount,借方
 Debit ({0}),借方（{0}）
 Loans (Liabilities),借款（负债）
 Debit To is required,借记科目必填
@@ -4263,7 +4263,7 @@ Multiple fiscal years exist for the date {0}. Please set company in Fiscal Year,
 Operation completed for how many finished goods?,多少成品工序已完成？
 1 Loyalty Points = How much base currency?,多少钱积1分
 For how much spent = 1 Loyalty Point,多少钱积1分
-Multi Currency,多币别
+Multi Currency,多货币
 Perennial,多年生
 Multiple Tier Program,多等级积分方案
 Item Variant,多规格物料
@@ -4764,7 +4764,7 @@ Customer Contact Email,客户联系电子邮件
 Customer Acquisition and Loyalty,客户获得和忠诚度
 Customer Settings,客户设置
 Customer Details,客户详细信息
-Rate at which Customer Currency is converted to customer's base currency,客户货币转换为客户币别后的单价
+Rate at which Customer Currency is converted to customer's base currency,客户货币转换为客户货币后的单价
 Customer Credit Balance,客户剩余信用额度
 Customer's Purchase Order,客户采购订单
 Customer LPO,客户采购订单号
@@ -5118,7 +5118,7 @@ All bank transactions have been created,已创建所有银行交易流水
 Payment request {0} created,已创建收付款申请{0}
 Work Orders Created: {0},已创建生产工单：{0}
 Sales Invoice {0} created,已创建销售发票{0}
-Initiated,已初始化
+Initiated,已发起
 Deleted,已删除
 {0} records deleted,已删除{0}条记录
 Deleted Documents,已删除单据
@@ -5262,8 +5262,8 @@ Ordered Qty,采购与委外数量
 Seen,已阅
 Hidden,已隐藏
 Booked,已预订
-Currency,币别
-CURRENCY,币别
+Currency,货币
+CURRENCY,货币
 City/Town,市/镇
 Marketing,市场营销
 Marketing Expenses,市场营销费用
@@ -5271,7 +5271,7 @@ Shipping City,市（出货）
 Billing City,市（开票）
 Billing Address GSTIN,账单地址GSTIN
 Billing Address is same as Shipping Address,账单地址与送货地址相同
-Account: {0} with currency: {1} can not be selected,科目：{0}币别：{1}不能选择
+Account: {0} with currency: {1} can not be selected,科目：{0}货币：{1}不能选择
 Account SID,账户SID
 Posts,帖子
 Post,帖子
@@ -5521,7 +5521,7 @@ Opening Date should be before Closing Date,开账日应早于结账日
 Opening Date and Closing Date should be within same Fiscal Year,开账日期和结账日期应在同一财年
 Open Source Applications for the Web,开源为Web应用程序
 Bill,开票
-Billing currency must be equal to either default company's currency or party account currency,开票(发票)货币必须等于默认公司的货币或科目币别
+Billing currency must be equal to either default company's currency or party account currency,开票(发票)货币必须等于默认公司的货币或科目货币
 Billing Rate,开票单价
 Billing Address Name,开票地址名称
 Billing Hours,开票工时
@@ -5600,7 +5600,7 @@ Party Information,往来单位信息
 Party Name,往来单位名称
 Party User,往来单位用户
 Party Account,往来单位科目
-Party Account Currency,往来单位科目币别
+Party Account Currency,往来单位科目货币
 Party Type,往来类型
 Party GSTIN,往来单位纳税登记号
 Trial Balance for Party,往来单位试算平衡表
@@ -5746,7 +5746,7 @@ Total Leave Days,总休假天数
 Total Achieved,总体上实现
 Total Commission,总佣金
 Total Message(s),总信息（s ）
-Total Debit must be equal to Total Credit. The difference is {0},总借方必须等于总贷方金额，差异{0}。
+Total Debit must be equal to Total Credit. The difference is {0},总借方必须等于总贷方，差异{0}。
 Total Debit,借方合计
 Total Holidays,总假期
 Total Net Weight,总净重
@@ -5843,7 +5843,7 @@ Total Liability,总负债
 Total contribution percentage should be equal to 100,总贡献百分比应等于100
 Total Contribution Amount: {0},总贡献金额：{0}
 GL Entry,总账分录
-Total Credit/ Debit Amount should be same as linked Journal Entry,总贷方/借方金额应与关联的日记账凭证相同
+Total Credit/ Debit Amount should be same as linked Journal Entry,总贷方/借方应与关联的日记账凭证相同
 Total Credit,贷方合计
 Total Loan Repayment,总借款还款
 Total Expense Claim (via Expense Claim),总费用报销（费用报销）
@@ -5861,7 +5861,7 @@ Total Amount in Words,总金额(大写)
 Total Amount {0},总金额{0}
 Total Value Difference (Out - In),总金额差异（发出 - 收到 ）
 Total Value Difference (Incoming - Outgoing),总金额差异（入库 - 耗用）
-Total Amount Currency,总金额币别
+Total Amount Currency,总金额货币
 Total Amount Paid,总金额支付
 Total (Company Currency),总金额（本币）
 Total Qty Sold,总销售数量
@@ -6184,7 +6184,7 @@ Print Format Help,打印格式帮助
 Stylesheets for Print Formats,打印格式样式表
 Print Format Builder,打印格式生成器
 Print Format Type,打印格式类型
-Letter Heads for print templates.,打印模板的表头。
+Letter Heads for print templates.,打印表头
 "Always add ""Draft"" Heading for printing draft documents",打印草稿状态单据时添加“草稿”标题
 Print with letterhead,打印表头
 Print Section,打印设置
@@ -6977,7 +6977,7 @@ Invalid User Name or Support Password. Please rectify and try again.,无效的�
 Invalid login or password,无效的登录名或密码
 Invalid Access Key ID or Secret Access Key.,无效的访问密钥ID或秘密访问密钥。
 Invalid Output Format,无效的输出格式
-Invalid Filter: {0},无效的过滤条件： {0}
+Invalid Filter: {0},无效过滤条件： {0}
 Invalid Outgoing Mail Server or Port,无效的邮件发送服务器或端口
 Invalid Mail Server. Please rectify and try again.,无效的邮件服务器，请纠正后重试。
 Invalid Credentials,无效证件
@@ -7563,7 +7563,7 @@ With Items,有物料
 In Stock: ,有现货
 Item variant {0} exists with same attributes,有相同属性的多规格物料{0}已存在
 There must be atleast one permission rule.,有至少要包含一个权限规则。
-With Letter head,有表头
+With Letter head,有打印表头
 Has Role,有角色
 Has Certificate,有证书
 Have an account? Login,有账户？登录
@@ -8576,7 +8576,7 @@ Source and Target Location cannot be same,源和目标地点不能相同
 Source Location,源地点
 Source Location is required for the asset {0},源地点对资产{0}是必需的
 From Customer,源客户
-From Currency,源币别
+From Currency,源货币
 Source Text,源文本
 From Currency and To Currency cannot be same,源货币和目标货币不能相同
 From Delivery Note,源销售出库
@@ -9183,7 +9183,7 @@ Target Document Type,目标单据类型
 Goal and Procedure,目标和程序
 Target Location,目标地点
 Target Location is required for the asset {0},目标地点是资产{0}所必需的
-To Currency,目标币别
+To Currency,目标货币
 Target Qty,目标数量
 Target On,目标类型
 Target Details,目标细节
@@ -9365,17 +9365,17 @@ Account number for account {0} is not available.<br> Please setup your Chart of 
 Account {0}: Parent account {1} can not be a ledger,科目{0}：父(上级)科目{1}不能是记账科目
 Account Number,科目代码
 Account Balance,科目余额
-"Account balance already in Debit, you are not allowed to set 'Balance Must Be' as 'Credit'",科目余额已设置为'借方'，不能设置为'贷方'
-"Account balance already in Credit, you are not allowed to set 'Balance Must Be' as 'Debit'",科目余额已设置为'贷方'，不能设置为'借方'
+"Account balance already in Debit, you are not allowed to set 'Balance Must Be' as 'Credit'",科目余额在'借方'，余额方向不能设置为'贷方'
+"Account balance already in Credit, you are not allowed to set 'Balance Must Be' as 'Debit'",科目余额在'贷方'，余额方向不能设置为'借方'
 Account Details,账户信息
 Account Info,科目信息
 Accounts Browser,科目列表
 Account Name,科目名称
 Account Subtype,科目子类型
-Account Currency,科目币别
-Balance In Account Currency,科目币别余额
-Debit Amount in Account Currency,借方金额(科目币别)
-Credit Amount in Account Currency,贷方金额(科目币别)
+Account Currency,科目货币
+Balance In Account Currency,余额(科目货币)
+Debit Amount in Account Currency,借方(科目货币)
+Credit Amount in Account Currency,贷方(科目货币)
 Account Type,科目类型
 Chart Of Accounts,科目表
 Chart of Accounts,科目表
@@ -10314,10 +10314,11 @@ Form Customization,表单定制
 Property Setter,属性设置
 Form View,表单视图
 Form Settings,表单设置
-Letter Head,表头
+Letter Head,打印表头
 Letter Head Name,表头名称
-Letter Head Image,表头图像
-Letter Head Based On,表头资料源
+Letter Head Image,表头图片
+Letter Head Based On,表头类型
+Footer Based On,表尾类型
 Table Field,表字段
 Table updated,表更新
 Number of columns for a field in a Grid (Total Columns in a grid should be less than 11),表格总列数应小于11
@@ -10896,7 +10897,7 @@ Please update your status for this training event,请更新此培训的状态
 Please Update SMS Settings,请更新短信设置
 Please correct the,请更正
 Please check your registered email address for instructions on how to proceed. Do not close this window as you will have to return to it.,请查看您注册的电子邮件以获取有关如何继续的说明。不要关闭此窗口，因为后面还得回到这里。
-Please check Multi Currency option to allow accounts with other currency,请检查多币别选项，允许科目与其他货币
+Please check Multi Currency option to allow accounts with other currency,请勾选允许同一往来单位发票多货币
 Request URL,请求URL
 Request Feedback,请求反馈
 At least one reply is mandatory before requesting feedback,请求反馈前至少须有一个回复
@@ -11258,7 +11259,7 @@ Cr,贷方
 Credit,贷方
 Credit(CNY),贷方(人民币)
 Credit Balance,剩余信用额度
-Credit Amount,贷方金额
+Credit Amount,贷方
 Credit Account,贷方科目
 Credit To account must be a Balance Sheet account,贷方科目必须是资产负债表科目
 Credit in Company Currency,贷方(本币）
@@ -11287,7 +11288,7 @@ Against Loan: {0},借款：{0}
 Credit To,贷记
 Credit To account must be a Payable account,贷记科目必须是一个“应付”科目
 Dealer,贸易商
-Terms,贸易条款
+Terms,条款
 Rate / UOM,费率/ UOM
 Charges Incurred,费用
 Expense,费用
@@ -11717,7 +11718,7 @@ Select POS Profile,选择POS配置文件
 Select {0},选择{0}
 Select Table Columns for {0},选择{0}的列
 Options 'Dynamic Link' type of field must point to another Link Field with options as 'DocType',选择“动态链接”类型的字段都必须指向另一个选项为'DocType“的链接字段
-Select an account to print in account currency,选择一个科目以科目币别进行打印
+Select an account to print in account currency,选择一个科目以科目货币进行打印
 Select a chat to start messaging.,选择一个聊天开始消息。
 Select a company,选择一家公司
 Select Warehouse...,选择仓库...
@@ -12851,7 +12852,7 @@ Default Taxes and Charges,默认税费
 "The fallback series is ""SO-WOO-"".",默认单据号模板是“SO-WOO-”。
 Default Dimension,默认辅助核算
 Default Salary Structure,默认薪资结构
-Default Letter Head,默认表头
+Default Letter Head,默认打印表头
 Default Shipping Account,默认装运账户
 {0} is now the default Fiscal Year. Please refresh your browser for the change to take effect.,默认财年已经更新为{0}。请刷新您的浏览器以使更改生效。
 Default Finance Book,默认账簿
@@ -13589,7 +13590,7 @@ Row #{0}: Service End Date cannot be before Invoice Posting Date,第{0}行: 服�
 Row #{0}: Service Start Date cannot be greater than Service End Date,第{0}行:服务开始日不能晚于服务结束日
 Row #{0}: Service Start and End Date is required for deferred accounting,第{0}行:递延会计处理，服务开始与结束日必填
 Row #{0}: The batch {1} has already expired.,第{0}行:批号 {1} 已过期
-Row #{}: Currency of {} - {} doesn't matches company currency.,第{0}行: 币别 {} 与公司本币不匹配
+Row #{}: Currency of {} - {} doesn't matches company currency.,第{0}行: 货币 {} 与公司本币不匹配
 Row #{}: Please asign task to a member.,第{0}行:请将任务分派给其它成员
 Row #{}: Selling rate for item {} is lower than its {}. Selling rate should be atleast {},第{0}行: 物料 {} 的销售价须低于其 {}，销售价到少应为 {}
 Row #{}: {} of {} should be {}. Please modify the account or select a different account.,第{0}行: {} 中的 {} 应为 {} ，请修改或选一个别的科目
@@ -13621,7 +13622,7 @@ Search for anything ...,搜索任何东西
 
 <h4>Templating</h4>
 
-<p>Templates are compiled using the Jinja Templating Langauge. To learn more about Jinja, <a class=""strong"" href=""http://jinja.pocoo.org/docs/dev/templates/"">read this documentation.</a></p>","<h4>标准贸易条款和条件范例</h4>
+<p>Templates are compiled using the Jinja Templating Langauge. To learn more about Jinja, <a class=""strong"" href=""http://jinja.pocoo.org/docs/dev/templates/"">read this documentation.</a></p>","<h4>标准条款和条件范例</h4>
 
 <pre> 订单 {{ name } 交货条款}
 
@@ -14168,8 +14169,8 @@ Monthly Rank,月度排名
 Add Shortcut,添加快捷方式
 Link To,链接至
 Items to Order and Receive,待采购与收货物料
-No Letter Head,无信头
-Select Letter Head,选择信头
+No Letter Head,无打印表头
+Select Letter Head,选择打印表头
 Create a new {0},新建{0}
 Expand All,全部展开
 Hide Saved,隐藏已保存过滤
@@ -14288,7 +14289,7 @@ Auto close Opportunity after the no. of days mentioned above,上述天数后自�
 Rate of Stock UOM,单价(库存单位)
 Fetch Timesheet,选工时单
 Get Timesheets,选工时单
-"Item Price appears multiple times based on Price List, Supplier/Customer, Currency, Item, Batch, UOM, Qty, and Dates.","物料价格在价格表，供应商/客户，币种，物料，批号，单位及有效日期字段组合中重复了"
+"Item Price appears multiple times based on Price List, Supplier/Customer, Currency, Item, Batch, UOM, Qty, and Dates.","物料价格在价格表，供应商/客户，货币，物料，批号，单位及有效日期字段组合中重复了"
 Employee Self Service,员工自助服务
 Discount Date,折扣日
 Discounted Amount,折扣金额
@@ -14879,10 +14880,10 @@ Overproduction for Sales and Work Order,超销售和工单数量控制,
 Quality Inspection(s),质检单
 Select Items for Quality Inspection,选择待检验物料
 Sales Order Packed Item,销售订单套件明细
-Debit in Account Currency,借方(科目币别)
-Credit in Account Currency,贷方(科目币别)
+Debit in Account Currency,借方(科目货币)
+Credit in Account Currency,贷方(科目货币)
 Picked Qty (in Stock UOM),拣货数量(库存单位)
-"{0} {1} has accounting entries in currency {2} for company {3}. Please select a receivable or payable account with currency {2}.",为{0} {1}指定了非公司{3}本币{2}的科目。请选择币种为{2}的应收/付科目。,
+"{0} {1} has accounting entries in currency {2} for company {3}. Please select a receivable or payable account with currency {2}.",为{0} {1}指定了非公司{3}本币{2}的科目。请选择货币为{2}的应收/付科目。,
 "Apply Tax Withholding Amount ",含代扣税款
 Reversal Of,被冲销凭证
 Provisional Expense Account,暂估费用科目
@@ -14912,7 +14913,7 @@ Translate Link Fields,翻译链接字段
 Make Attachments Public by Default,上传文件默认设为公开
 Enabling this will allow creation of multi-currency invoices against single party account in company currency,如果勾选，允许客户或供应商第一张发票货币为非主数据中的结算货币(默认为本币)
 "Can't change the valuation method, as there are transactions against some items which do not have its own valuation method",有些物料未在物料主数据中维护成本计算方法且已关联物料凭证与会计凭证，考虑资料一致性此处成本计算方法不能被修改
-"Party Account {0} currency ({1}) and document currency ({2}) should be same",往来单位主数据中定义的结算币种需与业务交易币种相同
+"Party Account {0} currency ({1}) and document currency ({2}) should be same",往来单位主数据中定义的结算货币需与业务交易货币相同
 Show GL Balance,显示总账余额
 GL Balance,总账余额
 Total Amount Due,总未付金额
@@ -15093,7 +15094,7 @@ Invoice Cancellation,发票取消
 Enabling ensure each Sales Invoice has a unique value in Supplier Invoice No. field,强制校验供应商发票号并确保唯一
 Report Setting,报表设置
 Enable Custom Cash Flow Format,启用自定义现金流量格式
-"Allow multi-currency invoices against single party account ",允许同一往来单位发票多币种
+"Allow multi-currency invoices against single party account ",允许同一往来单位发票多货币
 Credit Limit Settings,信用额度设置
 Role allowed to bypass Credit Limit,不受信用额度限制的角色
 Accounts Closing,会计关账
@@ -15176,7 +15177,7 @@ Prospect Opportunity,意向客户商机
 Probability,成交机率
 Closing,成交日期
 Stage,阶段
-Opportunity Amount (Company Currency),商机金额(公司币种)
+Opportunity Amount (Company Currency),商机金额(公司货币)
 Materials & Operations,物料与工序
 Operations & Materials,物料与工序
 Configuration,配置
@@ -15338,10 +15339,10 @@ Auto Reconcile Payments,启用自动核销收付款
 Learn about Common Party,学习更多关于多重身份往来单位知识
 Subcontract Receipt,委外入库
 FG Item,成品物料
-Account Currency (From),源科目币种
+Account Currency (From),源科目货币
 Account Balance (From),源科目余额
 Account Balance (To),目标科目余额
-Account Currency (To),目标科目币种
+Account Currency (To),目标科目货币
 Source Exchange Rate,源汇率
 Target Exchange Rate,目标汇率
 Repost Payment Ledger,收付款台账重过账
@@ -15351,7 +15352,7 @@ Ignore Voucher Type filter and Select Vouchers Manually,忽略凭证类型，手
 Payment Ledger Entry,收付款台账
 DeLinked,已取消关联
 Against Voucher No,关联凭证号
-Amount in Account Currency,金额(科目币种)
+Amount in Account Currency,金额(科目货币)
 No of Months (Expense),月数(费用)
 Avg Rate (Balance Stock),平均成本价(库存余额)
 Reserved for Production Plan,生产计划预留数量
@@ -15365,7 +15366,7 @@ No Outstanding Invoices found for this party,未找到待核销发票
 No Unreconciled Payments found for this party,未找到待核销收付款凭证
 New Journal Entry will be posted for the difference amount,会为差异金额生成日记账凭证
 Payment Ledger,收付款台账
-Include Account Currency,包括科目币种
+Include Account Currency,包括科目货币
 Outstanding:,未结
 Company Account,总账科目,
 Ledger Merge,科目合并
@@ -15486,7 +15487,7 @@ Get Stock,导出库存数据
 Rounding Loss Allowance,小数精度尾差限额
 Gain/Loss from Revaluation,重估损益
 Gain/Loss already booked,已记账损益
-New Balance In Account Currency,科目币别新余额
+New Balance In Account Currency,科目货币新余额
 "Gain/Loss accumulated in foreign currency account. Accounts with '0' balance in either Base or Account currency","外币累计损益，"
 "Only values between [0,1) are allowed. Like {0.00, 0.04, 0.09, ...}
 Ex: If allowance is set at 0.07, accounts that have balance of 0.07 in either of the currencies will be considered as zero balance account","限0到1之间，如0.04，0.09
@@ -15647,7 +15648,7 @@ Connected App,关联应用
 Token Cache,Token缓存
 POS Invoice,POS发票
 Voice Call Settings,语音通话设置
-No filters selected,未选择筛选
+No filters selected,未选择过滤条件
 Add a Filter,添加筛选
 Sales Contributions and Incentives,销售贡献和激励措施
 How often should Project and Company be updated based on Sales Transactions?,项目和公司主数据中的销量统计多久更新一次？
@@ -15854,7 +15855,7 @@ Planned Date,计划日期
 "Add Serial / Batch Bundle",添加序列号/批号
 "Add Serial / Batch No (Rejected Qty)",添加序列号/批号(拒收数量)
 Reload Report,重新加载报表
-Terms Template,贸易条款模板
+Terms Template,条款模板
 Send Attached Files,发送上传的附件
 Send Document Print,发送打印的pdf附件
 Tax Withholding Net Total,代扣税净总计
@@ -15915,7 +15916,7 @@ Light-blue,浅蓝色
 Pink,粉红色
 Choose an icon,选择图标
 Search for icons...,搜索图标...
-Add Columns in Transaction Currency,显示交易币种金额
+Add Columns in Transaction Currency,显示交易货币金额
 Add Card to Dashboard,添加到仪表板
 Show net values in opening and closing columns,期初/末栏显示净值
 Total Amount Due,总未付金额
@@ -16137,8 +16138,8 @@ Percentage you are allowed to order beyond the Blanket Order quantity.,允许订
 Reposting Info,追溯调整信息
 Reposting Data File,追溯调整数据文件
 Total Reposting Count,追溯调整单据数量
-Debit Amount in Transaction Currency,借方金额(交易币别)
-Credit Amount in Transaction Currency,贷方金额(交易币别)
+Debit Amount in Transaction Currency,借方(交易货币)
+Credit Amount in Transaction Currency,贷方(交易货币)
 Transaction Exchange Rate,交易日汇率
 The parent account {0} does not exists in the uploaded template,上传模板中父科目 {0} 不存在,
 Serial / Batch Bundle,序列号/批号
@@ -16175,9 +16176,9 @@ Books have been closed till the period ending on {0},截止到 {0} 的会计记�
 You cannot create/amend any accounting entries till this date.,不允许创建/修改早于此日期的会计凭证
 Period Closed,会计期间已关闭
 Stock Entries already created for Work Order {0}: {1},工单 {0} 现有入库单 {1} 总入库数量已超工单数量，不可再创建新入库单
-Debit Amount in Transaction Currency,交易币别借方金额
-Credit Amount in Transaction Currency,交易币别贷方金额
-Transaction Exchange Rate,交易币别汇率
+Debit Amount in Transaction Currency,借方(交易货币)
+Credit Amount in Transaction Currency,贷方(交易货币)
+Transaction Exchange Rate,汇率(交易货币)
 Remarks Column Length,备注(摘要)文本长度
 Accounts Receivable/Payable,应收/应付
 "Truncates 'Remarks' column to set character length",截取指定长度的摘要内容
@@ -16370,7 +16371,7 @@ Let’s create your first Purchase Invoice,创建第一个采购发票
 View Cost Center Tree,查看成本中心树
 "Take a quick walk-through of Accounts Settings",快速浏览会计设置
 Voucher Subtype,源凭证业务类型
-In Party Currency,往来单位币别
+In Party Currency,往来单位货币
 Depreciate based on shifts,按班次折旧
 This schedule was created when Asset {0} was scrapped.,针对固定资产 {0} 报废的折旧计划已创建
 This schedule was created when Asset {0} was restored.,针对固定资产 {0} 恢复的折旧计划已创建
@@ -16654,8 +16655,8 @@ Print Format Name,打印格式名称
 Create or Edit Print Format,创建或修改打印格式
 With Period Closing Entry For Opening Balances,期初包括期末结账凭证
 Period Closing Entry For Current Period,借贷方包括期末结账凭证
-Debit (Transaction),借(交易货币)
-Credit (Transaction),贷(交易货币)
+Debit (Transaction),借方(交易货币)
+Credit (Transaction),贷方(交易货币)
 Journal Entries,日记账凭证
 Exchange Gain/Loss amount has been booked through {0},自动生成了汇兑损益日记帐凭证{0}
 Update Billed Amount in Purchase Order,更新采购订单开票金额
@@ -16860,3 +16861,31 @@ Set Valuation Rate Based on Source Warehouse,成本价基于发料仓
 Add Sub Assembly,添加子装配件
 Sub Assembly Item,子装配件物料号
 Create Multi-level BOM,创建多级物料清单
+On This Date,日期
+All Companies,所有公司
+"Report initiated, click to view status",生成报表结果的后台任务已启动，点击查看任务状态
+BOM Update Initiated,物料清单更新后台任务已启动
+Job Offer Term Template,工作机会条款模板
+Employees Relieving (This Quarter),员工离职(本季)
+Employees Joining (This Quarter),员工入职(本季)
+Purpose & Amount,目的与金额
+Amount of expense,费用金额
+Taxes & Charges,税费
+Expenses & Advances,费用与预支
+KRAs,关键绩效领域
+KRA vs Goals,关键绩效领域与目标
+Goal Completion (%),目标完成（%）
+Goal Score (weighted),目标分数（加权）
+Rate Goals Manually,手工目标达成评分
+Self Appraisal,自评
+Ratings,评分
+Reflections,回顾
+{0} records are not automatically deleted., {0} 不会被自动删除
+You can change the retention policy from {0}.,可在 {0} 中设置日志保留天数让系统自动删除过期数据
+Filters {0}, 过滤 {0}
+Changing rounding method on site with data can result in unexpected behaviour.,站点已有业务数据的情况下变更圆整方式可能会产生非预期结果
+Do you still want to proceed?,是否继续?
+Order Types,订单类型
+User Group Members,用户组成员
+Copy Link,复制链接
+{0} Number {1} is already used in {2} {3}, {0} 代码 {1} 已被 {2} {3} 占用,
