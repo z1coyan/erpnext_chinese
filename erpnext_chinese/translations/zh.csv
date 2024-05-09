@@ -683,7 +683,7 @@ To {0},{0}
 {0} {1} is not associated with {2} {3},{0} {1}与{2} {3}无关
 "{0} {1} is associated with {2}, but Party Account is {3}",{0} {1}与{2}相关联，但业务伙伴科目为{3}
 {0} {1}: Accounting Entry for {2} can only be made in currency: {3},{0} {1}在{2}会计分录只能用货币单位：{3}
-{0} units of {1} needed in {2} on {3} {4} for {5} to complete this transaction.,{0} {1}在需要{2}在{3} {4}：{5}来完成这一交易单位。
+{0} units of {1} needed in {2} on {3} {4} for {5} to complete this transaction.,本单据 {5} 记账时间点 {3} {4} 发料仓 {2} 物料 {1} 库存不足 {0}。
 {0} {1} has not been submitted so the action cannot be completed,{0} {1}尚未提交，因此无法完成此操作
 {0} {1} is disabled,{0} {1}已禁用
 {0} {1} is frozen,{0} {1}已冻结
@@ -10149,8 +10149,8 @@ Parent is required to get child table data,获取子表数据时需要父(parent
 Get Fields,选字段
 Get Students,选学生
 Fetch exploded BOM (including sub-assemblies),选物料清单底层物料（括子装配件）
-Get Advances Paid,选已付预付款
-Get Advances Received,选已收预付款
+Get Advances Paid,选预付款
+Get Advances Received,选预收款
 Get Current Stock,刷新当前库存
 Get Outstanding Invoice,选未关闭订单或发票
 Fetch Data,获取数据
@@ -13924,7 +13924,7 @@ Valuation Rate for the Item {0}, is required to do accounting entries for {1} {2
 Value for field {0} is too long in {1}. Length should be lesser than {2} characters,{1} 中的字段 {0} 值太长，长度应该小于 {2}
 Value must be one of {0},值必须是 {0} 之一
 Value to Validate,待验证的值
-Value {0} missing for {1}, {1} 不包括值 {{0}
+Value {0} missing for {1}, {1} 不包括值 {0}
 Child Table,子表
 China,中国
 Couldn't save, please check the data you have entered,不能保存，请检查输入的数据
@@ -16840,6 +16840,7 @@ Enable Rate Limit,启用调用次数限制
 Request Limit,可调用次数(多少秒内)
 Time Window (Seconds),时间(秒)
 "User {0}: Removed Employee role as there is no mapped employee.", 因用户 {0} 没有关联的员工主数据，已移除了员工角色
+"User {0}: Removed Employee Self Service role as there is no mapped employee.", 因用户 {0} 没有关联的员工主数据，已移除了员工自助服务角色
 Before Rename,修改单据号(名称)前
 After Rename,修改单据号(名称)后
 Before Print,打印前
@@ -16889,3 +16890,10 @@ Order Types,订单类型
 User Group Members,用户组成员
 Copy Link,复制链接
 {0} Number {1} is already used in {2} {3}, {0} 代码 {1} 已被 {2} {3} 占用,
+Serial No Ledger,序列号台帐
+View Ledgers,查看台账
+Payments,收款,Sales Invoice
+Advance Payments,预收款,Sales Invoice
+Advance Paid,预收款,Sales Order
+"{0} units are reserved for Item {1} in Warehouse {2}, please un-reserve the same to {3} the Stock Reconciliation.", 仓库 {2} 中物料 {1} 已被预留了{0} ，请取消预留后再 {3} 库存调账
+"'{0}' account is already used by {1}. Use another account.","'{0}' 科目已被 {1} 占用. 请使用另一个科目"
