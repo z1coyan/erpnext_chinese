@@ -5607,7 +5607,7 @@ Trial Balance for Party,往来单位试算平衡表
 Party Bank Account,往来单位银行户头
 Qty to Order,待下单数量
 Pending Amount,待付款金额
-Outstanding Amount,待付金额
+Outstanding Amount,未付金额
 To Deliver,待出货
 To Deliver and Bill,待出货与开票
 Qty to Deliver,待出货数量
@@ -5784,7 +5784,7 @@ Total Invoiced Amt,总开票金额
 Total Billing Amount (via Time Sheet),总开票金额（工时表）
 Total flexible benefit component amount {0} should not be less than max benefits {1},总弹性福利金额{0}不应低于最高福利金额{1}
 Total Outgoing,总出库
-Total Outstanding Amount,总待处理金额
+Total Outstanding Amount,总未付金额
 Total Score,总得分
 Total Cost,总成本
 Total Costing Amount,总成本
@@ -8301,8 +8301,8 @@ Nothing to show,无数据
 Nothing more to show.,没有更多内容。
 No more updates,没有更多的更新
 No more items to display,没有更多要显示的条目
-Cannot {0} {1} {2} without any negative outstanding invoice,没有未付发票（负数），无法{0} {1} {2}
-No outstanding invoices require exchange rate revaluation,没有未结清的发票需要汇率重估
+Cannot {0} {1} {2} without any negative outstanding invoice,无负数未付发票，无法{0} {1} {2}
+No outstanding invoices require exchange rate revaluation,无需汇率重估的未付发票
 Not Permitted,没有权限
 Not permitted,没有权限
 No permission to '{0}' {1},没有权限“{0}” {1}
@@ -15367,7 +15367,7 @@ No Unreconciled Payments found for this party,未找到待核销收付款凭证
 New Journal Entry will be posted for the difference amount,会为差异金额生成日记账凭证
 Payment Ledger,收付款台账
 Include Account Currency,包括科目货币
-Outstanding:,未结
+Outstanding:,未付
 Company Account,总账科目,
 Ledger Merge,科目合并
 Accounts to Merge,待合并科目
@@ -16462,6 +16462,7 @@ Delete Cancelled Ledger Entries,删除被取消凭证
 "{0} {1} not allowed to be reposted. Modify {2} to enable reposting.",不允许更新 {0} {1} 会计凭证，请在 {2} 中启用允许更新
 Repost Accounting Entries,更新会计凭证
 Accounting Entries are reposted.,会计凭证已更新
+Accounting Entries are reposted,会计凭证已更新
 Repost has started in the background,会计凭证更新任务在后台执行中
 Cannot Resubmit Ledger entries for vouchers in Closed fiscal year.,不允许在已关闭财年更新会计凭证
 Documents: {0} have deferred revenue/expense enabled for them. Cannot repost.,不允许更新递延收入/费用相关会计凭证
@@ -16595,7 +16596,7 @@ Successfully {0} {1} records.,成功 {0} {1} 笔记录
 "Successfully {0} {1} records out of {2}. Click on Export Errored Rows, fix the errors and import again.","从 {2} 笔记录中成功 {0} {1} 笔记录，点击导出出错记录，修复错误，再重新导入"
 Depreciation cannot be calculated for fully depreciated assets,不能为已勾选已完全折旧的固定资产勾选计算折旧
 Custom field renamed to {0} successfully.,已成功将自定义字段更名为{0}
-{0} Not allowed to change {1} after submission from {2} to {3},{0} 不允许提交后将{0} 从 {2} 修改为 {3}
+{0} Not allowed to change {1} after submission from {2} to {3},{0} 提交后不允许将 {1} 从 {2} 修改为 {3}
 Cannot Update After Submit,不允许提交后修改
 This document is currently locked and queued for execution. Please try again after some time.,单据被后台待执行操作锁定，请稍后再试。
 Invoiced Amount (Excl. Tax),发票金额(未税)
@@ -16897,3 +16898,12 @@ Advance Payments,预收款,Sales Invoice
 Advance Paid,预收款,Sales Order
 "{0} units are reserved for Item {1} in Warehouse {2}, please un-reserve the same to {3} the Stock Reconciliation.", 仓库 {2} 中物料 {1} 已被预留了{0} ，请取消预留后再 {3} 库存调账
 "'{0}' account is already used by {1}. Use another account.","'{0}' 科目已被 {1} 占用. 请使用另一个科目"
+Show Related Errors,显示同类错误
+"Aggregate a group of Items into another Item. This is useful if you are maintaining the stock of the packed items and not the bundled item","适用产品成套出售，套件物料用于计价不做库存管理，套件内物料(类似物料清单下层)管理实际库存"
+Deleted all documents successfully,已成功删除选择的单据
+Bulk Operation Successful,批量操作成功
+Failed to delete {0} documents: {1},未能删除 {0} 个单据: {1}
+Bulk Operation Failed,批量操作失败
+Update Outstanding for Self,更新本单未付金额
+"Credit Note will update it's own outstanding amount, even if ""Return Against"" is specified.",即使指定了源单，退款发票也会更新自身的未付金额
+"We can see {0} is made against {1}. If you want {1}'s outstanding to be updated, uncheck '{2}' checkbox.  Or you can use {3} tool to reconcile against {1} later.","你基于源单 {1} 创建了  {0} . 如果希望更新 {1} 的未付金额, 取消勾选 '{2}' . <br><br> 或者后续使用 {3} 工具核销 {1} ."
