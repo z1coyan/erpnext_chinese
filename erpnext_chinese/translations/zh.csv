@@ -5726,9 +5726,9 @@ Ignore holidays,忽略假期
 Ignored row for {0},忽略单据{0}
 Ignore Employee Time Overlap,忽略员工时间重叠
 Ignore Workstation Time Overlap,忽略工站时间重叠
-Ignore Existing Ordered Qty,忽略已订购数量
-Ignore Existing Ordered Quantity,忽略现有已采购数量
-Ignore Existing Projected Quantity,忽略现有预期数量
+Ignore Existing Ordered Qty,忽略已采购数量
+Ignore Existing Ordered Quantity,忽略已采购数量
+Ignore Existing Projected Quantity,忽略可用数量
 Ignore User Time Overlap,忽略用户时间重叠
 Ignore User Permissions,忽略用户权限
 Ignore encoding errors,忽略编码错误
@@ -6329,7 +6329,7 @@ Rate of Depreciation,折旧率
 Frequency of Depreciation (Months),折旧频率（月）
 Depreciation Row {0}: Next Depreciation Date cannot be before Purchase Date,折旧行{0}：下一个折旧日不能早于采购日
 Depreciation Row {0}: Next Depreciation Date cannot be before Available-for-use Date,折旧行{0}：下一个折旧日期不能早于启用日期
-Depreciation Row {0}: Expected value after useful life must be greater than or equal to {1},折旧行{0}：使用寿命后的预期值必须大于或等于{1}
+Depreciation Row {0}: Expected value after useful life must be greater than or equal to {1},折旧行{0}：资产使用年限结束残值必须大于或等于{1}
 Depreciation Row {0}: Depreciation Start Date is entered as past date,折旧行{0}：已输入之前的折旧开始日期
 Depreciation Schedule,折旧计划
 Depreciation Schedules,折旧计划
@@ -9002,7 +9002,7 @@ gained by {0} via automatic rule {1},由{0}通过自动规则{1}获得
 Cannot delete or cancel because {0} {1} is linked with {2} {3} {4},由于{0} {1}与{2} {3} {4}关联，无法删除或取消
 RFQs are not allowed for {0} due to a scorecard standing of {1},由于记分卡的当前评级为{1}，使用向{0}询价
 Purchase Orders are not allowed for {0} due to a scorecard standing of {1}.,由于记分卡当前评级为{1}，不允许下采购订单给{0}。
-"As raw materials projected quantity is more than required quantity, there is no need to create material request.			Still if you want to make material request, kindly enable <b>Ignore Existing Projected Quantity</b> checkbox",由于原材料预计数量超过所需数量，因此无需创建物料需求。如果您想要生成物料需求，请启用<b>忽略现有预计数量</b>复选框
+"As raw materials projected quantity is more than required quantity, there is no need to create material request.			Still if you want to make material request, kindly enable <b>Ignore Existing Projected Quantity</b> checkbox",由于原材料可用数量超过所需数量，因此无需创建物料需求。如果您想要生成物料需求，请启用<b>忽略可用数量</b>复选框
 Attendance not submitted for {0} as it is a Holiday.,由于是假期，{0}的考勤未提交。
 "As there are existing transactions against item {0}, you can not change the value of {1}",由于物料{0}已被用于现有业务单据中，不允许再更改字段{1}的值
 "Cannot process route, since Google Maps Settings is disabled.",由于禁用了Google地图设置，因此无法处理路线。
@@ -10215,7 +10215,7 @@ Row {0}: Credit entry can not be linked with a {1},行{0}：{1}不可关联退�
 Row {0}: {1} is required to create the Opening {2} Invoices,行{0}：{1}是创建Opening {2}发票所必需的
 Row {0}: Not allowed to enable Allow on Submit for standard fields,行{0}：不允许启用允许对提交的标准字段
 Row {0}: Due Date cannot be before posting date,行{0}：付款到期日不能早于记账日
-Row {0}: Expected Value After Useful Life must be less than Gross Purchase Amount,行{0}：使用寿命后的预期值必须小于总采购额
+Row {0}: Expected Value After Useful Life must be less than Gross Purchase Amount,行{0}：资产使用年限结束后残值必须小于总采购额
 Row {0}: Allocated amount {1} must be less than or equals to Payment Entry amount {2},行{0}：分配金额{1}必须小于或等于输入付款金额{2}
 Row {0}: UOM Conversion Factor is mandatory,行{0}：单位转换系数是必需的
 "Row {0}: Invoice {1} is invalid, it might be cancelled / does not exist. \						Please enter a valid Invoice",行{0}：发票{1}是无效的，它可能会被取消/不存在。 \请输入有效的发票
@@ -12619,12 +12619,12 @@ Estimated Cost,预估成本
 Preprocess Method,预处理方法
 Scheduled To Send,预定发送
 Advance Account,预付科目
-Projected Quantity as Source,预期可用库存
-Stock Projected Qty,预期可用库存
-Projected,预期可用库存
-Projected Qty,预期可用数量
-Projected Quantity,预期可用数量
-Projected qty,预期数量
+Projected Quantity as Source,可用数量
+Stock Projected Qty,可用数量
+Projected,可用数量
+Projected Qty,可用数量
+Projected Quantity,可用数量
+Projected qty,可用数量
 Expected Time (in hours),预计时间（小时）
 Expected Amount,预期金额
 Prepared Report,后台运行报表
@@ -12675,16 +12675,16 @@ Expected Discharge,预计出院日期
 Expected Hrs,预计工时
 Expected Start Date,预计开始日期
 Total Estimated Cost,预计总成本
-Total Projected Qty,预计总数量
+Total Projected Qty,总可用数量
 Total Estimated Budget,预计总预算
 Estimated Arrival,预计抵达时间
-Projected Qty Formula,预计数量公式
-Projected Quantity Formula,预计数量公式
+Projected Qty Formula,可用数量公式
+Projected Quantity Formula,可用数量公式
 Estimated Time and Cost,预计时间和成本
 Expected End Date,预计结束日期
 Expected Closing Date,预计结束日期
-Expected End Date can not be less than Expected Start Date,预计结束日期不能小于预期开始日期
-Number of Depreciations Booked cannot be greater than Total Number of Depreciations,预订折旧数不能超过折旧总数更大
+Expected End Date can not be less than Expected Start Date,预计结束日期不能早于预计开始日期
+Number of Depreciations Booked cannot be greater than Total Number of Depreciations,折旧记账次数不能大于计划折旧次数
 Reservation Time,预订时间
 Reservation End Time,预订结束时间
 Default Tax Withholding Config,预设税款预扣配置
@@ -13816,7 +13816,7 @@ Search for anything ...,搜索任何东西
 "
 Material Request Warehouse,物料需求仓
 Select warehouse for material requests,请先选择物料需求仓
-"To know more about projected quantity, <a href=""https://erpnext.com/docs/user/manual/en/stock/projected-quantity"" style=""text-decoration: underline;"" target=""_blank"">click here</a>.","欲了解更多预期数量逻辑, <a href=""https://erpnext.com/docs/user/manual/en/stock/projected-quantity"" style=""text-decoration: underline;"" target=""_blank"">请点这儿</a>."
+"To know more about projected quantity, <a href=""https://erpnext.com/docs/user/manual/en/stock/projected-quantity"" style=""text-decoration: underline;"" target=""_blank"">click here</a>.","欲了解更多可用数量逻辑, <a href=""https://erpnext.com/docs/user/manual/en/stock/projected-quantity"" style=""text-decoration: underline;"" target=""_blank"">请点这儿</a>."
 Territory, 区域
 Read Time,阅读时间
 Disable Comments,禁止评论
@@ -14585,7 +14585,7 @@ Review Stock Settings,审核库存模块设置
 Setup a Warehouse,设置仓库
 Manage Stock Movements,管理物料移动
 Update Stock Opening Balance,更新初始库存
-Check Stock Projected Qty,查看预期可用库存
+Check Stock Projected Qty,查看可用库存
 let's create a opening stock entry,创建期初库存
 Create a Material Transfer Entry,创建物料调拨
 let's create your first warehouse,创建仓库
@@ -15261,7 +15261,7 @@ Operating Cost Per BOM Quantity,每个成品工费成本
 Job Requisition,职位申请
 No of. Positions,职位数量
 Expected Compensation,期望薪酬
-Expected By,预期完成时间
+Expected By,预计完成时间
 Timelines,时间表
 Interviews,面试
 Interview Type,面试方式
@@ -15450,8 +15450,8 @@ Show Pay Button in Purchase Order Portal,在门户网站采购订单详情界面
 For link field filter,用户链接字段智能过滤
 This form is not editable due to a Workflow.,此表单因工作流状态不能被编辑。
 Skip Available Sub Assembly Items,考虑子装配件可用库存
-"System consider the projected quantity to check available or will be available sub-assembly items ",勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除
-"System consider the projected quantity to check available or will be available assembly items ",勾选后，计划数量=需求-可用库存，可用足够时装配件被删除
+"System consider the projected quantity to check available or will be available sub-assembly items ",勾选后，计划数量=需求-可用数量，可用足够时子装配件被删除
+"System consider the projected quantity to check available or will be available assembly items ",勾选后，计划数量=需求-可用数量，可用数量足够时装配件被删除
 Item and Warehouse,物料与仓库
 Opening & Closing,POS机交接班
 POS Closing Entry,POS机接班
@@ -15847,7 +15847,7 @@ Force Web Capture Mode for Uploads,上传时强制使用网页上传模式
 Rounding Method,圆整方式
 Banker's Rounding,银行圆整
 Commercial Rounding,商业圆整
-Expected Time Required (In Mins),预期时间(分钟)
+Expected Time Required (In Mins),预计时间(分钟)
 Actual Time,实际时间
 Operation & Workstation,工序与工站
 Planned Date,计划日期
@@ -16907,3 +16907,22 @@ Bulk Operation Failed,批量操作失败
 Update Outstanding for Self,更新本单未付金额
 "Credit Note will update it's own outstanding amount, even if ""Return Against"" is specified.",即使指定了源单，退款发票也会更新自身的未付金额
 "We can see {0} is made against {1}. If you want {1}'s outstanding to be updated, uncheck '{2}' checkbox.  Or you can use {3} tool to reconcile against {1} later.","你基于源单 {1} 创建了  {0} . 如果希望更新 {1} 的未付金额, 取消勾选 '{2}' . <br><br> 或者后续使用 {3} 工具核销 {1} ."
+Currency ,货币
+Amount that has been paid against this advance,本预支已付金额
+Pending (unpaid) amount from previous advances,之前预支未付金额
+Amount claimed via Expense Claim,费用报销申报金额
+Amount returned by the employee after the advance is paid,支付预支款后员工退还金额
+Shift Assignment Tool,班次分派工具
+Deduction Reports,扣除报表
+Bulk Salary Structure Assignment,批量薪资结构分派
+Assign Structure,分派结构
+Set Assignment Details,设置分派请情
+Quick Filters,快速筛选条件
+Advanced Filters,高级筛选条件
+Link Filters,链接字段筛选条件
+"To print output use <code>print(text)</code>",可调用print输出结果
+Enabling this will change the way how cancelled transactions are handled.,勾选意味着系统将修改取消单据记账逻辑
+Please enable only if the understand the effects of enabling this.,请确保理解相关影响后勾选
+Do you still want to enable immutable ledger?确定启用不可篡改账本
+On enabling this cancellation entries will be posted on the actual cancellation date and reports will consider cancelled entries as well,勾选后取消单据将以实际取消日记账，相应月份的报表亦会包括取消与被取消单据
+Enable Immutable Ledger,启用不可篡改账本
