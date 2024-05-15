@@ -16923,6 +16923,14 @@ Link Filters,链接字段筛选条件
 "To print output use <code>print(text)</code>",可调用print输出结果
 Enabling this will change the way how cancelled transactions are handled.,勾选意味着系统将修改取消单据记账逻辑
 Please enable only if the understand the effects of enabling this.,请确保理解相关影响后勾选
-Do you still want to enable immutable ledger?确定启用不可篡改账本
+Do you still want to enable immutable ledger?,确定启用不可篡改账本
 On enabling this cancellation entries will be posted on the actual cancellation date and reports will consider cancelled entries as well,勾选后取消单据将以实际取消日记账，相应月份的报表亦会包括取消与被取消单据
 Enable Immutable Ledger,启用不可篡改账本
+Cannot cancel as processing of cancelled documents is pending.,因相关已取消单据后台提交尚未完成，不能进行取消操作
+Please try again in an hour.,请一小时后重试
+Pending processing,等待后台处理
+Error while reposting item valuation,物料成本价追溯调整出错
+An error has been appeared while reposting item valuation via {0},通过 {0} 进行的物料成本价追溯调整出错了
+Please check the error message and take necessary actions to fix the error and then restart the reposting again.,请详细检查相关错误消息，修正相关主数据或业务数据后重新执行
+Caution: This might alter frozen accounts.,警告：可能会变更已冻结科目
+You cannot repost item valuation before {},物料成本价追溯调整不允许早于 {}
