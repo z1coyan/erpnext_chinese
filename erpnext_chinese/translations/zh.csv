@@ -9691,7 +9691,7 @@ Organizational Unit,组织单位
 Org History Heading,公司发展历程标题
 Your Organization,组织机构
 Group Node,组节点
-Group node warehouse is not allowed to select for transactions,组节点仓库不允许选择用于交易
+Group node warehouse is not allowed to select for transactions,实际业务单据中不可使用组节点仓库
 Group to Non-Group,组转换为非组
 Market Segment,细分市场
 Particulars,细节
@@ -16934,3 +16934,6 @@ An error has been appeared while reposting item valuation via {0},通过 {0} 进
 Please check the error message and take necessary actions to fix the error and then restart the reposting again.,请详细检查相关错误消息，修正相关主数据或业务数据后重新执行
 Caution: This might alter frozen accounts.,警告：可能会变更已冻结科目
 You cannot repost item valuation before {},物料成本价追溯调整不允许早于 {}
+Item valuation reposting in progress. Report might show incorrect item valuation.,物料成本价追溯调整后台处理中，报表中显示的物料成本价可能不是最新的
+Stock/Accounts can not be frozen as processing of backdated entries is going on. Please try again later.,因成本价追溯调整后台处理中，不允许冻结库存科目。请稍后再试
+Batch No {0} is linked with Item {1} which has serial no. Please scan serial no instead.,批号 {0} 关联的物料 {1} 启用了序列号，请扫序列号。
