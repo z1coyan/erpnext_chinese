@@ -1102,7 +1102,7 @@ Multiple root nodes not allowed.,不允许多个根节点。
 Multiple default mode of payment is not allowed,不允许多种默认付款方式
 More than one selection for {0} not allowed,不允许对{0}进行多次选择
 Transaction not allowed against stopped Work Order {0},不允许对停止的工单{0}进行交易
-Not allowed to update stock transactions older than {0},不允许对早于{0}的库存交易进行更新
+Not allowed to update stock transactions older than {0},库存变动日期不能早于库存设置-库存变动锁账天数 {0} 限定的最晚可动帐日期
 Not allowed to Import,不允许导入
 Export not allowed. You need {0} role to export.,不允许导出，您没有{0}的角色。
 Not allowed to print cancelled documents,不允许打印已取消的单据
@@ -1910,7 +1910,7 @@ You are not allowed to create columns,你无权创建列
 "You are selecting Sync Option as ALL, It will resync all \				read as well as unread message from server. This may also cause the duplication\				of Communication (emails).",你是所有选择同步选项，它会重新同步所有\读取以及未读邮件从服务器。这也可能会导致通信（电子邮件）的重复数据删除\。
 What do you need help with?,你有什么需要帮助的？
 What do you need help with?,你有什么需要帮助的？
-You are not authorized to add or update entries before {0},你没有权限在{0}前添加或更改分录。
+You are not authorized to add or update entries before {0},你未被授权在会计设置->会计关账 中设置的冻结记账截止日 {0} 前新增或变更会计凭证。
 You don't have permission to get a report on: {0},你没有权限获得{0}的报表
 You are not permitted to access this page.,你没有权限访问此页面。
 You do not have enough points,你没有足够的能量点数
@@ -4869,6 +4869,7 @@ Export,导出
 Export 1 record,导出 1 笔记录
 Export {0} records,导出 {0} 笔记录
 Export All {0} rows?,导出全部{0}行？
+Export all {0} rows??,导出满足筛选条件的全部 {0} 行记录？
 Export Errored Rows,导出出错记录
 Export Custom Permissions,导出客户许可
 Export Report:,导出报表:
@@ -16230,7 +16231,7 @@ Auto Create Purchase Receipt,自动创建委外入库
 Purchase Receipt (Draft) will be auto-created on submission of Subcontracting Receipt.,委外入库提交时自动创建委外采购入库（草稿）
 Pick Serial / Batch Based On,自动选序列号/批号规则
 Expiry,到期日
-You cannot create a {0} within the closed Accounting Period {1}, 会计期间 {1} 中创建 {0} 被设置为已关闭
+You cannot create a {0} within the closed Accounting Period {1}, 不能在已关闭会计期间 {1} 创建 {0}
 System will not check over billing since amount for Item {0} in {1} is zero, 因为 {1} 中的物料 {0}  金额为0系统无法进行超额开票防错检查
 Update Billed Amount in Delivery Note,更新销售出库单已开票金额
 "# Create an Item
@@ -16937,3 +16938,43 @@ You cannot repost item valuation before {},物料成本价追溯调整不允许�
 Item valuation reposting in progress. Report might show incorrect item valuation.,物料成本价追溯调整后台处理中，报表中显示的物料成本价可能不是最新的
 Stock/Accounts can not be frozen as processing of backdated entries is going on. Please try again later.,因成本价追溯调整后台处理中，不允许冻结库存科目。请稍后再试
 Batch No {0} is linked with Item {1} which has serial no. Please scan serial no instead.,批号 {0} 关联的物料 {1} 启用了序列号，请扫序列号。
+Welcome URL,欢迎页网址
+Sign Up and Confirmation,注册与确认
+Redirect to this URL after successful confirmation.,确认成功后跳转到此网址
+Send Web View Link,发送网页视图链接
+Publish as a web page,发布为网页
+Send now,立即发送
+Schedule sending,定时发送
+Cancel Scheduling,取消定时任务
+This newsletter is scheduled to be sent on {0},此简讯将于 {0} 发送
+Send a test mail,发送测试邮件
+Check broken links,检查无效链接
+Sending...,发送中...
+Send again,重新发送
+No broken links found in the email content,邮件正文中未发现无效链接
+Following links are broken in the email content: {0},邮件正文中以下链接无效：{0}
+Scheduled Sending,定时发送
+Schedule sending at a later time,指定邮件发送时间
+Send Email At,邮件发送时间
+Past dates are not allowed for Scheduling.,不允许计划执行时间早于现在
+Pick Manually,手动拣货
+"If enabled then system won't override the picked qty / batches / serial numbers.",如果勾选系统采用手工填写的拣货数量，批号，序列号
+Already Picked,已经拣货
+{0} units of Item {1} is picked in another Pick List.,其它拣货单中已拣 {0} 个物料 {1}
+{0} units of Item {1} is not available in any of the warehouses., 物料 {1} 缺货数量 {0}
+Row #{}: item {} has been picked already.,第 {} 行：物料 {} 已经拣货了
+Cannot create a pick list for Sales Order {0} because it has reserved stock. Please unreserve the stock in order to create a pick list.,为销售订单 {0} 创建了库存预留，请取消预留后再创建拣货单
+"Row {0} picked quantity is less than the required quantity, additional {1} {2} required.",第 {0} 行拣货数量少于需求数量，短缺 {1} {2}
+Pick List Incomplete,拣货单不完整
+Quantity must be greater than zero, and less or equal to {0},数量必须 > 0，且 <= {0}
+Export all matching rows?,导入满足筛选条件的所有记录？
+Field not permitted in query,查询过滤条件字段无效(js调用db.get_value, db.get_list过滤条件不支持字表字段，db.get_list支持子单据查询，需添加parent_doctype:主单据类型参数用于权限检查)
+Nothing New,无新消息
+There is nothing new to show you right now.,暂无可显示新消息
+Events,事件
+"What's New",新消息
+Failed to send email with subject:,邮件发送失败，邮件标题：
+Open Documents,关注的单据类型,Notification Settings
+Row {0}: Expense Head changed to {1} because account {2} is not linked to warehouse {3} or it is not the default inventory account,系统提示：因勾选了更新库存，系统自动将物料明细第 {0} 行的费用科目 {2} 修改为库存科目 {1}
+Row {0}: Expense Head changed to {1} because expense is booked against this account in Purchase Receipt {2},系统提示：系统自动将物料明细第 {0} 行的费用科目修改为采购入库 {2} 会计凭证中的费用科目 {1}
+This is done to handle accounting for cases when Purchase Receipt is created after Purchase Invoice,这样做是为了处理在采购发票后创建采购入库的情况,
