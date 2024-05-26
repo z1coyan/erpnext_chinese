@@ -2204,14 +2204,14 @@ Bin,储位
 Storage Temperature,储存温度
 "Repeats like ""aaa"" are easy to guess",像“AAA”重复很容易被猜到
 Slideshow like display for the website,像幻灯片那样显示，用于网站。
-Child warehouse exists for this warehouse. You can not delete this warehouse.,儿童仓库存在这个仓库。您不能删除这个仓库。
-Child Docname,儿童医生名称
+Child warehouse exists for this warehouse. You can not delete this warehouse.,因仓库已是其它仓库的父仓库。不允许删除。
+Child Docname,子单据名称/编号
 Allow,允许
 Allow GCalendar Access,允许GCalendar访问
 Allow GSuite access,允许GSuite访问
 Allow Google Contacts Access,允许Google通讯录访问
-Allow Item to be added multiple times in a transaction,允许一个交易中存在相同物料
-Allow Item to be Added Multiple Times in a Transaction,允许一个交易中存在相同物料
+Allow Item to be added multiple times in a transaction,物料明细表允许相同物料号在不同行重复出现
+Allow Item to be Added Multiple Times in a Transaction,物料明细表允许相同物料号在不同行重复出现
 Allow check-out after shift end time (in minutes),允许下班后签退（分钟）
 Allow Account Creation Against Child Company,允许为子公司创建科目
 Allowed To Transact With,允许交易
@@ -4332,7 +4332,7 @@ Mention if non-standard payable account,如使用非标准应付科目，请在�
  Tax Exemption Declaration will be considered for income tax calculation.,如勾选，个税计算时将扣除申报的免税金额
 "If enabled, then system will create the material even if the raw materials are available",如勾选，则即使有可用原材料，系统也会生成物料需求(需求)
 "If enabled, system will create the work order for the exploded items against which BOM is available.",如勾选，系统将为定义了物料清单的下层物料生成生产工单。
-"If you have created a standard template in Sales Taxes and Charges Template, select one and click on the button below.",如已创建销售税/费标准模板，选一个，然后点下面的按钮。
+"If you have created a standard template in Sales Taxes and Charges Template, select one and click on the button below.",如已创建销售税费模板，选一个，然后点下面的按钮。
 "Reselect, if the chosen address is edited after save",如所选地址保存后被修改请重新选择
 Prices will not be shown if Price List is not set,如未设置价格表，价格将不会显示
 Please set Company filter blank if Group By is 'Company',如果Group By是“Company”，请设置公司过滤条件空白
@@ -5185,17 +5185,17 @@ Quoted Item Comparison,已报价物料对比
 "Cannot declare as lost, because Quotation has been made.",已报价，不能更改状态为未成交。
 Scrapped,已报废
 Accepted,接受
-Accepted Quantity,允收数量
+Accepted Quantity,收货数量
 Received and Accepted,已接收
-Accepted + Rejected Qty must be equal to Received quantity for Item {0},已接收+已拒收数量须等于物料{0}的已接收数量
-Accepted Qty,已接收数量
+Accepted + Rejected Qty must be equal to Received quantity for Item {0},收货数量+拒收数量须等于物料{0}的收到数量
+Accepted Qty,收货数量
 Submitted,已提交
 Tax Declaration of {0} for period {1} already submitted.,已提交期间{1}的税务申报{0}。
 "Meaning of Submit, Cancel, Amend",已提交，取消，修订的含义
 Fully Depreciated,已提足折旧
-Recd Quantity,已收到数量
+Recd Quantity,收到数量
 Certificate Received,已收到证书
-Received Qty,已收数量
+Received Qty,收到数量
 % Received,已收货%
 Updated,已更新
 Delivery Notes {0} updated,已更新出货单{0}
@@ -5336,8 +5336,8 @@ Broadcasting,广播
 Serial #,序列号
 Serial No,序列号
 Serial Numbers,序列号
-Serial No Warranty Expiry,序列号/保修期
-Serial No Service Contract Expiry,序列号/年度维护保修期
+Serial No Warranty Expiry,序列号质保到期
+Serial No Service Contract Expiry,序列号合同期满
 Serial No / Batch,序列号/批号
 Serial No {0} does not exist,序列号{0}不存在
 Serial No {0} does not belong to Warehouse {1},序列号{0}不属于仓库{1}
@@ -5815,8 +5815,8 @@ Gross Purchase Amount is mandatory,总消费金额字段必填
 Total Consumed Material Cost  (via Stock Entry),总物料成本（物料移动）
 Total Claimed Amount,总申报金额
 Total Target,总目标
-Total Taxes and Charges,总税/费
-Total Taxes and Charges (Company Currency),总税/费（本币）
+Total Taxes and Charges,总税费
+Total Taxes and Charges (Company Currency),总税费（本币）
 Total Tax,总税额
 Tax Total,总税额
 Total Experience,总经验
@@ -6724,7 +6724,7 @@ Set Accepted Warehouse,收货仓库
 Receipt document must be submitted,收货单据(单据)必须先提交
 Receipt Document,收货单据号
 Receipt Document Type,收货单据类型
-Received Quantity,收货数量
+Received Quantity,收到数量
 Received Stock Entries,收货记录
 Charges,收费
 Fee Category,收费类别
@@ -7006,7 +7006,7 @@ Cannot create a Delivery Trip from Draft documents.,无法从草稿单据创建�
 Cannot deactivate or cancel BOM as it is linked with other BOMs,无法停用或取消BOM，因为它被其他BOM引用。
 Cannot close task {0} as its dependant task {1} is not closed.,无法关闭任务{0}，因为其依赖任务{1}未关闭。
 Unable to write file format for {0},无法写入{0}的文件格式
-Cannot create a {0} against a child document: {1},无法创建{0}针对儿童的单据：{1}
+Cannot create a {0} against a child document: {1},无法创建{0}子单据：{1}
 Unable to create bucket: {0}. Change it to a more unique name.,无法创建存储桶：{0}。将其更改为更独特的名称。
 Can't create standard criteria. Please rename the criteria,无法创建标准条件。请重命名标准
 Cannot Remove,无法删除
@@ -8420,7 +8420,7 @@ Variable,浮动工资
 Float,浮点数
 Float,浮点数
 Float Precision,浮点数精度
-Customs Tariff Number,海关税则号
+Customs Tariff Number,海关关税号
 Messages,消息
 Message ID,消息ID
 Message Parameter,消息参数
@@ -8760,7 +8760,7 @@ Stock Entry Child,物料移动明细
 Stock Entry Detail,物料移动明细
 Stock Ledger,物料凭证
 Stock Entry (Outward GIT),物料移动（在途发出）
-Item Wise Tax Detail,物料税/费信息
+Item Wise Tax Detail,物料税费信息
 Item Tax Template Detail,物料税模板详细信息
 Item Tax Rate,物料税率
 Tax template for item tax rates.,物料税费模板。
@@ -9440,8 +9440,8 @@ Program: ,程序：
 Do It Later,稍后再做
 Awaiting password,稍后提供密码
 Taxes,税
-Expense Taxes and Charges,税/费
-Taxes and Charges,税/费
+Expense Taxes and Charges,税费
+Taxes and Charges,税费
 Tariff Number,税则号
 Tax Type,税别
 Tax Category,税别
@@ -12018,9 +12018,9 @@ Purchase Date,采购日期
 Settings for Buying Module,采购模块的设置
 Cost of Purchased Items,采购物料成本
 Request for purchase.,采购申请。
-Purchase Taxes and Charges,采购税/费
-Purchase Tax Template,采购税/费模板
-Purchase Taxes and Charges Template,采购税/费模板
+Purchase Taxes and Charges,采购税费
+Purchase Tax Template,采购税费模板
+Purchase Taxes and Charges Template,采购税费模板
 Purchase Manager,采购经理
 Purchase Orders given to Suppliers.,采购给供应商的订单。
 Purchase Analytics,采购统计分析
@@ -12310,8 +12310,8 @@ Sales Funnel,销售漏斗
 Point of Sale,销售点
 Point-of-Sale,销售点
 Sales Account,销售科目
-Sales Tax Template,销售税/费模板
-Sales Taxes and Charges Template,销售税/费模板
+Sales Tax Template,销售税费模板
+Sales Taxes and Charges Template,销售税费模板
 Sales Taxes and Charges,销售税费
 Sales Manager,销售经理
 Sales Summary,销售统计
@@ -12987,7 +12987,7 @@ In Mins,分
 Purchase Order Analysis,采购订单执行追踪表
 Billed Qty,已开票数量
 Qty to Bill,未开票数量
-Received Qty Amount,收货金额
+Received Qty Amount,收到数量金额
 Group by Purchase Order,按采购订单分组
 Set Reserve Warehouse,设置预留仓
 Fetch Items from Warehouse,从仓库选物料
@@ -14191,7 +14191,7 @@ Qty in Stock UOM,数量(库存单位)
 Shortcuts,快捷方式
 Apply Putaway Rule,应用上架规则
 Received Qty in Stock UOM,收到数量(库存单位)
-Accepted Qty in Stock UOM,接受数量(库存单位)
+Accepted Qty in Stock UOM,收货数量(库存单位)
 Purchase Receipt has been submitted successfully,采购入库已成功提交
 Purchase Invoice has been submitted successfully,采购发票已成功提交
 Add Serial No,添加序列号
@@ -14232,8 +14232,8 @@ Missing Filters Required,请维护过滤条件
 Following Report Filters have missing values:,缺少以下报表过滤条件
 Is Sales Order Required for Sales Invoice & Delivery Note Creation?,必须有销售订单才能新建销售发票和销售出库？,
 Is Delivery Note Required for Sales Invoice Creation?,必须有销售出库才能新建销售发票？
-Allow Multiple Sales Orders Against a Customer's Purchase Order,一张客户采购订单可关联多张销售订单,
-Validate Selling Price for Item Against Purchase Rate or Valuation Rate,基于采购价或成本价校验销售价,
+Allow Multiple Sales Orders Against a Customer's Purchase Order,允许一张客户采购订单关联多张销售订单,
+Validate Selling Price for Item Against Purchase Rate or Valuation Rate,不允许售价低于采购价和成本价,
 Allow User to Edit Price List Rate in Transactions,允许用户修改交易中的标价字段,
 Allow Item to Be Added Multiple Times in a Transaction,允许在交易中物料号重复,
 Hide Customer's Tax ID from Sales Transactions,销售交易中不显示客户纳税登记号,
@@ -14562,7 +14562,7 @@ Item {0} Qty {1} changed to {2} due to min pack qty {3},基于物料{0}最小包
 HH:mm,时:分
 HH:mm:ss,时:分:秒
 Reference Exchange Rate,参考汇率
-Taxes and Charges Template,税/费模板
+Taxes and Charges Template,税费模板
 Return Issued,被退货
 Incorrect Serial No Qty and Valuation,序列号数量与成本价错误报表
 Production Plan Sub-assembly Item,子装配件
@@ -15879,7 +15879,7 @@ Let's begin your journey with ERPNext,让我们一起开启ERPNext之旅
 Create an Item,创建物料
 "Stock Ledger report contains every submitted stock transaction. You can use filter to narrow down ledger entries.",物料凭证报表包括所有库存业务交易，可使用过滤条件筛选物料凭证
 Create a new Item,创建一个新物料
-Manage Sales Tax Templates,维护销售税/费模板
+Manage Sales Tax Templates,维护销售税费模板
 "Item, Customer, Supplier and Quotation",物料，客户，供应商，报价
 "Filters <span class='filter-label'>{0}</span>","过滤 <span class='filter-label'>{0}</span>"
 Import Data from Spreadsheet,从excel导入数据
@@ -16978,3 +16978,4 @@ Open Documents,关注的单据类型,Notification Settings
 Row {0}: Expense Head changed to {1} because account {2} is not linked to warehouse {3} or it is not the default inventory account,系统提示：因勾选了更新库存，系统自动将物料明细第 {0} 行的费用科目 {2} 修改为库存科目 {1}
 Row {0}: Expense Head changed to {1} because expense is booked against this account in Purchase Receipt {2},系统提示：系统自动将物料明细第 {0} 行的费用科目修改为采购入库 {2} 会计凭证中的费用科目 {1}
 This is done to handle accounting for cases when Purchase Receipt is created after Purchase Invoice,这样做是为了处理在采购发票后创建采购入库的情况,
+Inter Company Sales Order,关联公司销售订单
