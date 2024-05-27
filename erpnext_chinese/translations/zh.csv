@@ -3494,7 +3494,7 @@ You can use wildcard %,可以使用通配符％
 Can Write,可以写
 Can Share,可以分享
 Roles can be set for users from their User page.,可以在用户主数据页面为用户分派角色。
-"Standard Terms and Conditions that can be added to Sales and Purchases.Examples:1. Validity of the offer.1. Payment Terms (In Advance, On Credit, part advance etc).1. What is extra (or payable by the Customer).1. Safety / usage warning.1. Warranty if any.1. Returns Policy.1. Terms of shipping, if applicable.1. Ways of addressing disputes, indemnity, liability, etc.1. Address and Contact of your Company.",可以添加至销售或采购的标准条款和条件。例如：1. 报价有效期。 2.付款条件(预付款，赊购，部分预付款)。3.其他，例如安全/使用警告，退货政策，配送条款，争议/赔偿/责任仲裁方式，贵公司的地址和联系方式。
+"Standard Terms and Conditions that can be added to Sales and Purchases.Examples:1. Validity of the offer.1. Payment Terms (In Advance, On Credit, part advance etc).1. What is extra (or payable by the Customer).1. Safety / usage warning.1. Warranty if any.1. Returns Policy.1. Terms of shipping, if applicable.1. Ways of addressing disputes, indemnity, liability, etc.1. Address and Contact of your Company.",可以添加至销售或采购的标准条款和条件。例如：1. 报价有效期。 2.付款条件(预付款，赊购，部分预付款)。3.其他，例如安全/使用警告，退货政策，送货条款，争议/赔偿/责任仲裁方式，贵公司的地址和联系方式。
 "Here you can maintain family details like name and occupation of parent, spouse and children",可以登记家庭详细信息，如姓名，父母、配偶及子女的职业等
 Can be approved by {0},可以被 {0} 批准
 "Here you can maintain height, weight, allergies, medical concerns etc",可以记录身高，体重，是否对某药物过敏等
@@ -6286,7 +6286,7 @@ Change Amount,找零
 Base Change Amount (Company Currency),找零金额（本币）
 Admit,承认
 Admitted Datetime,承认日期时间
-Transporter Info,物流配送信息
+Transporter Info,物流信息
 Transporter Name,物流公司名
 Technology,技术
 Technician Name,技术员姓名
@@ -9849,7 +9849,7 @@ Marketplace Settings,网上交易市场设置
 Market Place Account Group,网上交易市场账户组
 Marketplace Error,网上交易市场错误
 Online Auctions,网上拍卖
-"Settings for online shopping cart such as shipping rules, price list etc.",网上购物车，如配送规则，价格表等的设置
+"Settings for online shopping cart such as shipping rules, price list etc.",网上购物车，如运费规则，价格表等的设置
 Gateway,网关
 Gateway Controller,网关控制器
 Gateway Settings,网关设置
@@ -11252,7 +11252,7 @@ No Items added to cart,购物车未添加物料
 Default settings for Shopping Cart,购物车的默认设置
 Shopping Cart Settings,购物车设置
 Set Tax Rule for shopping cart,设置购物车税规则
-Shopping Cart Shipping Rule,购物车配送规则
+Shopping Cart Shipping Rule,购物车运费规则
 Concurrent user counts limit {0} reached for your org {1},贵公司{1}同时登录用户数{0}已超
 What does it do?,公司主营业务(显示在网站首页的大标题)
 The name of your company for which you are setting up this system.,公司名
@@ -11952,14 +11952,14 @@ Delivery Trip,配送单
 Fulfillment User,配送员
 Delivery Stop,配送点
 Delivery Stops,配送点
-Shipping Account,配送科目
+Shipping Account,运费科目
 Delivery Trip service tours to customers.,配送至客户。
-Shipping Rule,配送规则
-Shipping Rule Condition,配送规则条件
-Shipping Rule Conditions,配送规则条件
-Shipping Rule Label,配送规则标签
-Shipping Rule Type,配送规则类型
-Shipping Amount,配送费
+Shipping Rule,运费规则
+Shipping Rule Condition,运费规则条件
+Shipping Rule Conditions,运费规则条件
+Shipping Rule Label,运费规则标签
+Shipping Rule Type,运费规则类型
+Shipping Amount,运费
 Dispatch Notification Template,配送通知邮件模板
 Hotels,酒店
 Hotel Room Occupancy,酒店客房入住率
