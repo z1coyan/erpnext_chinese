@@ -4425,7 +4425,7 @@ Send alert if this field's value changes,如果这个字段的值改变则发送
 "If checked, a customer will be created, mapped to Patient.Patient Invoices will be created against this Customer. You can also select existing Customer while creating Patient.",如果选中，将创建一个客户，映射到患者。将针对该客户创建病人发票。您也可以在创建患者时选择现有客户。
 "If checked, users will not see the Confirm Access dialog.",如果选中，用户将不会看到确认访问对话框。
 "If checked, the Home page will be the default Item Group for the website",如果选中，网站主页将默认显示该物料组
-"If selected Pricing Rule is made for 'Rate', it will overwrite Price List. Pricing Rule rate is the final rate, so no further discount should be applied. Hence, in transactions like Sales Order, Purchase Order etc, it will be fetched in 'Rate' field, rather than 'Price List Rate' field.",如果选定的动肪定价规则针对“价格”，则会覆盖标价。动态定价规则算出的单价就是最终单价，不会再应用更多折扣。因此，在销售订单，采购订单等交易中，对应的是单价而不是标价字段。
+"If selected Pricing Rule is made for 'Rate', it will overwrite Price List. Pricing Rule rate is the final rate, so no further discount should be applied. Hence, in transactions like Sales Order, Purchase Order etc, it will be fetched in 'Rate' field, rather than 'Price List Rate' field.",如果在价格/产品折扣字段选择“价格”，则动态定价规则单价会带到业务单据单价而非标价字段。也就是说动态定价规则的单价会覆盖物料价格中定义的单价，也会忽略其它动态定价规则中的折扣或上浮，此单价就是最终单价。
 Customer is mandatory if 'Opportunity From' is selected as Customer,如果选择“商机来源”作为客户，则客户字段必填
 Leave blank if considered for all branches,如果针对所有分支机构请留空
 Leave blank if considered for all employee types,如果针对所有员工类型请留空
