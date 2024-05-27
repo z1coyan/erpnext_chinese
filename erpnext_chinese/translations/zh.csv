@@ -9612,7 +9612,7 @@ System,系统
 System will notify to increase or decrease quantity or amount,系统会通知增加或减少数量或金额
 System and Website Users,系统和网站用户
 "Loyalty Points will be calculated from the spent done (via the Sales Invoice), based on collection factor mentioned.",系统将根据消费金额(销售发票)，乘以兑换系数为客户自动积分。
-System will notify to increase or decrease quantity or amount ,系统将通知增加或减少数量或金额
+System will notify to increase or decrease quantity or amount ,如果单据未匹配到有效的动态定价规则且数量或金额与本规则最小值差异在上述%之内，则系统将弹窗提示用户增加或减少数量或金额以享受此规则定义的优惠
 Naming Series,单据号模板
 Series,单据号模板
 Series {0} already used in {1},单据号模板{0}已经被{1}使用
@@ -16982,3 +16982,11 @@ Inter Company Sales Order,关联公司销售订单
 Round Free Qty,赠品数量取整
 Free Item Rate,赠品单价
 "If rate is zero then item will be treated as ""Free Item""",若单价为0则为免费赠品
+Threshold for Suggestion (In Percentage),触发系统提醒的阀值(单据数量/金额与规则最小值差异%)
+"If you {0} {1} quantities of the item {2}, the scheme {3} will be applied on the item.",如果增加物料 {2} 数量 {0} {1}，则可适用动态定价规则 {3}
+"If you {0} {1} worth item {2}, the scheme {3} will be applied on the item.",如果增加物料 {2} 金额 {0} {1}，则可适用动态定价规则 {3}
+Apply Discount on Discounted Rate,在折扣价上再折扣(折上折),
+Recurse Every (As Per Transaction UOM),满送数量(交易单位)
+Give free item for every N quantity,每满多少个就送，多买多送
+Apply Recursion Over (As Per Transaction UOM),达到数量(交易单位)
+Qty for which recursion isn't applicable.,达到这个数量就送固定数量
