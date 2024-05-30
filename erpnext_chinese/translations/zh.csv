@@ -886,8 +886,8 @@ Hotel Rooms of type {0} are unavailable on {1},{0}类型的酒店客房不适用
 {0} edited this {1},{0}编辑了{1}
 {0} room must have atmost one user.,{0}聊天室必须至少有一个用户。
 "{0} indicates that {1} will not provide a quotation, but all items \					have been quoted. Updating the RFQ quote status.",{0}表示{1}不会提供报价，但所有物料都已报价。更新询价状态。
-{0} is on hold till {1},{0}被冻结至{1}
-{0} is blocked so this transaction cannot proceed,{0}被冻结，所以此交易无法继续
+{0} is on hold till {1},{0}被临时冻结至{1}
+{0} is blocked so this transaction cannot proceed,{0}被临时冻结，所以此交易无法继续
 {0} record deleted,{0}记录已删除
 {0} asset cannot be transferred,{0}资产不得转移
 {0} entered twice in Item Tax,{0}输入了两次税项
@@ -977,7 +977,7 @@ Cent,一分钱
 {0} hour ago,一小时前
 1 year ago,一年前
  submittable documents cannot be changed. They can only be Cancelled and Amended.,一旦提交后，可提交单据就不能被变更，只能取消后，点修订按钮生成新版本后再修改
-"Once set, this invoice will be on hold till the set date",一旦设置，该发票将被冻结至设定的日期
+"Once set, this invoice will be on hold till the set date",一旦设置，该发票将被临时冻结至设定的日期
 January,1月
 JAN,01
 You can only upload upto 5000 records in one go. (may be less in some cases),一次最多只能上传5000条记录(某些情况下可能更少)
@@ -2503,16 +2503,16 @@ Reverse Journal Entry,冲销日记账凭证
 Reverse Charge,冲销费用
 Period based On,决定期间的日期
 Resolutions,决议
-Hold,冻结
-On Hold,冻结
-Block Supplier,冻结供应商
-Reason For Putting On Hold,冻结原因
-Reason for Hold,冻结原因
-Reason for hold: ,冻结原因：
+Hold,临时冻结
+On Hold,临时冻结
+Block Supplier,临时冻结供应商
+Reason For Putting On Hold,临时冻结原因
+Reason for Hold,临时冻结原因
+Reason for hold: ,临时冻结原因：
 Block Invoice,冻结发票
 Hold Invoice,冻结发票
 Freeze Stock Entries,冻结物料移动凭证
-Hold Type,冻结类型
+Hold Type,临时冻结类型
 Freeze Stocks Older Than [Days],冻结超出此天数的库存
 Net ITC Available(A) - (B),净ITC可用（A） - （B）
 Net Profit,净利
@@ -6907,7 +6907,7 @@ New Print Format Name,新的打印格式名称
 New Report name,新的报表名称
 New Mention,新的提及
 New Income,新的收入
-New release date should be in the future,新的解除冻结日期必须晚于今天
+New release date should be in the future,新的解除临时冻结日期必须晚于今天
 New Quality Procedure,新的质量程序
 New Expenses,新的费用
 New Connection,新的连接
@@ -16990,3 +16990,5 @@ Recurse Every (As Per Transaction UOM),满送数量(交易单位)
 Give free item for every N quantity,每满多少个就送，多买多送
 Apply Recursion Over (As Per Transaction UOM),达到数量(交易单位)
 Qty for which recursion isn't applicable.,达到这个数量就送固定数量
+Free item not set in the pricing rule {0},定价规则{0}价格/产品折扣选了产品，需维护免费物料信息,
+"Annual Billing: {0}"
