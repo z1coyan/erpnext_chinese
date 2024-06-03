@@ -3346,7 +3346,7 @@ Invoice Details,发票信息
 Opening Invoice Creation Tool,发票创建工具
 Opening Invoice Creation Tool Item,发票创建工具明细
 Invoice Copy,发票副本
-Invoice Portion,发票占比
+Invoice Portion,付款比例
 Invoice No,发票号码
 Invoice Number,发票号码
 Billing Address,发票地址
@@ -3558,7 +3558,7 @@ Contract Template Fulfilment Terms,合同模板履行条款
 Contract End Date,合同结束日期
 Contract End Date must be greater than Date of Joining,合同结束日期必须晚于入职日期
 Merge,合并
-Combined invoice portion must equal 100%,合并发票部分必须等于100％
+Combined invoice portion must equal 100%,合计付款比例必须是100％
 "Merging is only possible if following properties are same in both records. Is Group, Root Type, Company",仅在两个科目字段(是组、一级科目类型、公司)内容相同时才可合并
 Group same items,合并相同物料
 "Group Same Items",合并相同物料
@@ -14398,7 +14398,7 @@ Note: On checking Is Mandatory the accounting dimension will become mandatory ag
 {0} is mandatory for account {1},对于科目 {1} {0} 必填
 Invalid value {0} for {1} against account {2},对于科目{2} {1}值{0}无效
 "Total Payment Amount in Payment Schedule must be equal to Grand / Rounded Total",付款计划汇总金额与总计(圆整后)金额不符
-Invoice Portion (%),发票占比(%)
+Invoice Portion (%),付款比例(%)
 Discount Settings,折扣设置
 Is Debit Note,是借项通知单
 No Matching Bank Transactions Found,无待核销银行交易流水数据
@@ -15870,7 +15870,8 @@ Apply SLA for Resolution Time,服务水平基于解决时间
 Status Details,状态信息
 SLA Fulfilled On,服务水平协议计时
 SLA Paused On,服务水平协议计时暂停
-Database Table Row Size Utilization: {0}%, this limits number of fields you can add.,数据库数据表每行空间利用率：{0}%，利用率影响可以添加的字段数
+"Database Table Row Size Utilization: {0}%, this limits number of fields you can add.","数据库表每行空间利用率：{0}%，利用率影响可以添加的字段数"
+Database Row Size Utilization,数据库表行空间利用率
 Default Advance Received Account,默认预收账款科目
 Default Advance Paid Account,默认预付账款科目
 HR & Payroll Settings,人资与薪酬设置
@@ -16578,8 +16579,8 @@ Unreconcile Payment,取消收付款核销
 Asset Shift Allocation,固定资产班次分派
 Asset Shift Factor,固定资产班次比率
 For Value,允许值
-"You are not allowed to access this {0} record because it is linked to {1} '{2}' in row {3}, field {4}","无权限访问包含了未被授权的{1} '{2}'（第{3}行，字段 {4}）信息的 {0}"
-"You are not allowed to access this {0} record because it is linked to {1} '{2}' in field {3}","无权限访问包含了未被授权的{1} '{2}'（字段 {3}）信息的 {0}"
+"You are not allowed to access this {0} record because it is linked to {1} '{2}' in row {3}, field {4}","无权限访问 {0} 类型单据，第{3}行，链接字段 {4} 引用了你无权访问的 {1} '{2}' "
+"You are not allowed to access this {0} record because it is linked to {1} '{2}' in field {3}","无权限访问{0} 类型单据，链接字段 {3} 引用了你无权访问的 {1} '{2}'"
 Impersonate,用其它用户身份登录
 Reason for impersonating,用其它用户身份登录原因
 Note: This will be shared with user.,此登录行为将通知对应用户
@@ -16991,4 +16992,13 @@ Give free item for every N quantity,每满多少个就送，多买多送
 Apply Recursion Over (As Per Transaction UOM),达到数量(交易单位)
 Qty for which recursion isn't applicable.,达到这个数量就送固定数量
 Free item not set in the pricing rule {0},定价规则{0}价格/产品折扣选了产品，需维护免费物料信息,
-"Annual Billing: {0}"
+Invalid Filter Format for field {0} of type {1}. Try using filter icon on the field to set it correctly,类型 {1} 的字段 {0} 链接字段筛选条件无效，请点击字段右上角漏斗过滤图标在弹窗中设置过滤条件
+Validate Negative Stock,负库存防错检查
+"To apply condition on parent field use parent.field_name and to apply condition on child table use doc.field_name. Here field_name could be based on the actual column name of the respective field.","可使用parent.字段名引用主单据字段，使用doc.字段名引用当前单据字段"
+Fetch Value From,带出关联字段
+Set fieldname from which you want to fetch the data from the parent form.,选择从主单据带出的关联字段
+Inventory Dimension Negative Stock,库存辅助核算项负库存
+"{0} units of {1} are required in {2}{3}, on {4} {5} for {6} to complete the transaction.", "当前单据:{6} 记账时间点 {4} {5}  {2}{3} 物料 {1} 缺货数量 {0}"
+Delete Dimension,删除辅助核算
+"Scan mode enabled, existing quantity will not be fetched.",已启用扫码模式，不再自动获取现有库存数量
+Do reposting for each Stock Transaction,按业务单据进行成本追溯调整
