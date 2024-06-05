@@ -567,8 +567,8 @@ Webhooks Secret,Webhooks的秘密
 Webhooks Details,Webhooks详细信息
 Webhooks calling API requests into web apps,Webhook将API请求调用到Web应用程序中
 Webhook Data,Webhook数据
-Webhook Header,Webhook标题
-Webhook Headers,Webhook标题
+Webhook Header,Webhook头部信息
+Webhook Headers,Webhook头部信息
 Webhook Request,Webhook请求
 Web Form,Web表单
 Web Form Field,Web表单字段
@@ -782,7 +782,7 @@ Assignment closed by {0},{0}关闭了待办
 {0} available out of {1},{0}可用于{1}
 {0} Number {1} already used in account {2},{0}号码{1}已经在账号{2}中使用
 merged {0} into {1},{0}合并为{1}
-{0} Name,{0}单据号(名称)
+{0} Name,{0}单据编号(名称)
 {0} shared this document with {1},{0}向{1}分享了此单据
 {0} weeks ago,{0}周前
 {0} and {1},{0}和{1}
@@ -877,8 +877,8 @@ Daily Project Summary for {0},{0}的每日项目摘要
 Birthday Reminder for {0},{0}的生日提醒
 Account Type for {0} must be {1},{0}的科目类型必须为{1}
 Project Summary for {0},{0}的项目摘要
-"{0} currently has a {1} Supplier Scorecard standing, and RFQs to this supplier should be issued with caution.",{0}当前的供应商记分卡评级为{1}，请谨慎向该供应商询价。
-"{0} currently has a {1} Supplier Scorecard standing, and Purchase Orders to this supplier should be issued with caution.",{0} 当前的供应商记分卡评级为{1}，请谨慎下单给该供应商。
+"{0} currently has a {1} Supplier Scorecard standing, and RFQs to this supplier should be issued with caution.",{0}当前供应商评分等级为{1}，请谨慎向该供应商询价。
+"{0} currently has a {1} Supplier Scorecard standing, and Purchase Orders to this supplier should be issued with caution.",{0} 当前供应商评分等级为{1}，请谨慎下单给该供应商。
 {0} seconds ago,{0}秒钟前
 Hotel Rooms of type {0} are unavailable on {1},{0}类型的酒店客房不适用于{1}
 {0} Result submittted,{0}结果提交
@@ -892,7 +892,7 @@ Hotel Rooms of type {0} are unavailable on {1},{0}类型的酒店客房不适用
 {0} asset cannot be transferred,{0}资产不得转移
 {0} entered twice in Item Tax,{0}输入了两次税项
 "Schedules for {0} overlaps, do you want to proceed after skiping overlaped slots ?",{0}重叠的工时表，是否要在滑动重叠的插槽后继续？
-Reference No & Reference Date is required for {0},{0}需要参考单据号与参考日期
+Reference No & Reference Date is required for {0},{0}需要参考单据编号与参考日期
 Illegal Document Status for {0},{0}非法单据状态
 {0}% Delivered,{0}％已出库
 {0}% Complete,{0}％已完成
@@ -1012,7 +1012,7 @@ Upload File,上传文件
 Cannot match column {0} with any field,上传文件中的字段{0}无法匹配目标单据字段
 Make file(s) private or public?,上传文件仅文件上传者或所有帐号可查看？
 Error in uploading files,上传文件时出错
-"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",上传新纪录时，如果有单据号模板字段，那么“单据号模板”必须填写。
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",上传新纪录时，如果有单据编号模板字段，那么“单据编号模板”必须填写。
 Upload Attendance,上传考勤记录
 "Upload a bank statement, link or reconcile a bank account",上传银行对账单，关联或核销银行账户
 Upload Attachment,上传附件
@@ -1268,12 +1268,12 @@ Temporary Accounts,临时科目
 Set Role For,权限对象
 Please enter values for App Access Key and App Secret Key,为App访问键和App保密密钥请输入值
 Configure accounts for google calendar,为Google日历配置账户
-Created {0} scorecards for {1} between: {2} - {3},为{1} 在 {2} 至 {3} 时间段内创建了{0}个记分卡：
+Created {0} scorecards for {1} between: {2} - {3},为{1} 在 {2} 至 {3} 时间段内创建了{0}个评分卡：
 for the,为了
 Select an image of approx width 150px with a transparent background for best results.,为了最佳效果，请选择一个宽度约150像素，背景透明的图片。
 "To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",为了用好ERPNext，我们建议您花一些时间来观看这些帮助视频。
-Set numbering series for transactions.,设置单据号模板前缀。
-Set prefix for numbering series on your transactions,设置单据号模板前缀
+Set numbering series for transactions.,设置单据编号模板前缀。
+Set prefix for numbering series on your transactions,设置单据编号模板前缀
 Track separate Income and Expense for product verticals or divisions.,为产品线或事业部单独跟踪收入和费用。
 Apply User Permission for following DocTypes,为以下DocType应用用户权限
 Progress % for a task cannot be more than 100.,为任务进度百分比不能超过100个。
@@ -2029,17 +2029,17 @@ Supplier Group Name,供应商组名称
 Supplier Id,供应商号
 Supplier ID,供应商号
 Supplier Naming By,供应商号字段
-Supplier Scorecard Variable,供应商计分卡变量
-Templates of supplier scorecard criteria.,供应商计分卡标准模板。
-Supplier Scorecard,供应商记分卡
-Supplier Scorecard Scoring Standing,供应商记分卡
-Templates of supplier scorecard variables.,供应商记分卡变数模板。
-Supplier Scorecard Standing,供应商记分卡等级
-Supplier Scorecard Period,供应商记分期间
-Supplier Scorecard Criteria,供应商记分标准
-Supplier Scorecard Setup,供应商记分卡设置
-Supplier Scorecard Scoring Variable,供应商记分卡评分变量
-Supplier Scorecard Scoring Criteria,供应商记分卡评分标准
+Supplier Scorecard Variable,供应商评分变量
+Templates of supplier scorecard criteria.,供应商评分指标模板。
+Supplier Scorecard,供应商评分卡
+Supplier Scorecard Scoring Standing,供应商当前评分
+Templates of supplier scorecard variables.,供应商评分变量模板。
+Supplier Scorecard Standing,供应商评分等级
+Supplier Scorecard Period,供应商评分期间
+Supplier Scorecard Criteria,供应商评分指标
+Supplier Scorecard Setup,供应商评分卡设置
+Supplier Scorecard Scoring Variable,供应商评分变量
+Supplier Scorecard Scoring Criteria,供应商评分指标
 Supplier Detail,供应商信息
 Supplier Delivery Note,供应商送货单
 Supplier Part No,供应商部件号
@@ -2123,10 +2123,10 @@ Stale Days,信用证有效期天数
 Credit Limit,信用额度
 Credit Limit and Payment Terms,信用额度和付款条款
 Modified,修改
-Rename {0},修改{0}的单据号
+Rename {0},修改{0}的单据编号
 Edit DocType,修改单据类型
-Rename,修改单据号(名称)
-You need write permission to rename,修改单据号需要写权限
+Rename,修改单据编号(名称)
+You need write permission to rename,修改单据编号需要写权限
 "Allowing DocType, DocType. Be careful!",修改核心单据类型：DocType 。请格外小心！
 Modified By,修改者
 Edit Auto Email Report Settings,修改自动电子邮件-报表设置
@@ -2136,7 +2136,7 @@ Repair Cost,修理费用
 Amend,修订
 Amending,修订
 Revision and Revised On,修订和修订
-Amended From,修订自(上一版单据号)
+Amended From,修订自(上一版单据编号)
 Revised On,修订版
 Sort Descending,倒序
 Debit and Credit not equal for {0} #{1}. Difference is {2}.,借{0}贷{1}不相等。差额为{2}。
@@ -2221,7 +2221,7 @@ Allow Stale Exchange Rates,允许使用历史汇率
 Allow Login using Mobile Number,允许使用手机号登录
 Allow Login using User Name,允许使用用户名登录
 Allow Incomplete Forms,允许保存必填字段未填完整的表单
-Allow Rename,允许修改单据号(名称)
+Allow Rename,允许修改单据编号(名称)
 In Global Search,允许全局全文搜索
 In Global Search,允许全局全文检索
 Allow page break inside tables,允许列表中有分页符
@@ -3001,7 +3001,7 @@ Like,含关键字
 Included in Gross Profit,包含在毛利润中
 In Preview,包含在链接字段鼠标悬停预览弹窗中
 Include Exploded Items,包含物料清单底层物料
-This covers all scorecards tied to this Setup,包含已设置的所有记分卡
+This covers all scorecards tied to this Setup,包含已设置的所有评分卡
 "Record of all communications of type email, phone, chat, visit, etc.",包含电子邮件，电话，聊天，访问等所有通信记录
 Invalid include path,包含路径无效
 Include Non Stock Items,包含非库存物料
@@ -3145,9 +3145,9 @@ Document Follow Notification,单据关注通知
 DocShare,单据分享
 Document Share Report,单据分享报表
 Document is only editable by users of role,单据只可被分派了指定角色的用户编辑
-Against Docname,单据号
-Doc Name,单据号
-Document Name,单据号
+Against Docname,单据编号
+Doc Name,单据编号
+Document Name,单据编号
 DocField,单据字段
 No Records Created,暂无数据
 Document Queued,单据排队
@@ -3489,7 +3489,12 @@ Maximum Samples - {0} can be retained for Batch {1} and Item {2}.,可以为批�
 Users who can approve a specific employee's leave applications,可以为特定用户批准假期的用户
 Any string-based printer languages can be used. Writing raw commands requires knowledge of the printer's native language provided by the printer manufacturer. Please refer to the developer manual provided by the printer manufacturer on how to write their native commands. These commands are rendered on the server side using the Jinja Templating Language.,可以使用任何基于字符串的打印机语言。编写原始命令需要了解打印机制造商提供的打印机本机语言。请参阅打印机制造商提供的开发人员手册，了解如何编写本机命令。这些命令使用Jinja模板语言在服务器端呈现。
 You can use Customize Form to set levels on fields.,可以使用定制表单设置字段的权限级别。
-"Scorecard variables can be used, as well as: {total_score} (the total score from that period), {period_number} (the number of periods to present day)",可以使用记分卡变量，以及：{total_score}（该期间的总分数），{period_number}（到当前时间段的数量）
+"Scorecard variables can be used, as well as:
+{total_score} (the total score from that period),
+{period_number} (the number of periods to present day)
+","可以使用评分变量，以及：
+{total_score}（当期总分数），
+{period_number}（截止当天期数）"
 You can use wildcard %,可以使用通配符％
 Can Write,可以写
 Can Share,可以分享
@@ -3590,8 +3595,8 @@ First Name,名
 Name,名称
 Name and Type,名称和类型
 Name Case,名称大小写
-Name not set via Prompt,单据号非由弹窗提示设置
-Name not set via prompt,单据号非由弹窗提示设置
+Name not set via Prompt,单据编号非由弹窗提示设置
+Name not set via prompt,单据编号非由弹窗提示设置
 Duplicate Name,名称重复
 Name error: {0},名称错误：{0}
 Errors in Background Events,后台事件的错误
@@ -3646,7 +3651,7 @@ Enable Template,启用模板
 Enable Perpetual Inventory,启用永续盘存（物料移动实时生成会计凭证）
 Enable Gradients,启用渐变
 Enable Social Login,启用社交登录
-Use Naming Series,启用单据号模板
+Use Naming Series,启用单据编号模板
 Enable Chat,启用聊天功能
 Enable Auto Attendance,启用自动出勤
 Enable Auto Reply,启用自动回复
@@ -4347,7 +4352,7 @@ Notify if unreplied for (in mins),如果一分钟内未回复，则发出通知
 If non standard port (e.g. 587),如果为非标准端口（如587）
 Import Sales Invoice from Shopify if Payment is marked,如果付款已标记，则从Shopify导入销售发票
 You can not change rate if BOM mentioned agianst any item,如果任一物料关联了BOM，你就不能更改其单价
-"If you are uploading new records, leave the ""name"" (ID) column blank.",如果你在上传新纪录，那么单据号(ID)列必须留空。
+"If you are uploading new records, leave the ""name"" (ID) column blank.",如果你在上传新纪录，那么单据编号(ID)列必须留空。
 "If you are updating, please select ""Overwrite"" else existing rows will not be deleted.",如果你的操作是更新，请选择“覆盖”否则现有的行不会删除。
 "If your data is in HTML, please copy paste the exact HTML code with the tags.",如果你的数据是HTML，请复制粘贴的标签准确的HTML代码。
 "If you think this is unauthorized, please change the Administrator password.",如果你认为这是未经授权的，请更改管理员密码。
@@ -4416,7 +4421,7 @@ Select Monthly Distribution to unevenly distribute targets across months.,如果
 Daily Event Digest is sent for Calendar Events where reminders are set.,如果设置了日历事件提醒会发送每日事件摘要。
 Enter name of campaign if source of enquiry is campaign,如果询价的来源是促销活动的话请输入促销活动名称。
 Remove item if charges is not applicable to that item,如果费用不适用某物料，请删除它
-Reference No is mandatory if you entered Reference Date,如果输入参考日期，参考单据号必填
+Reference No is mandatory if you entered Reference Date,如果输入参考日期，参考单据编号必填
 Either GST Transporter ID or Vehicle No is required if Mode of Transport is Road,如果运输方式为道路，则需要GST运输车ID或车辆号
 Vehicle Type is required if Mode of Transport is Road,如果运输方式为道路，则需要车辆类型
 Send alert if this field's value changes,如果这个字段的值改变则发送预警通知
@@ -5502,7 +5507,7 @@ Start Date Field,开始日期字段
 Date of Commencement should be greater than Date of Incorporation,开始日期应晚于公司注册日期
 From Date should be within the Fiscal Year. Assuming From Date = {0},开始日期应该在财年之内。财年开始日是{0}
 Start date should be less than end date for task {0},开始日期应该小于任务{0}的结束日期
-Valid from date must be less than valid upto date,开始日期必须早于截止日期
+Valid from date must be less than valid upto date,生效日期必须早于失效日期
 From date can not be greater than than To date,开始日期早于截止日期
 From Datetime,开始时间
 From Time,开始时间
@@ -6100,7 +6105,7 @@ All Warehouses,所有仓库
 Gantt chart of all tasks.,所有任务的甘特图。
 All Supplier Contact,所有供应商
 All Supplier Groups,所有供应商
-All Supplier scorecards.,所有供应商记分卡。
+All Supplier scorecards.,所有供应商评分卡。
 All other ITC,所有其他ITC
 All Territories,所有区域
 All Healthcare Service Units,所有医疗服务单位
@@ -6261,7 +6266,7 @@ Batch Description,批号说明
 Criticism,批评
 Criticize,批评
 Batch Size,批量
-Bulk Rename,批量修改单据号(名称)
+Bulk Rename,批量修改单据编号(名称)
 Bulk Delete,批量删除
 Bulk Update,批量更新
 Bulk Edit {0},批量编辑{0}
@@ -6722,8 +6727,8 @@ Account Paid To,借方科目
 Gain/Loss,收益/损失
 Set Accepted Warehouse,收货仓库
 Receipt document must be submitted,收货单据(单据)必须先提交
-Receipt Document,收货单据号
-Receipt Document Type,收货单据类型
+Receipt Document,入库单号
+Receipt Document Type,入库单类型
 Received Quantity,收到数量
 Received Stock Entries,收货记录
 Charges,收费
@@ -6832,7 +6837,7 @@ File URL,文件的URL
 File Manager,文件管理器
 File Type,文件类型
 text in document type,文件类型的文本
-Document ID,单据号
+Document ID,单据编号
 web link,文件网址
 File to Rename,文件重命名
 text-width,文字宽度
@@ -7359,7 +7364,7 @@ Logout from all devices while changing Password,更改密码时从所有设备�
 Change Label (via Custom Translation),更改标签（自定义转换）
 Change Template Code,更改模板代码
 Change Item Code,更改物料号
-Change the starting / current sequence number of an existing series.,更改现有单据号模板起始/当前流水号。
+Change the starting / current sequence number of an existing series.,更改现有单据编号模板起始/当前流水号。
 Change Abbreviation,更改简称
 Change Release Date,更改解除冻结日期
 Change In Item,物料变更
@@ -7395,8 +7400,8 @@ Update Existing Records,更新现有记录
 Update Email Group,更新电子邮件组
 Update Account Number / Name,更新科目代码/名称
 Update Account Name / Number,更新科目名称/代码
-Update Series,更新单据号模板
-Update Series Number,更新单据号模板
+Update Series,更新单据编号模板
+Update Series Number,更新单据编号模板
 Update Translations,更新翻译
 Update Auto Repeat Reference,更新自动重复参考
 Update records,更新记录
@@ -7549,13 +7554,13 @@ Prospects Engaged But Not Converted,有收发邮件但未转化线索
 Valid,有效
 Valid number of days,有效天数
 Validity in Days,有效天数
-Valid From Date must be lesser than Valid Upto Date.,有效开始日期必须小于有效开始日期。
+Valid From Date must be lesser than Valid Upto Date.,生效日期必须早于失效日期。
 Validity,有效性
-Valid To,有效期截止
-Valid till date cannot be before transaction date,有效期结束日不得早于交易日
-Valid From,有效期自
-Valid Till,有效期至
-Valid Upto,有效期至
+Valid To,失效日期
+Valid till date cannot be before transaction date,失效日期不得早于交易日
+Valid From,生效日期
+Valid Till,失效日期
+Valid Upto,失效日期
 Availed ITC Central Tax,有效的ITC中央税收
 Availed ITC State/UT Tax,有效的ITC州/ UT税
 Availed ITC Integrated Tax,有效的ITC综合税收
@@ -7563,7 +7568,7 @@ New updates are available,有新的更新
 With Items,有物料
 In Stock: ,有现货
 Item variant {0} exists with same attributes,有相同属性的多规格物料{0}已存在
-There must be atleast one permission rule.,有至少要包含一个权限规则。
+There must be atleast one permission rule.,至少要一个权限规则。
 With Letter head,有打印表头
 Has Role,有角色
 Has Certificate,有证书
@@ -8092,7 +8097,7 @@ Correct,正确
 Is Correct,正确答案
 This {0} conflicts with {1} for {2} {3},此{0}冲突{1}在{2} {3}
 "This is the default UOM used for items and Sales orders. The fallback UOM is ""Nos"".","此为物料和销售订单的默认计量单位。如果不设置则系统默认计量单位是""""个""""。"
-Series List for this Transaction,本单据类型单据号模板清单
+Series List for this Transaction,本单据类型单据编号模板清单
 Warehouse can not be deleted as stock ledger entry exists for this warehouse.,此仓库已有物料凭证，无法删除。
 Price Not UOM Dependent,此价格适用所有单位
 % of materials delivered against this Delivery Note,此出货单% 的物料已出货。
@@ -8568,10 +8573,10 @@ Visitor,游客
 March,3月
 Source DocType,源DocType
 From Company,源公司
-Source Document Name,源单据号
+Source Document Name,源单据编号
 Creation Document Type,源单据类型
 Source Document Type,源单据类型
-Creation Document No,源单据号
+Creation Document No,源单据编号
 Source Name,源名称
 Source and Target Location cannot be same,源和目标地点不能相同
 Source Location,源地点
@@ -9001,8 +9006,8 @@ Python Code Called By JS,由Javascript调用的Python代码
 Sub-domain provided by erpnext.com,由erpnext.com提供的子域名
 gained by {0} via automatic rule {1},由{0}通过自动规则{1}获得
 Cannot delete or cancel because {0} {1} is linked with {2} {3} {4},由于{0} {1}与{2} {3} {4}关联，无法删除或取消
-RFQs are not allowed for {0} due to a scorecard standing of {1},由于记分卡的当前评级为{1}，使用向{0}询价
-Purchase Orders are not allowed for {0} due to a scorecard standing of {1}.,由于记分卡当前评级为{1}，不允许下采购订单给{0}。
+RFQs are not allowed for {0} due to a scorecard standing of {1},由于评分卡的当前评级为{1}，使用向{0}询价
+Purchase Orders are not allowed for {0} due to a scorecard standing of {1}.,由于评分卡当前评级为{1}，不允许下采购订单给{0}。
 "As raw materials projected quantity is more than required quantity, there is no need to create material request.			Still if you want to make material request, kindly enable <b>Ignore Existing Projected Quantity</b> checkbox",由于原材料可用数量超过所需数量，因此无需创建物料需求。如果您想要生成物料需求，请启用<b>忽略可用数量</b>复选框
 Attendance not submitted for {0} as it is a Holiday.,由于是假期，{0}的考勤未提交。
 "As there are existing transactions against item {0}, you can not change the value of {1}",由于物料{0}已被用于现有业务单据中，不允许再更改字段{1}的值
@@ -9613,18 +9618,18 @@ System will notify to increase or decrease quantity or amount,系统会通知增
 System and Website Users,系统和网站用户
 "Loyalty Points will be calculated from the spent done (via the Sales Invoice), based on collection factor mentioned.",系统将根据消费金额(销售发票)，乘以兑换系数为客户自动积分。
 System will notify to increase or decrease quantity or amount ,如果单据未匹配到有效的动态定价规则且数量或金额与本规则最小值差异在上述%之内，则系统将弹窗提示用户增加或减少数量或金额以享受此规则定义的优惠
-Naming Series,单据号模板
-Series,单据号模板
-Series {0} already used in {1},单据号模板{0}已经被{1}使用
-"Special Characters except ""-"", ""#"", ""."", ""/"", ""{"" and ""}"" not allowed in naming series",单据号模板中不允许使用除“ - ”，“＃”，“。”，“/”，“{”和“}”之外的特殊字符
-"Special Characters except ""-"", ""#"", ""."" and ""/"" not allowed in naming series","单据号模板中不能输入特殊符号，""-""，""#""，"".""和""/""除外"
-Naming Series Prefix,单据号模板前缀
-Series Updated Successfully,单据号模板已成功更新
-Series Updated,单据号模板已更新
-Invalid naming series (. missing),单据号模板无效(需有小数点.)
-Naming Series mandatory,单据号模板是必填字段
-Series is mandatory,单据号模板是必填字段
-Naming Series (for Student Applicant),单据号模板（学生申请人）
+Naming Series,单据编号模板
+Series,单据编号模板
+Series {0} already used in {1},单据编号模板{0}已经被{1}使用
+"Special Characters except ""-"", ""#"", ""."", ""/"", ""{"" and ""}"" not allowed in naming series",单据编号模板中不允许使用除“ - ”，“＃”，“。”，“/”，“{”和“}”之外的特殊字符
+"Special Characters except ""-"", ""#"", ""."" and ""/"" not allowed in naming series","单据编号模板中不能输入特殊符号，""-""，""#""，"".""和""/""除外"
+Naming Series Prefix,单据编号模板前缀
+Series Updated Successfully,单据编号模板已成功更新
+Series Updated,单据编号模板已更新
+Invalid naming series (. missing),单据编号模板无效(需有小数点.)
+Naming Series mandatory,单据编号模板是必填字段
+Series is mandatory,单据编号模板是必填字段
+Naming Series (for Student Applicant),单据编号模板（学生申请人）
 System User,系统用户
 "System User (login) ID. If set, it will become default for all HR forms.",系统用户的（登录）ID，将作为人力资源表单的默认ID。
 Execution Time:,系统用时：
@@ -9897,8 +9902,8 @@ Website Route Redirect,网站路径重定向
 Website Sidebar,网站边栏
 Website Filter Field,网站过滤字段
 Web Link,网站链接
-Webhook,网络挂接
-Webhooks,网络挂接
+Webhook,网络钩子
+Webhooks,网络钩子
 Page,网页
 Page Name,网页名称
 User Permission for Page and Report,网页和报表的用户权限
@@ -10354,7 +10359,7 @@ Required On,要求日期
 Guidelines to install ldap dependancies and python,要求安装LDAP依赖关系和python
 "To add dynamic subject, use jinja tags like<div><pre><code>{{ doc.name }} Delivered</code></pre></div>",要添加动态主题，用Jinja标签，如<div><pre> <code>{{ doc.name }} Delivered</code> </pre> </div>
 "To add dynamic subject, use jinja tags like<div><pre><code>New {{ doc.doctype }} #{{ doc.name }}</code></pre></div>",要添加动态主题，请使用jinja标签<div><pre> <code>New {{ doc.doctype }} #{{ doc.name }}</code> </pre> </div>
-Check this if you want to force the user to select a series before saving. There will be no default if you check this.,如需用户手动选择单据号模板，请勾选。勾选后系统不会设置默认单据号模板。
+Check this if you want to force the user to select a series before saving. There will be no default if you check this.,如需用户手动选择单据编号模板，请勾选。勾选后系统不会设置默认单据编号模板。
 "To renew, {0}.",要续订，{0}。
 "To get the updated report, click on {0}.",要获取已更新报表，请单击{0}。
 "To not apply Pricing Rule in a particular transaction, all applicable Pricing Rules should be disabled.",要让一个特定的交易不使用动态定价规则，所有适用的动态定价规则应被打上禁用标志。
@@ -10507,8 +10512,8 @@ Let's prepare the system for first use.,让我们在首次使用前对系统进�
 Let's avoid repeated words and characters,让我们避免重复的字、词
 Track Changes,追踪单据变更
 Agenda,议程
-Scorecards,记分卡
-Scorecard Actions,记分卡操作
+Scorecards,评分卡
+Scorecard Actions,评分卡操作
 Posting Date,记账日期
 Posting Date cannot be future date,记账日期不能是未来的日期
 Posting date and posting time is mandatory,记账日期和记账时间必填
@@ -10587,7 +10592,7 @@ Setup Auto Email,设置电子邮件自动发送
 Setting Account Type helps in selecting this Account in transactions.,设置科目类型有助于在交易中选择该科目。
 Setting up Taxes,设置税码及税费规则
 Failed to setup taxes,设置税码失败
-Setup Series,设置单据号模板
+Setup Series,设置单据编号模板
 Set Details,设置细节
 Setup Gateway accounts.,设置网关科目。
 Set New Release Date,设置解除冻结日期
@@ -10759,7 +10764,7 @@ Select finance book for the item {0} at row {1},请为第{1}行的物料{0}选�
 Options required for Link or Table type field {0} in row {1},请为第{2}行中的链接或表类型字段{1}维护选项信息
 Please identify/create Account (Ledger) for type - {0},请为类型{0}创建记账科目
 Please identify/create Account (Group) for type - {0},请为类型{0}标识/创建账户（组）
-Valid from and valid upto fields are mandatory for the cumulative,请为累积类型维护相关的生效和失效日期
+Valid from and valid upto fields are mandatory for the cumulative,请为累积类型维护生效和失效日期
 Row {0}: Please set at Tax Exemption Reason in Sales Taxes and Charges,请为销售税和费明细第{0}行输入免税原因
 Please setup default Email Account from Setup &gt; Email &gt; Email Account,请从设置&gt;电子邮件&gt;电子邮箱帐号设置默认电子邮箱
 Please pull items from Delivery Note,请从销售出库获选物料
@@ -10839,7 +10844,7 @@ Please set default customer group and territory in Selling Settings,请在“销
 Please set default customer in Restaurant Settings,请在“餐厅设置”中设置默认客户
 Please enter Sales Orders in the above table,请在上表中输入销售订单
 Please enter Material Requests in the above table,请在上面表格输入物料需求
-Please setup Employee Naming System in Human Resource &gt; HR Settings,请在人力资源&gt;人力资源设置中设置员工号单据号模板
+Please setup Employee Naming System in Human Resource &gt; HR Settings,请在人力资源&gt;人力资源设置中设置员工号单据编号模板
 Please set default template for Leave Approval Notification in HR Settings.,请在人力资源设置中为离职审批通知设置默认模板。
 Please set default template for Leave Status Notification in HR Settings.,请在人力资源设置中设置离职状态通知的默认模板。
 Please set account in Warehouse {0},请在仓库{0}中设置科目
@@ -10945,7 +10950,7 @@ Please set the Customer Address,请设置客户地址
 Please set Number of Depreciations Booked,请设置折旧数预订
 Please setup Students under Student Groups,请设置班级的学生
 Please set Email Address,请设置电子邮件地址
-Please set the series to be used.,请设置要使用的单据号模板。
+Please set the series to be used.,请设置要使用的单据编号模板。
 Please set filters,请设置过滤条件
 Please set an active menu for Restaurant {0},请设置餐馆{0}的有效菜单
 Please setup default Email Account from Setup > Email > Email Account,请设置默认邮箱，路径：设置->邮件->邮箱
@@ -11043,7 +11048,7 @@ Please select Patient to get prescribed procedure,请选择患者以获得规定
 Expense Approver Mandatory In Expense Claim,费用报销单中报销审批人必填
 Select account head of the bank where cheque was deposited.,请选择支票存入的银行户头。
 Select a DocType to make a new format,请选择单据类型 创建新打印格式
-Please select a new name to rename,请选择新单据号
+Please select a new name to rename,请选择新单据编号
 Please select date,请选择日期
 Please select Minimum Password Score,请选择最低密码分数
 Please select correct account,请选择正确的科目
@@ -11066,8 +11071,8 @@ Please select Incharge Person's name,请选择负责人姓名
 Please select Apply Discount On,请选择适用的折扣
 "Please setup SMS before setting it as an authentication method, via SMS Settings",请通过SMS设置将其设置为身份验证方式之前设置短信
 Please Install the ldap3 library via pip to use ldap functionality.,请通过pip安装ldap3库以使用ldap功能。
-Please setup numbering series for Attendance via Setup &gt; Numbering Series,请通过设置&gt;单据号模板设置考勤编号模板
-Please set Naming Series for {0} via Setup &gt; Settings &gt; Naming Series,请通过设置&gt;设置&gt;单据号模板{0}设置单据号模板
+Please setup numbering series for Attendance via Setup &gt; Numbering Series,请通过设置&gt;单据编号模板设置考勤编号模板
+Please set Naming Series for {0} via Setup &gt; Settings &gt; Naming Series,请通过设置&gt;设置&gt;单据编号模板{0}设置单据编号模板
 Please wait 3 days before resending the reminder.,请重新发送提醒之前请等待3天。
 Please enter Warehouse for which Material Request will be raised,请重新拉。
 Please set associated account in Tax Withholding Category {0} against Company {1},请针对公司{1}设置代扣税款类别{0}记账科目
@@ -11853,7 +11858,7 @@ Call Log,通话记录
 Pass,通过
 via automatic rule {0} on {1},通过{1}上的自动规则{0}
 Updated via 'Time Log',通过“工时记录”更新
-Rename many items by uploading a .csv file.,通过上传csv文件变更多个单据号。
+Rename many items by uploading a .csv file.,通过上传csv文件变更多个单据编号。
 Get financial breakup of Taxes and charges data by Amazon ,通过亚马逊获取税收和收费数据的财务分解
 Drag elements from the sidebar to add. Drag them back to trash.,通过从左边栏拖拽字段添加，拖拽到垃圾桶删除
 Make Payment via Journal Entry,使用日记账分录处理付款业务
@@ -12057,7 +12062,7 @@ Odometer,里程表读数
 Odometer Reading,里程表读数
 Resend,重发
 Reset,重启
-Rename Tool,批量修改名称(单据号)工具
+Rename Tool,批量修改名称(单据编号)工具
 Rename Log,重命名日志
 Repeat On,重复
 Subscription Section,订阅
@@ -12222,7 +12227,7 @@ Linked Location,链接位置
 Link to your Bootstrap theme,链接到你的引导主题
 Link to Material Request,链接到物料需求
 Link to material requests,链接到物料需求
-Link Name,关联单据号(名称)
+Link Name,关联单据编号(名称)
 Chaining Hash,链接哈希
 Link Field,链接字段
 Link Fieldname,链接字段名
@@ -12338,7 +12343,7 @@ SO Qty,销售订单数量
 Sales Order Date,销售订单日期
 Against Sales Order Item,销售订单明细
 Sales Order Item,销售订单明细
-Sales Order Series,销售订单单据号模板
+Sales Order Series,销售订单单据编号模板
 Sales Order Trends,销售订单趋势
 Sales Settings,销售设置
 Selling Settings,销售设置
@@ -12436,7 +12441,7 @@ Additional Information,附加信息
 Javascript to append to the head section of the page.,附加到页面头部的Javascript。
 Attach custom Chart of Accounts file,上传自定义会计科目表文件
 Additional Charges,附加费用
-Schedule Discharge,附表卸货
+Schedule Discharge,卸货计划
 Descending,降
 Limited to 12 characters,限12个字符
 Restrict IP,限制IP
@@ -12806,7 +12811,7 @@ Default Territory,默认区域
 Default Medical Code Standard,默认医疗代码标准
 Default Unit of Measure,默认单位
 Default Source Warehouse,默认发料仓
-Default Invoice Naming Series,默认发票单据号模板
+Default Invoice Naming Series,默认发票单据编号模板
 Default Sending and Inbox,默认发送和收件账号
 Default Sending,默认发送账号
 Default Employee Advance Account,默认员工预支科目
@@ -12850,7 +12855,7 @@ Default Payment Request Message,默认收款申请消息
 Default Account,默认科目
 Default Tax Template,默认税费模板
 Default Taxes and Charges,默认税费
-"The fallback series is ""SO-WOO-"".",默认单据号模板是“SO-WOO-”。
+"The fallback series is ""SO-WOO-"".",默认单据编号模板是“SO-WOO-”。
 Default Dimension,默认辅助核算
 Default Salary Structure,默认薪资结构
 Default Letter Head,默认打印表头
@@ -13254,7 +13259,7 @@ Create a Product,创建一个产品
 Add to ToDo,新增待办
 Assigning...,分派中...
 No changes in document,未做任何修改
-Document renamed from {0} to {1},已将单据号(名称){0} 变更为 {1}
+Document renamed from {0} to {1},已将单据编号(名称){0} 变更为 {1}
 Session Start Failed,会话启动错误
 Exponential Smoothing Forecasting,指数平滑法预测
 Setting up Global Search documents.,设置全局搜索单据
@@ -14355,7 +14360,7 @@ Prospecting,有意向,
 Quailification,资格核实
 Perception Analysis,意向分析
 Consider Accounting Dimensions,显示辅助核算,
-Webhook Trigger,网络挂接触发条件
+Webhook Trigger,网络钩子触发条件
 Row {0}: Both Debit and Credit values cannot be zero,第{0}行：借方与贷方不能同时为0
 Recalculate Incoming/Outgoing Rate,重新计算入/出库成本价
 Account Value,会计账金额,
@@ -14445,7 +14450,7 @@ Convert Item Description to Clean HTML in Transactions,将交易中的物料描�
 Role Allowed to Over Deliver/Receive,允许超量出/入库的角色
 Users with this role are allowed to over deliver/receive against orders above the allowance percentage,此角色的用户可超订单数量容差出入库
 Serialised and Batch Setting,序列号和批号设置
-Have Default Naming Series for Batch ID?,默认由单据号模板自动生成批号？
+Have Default Naming Series for Batch ID?,默认由单据编号模板自动生成批号？
 Website Filters,网站过滤器
 Deleting UOM,删除计量单位
 Deleting UOM Conversion Factor,删除单位换算系数
@@ -14677,8 +14682,8 @@ Operation Time ,工序时间,
 Scrap Item Code,报废物料号
 Scrap Item Name,报废物料名称
 FG Qty from Transferred Raw Materials,成品数量(基于已发原材料)
-Document Naming Rule,单据号规则,
-Document Naming Rule Condition,单据号规则条件,
+Document Naming Rule,单据编号规则,
+Document Naming Rule Condition,单据编号规则条件,
 Following item {0} is not marked as {1} item. You can enable them as {1} item from its Item master,下列物料{0}未勾选{1}。请在物料主数据中勾选,
 Following items {0} are not marked as {1} item. You can enable them as {1} item from its Item master,未在物料主数据中为以下物料{0}勾选{1},
 Total Billing Hours,总开票工时
@@ -14896,7 +14901,7 @@ New Version,新版本
 Reserved for manufacturing,工单发料预留,
 Reserved for sale,销售出库预留,
 Reserved for sub contracting,委外发料预留,
-Internal Sale or Delivery Reference missing.,须填写关联公司销售或出货参考单据号
+Internal Sale or Delivery Reference missing.,须填写关联公司销售或出货参考单据编号
 Please create purchase from internal sale or delivery document itself,请自关联方内部销售或出货单创建采购订单
 Internal Sales Reference Missing,关联方内部销售订单号必填
 BOM Level,BOM层级
@@ -14948,11 +14953,11 @@ Updating Opening Balances,更新期初
 Tax Detail,税费明细
 Work Order Consumed Materials,工单已耗用物料
 Settings & Configurations,设置
-Preview of generated names,自动生成的单据号预览
-Generate 3 preview of names generate by any valid series.,预览生成的3个单据号
-Add this Series,添加单据号模板
-Try a Naming Series,单据号模板预览
-Get a preview of generated names with a series.,预览编号模板生成的单据号
+Preview of generated names,自动生成的单据编号预览
+Generate 3 preview of names generate by any valid series.,预览生成的3个单据编号
+Add this Series,添加单据编号模板
+Try a Naming Series,单据编号模板预览
+Get a preview of generated names with a series.,预览编号模板生成的单据编号
 "## Products and Services
 
 Depending on the nature of your business, you might be selling products or services to your clients or even both. 
@@ -15065,7 +15070,7 @@ Naming Rule,编号规则
 Set by user,用户输入
 Autoincrement,自增
 By fieldname,字段
-By "Naming Series" field,单据号模板
+By "Naming Series" field,单据编号模板
 Expression,公式
 Expression (old style),公式(旧方法)
 Random,随机
@@ -15126,9 +15131,9 @@ Compare Versions,版本比较
 From version,先前版本
 To version,当前版本
 Select two versions to view the diff.,选择两个版本比较差异
-Document Naming Settings,单据号模板设置
-Setup Series for transactions,设置单据号模板
-Set Naming Series options on your transactions.,设置单据号模板选项
+Document Naming Settings,单据编号模板设置
+Setup Series for transactions,设置单据编号模板
+Set Naming Series options on your transactions.,设置单据编号模板选项
 Update Series Counter,更新模板当前流水号
 " Change the starting / current sequence number of an existing series. 
  Warning: Incorrectly updating counters can prevent documents from getting created. ","变更编号模板起始/当前流水号
@@ -15218,7 +15223,7 @@ Partial Material Transferred,部分发料
 Subcontract Return,委外成品退货
 "Sets 'Accepted Warehouse' in each row of the Items table.",为所有明细行设置(收货)仓库
 "Sets 'Rejected Warehouse' in each row of the Items table.",为所有明细行设置拒收仓
-Naming Series and Price Defaults,单据号及价格默认值
+Naming Series and Price Defaults,单据编号及价格默认值
 Is Old Subcontracting Flow,启用旧版委外流程
 Disable Last Purchase Rate,不更新最新采购价
 Inter Transfer Reference,关联交易信息
@@ -15600,18 +15605,18 @@ To Reference Date,参考日期止
 Auto Reconcile,自动核销
 Unreconcile Transaction,取消银行交易流水核销
 Please add the Bank Account column,请包括银行户头Bank Account字段
-naming_series,单据号模板
+naming_series,单据编号模板
 date,日期
 status,状态
 bank_account,银行户头
 deposit,存款
 withdrawal,取款
-reference_number,参考单据号
+reference_number,参考单据编号
 transaction_id,银行交易流水号
 transaction_type,交易类型
 payment_entries,付款凭证
 allocated_amount,已分配金额
-amended_from,修订自(上一版单据号)
+amended_from,修订自(上一版单据编号)
 unallocated_amount,未分配金额
 party_type,往来类型
 party,往来单位
@@ -15902,7 +15907,7 @@ Auto follow documents that you comment on,自动关注你评论的单据
 Auto follow documents that you Like,自动关注你喜欢的单据
 Auto follow documents that are assigned to you,自动关注分派给你的单据
 Auto follow documents that are shared with you,自动关注分享给你的单据
-Reserved Stock,预留数量
+Reserved Stock,预留库存
 Show Disabled Warehouses,显示已禁用仓库
 "If enabled, the system will create material requests even if the stock exists in the 'Raw Materials Warehouse'.","如勾选，即使'原材料仓'有库存系统也会创建物料需求"
 Helpdesk,服务台
@@ -16190,18 +16195,18 @@ Amended Documents,修订后单据
 "Change the starting / current sequence number of an existing series. <br>
 
 Warning: Incorrectly updating counters can prevent documents from getting created. ","变更现有编号模板当前流水号
-警告：修改当前流水号不正确可能导致新单据号不正确"
+警告：修改当前流水号不正确可能导致新单据编号不正确"
 "Configure how amended documents will be named.<br>
 
 Default behaviour is to follow an amend counter which adds a number to the end of the original name indicating the amended version. <br>
 
-Default Naming will make the amended document to behave same as new documents.","设置修订后单据号规则
-默认规则是在被修订单据号基础上添加修订次数(版本)后缀
-选择默认单据号规则时修订后的单据会重新生成下一个新单据号"
-Default Amendment Naming,默认修订后单据号方式
+Default Naming will make the amended document to behave same as new documents.","设置修订后单据编号规则
+默认规则是在被修订单据编号基础上添加修订次数(版本)后缀
+选择默认单据编号规则时修订后的单据会重新生成下一个新单据编号"
+Default Amendment Naming,默认修订后单据编号方式
 Amend Counter,修订次数后缀
-Default Naming,默认单据号规则
-Amendment Naming Override,修改后单据号方式重定义
+Default Naming,默认单据编号规则
+Amendment Naming Override,修改后单据编号方式重定义
 Update Amendment Naming,更新修订后单据编号方式
 Financial Ratios,财务指标
 Ratios,指标
@@ -16615,8 +16620,8 @@ Scan Serial No,扫序列号
 "Naming Options:
 field:[fieldname] - By Fieldautoincrement - Uses Databases' Auto Increment featurenaming_series: - By Naming Series (field called naming_series must be present)Prompt - Prompt user for a name[series] - Series by prefix (separated by a dot); for example PRE.#####
 format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####} - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.","自动编号方式：
- <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### 
- </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据号模板，花括号外可以使用任何固定字符。 </li></ol>"
+ <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据编号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### 
+ </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据编号模板，花括号外可以使用任何固定字符。 </li></ol>"
  Move the current field and the following fields to a new column,移动当前及以下字段到新栏
 Duplicate field,复制字段
 Remove field,删除字段
@@ -16695,8 +16700,8 @@ Crop,裁切
 "Naming Options:
 <ol><li><b>field:[fieldname]</b> - By Field</li><li><b>autoincrement</b> - Uses Databases' Auto Increment feature</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present)</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li>
 <li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>","自动编号方式：
- <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### 
- </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据号模板，花括号外可以使用任何固定字符。 </li></ol>"
+ <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据编号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### 
+ </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据编号模板，花括号外可以使用任何固定字符。 </li></ol>"
 Drag to add state,拖拽添加状态
 Reset Changes,放弃修改
 Fit,自适应
@@ -16742,7 +16747,7 @@ Repost Allowed Types,允许重过账单据类型
 Recorder Query,执行记录器查询
 Repost Accounting Ledger Items,重过账凭证明细
 Amended Document Naming Settings,修订单据命名设置
-Webhook Request Log,网页钩子请求日志
+Webhook Request Log,网络钩子请求日志
 Asset Repair Consumed Item,固定资产维修消耗物料
 BOM Batch Create Detail,批量创建物料清单明细
 Process Payment Reconciliation Log Allocations,收付款核销日志分派
@@ -16824,7 +16829,7 @@ Printed On,打印时间
 Send To Primary Contact,发送给首选联系人,
 Enable Auto Email,自动发送电子邮件,
 From Voucher Type,源单据类型
-From Voucher No,源单据号
+From Voucher No,源单据编号
 Reservation Based On,预留类型
 Voucher Qty,单据数量
 Available Qty to Reserve,可预留数量
@@ -16844,8 +16849,8 @@ Request Limit,可调用次数(多少秒内)
 Time Window (Seconds),时间(秒)
 "User {0}: Removed Employee role as there is no mapped employee.", 因用户 {0} 没有关联的员工主数据，已移除了员工角色
 "User {0}: Removed Employee Self Service role as there is no mapped employee.", 因用户 {0} 没有关联的员工主数据，已移除了员工自助服务角色
-Before Rename,修改单据号(名称)前
-After Rename,修改单据号(名称)后
+Before Rename,修改单据编号(名称)前
+After Rename,修改单据编号(名称)后
 Before Print,打印前
 Total Costing Amount (via Timesheet),总成本（工时表）
 Total Expense Claim (via Expense Claim),总费用报销（费用报销）
@@ -17002,3 +17007,5 @@ Inventory Dimension Negative Stock,库存辅助核算项负库存
 Delete Dimension,删除辅助核算
 "Scan mode enabled, existing quantity will not be fetched.",已启用扫码模式，不再自动获取现有库存数量
 Do reposting for each Stock Transaction,按业务单据进行成本追溯调整
+Create Reposting Entry,创建物料成本价追溯调整
+"Any one of following filters required: warehouse, Item Code, Item Group",需要至少一个过滤条件：仓库，物料号，或物料组
