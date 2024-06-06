@@ -15509,7 +15509,7 @@ Enable Automatic Party Matching,启用自动匹配往来单位
 Auto match and set the Party in Bank Transactions,在银行交易中自动匹配并设置往来单位字段
 Banking,银行,
 Ignore Closing Balance,忽略期末库存余额
-Regenerate Closing Stock Balance,重新生成期末库存全额
+Regenerate Closing Stock Balance,重新生成期末库存余额
 Closing Stock Balance,期末库存余额
 For quantity {0} should not be greater than allowed quantity {1},成品数量 {0} 不能大于剩余可入库数量 {1}
 Uses Auto Increment feature of database.,使用数据库的自增序列功能
