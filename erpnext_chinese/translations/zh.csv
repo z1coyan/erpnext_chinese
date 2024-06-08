@@ -1275,7 +1275,7 @@ Select an image of approx width 150px with a transparent background for best res
 Set numbering series for transactions.,设置单据编号模板前缀。
 Set prefix for numbering series on your transactions,设置单据编号模板前缀
 Track separate Income and Expense for product verticals or divisions.,为产品线或事业部单独跟踪收入和费用。
-Apply User Permission for following DocTypes,为以下DocType应用用户权限
+Apply User Permission for following DocTypes,为以下单据类型启用用户权限限制
 Progress % for a task cannot be more than 100.,为任务进度百分比不能超过100个。
 Write titles and introductions to your blog.,为你的博客编写标题和介绍。
 Set Permissions on Document Types and Roles,为单据类型和角色设置权限
@@ -2837,7 +2837,7 @@ Creating student groups,创建班级
 Create User,创建用户
 Create Users,创建用户
 Make User,创建用户
-Create User Permission,创建用户权限
+Create User Permission,创建用户权限限制
 Create User Email,创建用户电子邮件
 Make Sample Retention Stock Entry,创建留存样品物料移动记录
 Tasks Created,创建的任务
@@ -4426,7 +4426,7 @@ Either GST Transporter ID or Vehicle No is required if Mode of Transport is Road
 Vehicle Type is required if Mode of Transport is Road,如果运输方式为道路，则需要车辆类型
 Send alert if this field's value changes,如果这个字段的值改变则发送预警通知
 "If these instructions where not helpful, please add in your suggestions on GitHub Issues.",如果这些说明没有帮助，请在Github提交你的建议。
-"If Apply Strict User Permission is checked and User Permission is defined for a DocType for a User, then all the documents where value of the link is blank, will not be shown to that User",如果选中了“严格用户权限”，并为用户定义了“用户权限”，则该链接的值为空的所有单据将不会显示给该用户
+"If Apply Strict User Permission is checked and User Permission is defined for a DocType for a User, then all the documents where value of the link is blank, will not be shown to that User",如果勾选了“加严用户权限限制”，并为用户定义了“用户权限限制”，则该链接字段值为空的所有单据将不会显示给该用户
 "If checked, a customer will be created, mapped to Patient.Patient Invoices will be created against this Customer. You can also select existing Customer while creating Patient.",如果选中，将创建一个客户，映射到患者。将针对该客户创建病人发票。您也可以在创建患者时选择现有客户。
 "If checked, users will not see the Confirm Access dialog.",如果选中，用户将不会看到确认访问对话框。
 "If checked, the Home page will be the default Item Group for the website",如果选中，网站主页将默认显示该物料组
@@ -4614,14 +4614,14 @@ Finish,完成
 Is Completed,完成了
 Please confirm once you have completed your training,完成培训后请确认
 Complete Setup,完成安装
-Total Completed Qty,完成总数量
-Completed Qty can not be greater than 'Qty to Manufacture',完成数量不能大于“订单数量”
+Total Completed Qty,总完工数量
+Completed Qty can not be greater than 'Qty to Manufacture',完工数量不能大于“订单数量”
 Completion Date,完成日期
 Complete Registration,完成注册
 Completion Status,完成状态
 Percent Complete,完成百分比
 % Complete Method,完成百分比法
-Total completed qty must be greater than zero,已完成总数量必须大于零
+Total completed qty must be greater than zero,总完工数量必须大于零
 Go to this URL after completing the form (only for Guest users),完成表单后转到此网址（仅限访客用户）
 Define various loan types,定义不同的借款类型
 Defines actions on states and the next step and allowed roles.,定义切换到工作流状态的操作，下一个状态和被允许的角色。
@@ -5164,7 +5164,7 @@ Completed,已完成
 % Completed,已完成%
 Work Done,已完成工作
 Details of the operations carried out.,已完成工序详情。
-Completed Qty,已完成数量
+Completed Qty,完工数量
 Achieved,已实现
 Fulfilled,已履行
 List of patches executed,已应用补丁列表
@@ -5433,7 +5433,7 @@ Accounts Receivable Summary,应收账款汇总
 Accounts Receivable Discounted Account,应收账款贴现科目
 App,应用
 Apply,应用
-Apply Strict User Permissions,应用严格的用户权限
+Apply Strict User Permissions,启用加严用户权限限制
 Apply On,应用于
 Apply Multiple Pricing Rules,应用多个动态定价规则
 App Secret Key,应用密钥
@@ -5736,7 +5736,7 @@ Ignore Existing Ordered Qty,忽略已采购数量
 Ignore Existing Ordered Quantity,忽略已采购数量
 Ignore Existing Projected Quantity,忽略可用数量
 Ignore User Time Overlap,忽略用户时间重叠
-Ignore User Permissions,忽略用户权限
+Ignore User Permissions,忽略用户权限限制
 Ignore encoding errors,忽略编码错误
 Ignore Pricing Rule,忽略动态定价规则
 Ignore attachments over this size,忽略超过此大小的附件
@@ -7791,7 +7791,7 @@ Permission Level,权限级别
 Permission Levels,权限级别
 Permission Rules,权限规则
 Permissions Settings,权限设置
-"Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions.",权限设置基于用户角色和单据类型，可设置的权限包括读，写，创建，删除，提交，取消，修改，报表，导入，导出，打印，电子邮件和设置用户权限。
+"Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions.",权限设置基于用户角色和单据类型，可设置的权限包括读，写，创建，删除，提交，取消，修改，报表，导入，导出，打印，电子邮件和设置用户权限限制。
 Quick Help for Setting Permissions,权限设置的快速帮助
 Permission Error,权限错误
 Restrictions,权限限制清单
@@ -8528,7 +8528,7 @@ Add Test,添加测试
 Add Leads,添加潜在客户
 Add Items,添加物料
 Add Users,添加用户
-Add User Permissions,添加用户权限
+Add User Permissions,添加用户权限限制
 Add Signature,添加签名
 apps/frappe/frappe/desk/doctype/event/event.js，Add Leads,添加线索
 Add Group,添加分组
@@ -8554,11 +8554,11 @@ Attached To Field,添加附件至字段
 "List as [{""label"": _(""Jobs""), ""route"":""jobs""}]",清单[{“标签”：_（“作业”），“路径”：“工作”}]
 Clearance Date,清账日期
 Clearance Date updated,清账日期已更新
-Clear values,清晰的价值观
+Clear values,清除金额
 Clear,清除
 Clear all roles,清除所有角色
 Clear Search,清除搜索
-Clear User Permissions,清除用户权限
+Clear User Permissions,清除用户权限限制
 "Clearing end date, as it cannot be in the past for published pages.",清除结束日期，因为发布的页面不能在过去。
 Clear Cache and Reload,清除缓存和重新加载
 Clear Table,清除表格
@@ -8980,12 +8980,12 @@ Apply this rule if the User is the Owner,用户是制单人则应用此规则
 If user is the owner,仅限创建者
 User has not applied rule on the invoice {0},用户未在发票{0}上应用规则
 User do not have doctype access via role permission,用户未被授权访问单据类型
-User Permission,用户权限
-User Permissions,用户权限
-User permissions should not apply for this Link,用户权限不应应用在此链接上
-User Permissions created sucessfully,用户权限已成功创建
-User permission already exists,用户权限已经存在
-User Permissions are used to limit users to specific records.,用户权限用于将用户限制到特定的记录。
+User Permission,用户权限限制
+User Permissions,用户权限限制
+User permissions should not apply for this Link,用户权限限制不应应用在此链接上
+User Permissions created sucessfully,用户权限限制已创建
+User permission already exists,用户权限限制已经存在
+User Permissions are used to limit users to specific records.,用户权限限制用于过滤出允许用户访问的单据。
 User Tags,用户标签
 User do not have document access,用户没有单据访问权限
 User Email,用户电子邮件
@@ -9906,7 +9906,7 @@ Webhook,网络钩子
 Webhooks,网络钩子
 Page,网页
 Page Name,网页名称
-User Permission for Page and Report,网页和报表的用户权限
+User Permission for Page and Report,网页和报表权限
 Role Permission for Page and Report,网页和报表角色权限
 Web Form,网页表单
 Web Page Link Text,网页链接文本
@@ -10543,7 +10543,6 @@ Forum Activity,论坛活动
 Set as Completed,设为已完成
 Make Default,设为默认
 Set Value,设定值
-Set User Permissions,设定用户权限
 Set a Target,设定目标
 Amenities,设施
 Settings,设置
@@ -10551,7 +10550,7 @@ Setup,设置
 Setup for,设置
 Setup &gt; Customize Form,设置&gt;定制表单
 Setup &gt; User,设置&gt;用户
-Setup &gt; User Permissions,设置&gt;用户权限
+Setup &gt; User Permissions,设置&gt;用户权限限制
 Settings...,设置...
 Set Invoice Value for B2C. B2CL and B2CS calculated based on this invoice value.,设置B2C的发票值。 B2CL和B2CS根据此发票值计算。
 Setup default values for POS Invoices,设置POS发票的默认值
@@ -10585,7 +10584,7 @@ Set default inventory account for perpetual inventory,设置永续盘存模式�
 Set Exchange Gain / Loss,设置汇兑损益
 Set Status,设置状态
 Set up rules for user assignments.,设置用户分派规则。
-Set User Permissions,设置用户权限
+Set User Permissions,设置用户权限限制
 Setting up Email,设置电子邮件
 Setting up Email Account,设置电子邮件科目
 Setup Auto Email,设置电子邮件自动发送
@@ -11797,7 +11796,7 @@ Select Item (optional),选择物料（可选）
 Select Status,选择状态
 Select an existing format to edit or start a new format.,选择现有或创建一个新格式。
 Select Users,选择用户
-Select Document Types to set which User Permissions are used to limit access.,选择用户权限针对的单据类型。
+Select Document Types to set which User Permissions are used to limit access.,选择用户权限限制单据类型。
 Choose a corresponding payment,选择相应的收付款凭证
 Select Loyalty Program,选择积分方案
 Select Type...,选择类型...
@@ -12452,7 +12451,7 @@ Restrict user for specific document,限制特定单据的用户
 Limit Percent,限制百分比
 Restrict To Domain,限制行业
 Limit,最大数量
-"Apart from System Manager, roles with Set User Permissions right can set permissions for other users for that Document Type.",除了系统管理员，有“设置用户权限”的角色可以为其他用户设置某单据类型的权限。
+"Apart from System Manager, roles with Set User Permissions right can set permissions for other users for that Document Type.",除系统管理员外，有“设置权限”的角色可以为其他用户设置某单据类型的权限。
 Will also apply for variants unless overrridden,除非手动指定，否则会同时应用于多规格物料
 Please find attached {0} #{1},随函附上{0}＃{1}
 Random,随机
@@ -17009,3 +17008,5 @@ Delete Dimension,删除辅助核算
 Do reposting for each Stock Transaction,按业务单据进行成本追溯调整
 Create Reposting Entry,创建物料成本价追溯调整
 "Any one of following filters required: warehouse, Item Code, Item Group",需要至少一个过滤条件：仓库，物料号，或物料组
+Assign Job to Employee,派工
+Pause Job,暂停加工单
