@@ -3960,10 +3960,10 @@ Currency of the Closing Account must be {0},在关闭科目的货币必须是{0}
 Rows with duplicate due dates in other rows were found: {list},在其他行中找到具有重复到期日的行：{list}
 Please save before assigning task.,在分配任务之前请保存。
 In List View,在列表视图中显示
-Work In Progress,在制品
-WIP Warehouse,在制品仓
-Work-in-Progress Warehouse,在制品仓
-Available Qty at WIP Warehouse,在制品仓可用数量
+Work In Progress,进行中
+WIP Warehouse,车间仓
+Work-in-Progress Warehouse,车间仓
+Available Qty at WIP Warehouse,车间仓可用数量
 Material Transferred for Manufacturing,发料数量(成品套数)
 Work Orders in Progress,在制生产工单
 Number of columns for a field in a List View or a Grid (Total Columns should be less than 11),在单据列表或子表单列表中所占列数（合计列数应小于11）
@@ -4141,7 +4141,7 @@ Setup Notifications based on various criteria.,基于各种标准的设置通知
 Discount (%) on Price List Rate with Margin,基于含上浮标价的折扣（％）
 This is based on transactions against this Customer. See timeline below for details,基于客户的过往交易。详情请参阅表单下方日志记录
 Salary Slip Based on Timesheet,基于工时表
-Backflush raw materials from work-in-progress warehouse,从在制品仓耗用(倒扣账)原材料
+Backflush raw materials from work-in-progress warehouse,从车间仓耗用(倒扣账)原材料
 Variable Based On Taxable Salary,基于应纳税工资的变量
 Bank Statement balance as per General Ledger,总账银行余额
 Qty of raw materials will be decided based on the qty of the Finished Goods Item,基于成品数量计算原材料数量
@@ -4996,7 +4996,7 @@ Workflow Transition,工作流状态转换
 Shift Request,工作班次申请
 Tools,工具
 Material Transfer for Manufacture,工单发料
-Material Transferred for Manufacture,已发到工单的物料
+Material Transferred for Manufacture,工单发料
 Work Order Operation,工单工序
 Qty To Manufacture,工单数量
 Work Order Qty,工单数量
@@ -6952,7 +6952,7 @@ No Items available for transfer,无可移转物料
 Cannot Optimize Route as Driver Address is Missing.,无司机地址，无法优化配送路线
 Cannot Calculate Arrival Time as Driver Address is Missing.,无司机地址，无法计算预估到达时间
 No Remarks,无备注
-No Items with Bill of Materials to Manufacture,无定义了物料清单的待生产物料
+No Items with Bill of Materials to Manufacture,无定义了物料清单的待生产成品
 No time sheets,无工时表
 No Items with Bill of Materials.,无已维护物料清单的物料。
 No items to be received are overdue,无已逾期待入库物料
@@ -8641,7 +8641,7 @@ Version Updated,版本更新
 Copyright,版权
 Property Setter overrides a standard DocType or Field property,物业二传手覆盖标准的DocType或实地房产
 Item,物料
-Item To Manufacture,物料
+Item To Manufacture,成品
 Items,物料
 Material,物料
 Materials,物料
@@ -8727,7 +8727,7 @@ Item Fields,物料字段
 Item Attribute,物料属性
 Item Attribute Value,物料属性值
 Item Attribute Values,物料属性值
-Item operation,物料工序
+Item operation,工序
 Cannot be a fixed asset item as Stock Ledger is created.,物料已有物料凭证后不能再将其设置为固定资产。
 Item Serial No,物料序列号
 Item Locations,拣货明细
@@ -8894,8 +8894,7 @@ Work Order not created,生产工单未创建
 Quantity to Produce can not be less than Zero,生产数量不能小于零
 Manufacturing Date,生产日期
 Where manufacturing operations are carried.,生产流程进行的地方。
-Produced Items,生产物料
-Production Item,生产物料
+Production Item,成品
 Manufacturing User,生产用户
 Produced Quantity,生产的产品数量
 Manufacturing Manager,生产经理
@@ -10788,7 +10787,7 @@ Please enter {0} first,请先输入{0}
 Please enter company first,请先输入公司
 Please enter company name first,请先输入公司名
 Please enter Maintaince Details first,请先输入客户拜访（维护）信息
-Please enter Production Item first,请先输入待生产物料
+Please enter Production Item first,请先输入成品
 Please enter Item first,请先输入物料
 Please enter Purchase Receipt first,请先输入采购入库号
 Please select {0} first,请先选择{0}
@@ -10891,7 +10890,7 @@ Please create Customer from Lead {0},请将线索{0}转化为客户
 Please specify from/to range,请指定 从/至 范围
 Please specify a {0},请指定{0}
 Please specify a valid 'From Case No.',请指定一个有效的“包裹(箱)号”
-Work-in-Progress Warehouse is required before Submit,请指定在制品仓后再提交
+Work-in-Progress Warehouse is required before Submit,请指定车间仓后再提交
 Please specify Attribute Value for attribute {0},请指定属性值的属性{0}
 Please specify at least one attribute in the Attributes table,请指定属性表中的至少一个属性
 Please specify which value field must be checked,请指定必须检查的值字段
@@ -11761,7 +11760,7 @@ Select Serial No,选择序列号
 Select Serial Numbers,选择序列号
 Select records for assignment,选择待分派记录
 Select fields to export,选择待导出的字段
-Select Items to Manufacture,选择待生产物料
+Select Items to Manufacture,选择待生产成品
 Select Mandatory,选择必填字段
 Select Patient,选择患者
 Select the nature of your business.,选择您的业务性质。
@@ -12814,7 +12813,7 @@ Default Invoice Naming Series,默认发票单据编号模板
 Default Sending and Inbox,默认发送和收件账号
 Default Sending,默认发送账号
 Default Employee Advance Account,默认员工预支科目
-Default Work In Progress Warehouse,默认在制品仓
+Default Work In Progress Warehouse,默认车间仓
 Default Address Template cannot be deleted,默认地址模板不能删除
 Default Outgoing,默认外发
 Default Inventory Account,默认存货科目
@@ -13542,7 +13541,7 @@ You can try changing the filters of your report.,可尝试变更报表过滤条�
 You can't create accounting entries in the closed accounting period {0},不能在已关闭期间{0}创建会计凭证
 You cannot create a dashboard chart from single DocTypes,不能为单记录单据类型创建统计图表
 Why do think this Item should be removed?,为什么你认为可移除此项？
-Work In Progress Warehouse,在制品仓
+Work In Progress Warehouse,车间仓
 Work Order Analysis,工单分析
 Work Order Qty Analysis,工单数量分析
 Work Order cannot be created for following reason:  {0}, 工单不能创建，原因是<br> {0}
@@ -14574,7 +14573,7 @@ Serial Nos,序列号
 Get Finished Goods for Manufacture,获取待计划物料
 Sub Assembly Item Code,子装配件物料号
 Level (BOM),物料清单层级
-Backflush Raw Materials From Work-in-Progress Warehouse,从在制品仓耗用原材料,
+Backflush Raw Materials From Work-in-Progress Warehouse,从车间仓耗用原材料,
 Supplier Lead Time (days),供应商交期（天）,
 Distribute Manually,手工分配
 Repair and Maintenance Account,维修科目
@@ -17010,3 +17009,7 @@ Create Reposting Entry,创建物料成本价追溯调整
 "Any one of following filters required: warehouse, Item Code, Item Group",需要至少一个过滤条件：仓库，物料号，或物料组
 Assign Job to Employee,派工
 Pause Job,暂停加工单
+Get Raw Materials Cost from Consumption Entry,入库成品原材料成本取自工单耗用
+"Row {0}: As {1} is enabled, raw materials cannot be added to {2} entry. Use {3} entry to consume raw materials.",第 {0} 行：生产设置中已勾选 入库成品原材料成本取自工单耗用，工单入库中不允许倒扣原材料，请创建工单耗用物料移动消耗原材料
+Materials needs to be transferred to the work in progress warehouse for the job card {0},请先为加工单 {0} 发料(直接调拨)
+Time logs are required for {0} {1},请为 {0} {1} 填写工时记录,
