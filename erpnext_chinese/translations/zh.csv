@@ -2632,7 +2632,7 @@ Assign Condition,分派条件
 Assignment closed by {0},分派由{0}关闭
 Allocated To,执行人
 Assign To,执行人
-Assigned To,创建代办
+Assigned To,创建待办
 Assigned To/Owner,执行人/发起人
 Assign to Name,执行人姓名
 Assign to the one who has the least assignments,指派给待办最少的用户
@@ -10769,7 +10769,7 @@ Please pull items from Delivery Note,请从销售出库获选物料
 Please login as another user to register on Marketplace,请以另一个用户身份登录以在Marketplace上注册
 Please supply the specified items at the best possible rates,请以最优惠的价格供应所需物料
 Please set recurring after saving,请保存后设置自动重复参数
-Please save the document before assignment,分派代办前请先保存单据
+Please save the document before assignment,分派待办前请先保存单据
 Please save first,请先保存
 Please save the patient first,请先保存患者
 Please save the report first,请先保存报表
