@@ -2632,7 +2632,7 @@ Assign Condition,分派条件
 Assignment closed by {0},分派由{0}关闭
 Allocated To,执行人
 Assign To,执行人
-Assigned To,创建代办
+Assigned To,创建待办
 Assigned To/Owner,执行人/发起人
 Assign to Name,执行人姓名
 Assign to the one who has the least assignments,指派给待办最少的用户
@@ -8785,7 +8785,7 @@ Duplicate entry against the item code {0} and manufacturer {1},物料号{0}和�
 Item Code cannot be changed for Serial No.,物料号不能因序列号改变
 Item Naming By,物料号字段
 Item Code is mandatory because Item is not automatically numbered,因未启用自动编号，物料号必填，
-Material Consumption,物料耗用
+Material Consumption,工单耗用
 Item Variant Attribute,物料规格属性
 Item Quality Inspection Parameter,物料质检参数
 Items Filter,物料过滤
@@ -10769,7 +10769,7 @@ Please pull items from Delivery Note,请从销售出库获选物料
 Please login as another user to register on Marketplace,请以另一个用户身份登录以在Marketplace上注册
 Please supply the specified items at the best possible rates,请以最优惠的价格供应所需物料
 Please set recurring after saving,请保存后设置自动重复参数
-Please save the document before assignment,分派代办前请先保存单据
+Please save the document before assignment,分派待办前请先保存单据
 Please save first,请先保存
 Please save the patient first,请先保存患者
 Please save the report first,请先保存报表
@@ -12959,7 +12959,7 @@ Production Planning Report,生产计划报表
 Work Order Summary,工单进度追踪表
 Quality Inspection Summary,质检进度追踪表
 Downtime Analysis,停机分析
-Job Card Summary,工序进度追踪表
+Job Card Summary,加工单进度追踪表
 BOM Operations Time,工艺时间
 Choose Dashboard,选择数据面板
 Workstation / Machine,工站/机台
@@ -16910,7 +16910,7 @@ Bulk Operation Successful,批量操作成功
 Failed to delete {0} documents: {1},未能删除 {0} 个单据: {1}
 Bulk Operation Failed,批量操作失败
 Update Outstanding for Self,更新本单未付金额
-"Credit Note will update it's own outstanding amount, even if ""Return Against"" is specified.",即使指定了源单，退款发票也会更新自身的未付金额
+"Credit Note will update it's own outstanding amount, even if ""Return Against"" is specified.",即使指定了源单，系统会更新本退款单(而不是源单)未付金额
 "We can see {0} is made against {1}. If you want {1}'s outstanding to be updated, uncheck '{2}' checkbox.  Or you can use {3} tool to reconcile against {1} later.","你基于源单 {1} 创建了  {0} . 如果希望更新 {1} 的未付金额, 取消勾选 '{2}' . <br><br> 或者后续使用 {3} 工具核销 {1} ."
 Currency ,货币
 Amount that has been paid against this advance,本预支已付金额
@@ -17013,3 +17013,33 @@ Get Raw Materials Cost from Consumption Entry,入库成品原材料成本取自�
 "Row {0}: As {1} is enabled, raw materials cannot be added to {2} entry. Use {3} entry to consume raw materials.",第 {0} 行：生产设置中已勾选 入库成品原材料成本取自工单耗用，工单入库中不允许倒扣原材料，请创建工单耗用物料移动消耗原材料
 Materials needs to be transferred to the work in progress warehouse for the job card {0},请先为加工单 {0} 发料(直接调拨)
 Time logs are required for {0} {1},请为 {0} {1} 填写工时记录,
+Items to Reserve,库存预留明细
+Stock Reservation Entries Created,库存预留单已创建
+Stock Reservation Entries Cancelled,库存预留单已取消
+"Debit Note will update it's own outstanding amount, even if ""Return Against"" is specified.",即使指定了源采购发票，系统会更新本退款单(而不是源采购发票)未付金额，
+Row #{0}: Stock not available to reserve for the Item {1} in Warehouse {2}.,第 {0} 行：物料 {1} 在仓库 {2} 中无可预留数量
+Stock not available for Item {0} in Warehouse {1}.,物料 {0} 在仓库 {2} 中无可预留数量
+Row #{0}: Serial No {1} for Item {2} is not available in {3} {4} or might be reserved in another {5}.,第 {0} 行：在 {3} {4} 无可预留的物料{2} 序列号 {1} 或者已被其它 {5} 预留占用了
+Batch {0} and Warehouse, 批号 {0} 和仓库
+Row #{0}: Serial No {1} is already selected.,第 {0} 行：序列号 {1} 已被选择
+Row #{0}: Stock cannot be reserved for Item {1} against a disabled Batch {2}.,第 {0} 行： 物料 {1} 预留数量不可使用无效批号 {2} 
+Row #{0}: Stock not available to reserve for Item {1} against Batch {2} in Warehouse {3}.,第 {0} 行：物料 {1} 批号 {2} 在仓库 {3} 中无可预留数量
+Row #{0}: Qty should be less than or equal to Available Qty to Reserve (Actual Qty - Reserved Qty) {1} for Iem {2} against Batch {3} in Warehouse {4}.,第 {0} 行：物料 {2} 批号 {3} 在仓库 {4} 中预留数量须 <= 可预留数量（实际数量 - 已预留数量） {1}
+Row #{0}: Batch No {1} is already selected.,第 {0} 行：批号 {1} 已被选择
+Please select Serial/Batch Nos to reserve or change Reservation Based On to Qty.,请选择序列号/批号或修改预留类型为数量
+"{0} {1} cannot be updated. If you need to make changes, we recommend canceling the existing entry and creating a new one.",{0} {1} 不允许被修改，建议取消当前单据再创建新单据
+"Stock Reservation Entry created against a Pick List cannot be updated. If you need to make changes, we recommend canceling the existing entry and creating a new one.",基于拣货单创建的库存预留单不可修改，建议取消当前单据再创建新单据
+Stock Reservation Entry cannot be updated as it has been delivered.,出库后库存预留单不可修改
+Item {0} is already reserved/delivered against Sales Order {1}.,物料{0}已被销售订单{1}预留
+Reserved Qty should be greater than Delivered Qty.,预留数量须大于出库数量
+Please enable {0} in the {1}.,请在 {0} 启用 {1}
+Stock Reservation can only be created against {0}.,仅可基于 {0} 创建库存预留单
+Stock cannot be reserved in the group warehouse {0}.,不允许为勾选是组的仓库 {0} 创建库存预留单
+"Row #{0}: Item {1} has been picked, please reserve stock from the Pick List.",第 {0} 行：物料 {1} 已拣货，请从拣货单创建库存预留单
+Row #{0}: Stock cannot be reserved for a non-stock Item {1},不允许为未勾选允许库存的物料创建库存预留
+Row #{0}: Quantity to reserve for the Item {1} should be greater than 0.,第 {0} 行：物料 {1} 预留数量须大于 0
+Enable Allow Partial Reservation in the Stock Settings to reserve partial stock.,请在库存设置中启用允许部分预留
+Partial Stock Reservation,部分库存预留
+"Cannot amend {0} {1}, please create a new one instead.",不允许修订 {0} {1}，请创建新单据
+Stock cannot be reserved in group warehouse {0}.,不允许为勾选是组的仓库 {0} 创建库存预留单
+Reserved Qty ({0}) cannot be a fraction. To allow this, disable '{1}' in UOM {3}.,预留数量 {0} 不允许有小数，要允许小数请在单位 {3} 主数据中取消勾选 {1}
