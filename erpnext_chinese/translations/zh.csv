@@ -706,7 +706,7 @@ Assignment for {0} {1},{0} {1}的分派
 {0} {1}: Customer is required against Receivable account {2},{0} {1}：应收账款科目{2}客户信息必填
 {0} {1}: Supplier is required against Payable account {2},{0} {1}：应付账款科目{2}供应商信息必填
 {0} {1}: Cost Center {2} does not belong to Company {3},{0} {1}：成本中心{2}不属于公司{3}
-{0} {1}: Cost Center is mandatory for Item {2},{0} {1}：成本中心是物料{2}的必须项
+{0} {1}: Cost Center is mandatory for Item {2},{0} {1}：请为物料 {2} 填写成本中心
 {0} {1}: Cost Center is required for 'Profit and Loss' account {2}. Please set up a default Cost Center for the Company.,{0} {1}：损益类科目分录中成本中心信息必填{2}。请为公司设置一个默认成本中心。
 {0} {1}: Submitted Record cannot be deleted.,{0} {1}：提交记录不能被删除。
 To {0} | {1} {2},{0} | {1} {2}
@@ -11299,7 +11299,7 @@ Expense,费用
 Expense Account,费用科目
 Expenses,费用
 Fee,费用
-Expense / Difference account ({0}) must be a 'Profit or Loss' account,费用/差异科目({0})必须是一个“损益”类科目
+"Expense / Difference account ({0}) must be a 'Profit or Loss' account",费用/差异科目({0})必须是一个“损益”类科目
 Charges are updated in Purchase Receipt against each item,费用会在每个物料的采购入库中更新
 "Charges will be distributed proportionately based on item qty or amount, as per your selection",费用会根据选择的物料数量和金额按比例分摊。
 Distribute Charges Based On,费用分摊基于
@@ -17043,3 +17043,34 @@ Partial Stock Reservation,部分库存预留
 "Cannot amend {0} {1}, please create a new one instead.",不允许修订 {0} {1}，请创建新单据
 Stock cannot be reserved in group warehouse {0}.,不允许为勾选是组的仓库 {0} 创建库存预留单
 Reserved Qty ({0}) cannot be a fraction. To allow this, disable '{1}' in UOM {3}.,预留数量 {0} 不允许有小数，要允许小数请在单位 {3} 主数据中取消勾选 {1}
+From Voucher Detail No,源单据明细ID
+Get Allocations,获取已核销明细
+Unlinked,已取消关联
+"At row {0}: Serial and Batch Bundle {1} has already created. Please remove the values from the serial no or batch no fields.",第 {0} 行，序列号/批号已创建，请清空序列号或批号字段
+Please set default cost of goods sold account in company {0} for booking rounding gain and loss during stock transfer,请在公司 {0} 主数据中维护用于库存直接调拨圆整差异记账的默认销货成本科目，
+Rounding gain/loss Entry for Stock Transfer,库存调拨圆整差异分录
+"Warehouse {0} is not linked to any account, please mention the account in the warehouse record or set default inventory account in company {1}.",仓库 {0} 无库存科目，请在仓库或公司主数据中维护默认库存科目
+Row #{0}: Expense Account not set for the Item {1}. {2},第 {0} 行：物料 {1}. {2} 差异科目必填
+Expense Account Missing,缺失差异科目
+Inspection Submission,质检单提交
+Inspection Rejected,质检不通过
+Row {0}: Target Warehouse is mandatory for internal transfers,第 {0} 行，直接调拨收料仓必填
+Row {0}: From Warehouse is mandatory for internal transfers,第 {0} 行，直接调拨发料仓必填
+"Internal transfers can only be done in company's default currency",直接调拨币种必须是公司本币
+Packed Items cannot be transferred internally,套件中的下层物料不可直接调拨
+For Item {0} cannot be received more than {1} qty against the {2} {3},基于 {2} {3} 物料 {0} 收货数量不能超过 {1}
+Over Receipt,超收
+{0} qty of Item {1} is being received into Warehouse {2} with capacity {3}.,已收到物料 {1} 数量 {0} 到仓库 {2}，占用库容 {3}
+Please adjust the qty or edit {0} to proceed.,请调整数量或修改 {0} 后继续
+Serial and Batch Bundle {0} is already used in {1} {2}.,序列号/批号 {0} 已用于 {1} {2} 
+"For the {0}, no stock is available for the return in the warehouse {1}.", {0} : 仓库 {1} 中无可退货数量
+Stock and Manufacturing,库存与生产
+Reconcile on Advance Payment Date,预付款日核销
+"If <b>Enabled</b> - Reconciliation happens on the <b>Advance Payment posting date</b><br>
+If <b>Disabled</b> - Reconciliation happens on oldest of 2 Dates: <b>Invoice Date</b> or the <b>Advance Payment posting date</b><br>
+","如果 <b>勾选</b> - 基于 <b>预付款记账日</b>核销<br>
+如果 <b>不勾选</b> - 基于: <b>发票日</b> 或 <b>预付款记账时</b>两者中最晚日期核算<br>
+"
+Default Operating Cost Account,默认额外费用科目(物料移动)
+Enabling this ensures each Purchase Invoice has a unique value in Supplier Invoice No. field within a particular fiscal year,勾选后系统会针对同一财年采购发票供应商发票号进行唯一性检查
+"Stock will be reserved on submission of <b>Purchase Receipt</b> created against Material Request for Sales Order.",关联销售订单的<b>采购入库</b>提交时自动创建销售订单库存预留单
