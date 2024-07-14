@@ -567,8 +567,8 @@ Webhooks Secret,Webhooks的秘密
 Webhooks Details,Webhooks详细信息
 Webhooks calling API requests into web apps,Webhook将API请求调用到Web应用程序中
 Webhook Data,Webhook数据
-Webhook Header,Webhook头部信息
-Webhook Headers,Webhook头部信息
+Webhook Header,Webhook头信息
+Webhook Headers,Webhook头信息
 Webhook Request,Webhook请求
 Web Form,Web表单
 Web Form Field,Web表单字段
@@ -17074,3 +17074,12 @@ If <b>Disabled</b> - Reconciliation happens on oldest of 2 Dates: <b>Invoice Dat
 Default Operating Cost Account,默认额外费用科目(物料移动)
 Enabling this ensures each Purchase Invoice has a unique value in Supplier Invoice No. field within a particular fiscal year,勾选后系统会针对同一财年采购发票供应商发票号进行唯一性检查
 "Stock will be reserved on submission of <b>Purchase Receipt</b> created against Material Request for Sales Order.",关联销售订单的<b>采购入库</b>提交时自动创建销售订单库存预留单
+Rate Section,成本价信息
+Finished Goods based Operating Cost,启用计件成本
+Raw Materials Actions,委外原材料表操作
+Reset Raw Material Table,重置委外原材料表
+Please select either the Item or Warehouse or Warehouse Type filter to generate the report.,因数据量较大，请输入物料编号、仓库、仓库类型任一过滤条件。
+Skipped,已跳过
+Background Jobs Queue,后台任务队列
+Outward,发出,Serial and Batch Bundle
+Inward,收到,Serial and Batch Bundle
