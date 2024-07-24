@@ -14410,7 +14410,7 @@ Bank Reconciliation Tool,银行对账工具
 Account Name,账户名称,Bank Account
 Account Type,账户类型,Bank Account
 Account Subtype,账户子类型
-Dependant SLE Voucher Detail No,关联凭证明细ID
+Dependant SLE Voucher Detail No,相关(下游)凭证明细ID
 Show Net Values in Party Account,显示往来单位净值
 Shipment,运单
 Pickup from,提货开始日间
@@ -17083,3 +17083,43 @@ Skipped,已跳过
 Background Jobs Queue,后台任务队列
 Outward,发出,Serial and Batch Bundle
 Inward,收到,Serial and Batch Bundle
+"Please mention 'Weight UOM' along with Weight.",在库存页签填写了了单重，请填写重量单位。
+Incoming,来料检验,Quality Inspection
+Outgoing,出货检验,Quality Inspection
+In Process,制程检验,Quality Inspection
+Payment Summary,付款信息
+Request for Quote,询价
+Go to Quote,查看报价
+Continue Shopping,继续购物
+Prev Quotes,上一个报价
+Net Total (,净总计 (
+" Items)",物料 )    
+Show Error,显示错误
+Clear All,清空全部
+Website Item,网站物料
+Website Item Name,网站物料名称
+Website display name,在网站上显示的名称
+Display Images,显示图片
+Image Alternative Text,图片文字
+On Backorder,欠交订单
+Stock Information,库存信息
+Indicate that Item is available on backorder and not usually pre-stocked,
+Display Information,显示信息
+Short Description for List View,列表界面短描述
+Short Website Description,网站短描述
+Display Additional Information,显示附加信息
+Add Section with Tabs,添加页签
+Tabs,页签
+Recommended Items,推荐物料
+Recommended/Similar Items,推荐/相似物料
+Offers to Display,促销显示
+Offer Title,促销标题
+Offer Subtitle,促销子标题
+Search and SEO,搜索与关键字优化
+Items with higher ranking will be shown higher,排名高靠前显示
+Ranking,排名
+Advanced Display Content,高级显示内容
+Webshop Settings,网店设置
+Hide Price for Guest,访客不显示价格
+Enable Redisearch,启用Redisearch
+Recent,最新
