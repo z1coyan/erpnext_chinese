@@ -4129,7 +4129,7 @@ Reorder level based on Warehouse,基于仓库的重订货点
 Depends on Payment Days,基于付款天数
 Based On Payment Terms,显示付款计划明细
 Based on price list,基于价格表
-Coupon Code Based,基于优惠码
+Coupon Code Based,基于优惠券
 This is based on transactions against this Supplier. See timeline below for details,基于供应商的过往交易。详情请参阅表单下方日志记录
 Automatically Set Serial Nos based on FIFO,基于先进先出自动带出序列号
 On Net Total,基于净总计
@@ -12900,7 +12900,7 @@ Average Completion,平均完成
 Completed Tasks,已完成任务
 Total Tasks,总任务数
 Overdue Tasks,逾期任务
-Coupon Code,优惠码
+Coupon Code,优惠券
 Show Stock Ageing Data,显示库龄
 Report initiated.You can track its status {0}here{1},报表生成中.追踪生成进度，请点 {0}这里{1}
 Apply Assignment Rule,执行分派规则
@@ -12935,7 +12935,7 @@ Disable Capacity Planning,不启用产能规划
 Default Scrap Warehouse,默认报废仓
 Default Warehouses for Production, 生产默认仓库
 Over Production for Sales and Work Order, 销售订单与工单阀值
-Show Apply Coupon Code,显示使用优惠码
+Show Apply Coupon Code,显示使用优惠券
 Notification Settings,通知设置
 Enable Email Notifications,启用邮件通知
 Assignments,任务分派
@@ -13089,7 +13089,7 @@ Global Search DocType,全局搜索单据类型
 Global Search Document Types Reset.,全局搜索单据类型重置
 Global Search Settings,全局搜索设置
 Referral Sales Partner,业务伙伴
-Additional Discount and Coupon Code,额外折扣与优惠码
+Additional Discount and Coupon Code,额外折扣与优惠券
 Manufacturing Section,生产信息
 This is a location where raw materials are available.,发出原材料的仓库
 This is a location where final product stored.,接收成品的仓库
@@ -13343,9 +13343,9 @@ Customer-wise Item Price,客户物料价格
 Available Stock Qty,可用库存
 Referral Code,推荐码
 To Track inbound purchase,用来追踪合作伙伴的销售
-Coupon Name,优惠码名称
-Coupon Type,优惠类型
-Coupon Description,优惠说明
+Coupon Name,优惠券名称
+Coupon Type,优惠券类型
+Coupon Description,优惠券说明
 unique e.g. SAVE20 To be used to get discount,唯一识别码，可以据此自动带出折扣
 e.g. "Summer Holiday 2019 Offer 20",如，2020中秋促销
 Validity and Usage,有效期与可用性
@@ -17095,13 +17095,14 @@ Prev Quotes,上一个报价
 Net Total (,净总计 (
 " Items)",物料 )    
 Show Error,显示错误
+Hide Error,隐藏错误
 Clear All,清空全部
 Website Item,网站物料
 Website Item Name,网站物料名称
 Website display name,在网站上显示的名称
 Display Images,显示图片
 Image Alternative Text,图片文字
-On Backorder,欠交订单
+On Backorder,可无库存下订单
 Stock Information,库存信息
 Indicate that Item is available on backorder and not usually pre-stocked,
 Display Information,显示信息
@@ -17112,7 +17113,8 @@ Add Section with Tabs,添加页签
 Tabs,页签
 Recommended Items,推荐物料
 Recommended/Similar Items,推荐/相似物料
-Offers to Display,促销显示
+Offers,促销
+Offers to Display,待显示的促销
 Offer Title,促销标题
 Offer Subtitle,促销子标题
 Search and SEO,搜索与关键字优化
@@ -17123,3 +17125,15 @@ Webshop Settings,网店设置
 Hide Price for Guest,访客不显示价格
 Enable Redisearch,启用Redisearch
 Recent,最新
+Website Item Image,网站物料图片
+Website Item Thumbnail,图站物料缩略图
+Offer Details,促销详情
+Website Item Tabbed Section,网站物料页签
+Show Stock availability based on this warehouse.,显示上述仓库可用库存
+Indicate that Item is available on backorder and not usually pre-stocked,可以无库存时下单
+Past Quotes,之前报价
+Dynamic Condition,动态条件
+Validate Pricing Rule,仅用于规则检验
+Has Priority,启用优先级
+Enable this checkbox even if you want to set the zero priority,勾选表示即使优先级为0也启用优先级规则
+"If enabled, then system will only validate the pricing rule and not apply automatically. User has to manually set the discount percentage / margin / free items to validate the pricing rule",如果勾选，仅用于验证用户手动设置的折扣、上浮、赠品是否符合本定价规则
