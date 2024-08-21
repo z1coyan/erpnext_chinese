@@ -16647,7 +16647,7 @@ Posting Datetime,记账日期时间
 Started a background job to create {1} {0},已启动后台任务创建{0} {1} 
 Descendants Of (inclusive),子节点(含本节点)
 Queued By,队列创建者
-Queued At,排除时间
+Queued At,排队时间
 Job ID,任务ID
 Finished At,完成时间
 Update Total Purchase Cost,更新总采购成本
@@ -17069,7 +17069,7 @@ Reconcile on Advance Payment Date,预付款日核销
 "If <b>Enabled</b> - Reconciliation happens on the <b>Advance Payment posting date</b><br>
 If <b>Disabled</b> - Reconciliation happens on oldest of 2 Dates: <b>Invoice Date</b> or the <b>Advance Payment posting date</b><br>
 ","如果 <b>勾选</b> - 基于 <b>预付款记账日</b>核销<br>
-如果 <b>不勾选</b> - 基于: <b>发票日</b> 或 <b>预付款记账时</b>两者中最晚日期核算<br>
+如果 <b>不勾选</b> - 基于: <b>发票日</b> 或 <b>预付款记账时</b>两者中最晚日期核销<br>
 "
 Default Operating Cost Account,默认额外费用科目(物料移动)
 Enabling this ensures each Purchase Invoice has a unique value in Supplier Invoice No. field within a particular fiscal year,勾选后系统会针对同一财年采购发票供应商发票号进行唯一性检查
@@ -17137,3 +17137,15 @@ Validate Pricing Rule,仅用于规则检验
 Has Priority,启用优先级
 Enable this checkbox even if you want to set the zero priority,勾选表示即使优先级为0也启用优先级规则
 "If enabled, then system will only validate the pricing rule and not apply automatically. User has to manually set the discount percentage / margin / free items to validate the pricing rule",如果勾选，仅用于验证用户手动设置的折扣、上浮、赠品是否符合本定价规则
+You can disable this {0} instead of deleting it.,你可以禁用而不是删除物料 {0}
+Calculate daily depreciation using total days in depreciation period,按折旧期实际天数计算折旧
+"Enable this option to calculate daily depreciation by considering the total number of days in the entire depreciation period, (including leap years) while using daily pro-rata based depreciation",按折旧期间实际天数(含闰年)计算折旧
+"You've logged in as another user from another tab. Refresh this page to continue using system.",在另一个浏览器页签用另一个账号登录了，请刷新浏览器后切换到新帐号继续
+User Changed,用户账号已变更
+Include Zero Stock Items,包含0库存物料
+Over Picking Allowance,允许超量拣货(％)
+"The percentage you are allowed to pick more items in the pick list than the ordered quantity.",允许超订单需求量拣货百分比
+Custom delimiters,自定义分离符
+Delimiter options,分隔符
+"If your CSV uses a different delimiter, add that character here, ensuring no spaces or additional characters are included.",如果CSV文件使用了逗号，分号与跳格之外的其它分隔符，请在上述输入框添加，请不要加空格和其它字符
+Payable Account is mandatory to submit an Expense Claim,请在会计页签下填写应付科目，或通过主数据设置确保自动带出应付科目
