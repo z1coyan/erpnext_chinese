@@ -3312,7 +3312,7 @@ Issued Items Against Work Order,发到工单的物料
 Raw Materials Supplied,发委外原材料给供应商？
 A user who posts blogs.,发布博客的用户。
 Publish on website,发布在网站上
-Published in Website,发布在网站上
+Published In Website,发布在网站上
 Publish Date,发布日期
 Published On,发布日期
 Publish Item to hub.erpnext.com,发布物料到集市(Hub)网站hub.erpnext.com
@@ -17149,3 +17149,51 @@ Custom delimiters,自定义分离符
 Delimiter options,分隔符
 "If your CSV uses a different delimiter, add that character here, ensuring no spaces or additional characters are included.",如果CSV文件使用了逗号，分号与跳格之外的其它分隔符，请在上述输入框添加，请不要加空格和其它字符
 Payable Account is mandatory to submit an Expense Claim,请在会计页签下填写应付科目，或通过主数据设置确保自动带出应付科目
+Shift Settings,班次设置
+Allow Multiple Shift Assignments for Same Date,允许同一天分派多个班次
+Attendance Settings,自动出勤设置
+Allow Employee Checkin from Mobile App,允许手机签到
+Allow Geolocation Tracking,允许记录签到地点
+Auto Leave Encashment,剩余未休假自动折现(加到工资里),
+", with the inventory {0}: {1}",", 库存 {0}: {1}"
+No Interview has been scheduled.,未安排面试
+Source and Rating,来源与评分
+Applicant Rating,求职者自评
+Resume Link,简历链接
+Salary Expectation,期望薪资
+Lower Range,低值
+Upper Range,高值
+Reason for Requesting,申请原因
+Round Name,轮次
+Expected Skillset,期望技能
+Expected Average Rating,预期平均评级
+No leaves have been allocated.,未分派休假
+Rating Criteria,评估标准
+Criteria based on which employee should be rated in Performance Feedback and Self Appraisal,在绩效反馈中对员工进行评级的标准
+Set attendance details for the employees select above,为以上所选员工设置考勤明细
+Set filters to fetch employees,设置过滤条件获取员工
+Onboarding Begins On,入职日期
+Onboarding Activities,入职步骤
+Leaves,休假
+Recover Cost,收回成本
+"Automatically fetches all assets allocated to the employee, if any",自动获取已分派给员工的资产
+Is Tax Withholding Account,是代扣税科目
+Create in Draft Status,创建为草稿
+BOM and Production,物料清单与生产
+Job Card and Capacity Planning,加工单与产能计划
+Raw Materials Consumption,原材料耗用
+Validate Components Quantities Per BOM,基于物料清单校验原材料/零部件耗用数量
+Manufacture Sub-assembly in Operation,使用加工单生产子装配件/半成品
+If enabled then system will manufacture Sub-assembly against the Job Card (operation).,如果勾选系统会使用加工单生产子装配件/半成品
+Source Warehouse Address Link,发料仓地址(链接)
+Target Warehouse Address Link,收料仓地址(链接)
+Calculate daily depreciation using total days in depreciation period,按折旧期间总天数计算日折旧额
+"Enable this option to calculate daily depreciation by considering the total number of days in the entire depreciation period, (including leap years) while using daily pro-rata based depreciation",勾选此选项按天折旧将基于折旧期间总天数
+Tree View,树视图
+Default App,默认应用
+Redirect to the selected app after login,登录后自动跳转到默认应用
+Apps,应用
+Select an app to continue,选择一个应用
+Used OAuth,启用OAuth
+Return Qty from Rejected Warehouse,拒收仓退货数量
+From Prospect,关联的意向客户
