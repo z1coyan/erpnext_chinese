@@ -12928,7 +12928,7 @@ Will run scheduled jobs only once a day for inactive sites. Default 4 days if se
 Allow Guests to Upload Files,允许访客上传文件
 "When enabled this will allow guests to upload files to your application, You can enable this if you wish to collect files from user without having them to log in, for example in job applications web form.",允许访问不登录系统的情况下上传文件，通常用于收集申请表之类的资料
 Logout All Sessions on Password Reset,密码重置时自动登出所有当前连接
-Automatically Process Deferred Accounting Entry,自动生成递延日记账凭证
+Automatically Process Deferred Accounting Entry,自动创建递延会计处理(月底)
 Purchase Order Required for Purchase Invoice & Receipt Creation,采购入库与采购发票必须关联采购订单
 Purchase Receipt Required for Purchase Invoice Creation,采购发票必须关联采购入库
 Disable Capacity Planning,不启用产能规划
@@ -17182,6 +17182,7 @@ Create in Draft Status,创建为草稿
 BOM and Production,物料清单与生产
 Job Card and Capacity Planning,加工单与产能计划
 Raw Materials Consumption,原材料耗用
+"Raw Materials Consumption ",原材料耗用
 Validate Components Quantities Per BOM,基于物料清单校验原材料/零部件耗用数量
 Manufacture Sub-assembly in Operation,使用加工单生产子装配件/半成品
 If enabled then system will manufacture Sub-assembly against the Job Card (operation).,如果勾选系统会使用加工单生产子装配件/半成品
@@ -17197,3 +17198,4 @@ Select an app to continue,选择一个应用
 Used OAuth,启用OAuth
 Return Qty from Rejected Warehouse,拒收仓退货数量
 From Prospect,关联的意向客户
+Ignore System Generated Credit / Debit Notes,隐藏系统生成的贷/借记单
