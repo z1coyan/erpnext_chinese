@@ -3695,11 +3695,11 @@ Employee Leave Approver,员工休假审批人
 Activity Cost per Employee,员工作业成本
 Employees working on a holiday,员工假期加班
 Employee Tax Exemption Sub Category,员工免税子类别
-Employee Tax Exemption Declaration,员工免税申报
-Employee Tax Exemption Declaration Category,员工免税申报类别
-Employee Tax Exemption Category,员工免税类别
-Employee Tax Exemption Proof Submission,员工免税证明提交
-Employee Tax Exemption Proof Submission Detail,员工免税证明提交细节
+Employee Tax Exemption Declaration,员工税前扣除申报
+Employee Tax Exemption Declaration Category,员工税前扣除类别
+Employee Tax Exemption Category,员工税前扣除类别
+Employee Tax Exemption Proof Submission,员工税前扣除证明提交
+Employee Tax Exemption Proof Submission Detail,员工税前扣除提交明细
 Employee Onboarding,员工入职
 Employee Boarding Activity,员工入职待办事项
 Employee Onboarding Activity,员工入职待办事项
@@ -3735,7 +3735,7 @@ Salary Slip of employee {0} already created for time sheet {1},员工的工资�
 Salary Structure Assignment for Employee already exists,员工的薪资结构分配已经存在
 Employees Email Id,员工的邮件地址
 Employee Benefits,员工福利
-Employee Benefit Claim,员工福利申报
+Employee Benefit Claim,员工福利领取
 Employee Benefit Application,员工福利申请
 Employee Benefit Application Detail,员工福利申请信息
 Employee Separation,员工离职
@@ -4334,7 +4334,7 @@ Good/Steady,好/稳定
 "e.g. ""Primary School"" or ""University""",如“小学”或“大学”
 Check if material transfer entry is not required,如不需从工单触发工单发料，请勾选
 Mention if non-standard payable account,如使用非标准应付科目，请在这里指定
- Tax Exemption Declaration will be considered for income tax calculation.,如勾选，个税计算时将扣除申报的免税金额
+ Tax Exemption Declaration will be considered for income tax calculation.,如勾选，个税计算时将减去申报的税前扣除金额
 "If enabled, then system will create the material even if the raw materials are available",如勾选，则即使有可用原材料，系统也会生成物料需求(需求)
 "If enabled, system will create the work order for the exploded items against which BOM is available.",如勾选，系统将为定义了物料清单的下层物料生成生产工单。
 "If you have created a standard template in Sales Taxes and Charges Template, select one and click on the button below.",如已创建销售税费模板，选一个，然后点下面的按钮。
@@ -4977,7 +4977,7 @@ Jobs,工作
 Work Address,工作地址
 Working Days,工作日
 Workday {0} has been repeated.,工作日{0}已重复。
-Job Offer,工作机会
+Job Offer,工作邀请
 "Job profile, qualifications required etc.",工作概况，要求的学历等。
 Workflow,工作流
 Workflow Document State,工作流单据状态
@@ -7550,7 +7550,7 @@ Has Serial No,启用序列号管理
 Has Open Entries,有待处理单据
 Has Print Format,有打印格式
 Has Batch No,启用批号管理
-Prospects Engaged But Not Converted,有收发邮件但未转化线索
+Prospects Engaged But Not Converted,有跟进未转化线索
 Valid,有效
 Valid number of days,有效天数
 Validity in Days,有效天数
@@ -7576,9 +7576,9 @@ Have an account? Login,有账户？登录
 In stock,有货
 Has Expiry Date,启用失效日期管理
 Duplicate Entry. Please check Authorization Rule {0},有重复记录，请检查授权规则{0}
-There were errors. Please report this.,有错误。请联系开发人员。
-There were errors,有错误发生
-There were errors.,有错误发生。
+There were errors. Please report this.,出错了。请联系开发人员。
+There were errors,出错了
+There were errors.,出错了。
 Has  Attachment,有附件
 Has Attachments,有附件
 Service,服务
@@ -9022,9 +9022,9 @@ Read by Recipient On,由收件人阅读
 Automatically Add Taxes and Charges from Item Tax Template,由明细行的税费模板自动添加税费
 Pick/Drop by Guardian,由监护人接送
 Total Declared Amount,申报总金额
-Claim Date,申报日期
-Claim Amount,申报金额
-Claimed Amount,申报金额
+Claim Date,领取日期
+Claim Amount,领取金额
+Claimed Amount,领取金额
 Declared Amount,申报金额
 Apply / Approve Leaves,申请/批准休假
 Applicant,申请人
@@ -16872,7 +16872,7 @@ On This Date,日期
 All Companies,所有公司
 "Report initiated, click to view status",生成报表结果的后台任务已启动，点击查看任务状态
 BOM Update Initiated,物料清单更新后台任务已启动
-Job Offer Term Template,工作机会条款模板
+Job Offer Term Template,工作邀请条款模板
 Employees Relieving (This Quarter),员工离职(本季)
 Employees Joining (This Quarter),员工入职(本季)
 Purpose & Amount,目的与金额
@@ -17199,3 +17199,79 @@ Used OAuth,启用OAuth
 Return Qty from Rejected Warehouse,拒收仓退货数量
 From Prospect,关联的意向客户
 Ignore System Generated Credit / Debit Notes,隐藏系统生成的贷/借记单
+"Making Journal Entries against advance accounts: {0} is not recommended. These Journals won't be available for Reconciliation.",因无法核销，不建议在日记账凭证中包括预收/付款科目：{0}
+"Row #{0}: For {1}, you can select reference document only if account gets credited", 第 {0} 行：{1} 仅限货方金额时填写源单据字段
+"Row #{0}: For {1}, you can select reference document only if account gets debited", 第 {0} 行：{1} 仅限借方金额时填写源单据字段
+{0} role does not have permission on any doctype, 角色 {0} 无单据类型权限
+This is a Template BOM and will be used to make the work order for {0} of the item {1},本模板物料清单将用于为模板物料 {1} 的多规格物料生成生产工单
+Update Salary Structures,更新工资结构
+Sync Condition,同步条件
+Sync Formula,同步公式
+Remove if Zero Valued,0金额不显示
+"If enabled, the component will not be displayed in the salary slip if the amount is zero",如勾选，金额为0时工资表上不显示
+"If enabled, the value specified or calculated in this component will not contribute to the earnings or deductions. However, it's value can be referenced by other components that can be added or deducted. ",如勾选，此构成项不计入收入和扣除，但可被其它构成项计算公式引用
+Consider Marked Attendance on Holidays,考虑假期出勤
+"If enabled, deducts payment days for absent attendance on holidays. By default, holidays are considered as paid",如勾选，假期付款天数剔除假期，假期默认包含在付款天数内
+Salary Withholding,工资暂停发放
+Number of Withholding Cycles,暂停期数
+Reason for Withholding Salary,暂停发放原因
+Please select From Date.,请选择开始日期
+There are no employees without a Salary Structure Assignment on this date based on the given filters.,上述筛选条件无未分派工资结构的员工
+Base & Variable,底薪与弹性工资
+Payment Days calculations are based on these Payroll Settings,计薪天数计算基于此处工资设置
+Payroll Based On,发薪方式
+Consider Unmarked Attendance As,将未登记考勤视为
+Click {0} to change the configuration and then resave salary slip,点 {0} 变更设置并重新保存工资单
+No employees found with selected filters and active salary structure,无满足筛选条件及分派了薪资结构的员工
+Employee Tax Exemption Declaration,员工税前扣除申报,
+Tax Exemption Declaration,税前扣除申报
+Employee Responsible,负责人
+Maximum Leave Allocation Allowed,最大允许天数
+Maximum Consecutive Leaves Allowed,最大连休天数
+Is Partially Paid Leave,未休完需计发工资
+Allow Over Allocation,允许超分配
+"These leaves are holidays permitted by the company however, availing it is optional for an Employee.",
+Allows allocating more leaves than the number of days in the allocation period.,
+Maximum Encashable Leaves,最大可折现休假天数
+Non-Encashable Leaves,不可折现休假天数
+"Indicates the number of leaves that cannot be encashed from the leave balance. E.g. with a leave balance of 10 and 4 Non-Encashable Leaves, you can encash 6, while the remaining 4 can be carried forward or expired",不允许折现天数，如结余10天，4天不允许折现，则6天可折现，4天可结转到下一期或到期失效
+Maximum Carry Forwarded Leaves,最大可结转休假天数,
+Expire Carry Forwarded Leaves (Days),结转假期过期（天）,
+Allocate on Day,分派日
+First Day,第一天
+Last Day,最后一天
+The day of the month when leaves should be allocated,每月的哪一天分派假期额度
+Work Anniversaries,工龄(年度)
+Skip Auto Attendance,忽略自动考勤
+No attendance records found.,无考勤数据
+No attendance records found for this criteria.,无满足条件的考勤数据
+Unsettled,未结清
+Paid via Salary Slip,通过工资单支付
+Returned,已退回
+Full and Final Settlement,离职结算
+Employee Hours Utilization Based On Timesheet,员工工时利用率
+Total Hours (T),总工时(T)
+Billed Hours (B),已开票工时(B)
+Non-Billed Hours (NB),未开票工时(NB)
+Untracked Hours (U),未登记工时(U)
+% Utilization (B + NB) / T,% 利用率 (B + NB) / T
+% Utilization (B / T),,% 利用率 (B / T)
+Avg Utilization,平均利用率
+Avg Utilization (Billed Only),平均利用率(已开票)
+Total Non-Billed Hours,总未开票工时
+Billed Hours,已开票工时
+Non-Billed Hours,未开票工时
+Untracked Hours,未登记工时			
+{0} Accepted,{0} 已接受
+Job Application Frequency,工作申请频率
+Job Offer Status,工作邀请状态
+Job Applicants by Country,求职者国家分布
+Job Applicant Pipeline,求职者管道
+TIME TO FILL,招聘时间
+JOB OFFER ACCEPTANCE RATE,工作邀请接受率
+APPLICANT-TO-HIRE PERCENTAGE,录用百分比
+JOB OFFERS (THIS MONTH),工作邀请(本月)
+REJECTED JOB APPLICANTS,未录用
+ACCEPTED JOB APPLICANTS,已录用
+TOTAL APPLICANTS (THIS MONTH),总求职人数(本月)
+JOB OPENINGS,职位空缺
